@@ -1153,7 +1153,7 @@
       "tagline": "Offre Spéciale Fête des Pères −25%",
       "fournisseur": {
         "nom": "Coravin",
-        "code_vinistoria": null,
+        "code_vinistoria": "à vérifier",
         "region": "Accessoire",
         "meta": "Système de service de vin — Édition Limitée"
       },
@@ -1185,11 +1185,10 @@
       "logistique": {
         "origine": "direct_domaine",
         "franco": false,
-        "note": "Direct Coravin — accessoire hors stock VINOM classique"
+        "note": "Vendu par VINOM (commande Coravin via canal habituel)"
       },
-      "notes_commerciales": "Cadeau d'exception pour amateur de vins. Argument vente : 'Le plaisir d'un verre aujourd'hui, la liberté de redécouvrir la bouteille même des mois plus tard.' À pousser auprès des cavistes haut de gamme et clients fidèles cherchant un cadeau premium pour la Fête des Pères.",
+      "notes_commerciales": "Cadeau d'exception pour amateur de vins. VINOM commercialise Coravin. Argument vente : 'Le plaisir d'un verre aujourd'hui, la liberté de redécouvrir la bouteille même des mois plus tard.' À pousser auprès des cavistes haut de gamme et clients fidèles cherchant un cadeau premium pour la Fête des Pères.",
       "alertes": [
-        "⚠ HORS PÉRIMÈTRE VIN/SPIRITUEUX HABITUEL : Coravin est un accessoire de service. À valider avec Olivier : VINOM commercialise-t-il Coravin ?",
         "Prix indiqué 299,99 € — TTC ou HT à clarifier",
         "Dates de fin d'offre estimées (Fête des Pères = 21 juin 2026)"
       ],
