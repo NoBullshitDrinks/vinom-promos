@@ -1,0 +1,1263 @@
+{
+  "meta": {
+    "version": "1.0",
+    "generated_at": "2026-06-09T11:00:00Z",
+    "promos_count": 19,
+    "schema_doc": "promos_schema.md"
+  },
+  "promos": [
+    {
+      "id": "brocard-chablis-fin-2025",
+      "type": "promotion",
+      "titre": "Chablis · Petit Chablis · Irancy",
+      "tagline": "Offre promotionnelle fin d'année — 3 offres cumulables",
+      "fournisseur": {
+        "nom": "Jean-Marc Brocard",
+        "code_vinistoria": "358",
+        "region": "Bourgogne",
+        "meta": "Chablis · Domaine"
+      },
+      "cuvees": [
+        {
+          "nom": "Chablis Jean-Marc Brocard",
+          "appellation": "Chablis AOP",
+          "millesime": "2024",
+          "format": "75cl",
+          "couleur": "BLC",
+          "tarif_vinom_ht": 10.65,
+          "prix_promo_ht": 10.04,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "Petit Chablis Jean-Marc Brocard",
+          "appellation": "Petit Chablis AOP",
+          "millesime": "2024",
+          "format": "75cl",
+          "couleur": "BLC",
+          "tarif_vinom_ht": 10.0,
+          "prix_promo_ht": 9.0,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "Irancy Les Cépages",
+          "appellation": "Irancy AOP",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "RGE",
+          "tarif_vinom_ht": 10.5,
+          "prix_promo_ht": 8.75,
+          "au_tarif_vinom": true
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1",
+        "description": "Trois offres cumulables : Chablis 110+10, Petit Chablis 54+6, Irancy 5+1.",
+        "paliers": [
+          {
+            "quantite": 110,
+            "offertes": 10,
+            "cuvee": "Chablis",
+            "exemple_prix_franco_ht": 10.95
+          },
+          {
+            "quantite": 54,
+            "offertes": 6,
+            "cuvee": "Petit Chablis",
+            "exemple_prix_franco_ht": 10.0
+          },
+          {
+            "quantite": 5,
+            "offertes": 1,
+            "cuvee": "Irancy",
+            "exemple_prix_franco_ht": 10.5
+          }
+        ],
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Les 3 offres sont cumulables entre elles. Tarif Franco appliqué selon volume total. Non cumulable avec d'éventuelles remises supplémentaires. Dans la limite des stocks disponibles."
+      },
+      "validite": {
+        "debut": "2025-11-01",
+        "fin": "2025-12-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "stock_vinom",
+        "franco": true,
+        "condition_franco": "Franco selon palier de volume"
+      },
+      "notes_commerciales": "Trois offres cumulables sur la gamme chablisienne de référence. Belle opportunité de prise de commande mixte.",
+      "alertes": [
+        "Offre datée du 1er nov au 31 déc 2025 — potentiellement expirée, confirmer prolongation auprès du domaine."
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/OP_CHABLIS_Jean-Marc_BROCARD_Fin_d_année_2025.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "mourat-ferie-mai-2026",
+      "type": "promotion",
+      "titre": "Collection rosé · OVNI · Wine Trackers",
+      "tagline": "Férié du mois de Mai",
+      "fournisseur": {
+        "nom": "Domaine Mourat",
+        "code_vinistoria": "127",
+        "region": "Loire",
+        "meta": "Fiefs Vendéens · Domaine"
+      },
+      "cuvees": [
+        {
+          "nom": "Collection rosé",
+          "appellation": "Vin de France",
+          "millesime": "2025",
+          "format": "75cl",
+          "couleur": "ROS",
+          "tarif_vinom_ht": 6.1,
+          "prix_promo_ht": 5.59,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "OVNI",
+          "appellation": "Vin de France",
+          "millesime": "2025",
+          "format": "75cl",
+          "couleur": "BLC",
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "Wine Trackers",
+          "appellation": "Vin de France",
+          "millesime": "2024",
+          "format": "75cl",
+          "couleur": "RGE",
+          "au_tarif_vinom": true
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11 bouteilles achetées = 1 offerte par carton.",
+        "panachable": true,
+        "cumulable": true
+      },
+      "validite": {
+        "debut": "2026-05-18",
+        "fin": "2026-05-22"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "stock_vinom",
+        "franco": true
+      },
+      "notes_commerciales": "Offre courte (5 jours) pour le pont de l'Ascension. Stock faible sur OVNI (12 bts) et Wine Trackers (6 bts) — pousser prioritairement la Collection rosé (33 bts).",
+      "alertes": [
+        "Stock très faible sur OVNI et Wine Trackers"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/Mai_Mourat.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "pardela-spirits-noces-royales-2026-05",
+      "type": "promotion",
+      "titre": "Noces Royales — Cognac & Poire Williams",
+      "tagline": "Offre Flash",
+      "fournisseur": {
+        "nom": "Pardela Spirits",
+        "code_vinistoria": "240",
+        "region": "Spiritueux",
+        "meta": "Liqueur Cognac · Importateur"
+      },
+      "cuvees": [
+        {
+          "nom": "Noces Royales",
+          "appellation": "Liqueur Cognac · 30% vol",
+          "millesime": "NM",
+          "format": "70cl",
+          "couleur": "SPI",
+          "tarif_vinom_ht": 16.15,
+          "prix_promo_ht": 14.81,
+          "au_tarif_vinom": true
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11 bouteilles achetées = 1 offerte par carton.",
+        "panachable": false,
+        "cumulable": true
+      },
+      "validite": {
+        "debut": "2026-05-15",
+        "fin": "2026-06-15"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "stock_vinom",
+        "franco": true,
+        "note": "Sur le tarif CHR/Caviste Pardela Spirits"
+      },
+      "notes_commerciales": "Référence à mettre en avant en sortie de repas. Format Jéroboam aussi disponible (26 unités en stock).",
+      "alertes": [],
+      "source": {
+        "fichier": "Promotions/2026-06/Offre_Flash_-_11_1_Noces_Royales.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "pardela-wines-palazzo-2026-05",
+      "type": "promotion",
+      "titre": "Allegrini — Palazzo della Torre",
+      "tagline": "Offre Flash",
+      "fournisseur": {
+        "nom": "Pardela Wines",
+        "code_vinistoria": null,
+        "region": "Italie",
+        "meta": "Vénétie · Importateur"
+      },
+      "cuvees": [
+        {
+          "nom": "Palazzo della Torre",
+          "appellation": "Veronese IGT",
+          "millesime": "NM",
+          "format": "75cl",
+          "couleur": "RGE",
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1",
+        "description": "5 bouteilles achetées = 1 offerte par carton de 6.",
+        "panachable": false,
+        "cumulable": true
+      },
+      "validite": {
+        "debut": "2026-05-15",
+        "fin": "2026-06-30"
+      },
+      "target": "pro_general",
+      "logistique": {
+        "origine": "direct_importateur",
+        "franco": false,
+        "note": "Sur le tarif Professionnel Pardela Wines — livraison séparée"
+      },
+      "notes_commerciales": "Référence non en stock VINOM. Commande directe Pardela Wines. Vin italien polyvalent, valeur sûre cartes restaurant.",
+      "alertes": [
+        "Date PDF originale '31 juin' corrigée en 30 juin",
+        "Cuvée non au tarif VINOM — commande directe importateur"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/Offre_FLASH_-_Palazzo_Della_Torre.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "mordoree-la-remise-2026-05",
+      "type": "promotion",
+      "titre": "VDF « La Remise » rouge 2023",
+      "tagline": "Offre spéciale Pro — paliers de volume",
+      "fournisseur": {
+        "nom": "Domaine de la Mordorée",
+        "code_vinistoria": "404",
+        "region": "Rhône",
+        "meta": "Tavel · Bio Demeter"
+      },
+      "cuvees": [
+        {
+          "nom": "La Remise rouge",
+          "appellation": "Vin de France · Marselan-Merlot",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "RGE",
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "36+6 / 60+12 / 120+30",
+        "description": "Trois paliers de volume. Le palier 120+30 inclut le franco de port.",
+        "paliers": [
+          {
+            "quantite": 36,
+            "offertes": 6,
+            "format": "75cl",
+            "franco": false
+          },
+          {
+            "quantite": 60,
+            "offertes": 12,
+            "format": "75cl",
+            "franco": false
+          },
+          {
+            "quantite": 120,
+            "offertes": 30,
+            "format": "75cl",
+            "franco": true
+          }
+        ],
+        "panachable": false,
+        "cumulable": true,
+        "notes_conditions": "Tarif départ cave (hors transport) pour les paliers 36+6 et 60+12. Franco inclus uniquement à partir de 120+30."
+      },
+      "validite": {
+        "debut": "2026-05-11",
+        "fin": "2026-06-05"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "condition_franco": "Franco inclus uniquement au palier 120+30",
+        "note": "Direct domaine · départ cave Tavel"
+      },
+      "notes_commerciales": "Rouge plaisir bio Demeter, idéal cuisine simple et grillades. Bon rapport qualité-prix sur volumes engageants.",
+      "alertes": [
+        "Direct domaine — NE PAS confondre avec un Franco classique. Transport à organiser côté client pour 36+6 et 60+12."
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/OFFRE_LA_REMISE_23.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "aghione-san-ghjuva-bib-2026-05",
+      "type": "nouveaute",
+      "titre": "San Ghjuvà — BIB 3L Rosé",
+      "tagline": "Offre implantation nouveauté · Caviste",
+      "fournisseur": {
+        "nom": "Vignerons d'Aghione",
+        "code_vinistoria": "242",
+        "region": "Provence-Corse",
+        "meta": "Île de Beauté · Coopérative"
+      },
+      "cuvees": [
+        {
+          "nom": "San Ghjuvà Rosé",
+          "appellation": "Île de Beauté IGP",
+          "millesime": "NM",
+          "format": "BIB3L",
+          "couleur": "ROS",
+          "prix_promo_ht": 8.2,
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "À partir de 36 BIB Franco, en 11+1.",
+        "paliers": [
+          {
+            "quantite": 36,
+            "offertes": 4,
+            "format": "BIB3L",
+            "prix_revient_ht": 8.2,
+            "franco": true
+          }
+        ],
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Offre uniquement cavistes (offre d'implantation). Animation dégustation recommandée."
+      },
+      "validite": {
+        "debut": "2026-05-01",
+        "fin": "2026-06-15"
+      },
+      "target": "caviste_seul",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "condition_franco": "Franco à partir de 36 BIB"
+      },
+      "notes_commerciales": "Format BIB 3L = 25 verres. Visibilité linéaire optimisée, packaging plus léger (impact environnemental réduit). Argument différenciant : seule AOC Corse en BIB grand format.",
+      "alertes": [
+        "Offre cavistes UNIQUEMENT — ne pas proposer aux CHR"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/OFFRE_NOUVEAU_BIB_SAN_GHJUVÀ.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "lacoste-borie-primeur-2025",
+      "type": "primeur",
+      "titre": "Lacoste-Borie 2025 — Pauillac",
+      "tagline": "Release primeur",
+      "fournisseur": {
+        "nom": "Château Lacoste-Borie",
+        "code_vinistoria": null,
+        "region": "Bordeaux",
+        "meta": "Pauillac · Château (second vin Grand-Puy-Lacoste)"
+      },
+      "cuvees": [
+        {
+          "nom": "Lacoste-Borie",
+          "appellation": "Pauillac AOC",
+          "millesime": "2025",
+          "format": "75cl",
+          "couleur": "RGE",
+          "prix_promo_ht": 17.0,
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "17.00 €",
+        "description": "Offre primeur. Prix HT/col 17.00 €. Prix minimum de revente conseillé : 20.75 € HT/col.",
+        "panachable": false,
+        "cumulable": false
+      },
+      "validite": {
+        "debut": "2026-05-01",
+        "fin": "2026-07-31",
+        "note": "Offre release — livraison différée 2027/2028"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Livraison à l'expédition (2027/2028) — direct château"
+      },
+      "notes_commerciales": "Notes presse : James Suckling 93-94 · Vinous 91-93 · Decanter 92. Vente en primeur, livraison différée. Réservation sur allocation.",
+      "alertes": [
+        "Vente sur allocation — vérifier disponibilité par client avant push"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/Offre_Primeurs_2025_Lacoste-Borie.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "chablisienne-ete-2026",
+      "type": "promotion",
+      "titre": "Offres Spéciales Été 2026",
+      "tagline": "Chablis BIO · Saint-Bris · Bourgogne génériques",
+      "fournisseur": {
+        "nom": "La Chablisienne",
+        "code_vinistoria": null,
+        "region": "Bourgogne",
+        "meta": "Chablis · Coopérative (avec Domaine National de Chambord)"
+      },
+      "cuvees": [
+        {
+          "nom": "Chablis « Dame Nature » BIO",
+          "appellation": "Chablis AOP",
+          "millesime": "2020/2021",
+          "format": "75cl",
+          "couleur": "BLC",
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Saint Bris Sauvignon",
+          "appellation": "Saint-Bris AOC",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "BLC",
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Bourgogne Pinot Noir",
+          "appellation": "Bourgogne AOC",
+          "millesime": "2022",
+          "format": "75cl",
+          "couleur": "RGE",
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Bourgogne Chardonnay",
+          "appellation": "Bourgogne AOC",
+          "millesime": "2024",
+          "format": "75cl",
+          "couleur": "BLC",
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1 / 11+1",
+        "description": "Dame Nature : 5+1. Saint Bris Sauvignon : 5+1. Bourgogne PN et Chardo : 11+1.",
+        "paliers": [
+          {
+            "cuvee": "Chablis Dame Nature",
+            "quantite": 5,
+            "offertes": 1
+          },
+          {
+            "cuvee": "Saint Bris Sauvignon",
+            "quantite": 5,
+            "offertes": 1
+          },
+          {
+            "cuvee": "Bourgogne Pinot Noir + Chardonnay",
+            "quantite": 11,
+            "offertes": 1
+          }
+        ],
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Offres destinées aux CHR, Cavistes & Grossistes qui ne bénéficient pas de conditions spéciales. La promotion ne s'applique que si elle est explicitement indiquée sur la commande."
+      },
+      "validite": {
+        "debut": "2026-06-01",
+        "fin": "2026-07-31",
+        "note": "Dans la limite des stocks disponibles. Mise à jour fournisseur du 31 mai 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true
+      },
+      "notes_commerciales": "Saint-Bris est l'unique AOC Sauvignon de Bourgogne — argument différenciant cartes. Sur les Bourgogne génériques, comparer avec Brocard déjà au tarif VINOM (Chardo 8.35 € · PN 10.90 €) avant de pousser une référence supplémentaire.",
+      "alertes": [
+        "Cuvées non au tarif VINOM — commande directe domaine",
+        "Bourgogne PN/Chardonnay : concurrent direct du Brocard déjà au tarif"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/Offre_spéciale_été_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "tariquet-magnums-2026-06",
+      "type": "promotion",
+      "titre": "Classic · Premières Grives · St-Amand Le Rosé",
+      "tagline": "Promotion Magnums",
+      "fournisseur": {
+        "nom": "Domaine Tariquet",
+        "code_vinistoria": "127",
+        "region": "Occitanie",
+        "meta": "Côtes de Gascogne · Famille Grassa"
+      },
+      "cuvees": [
+        {
+          "nom": "Classic",
+          "appellation": "Côtes de Gascogne IGP",
+          "millesime": "2025",
+          "format": "75cl",
+          "couleur": "BLC",
+          "tarif_vinom_ht": 4.75,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "Premières Grives - Moelleux",
+          "appellation": "Côtes de Gascogne IGP",
+          "millesime": "2025",
+          "format": "75cl",
+          "couleur": "BLC",
+          "tarif_vinom_ht": 6.95,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "St-Amand Le Rosé",
+          "appellation": "Côtes de Gascogne IGP",
+          "millesime": "2025",
+          "format": "75cl",
+          "couleur": "ROS",
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "36+3 MAG",
+        "description": "36 bouteilles 75cl + 3 magnums achetés = 3 magnums offerts. Multiple obligatoire.",
+        "paliers": [
+          {
+            "cuvee": "Classic",
+            "quantite": 36,
+            "prix_ht": 4.16,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "Classic",
+            "quantite": 60,
+            "prix_ht": 3.9,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "Classic",
+            "quantite": 120,
+            "prix_ht": 3.67,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "Classic",
+            "quantite": 300,
+            "prix_ht": 3.56,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "Classic",
+            "quantite": 600,
+            "prix_ht": 3.49,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "Premières Grives",
+            "quantite": 36,
+            "prix_ht": 6.21,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "Premières Grives",
+            "quantite": 60,
+            "prix_ht": 5.95,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "Premières Grives",
+            "quantite": 120,
+            "prix_ht": 5.72,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "St-Amand Le Rosé",
+            "quantite": 36,
+            "prix_ht": 4.77,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "St-Amand Le Rosé",
+            "quantite": 60,
+            "prix_ht": 4.51,
+            "format": "75cl"
+          },
+          {
+            "cuvee": "St-Amand Le Rosé",
+            "quantite": 120,
+            "prix_ht": 4.28,
+            "format": "75cl"
+          }
+        ],
+        "panachable": true,
+        "cumulable": true,
+        "notes_conditions": "Cumulable avec conditions tarifaires 2026. Livraison panachable vins + Bas-Armagnacs domaine. Client à jour de factures échues."
+      },
+      "validite": {
+        "debut": "2026-06-01",
+        "fin": "2026-07-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "mixte",
+        "franco": true,
+        "note": "Classic et Premières Grives au tarif VINOM (stock Transvins). St-Amand Le Rosé en commande directe domaine."
+      },
+      "notes_commerciales": "Mécanique inhabituelle : la promo offre des MAGNUMS (150cl), pas des 75cl. À pousser sur fête des Pères + apéros d'été. Gamme accessible idéale CHR terrasse et restauration estivale.",
+      "alertes": [
+        "St-Amand Le Rosé non au tarif VINOM — commande directe Tariquet",
+        "Promo en magnums 150cl, pas en 75cl — bien préciser au client"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/OffrePromotionnellemagnumClassic-Premie_resGrives-St-Amand_LeRose.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "boisseaux-fete-des-peres-2026",
+      "type": "promotion",
+      "titre": "4 cuvées Bourgogne — Marsannay · Hospices Dijon · Meursault",
+      "tagline": "Offre Fête des Pères",
+      "fournisseur": {
+        "nom": "Groupe Boisseaux",
+        "code_vinistoria": null,
+        "region": "Bourgogne",
+        "meta": "Château de Marsannay + Hospices de Dijon + Château de Meursault · 100% Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Aloxe Corton",
+          "appellation": "Aloxe-Corton AOC",
+          "millesime": "2022",
+          "format": "75cl",
+          "couleur": "RGE",
+          "prix_promo_ht": 30.84,
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Savigny Lès Beaune rouge",
+          "appellation": "Savigny-lès-Beaune AOC",
+          "millesime": "2022",
+          "format": "75cl",
+          "couleur": "RGE",
+          "prix_promo_ht": 18.34,
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Marsannay Grasses têtes",
+          "appellation": "Marsannay AOC",
+          "millesime": "2022",
+          "format": "75cl",
+          "couleur": "RGE",
+          "tarif_vinom_ht": 22.9,
+          "prix_promo_ht": 21.67,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "Beaune 1er cru Blanches Fleurs",
+          "appellation": "Beaune 1er Cru AOC",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "BLC",
+          "prix_promo_ht": 30.84,
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "10+2",
+        "description": "10 bouteilles achetées + 2 offertes par cuvée. NON PANACHABLE entre cuvées.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Non panachable. Non cumulable avec autre offre ou remise. Dans la limite des stocks disponibles. Sur la base du tarif professionnel 2026."
+      },
+      "validite": {
+        "debut": "2026-06-01",
+        "fin": "2026-07-31"
+      },
+      "target": "pro_general",
+      "logistique": {
+        "origine": "mixte",
+        "franco": true,
+        "note": "Stock partiel : Marsannay et Meursault au tarif VINOM. Aloxe Corton et Savigny (Hospital de Dijon) en commande directe."
+      },
+      "notes_commerciales": "Domaine 100% Bio. Belle gamme pour cartes gastro / cavistes haut-de-gamme. Argument : 9 Grands crus et 24 Premiers crus disponibles par ailleurs sur le portefeuille groupe Boisseaux.",
+      "alertes": [
+        "NON PANACHABLE — une commande = une cuvée à la fois (10 b. d'Aloxe Corton OU 10 b. de Marsannay, pas un mix)",
+        "Hospital de Dijon (Aloxe Corton, Savigny) non au tarif VINOM"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/OFFRE_SPECIALE_FETE_DES_PERES_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "lafage-operation-ete-2026",
+      "type": "operation_agents",
+      "titre": "Domaine Lafage — Opération soutien commercial",
+      "tagline": "Majoration commission agents · nouveaux clients + réactivation",
+      "fournisseur": {
+        "nom": "Domaine Lafage",
+        "code_vinistoria": "201",
+        "region": "Occitanie",
+        "meta": "Roussillon · Mas Miraflors"
+      },
+      "cuvees": [
+        {
+          "nom": "Cantaca",
+          "millesime": "2024",
+          "format": "75cl",
+          "tarif_vinom_ht": 11.5,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "Cabirau - Grande Cuvée",
+          "millesime": "2024",
+          "format": "75cl",
+          "tarif_vinom_ht": 12.2,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "Narassa",
+          "millesime": "2023",
+          "format": "75cl",
+          "tarif_vinom_ht": 9.95,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "Moutou",
+          "millesime": "2024",
+          "format": "75cl",
+          "tarif_vinom_ht": 11.5,
+          "au_tarif_vinom": true
+        }
+      ],
+      "mecanique": {
+        "condition": "+5% à +10% commission",
+        "description": "Programme de majoration commission agents sur 2 volets : (1) nouveaux clients ouverts pendant l'opération — paliers de 5 / 10 / 15 nouveaux clients donnant +5% / +7,5% / +10% sur leur première commande ; (2) réactivation clients dormants depuis 6 mois à 2 ans — +2,5% sur leur première commande de reprise.",
+        "paliers": [
+          {
+            "type": "nouveaux_clients",
+            "seuil": 5,
+            "bonus_pct": 5.0
+          },
+          {
+            "type": "nouveaux_clients",
+            "seuil": 10,
+            "bonus_pct": 7.5
+          },
+          {
+            "type": "nouveaux_clients",
+            "seuil": 15,
+            "bonus_pct": 10.0
+          },
+          {
+            "type": "reactivation",
+            "seuil": 1,
+            "bonus_pct": 2.5
+          }
+        ],
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Majoration applicable uniquement sur la PREMIÈRE commande de chaque client concerné. Les commandes suivantes sont rémunérées selon les conditions habituelles."
+      },
+      "validite": {
+        "debut": "2026-05-01",
+        "fin": "2026-08-31"
+      },
+      "target": "agents_internes",
+      "logistique": {
+        "origine": "stock_vinom",
+        "franco": true
+      },
+      "confidentiel_interne": true,
+      "notes_commerciales": "Opération interne agents VINOM. Cuvées Lafage au tarif VINOM. Référent : Adrien BONAFE, Responsable Grands Comptes Lafage, 07.57.45.43.74. Cette opération ne se traduit pas par une remise client : elle est invisible côté client final.",
+      "alertes": [
+        "INTERNE — ne pas diffuser aux clients",
+        "Majoration applicable uniquement sur PREMIÈRE commande des clients concernés"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/Lafage_Operation_Mai_Aout_2026.email.txt",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-05T17:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "destock-loron-gamay-2026-05",
+      "type": "destockage",
+      "titre": "Jean — Gamay Noir 2024",
+      "tagline": "Déstockage stock VINOM",
+      "fournisseur": {
+        "nom": "Maison Jean Loron",
+        "code_vinistoria": null,
+        "region": "Beaujolais",
+        "meta": "Beaujolais · Négoce"
+      },
+      "cuvees": [
+        {
+          "nom": "Jean — Gamay Noir",
+          "appellation": "Vin de France",
+          "millesime": "2024",
+          "format": "75cl",
+          "couleur": "RGE",
+          "tarif_vinom_ht": 6.25,
+          "prix_promo_ht": 4.9,
+          "au_tarif_vinom": true
+        }
+      ],
+      "mecanique": {
+        "condition": "−21%",
+        "description": "Prix net déstocké 4.90 € HT (au lieu de 6.25 €).",
+        "panachable": true,
+        "cumulable": false
+      },
+      "validite": {
+        "debut": "2026-05-01",
+        "fin": "2026-06-30"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "stock_vinom",
+        "franco": true
+      },
+      "notes_commerciales": "Gamay rond et fruité, idéal apéro / planche. Volume à écouler en priorité.",
+      "alertes": [
+        "Stock à écouler — 820 bouteilles disponibles"
+      ],
+      "stock_estime": 820,
+      "source": {
+        "fichier": "Interne VINOM — décision déstockage",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-08T14:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "destock-aujoux-aligote-2026-05",
+      "type": "destockage",
+      "titre": "Aligoté Derrière la Fontaine 2025",
+      "tagline": "Déstockage stock VINOM",
+      "fournisseur": {
+        "nom": "Maison Aujoux",
+        "code_vinistoria": null,
+        "region": "Bourgogne",
+        "meta": "Bourgogne · Négoce"
+      },
+      "cuvees": [
+        {
+          "nom": "Aligoté Derrière la Fontaine",
+          "appellation": "Bourgogne Aligoté AOC",
+          "millesime": "2025",
+          "format": "75cl",
+          "couleur": "BLC",
+          "tarif_vinom_ht": 7.99,
+          "prix_promo_ht": 6.5,
+          "au_tarif_vinom": true
+        }
+      ],
+      "mecanique": {
+        "condition": "−19%",
+        "description": "Prix net déstocké 6.50 € HT (au lieu de 7.99 €).",
+        "panachable": true,
+        "cumulable": false
+      },
+      "validite": {
+        "debut": "2026-05-01",
+        "fin": "2026-06-30"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "stock_vinom",
+        "franco": true
+      },
+      "notes_commerciales": "Aligoté tendu, frais — alternative économique aux Chablis sur les vins au verre.",
+      "alertes": [
+        "Stock à écouler — 1 240 bouteilles disponibles"
+      ],
+      "stock_estime": 1240,
+      "source": {
+        "fichier": "Interne VINOM — décision déstockage",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-08T14:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "destock-latour-ardeche-2026-05",
+      "type": "destockage",
+      "titre": "Ardèche Chardonnay 2023",
+      "tagline": "Déstockage stock VINOM",
+      "fournisseur": {
+        "nom": "Louis Latour",
+        "code_vinistoria": null,
+        "region": "Bourgogne",
+        "meta": "Bourgogne · Maison de négoce"
+      },
+      "cuvees": [
+        {
+          "nom": "Ardèche Chardonnay",
+          "appellation": "Ardèche IGP",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "BLC",
+          "tarif_vinom_ht": 7.0,
+          "prix_promo_ht": 5.8,
+          "au_tarif_vinom": true
+        }
+      ],
+      "mecanique": {
+        "condition": "−17%",
+        "description": "Prix net déstocké 5.80 € HT (au lieu de 7.00 €).",
+        "panachable": true,
+        "cumulable": false
+      },
+      "validite": {
+        "debut": "2026-05-01",
+        "fin": "2026-06-15"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "stock_vinom",
+        "franco": true
+      },
+      "notes_commerciales": "Marque référence — argument facile à pousser auprès de la clientèle restaurant.",
+      "alertes": [
+        "Stock limité — 340 bouteilles"
+      ],
+      "stock_estime": 340,
+      "source": {
+        "fichier": "Interne VINOM — décision déstockage",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-08T14:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "destock-deutz-magnum-2026-05",
+      "type": "destockage",
+      "titre": "Brut Classic Magnum",
+      "tagline": "Déstockage stock VINOM — petite quantité",
+      "fournisseur": {
+        "nom": "Champagne Deutz",
+        "code_vinistoria": null,
+        "region": "Bulles",
+        "meta": "Champagne · Maison"
+      },
+      "cuvees": [
+        {
+          "nom": "Brut Classic Magnum",
+          "appellation": "Champagne AOP",
+          "millesime": "NM",
+          "format": "150cl",
+          "couleur": "PET",
+          "tarif_vinom_ht": 66.0,
+          "prix_promo_ht": 58.0,
+          "au_tarif_vinom": true
+        }
+      ],
+      "mecanique": {
+        "condition": "−12%",
+        "description": "Prix net déstocké 58.00 € HT (au lieu de 66.00 €).",
+        "panachable": false,
+        "cumulable": false
+      },
+      "validite": {
+        "debut": "2026-05-01",
+        "fin": "2026-12-31",
+        "note": "Jusqu'à épuisement"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "stock_vinom",
+        "franco": true
+      },
+      "notes_commerciales": "Petite quantité — réserver à un client identifié. Notes presse : 90/100 Parker, 91/100 Spectator.",
+      "alertes": [
+        "TRÈS PETIT STOCK : 5 magnums seulement"
+      ],
+      "stock_estime": 5,
+      "source": {
+        "fichier": "Interne VINOM — décision déstockage",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-08T14:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "destock-aghione-casanova-2026-05",
+      "type": "destockage",
+      "titre": "Domaine Casanova rouge",
+      "tagline": "Déstockage stock VINOM — saison estivale",
+      "fournisseur": {
+        "nom": "Vignerons d'Aghione",
+        "code_vinistoria": "242",
+        "region": "Provence-Corse",
+        "meta": "Île de Beauté · Coopérative"
+      },
+      "cuvees": [
+        {
+          "nom": "Domaine Casanova rouge",
+          "appellation": "Île de Beauté IGP",
+          "millesime": "NM",
+          "format": "75cl",
+          "couleur": "RGE",
+          "tarif_vinom_ht": 5.05,
+          "prix_promo_ht": 4.2,
+          "au_tarif_vinom": true
+        }
+      ],
+      "mecanique": {
+        "condition": "−17%",
+        "description": "Prix net déstocké 4.20 € HT (au lieu de 5.05 €).",
+        "panachable": true,
+        "cumulable": false
+      },
+      "validite": {
+        "debut": "2026-05-01",
+        "fin": "2026-07-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "stock_vinom",
+        "franco": true
+      },
+      "notes_commerciales": "Stock conséquent à écouler. Cible saison estivale, terrasses, vins de soif.",
+      "alertes": [
+        "Stock conséquent à écouler — 2 880 bouteilles"
+      ],
+      "stock_estime": 2880,
+      "source": {
+        "fichier": "Interne VINOM — décision déstockage",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-08T14:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "aghione-tendance-2026-06",
+      "type": "promotion",
+      "titre": "San Ghjuvà Tendance — Blanc & Rosé",
+      "tagline": "Offre 5+1 IGP Île de Beauté",
+      "fournisseur": {
+        "nom": "Vignerons d'Aghione",
+        "code_vinistoria": "242",
+        "region": "Provence-Corse",
+        "meta": "Île de Beauté · Coopérative"
+      },
+      "cuvees": [
+        {
+          "nom": "Tendance blanc",
+          "appellation": "Île de Beauté IGP",
+          "millesime": "NM",
+          "format": "75cl",
+          "couleur": "BLC",
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Tendance rosé",
+          "appellation": "Île de Beauté IGP",
+          "millesime": "NM",
+          "format": "75cl",
+          "couleur": "ROS",
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1",
+        "description": "5 bouteilles achetées = 1 offerte. Sur la base du tarif Caviste ou Professionnel Franco 2026.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Dans la limite des stocks disponibles."
+      },
+      "validite": {
+        "debut": "2026-06-01",
+        "fin": "2026-07-31",
+        "note": "Dates non précisées sur le PDF — période estimée saison estivale, à confirmer."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Tarif Caviste ou Professionnel Franco 2026"
+      },
+      "notes_commerciales": "Nouveauté Aghione à mettre en avant en parallèle du BIB San Ghjuvà déjà actif. Cuvées Tendance positionnées entrée de gamme estival, idéal cartes terrasse.",
+      "alertes": [
+        "Dates de validité non précisées sur le PDF — à confirmer auprès du domaine",
+        "Cuvées non au tarif VINOM — commande directe Aghione"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/OFFRE_5_1_TENDANCE_.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-09T11:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "coravin-timeless-fete-peres-2026",
+      "type": "promotion",
+      "titre": "Coravin Timeless Six+ — Édition Limitée Rouge Hermitage",
+      "tagline": "Offre Spéciale Fête des Pères −25%",
+      "fournisseur": {
+        "nom": "Coravin",
+        "code_vinistoria": null,
+        "region": "Accessoire",
+        "meta": "Système de service de vin — Édition Limitée"
+      },
+      "cuvees": [
+        {
+          "nom": "Coravin Timeless Six+ Édition Limitée Rouge Hermitage",
+          "appellation": "Accessoire de cave",
+          "millesime": "Édition Limitée",
+          "format": "Unité",
+          "couleur": null,
+          "tarif_vinom_ht": 399.99,
+          "prix_promo_ht": 299.99,
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "−25%",
+        "description": "299,99 € au lieu de 399,99 € (TTC particuliers — préciser si HT pro). Édition Limitée Rouge Hermitage.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Dans la limite des stocks disponibles."
+      },
+      "validite": {
+        "debut": "2026-06-01",
+        "fin": "2026-06-21",
+        "note": "Dates exactes non précisées — fenêtre Fête des Pères estimée jusqu'au dimanche 21 juin 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Direct Coravin — accessoire hors stock VINOM classique"
+      },
+      "notes_commerciales": "Cadeau d'exception pour amateur de vins. Argument vente : 'Le plaisir d'un verre aujourd'hui, la liberté de redécouvrir la bouteille même des mois plus tard.' À pousser auprès des cavistes haut de gamme et clients fidèles cherchant un cadeau premium pour la Fête des Pères.",
+      "alertes": [
+        "⚠ HORS PÉRIMÈTRE VIN/SPIRITUEUX HABITUEL : Coravin est un accessoire de service. À valider avec Olivier : VINOM commercialise-t-il Coravin ?",
+        "Prix indiqué 299,99 € — TTC ou HT à clarifier",
+        "Dates de fin d'offre estimées (Fête des Pères = 21 juin 2026)"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/PRINT-FR-Father_sDay-HermitageRed-Poster-A4-FR_1.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-09T11:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "gerard-bertrand-grande-bleue-2026-06",
+      "type": "promotion",
+      "titre": "Gérard Bertrand — Cadeau 6 magnums La Grande Bleue",
+      "tagline": "Offre Spéciale juin",
+      "fournisseur": {
+        "nom": "Gérard Bertrand",
+        "code_vinistoria": null,
+        "region": "Occitanie",
+        "meta": "Château l'Hospitalet · Narbonne — Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Gamme Gérard Bertrand (panachable)",
+          "appellation": "Multi-appellations",
+          "millesime": "NM",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": true
+        },
+        {
+          "nom": "La Grande Bleue (cadeau)",
+          "appellation": "IGP Méditerranée · Bio",
+          "millesime": "NM",
+          "format": "150cl",
+          "couleur": "BLC",
+          "prix_promo_ht": 0,
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "500 € → 6 mag",
+        "description": "Pour toute commande de 500 € HT (panachable) sur la gamme Gérard Bertrand = 6 magnums de La Grande Bleue (IGP Méditerranée Bio) offerts.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Minimum 500 € HT panachable avec les autres références de la gamme. Dans la limite des stocks disponibles."
+      },
+      "validite": {
+        "debut": "2026-06-05",
+        "fin": "2026-06-30"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct Château l'Hospitalet — Narbonne"
+      },
+      "notes_commerciales": "Mécanique inhabituelle : seuil de commande 500 € HT = cadeau magnum. VINOM a déjà partiellement la gamme Gérard Bertrand au tarif (Gris Blanc 7,20 € HT 2025, Château l'Hospitalet Grand Vin 22,30 € HT 2022). La Grande Bleue offerte = blanc Méditerranée IGP Bio, assemblage Rolle/Grenache blanc/Viognier/Chardonnay/Sauvignon — idéal en magnum pour table d'été.",
+      "alertes": [
+        "Commande directe Château l'Hospitalet (Narbonne) — contact : l.cutillas@gerard-bertrand.com, 04 68 45 51 89",
+        "La Grande Bleue magnum non au tarif VINOM — la promo est sur la gamme Gérard Bertrand (partiellement référencée chez VINOM)"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-06/OFFRE_EXCEPTIONNELLE.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-09T11:00:00Z",
+        "status": "auto-parsed"
+      }
+    }
+  ]
+}
