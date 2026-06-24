@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.1",
+    "version": "1.2",
     "generated_at": "2026-06-23T10:00:00Z",
-    "promos_count": 24,
+    "promos_count": 25,
     "schema_doc": "promos_schema.md",
-    "maj_note": "Été 2026 : +5 promos fournisseurs ; 5 déstockages internes masqués (masque:true, réversible) car repris depuis l'Excel Olivier 22/06."
+    "maj_note": "v1.2 : +Vinovalie planning trad 2026 ; promotions stock_vinom→direct_domaine (tout DD à l'affichage)."
   },
   "promos": [
     {
@@ -83,7 +83,7 @@
       },
       "target": "chr_caviste",
       "logistique": {
-        "origine": "stock_vinom",
+        "origine": "direct_domaine",
         "franco": true,
         "condition_franco": "Franco selon palier de volume"
       },
@@ -149,7 +149,7 @@
       },
       "target": "chr_caviste",
       "logistique": {
-        "origine": "stock_vinom",
+        "origine": "direct_domaine",
         "franco": true
       },
       "notes_commerciales": "Offre courte (5 jours) pour le pont de l'Ascension. Stock faible sur OVNI (12 bts) et Wine Trackers (6 bts) — pousser prioritairement la Collection rosé (33 bts).",
@@ -198,7 +198,7 @@
       },
       "target": "chr_caviste",
       "logistique": {
-        "origine": "stock_vinom",
+        "origine": "direct_domaine",
         "franco": true,
         "note": "Sur le tarif CHR/Caviste Pardela Spirits"
       },
@@ -1858,6 +1858,106 @@
         "fichier": "PROMO_SAN_GHJUVA_-_ST_JEAN_-_24_JUIN.pdf",
         "parsing_method": "manual",
         "parsing_date": "2026-06-23T10:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "vinovalie-planning-trad-2026",
+      "type": "promotion",
+      "titre": "Vinovalie — Planning Promo Tradition 2026",
+      "tagline": "Promo mensuelle tournante 11+1 / 5+1 · gamme Sud-Ouest",
+      "fournisseur": {
+        "nom": "Vinovalie",
+        "code_vinistoria": null,
+        "region": "Occitanie",
+        "meta": "Sud-Ouest · Cave coopérative (Gaillac, Fronton, Cahors)"
+      },
+      "cuvees": [],
+      "mecanique": {
+        "condition": "11+1 / 5+1",
+        "description": "Planning promotionnel mensuel tournant sur la gamme Tradition Vinovalie (Labastide, Tarani, Demon Noir, Espanté, Astrolabe, Cèdres de Tauziès, Allegoria…). Panachable au sein de la gamme.",
+        "panachable": true,
+        "cumulable": false
+      },
+      "validite": {
+        "debut": "2026-01-01",
+        "fin": "2026-12-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true
+      },
+      "planning_mensuel": [
+        {
+          "mois": "janvier",
+          "mecanique": "11+1",
+          "vins": "Sang Mêlé ; Le P'tit (rouge, rosé, blanc sec, moelleux) ; Espanté (rouge, rosé, blanc, doux) ; Allegoria Blanc"
+        },
+        {
+          "mois": "février",
+          "mecanique": "11+1 / 5+1",
+          "vins": "11+1 : La Belle Équipe, Terre des Sages — 5+1 : Château Tauzies (Gaillac, Bio)"
+        },
+        {
+          "mois": "mars",
+          "mecanique": "11+1",
+          "vins": "Allegoria Blanc + Espanté (blanc, blanc, rosé, rouge)"
+        },
+        {
+          "mois": "avril",
+          "mecanique": "11+1 / 5+1",
+          "vins": "11+1 : Tarani (rouge, rosé, blanc) + Demon Noir (merlot, gamay rosé, sauvignon) — 5+1 : Le Perlé L'Original"
+        },
+        {
+          "mois": "mai",
+          "mecanique": "5+1 / 11+1",
+          "vins": "5+1 : Inès, Tauzies Les Cèdres rosé, L'Infini Négrette — 11+1 : rosés (Le P'tit, Demon Noir, Rosé Victoria, Espanté, Malbec du Prince, Tarani)"
+        },
+        {
+          "mois": "juin",
+          "mecanique": "11+1 / 5+1",
+          "vins": "11+1 : La Belle Équipe + Hmmm…! — 5+1 : Tarani Fines Bulles + Calicoba"
+        },
+        {
+          "mois": "juillet",
+          "mecanique": "11+1",
+          "vins": "Espanté (rouge, rosé, blanc, doux) ; Cèdres de Tauziès (rouge, rosé, blanc sec)"
+        },
+        {
+          "mois": "août",
+          "mecanique": "11+1",
+          "vins": "Le P'tit (rouge, rosé, blanc sec, moelleux) + Allegoria Blanc"
+        },
+        {
+          "mois": "septembre",
+          "mecanique": "11+1 / 5+1",
+          "vins": "11+1 : Terre des Sages, Sang Mêlé — 5+1 : Château Bournet (rouge, blanc)"
+        },
+        {
+          "mois": "octobre",
+          "mecanique": "11+1",
+          "vins": "Tarani (rouge, rosé, blanc) + Demon Noir ; Cèdres de Tauziès (rouge, rosé, blanc sec)"
+        },
+        {
+          "mois": "novembre",
+          "mecanique": "11+1 / 5+1",
+          "vins": "11+1 : Passion (rouge, blanc sec) + La Belle Équipe — 5+1 : Château de Cayx + Hominia (Braucol, Mauzac, Loin de l'Œil)"
+        },
+        {
+          "mois": "décembre",
+          "mecanique": "5+1",
+          "vins": "Le Perlé L'Original, Le Paradis, Tauzies effervescent, Esprit de Labastide (Brut, Demi-sec) ; Astrolabe (rouge, VT, blanc sec, Fronton, Cahors, Mauzac)"
+        }
+      ],
+      "notes_commerciales": "Planning annuel — une offre par mois (parfois deux). Vinovalie, Les Portes du Tarn, 81370 Saint-Sulpice — www.vinovalie.com.",
+      "alertes": [
+        "Offre tournante : vérifier le mois en cours pour les références concernées"
+      ],
+      "source": {
+        "fichier": "Planning_promo_trad_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-06-24T10:00:00Z",
         "status": "manual"
       }
     }
