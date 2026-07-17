@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.4",
-    "generated_at": "2026-07-03T11:00:00Z",
-    "promos_count": 19,
+    "version": "1.5",
+    "generated_at": "2026-07-17T10:00:00Z",
+    "promos_count": 23,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v1.4 (03/07/2026) : +Simonnet-Febvre (Offre Commerciale −6/−12% + Déstockage 10+2), +Les Capucins (Focus Grands Blancs Secs 17+1, tarifs Franco 66 / Départ), +Veyret Latour (Fin de loge CHR, tarif franco). Onglet Déstockage régénéré depuis DESTOCKAGE_2_JUILLET_2026 (270 lignes : 87 remisés / 183 pépites)."
+    "maj_note": "v1.5 (17/07/2026) : +Château Léoube (Préparez l'été + Love by Léoube Rosé), +Pardela Wines Incontournables de la rentrée (15/08-15/09), +Cheval Quancard Cabane du Pyla Rosé ; MAJ franco Cheval Quancard (60 cols / 300 € HT). Déstockage inchangé = version du 02/07/2026 (270 lignes). Correctif affichage mobile (scroll horizontal). Fiches Forever Love 0,0% (Léoube) reçues, sans offre chiffrée."
   },
   "promos": [
     {
@@ -1285,12 +1285,12 @@
       "target": "chr",
       "logistique": {
         "origine": "direct_domaine",
-        "franco": false,
-        "note": "Direct négociant. Transport facturé selon la quantité totale."
+        "franco": true,
+        "note": "Direct négociant. Franco = 60 cols ou 300 € HT. Panachable par carton de 6."
       },
       "notes_commerciales": "4 blancs d'été panachables dont un 0% alcool (Sans Faute) et un IGP Atlantique entrée de gamme. Idéal terrasses, vins au verre, cartes CHR estivales.",
       "alertes": [
-        "Transport facturé selon le volume total (offre non franco intégral)",
+        "Franco = 60 cols ou 300 € HT (précision e-mail Cheval Quancard du 01/07/2026)",
         "Prix = tarif remisé par tranche ; à recouper avec le tarif VINOM (401C01)"
       ],
       "source": {
@@ -2037,6 +2037,286 @@
         "fichier": "Promotions/2026-07/OFFRES_FIN_DE_LOGE_CHR_3EME_TRIM_2026_VEYRET_LATOUR.xlsx",
         "parsing_method": "manual",
         "parsing_date": "2026-07-03T11:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "cheval-quancard-rose-2026",
+      "type": "promotion",
+      "titre": "Cheval Quancard — Cabane du Pyla Rosé (Promo Juillet)",
+      "tagline": "Offre maintenue tout le mois de juillet · 5+1 (75cl) / 4+2 (Magnums)",
+      "fournisseur": {
+        "nom": "Cheval Quancard",
+        "code_vinistoria": "132 · 401C01",
+        "region": "Bordeaux",
+        "meta": "Négociant depuis 1844 — Carbon Blanc (33)"
+      },
+      "cuvees": [
+        {
+          "nom": "Cabane du Pyla Rosé",
+          "appellation": "IGP Atlantique",
+          "millesime": "2025",
+          "format": "75cl",
+          "couleur": "Rosé",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Cabane du Pyla Rosé — Magnum",
+          "appellation": "IGP Atlantique",
+          "millesime": "2023/2024",
+          "format": "Magnum",
+          "couleur": "Rosé",
+          "mecanique": "4+2"
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1 / 4+2 Mag",
+        "description": "5+1 sur le rosé 75cl · 4+2 sur les magnums. Panachable sur la gamme.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Franco 60 cols ou 300 € HT."
+      },
+      "validite": {
+        "debut": "2026-07-01",
+        "fin": "2026-07-31",
+        "note": "Offre maintenue tout le mois de juillet (e-mail Cheval Quancard du 01/07/2026)."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Franco 60 cols ou 300 € HT. Contact J.-T. Paco (Directeur Régional Nord)."
+      },
+      "notes_commerciales": "Complément estival de la Sélection Vins Blancs. Catalogue Coffrets fin d'année disponible par ailleurs (PDF à récupérer).",
+      "alertes": [
+        "Franco = 60 cols ou 300 € HT",
+        "Magnums en 4+2 (millésimes 2023/2024)"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/TR_Catalogue_Coffrets_Promo_Juillet_Franco.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T10:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "leoube-prepare-ete-2026",
+      "type": "promotion",
+      "titre": "Château Léoube — Préparez l'été (paliers de gratuités)",
+      "tagline": "60 cols = 6 · 90 cols = 12 · 120 cols = 18 offertes · 15 mai — 31 juillet",
+      "fournisseur": {
+        "nom": "Château Léoube",
+        "code_vinistoria": "119 · 401L11",
+        "region": "Provence-Corse",
+        "meta": "Bormes-les-Mimosas · Côtes de Provence · Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Vins de propriété Léoube (gamme)",
+          "appellation": "Côtes de Provence",
+          "millesime": "NM",
+          "format": "75cl",
+          "couleur": "Multi",
+          "bio": true
+        }
+      ],
+      "mecanique": {
+        "condition": "60→6 / 90→12 / 120→18",
+        "description": "Bouteilles offertes selon le volume commandé (paliers 60/90/120 cols).",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Gratuités sur les vins de propriété uniquement. Dans la limite des stocks."
+      },
+      "validite": {
+        "debut": "2026-05-15",
+        "fin": "2026-07-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Transport inclus dès 48 btl ou 350 € HT (sinon +30 € HT forfait). France métropolitaine."
+      },
+      "notes_commerciales": "Gratuités sur les vins de propriété Léoube (Provence Bio). Réservé CHR & cavistes France métropolitaine, sauf vente, sans engagement.",
+      "alertes": [
+        "Gratuités sur les vins de propriété uniquement",
+        "Transport : inclus dès 48 btl / 350 € HT, sinon +30 € HT"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/OFFRE_LEOUBE_-_ETE_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T10:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "love-by-leoube-rose-ete-2026",
+      "type": "promotion",
+      "titre": "Love by Léoube Rosé — L'offre rosé de l'été",
+      "tagline": "60 cols = 6 · 120 cols = 12 offertes · 15 mai — 31 juillet",
+      "fournisseur": {
+        "nom": "Château Léoube",
+        "code_vinistoria": "119 · 401L11",
+        "region": "Provence-Corse",
+        "meta": "Bormes-les-Mimosas · Côtes de Provence · Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Love by Léoube Rosé",
+          "appellation": "Côtes de Provence",
+          "millesime": "NM",
+          "format": "75cl",
+          "couleur": "Rosé",
+          "bio": true
+        }
+      ],
+      "mecanique": {
+        "condition": "60→6 / 120→12",
+        "description": "Bouteilles offertes selon le volume, sur le Love by Léoube Rosé.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Sur le Love by Léoube Rosé uniquement. Dans la limite des stocks."
+      },
+      "validite": {
+        "debut": "2026-05-15",
+        "fin": "2026-07-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Transport inclus dès 48 btl ou 350 € HT (sinon +30 € HT forfait). France métropolitaine."
+      },
+      "notes_commerciales": "Offre ciblée Love by Léoube Rosé. Léoube propose aussi 2 nouveautés 0,0% (Forever Love Rosé, Forever Sparkling Love Rosé) — fiches dispo, sans offre chiffrée.",
+      "alertes": [
+        "Gratuités sur le Love by Léoube Rosé uniquement",
+        "Transport : inclus dès 48 btl / 350 € HT, sinon +30 € HT"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/OFFRE_LOVE_ROSE_-_ETE_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T10:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "pardela-wines-rentree-2026",
+      "type": "promotion",
+      "titre": "Pardela Wines — Les Incontournables de la rentrée 2026",
+      "tagline": "Tarif professionnel · 15/08 → 15/09 · 9+3 / 5+1 / 11+1",
+      "fournisseur": {
+        "nom": "Pardela Wines",
+        "code_vinistoria": "240 · 401P12",
+        "region": "Italie",
+        "meta": "Importateur · Multi-régions"
+      },
+      "cuvees": [
+        {
+          "nom": "Lupo Meraviglia 'Tre di Tre' — Magnum",
+          "appellation": "Italie",
+          "couleur": "Rouge",
+          "mecanique": "9+3"
+        },
+        {
+          "nom": "Corvezzo 'Vezzo' Prosecco DOC",
+          "appellation": "Prosecco DOC",
+          "couleur": "Effervescent",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Domaine Les Salices Viognier",
+          "appellation": "Pays d'Oc",
+          "couleur": "Blanc",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Mas Janeil 'C2'",
+          "appellation": "Côtes Catalanes",
+          "couleur": "Rouge",
+          "mecanique": "5+1",
+          "bio": true
+        },
+        {
+          "nom": "Domaine de Targuerie Sélection Tardive",
+          "appellation": "Languedoc",
+          "couleur": "Blanc",
+          "mecanique": "11+1",
+          "bio": true
+        },
+        {
+          "nom": "Domaine de Nizas 'Le Clos' rouge",
+          "appellation": "Languedoc",
+          "couleur": "Rouge",
+          "mecanique": "11+1",
+          "bio": true
+        },
+        {
+          "nom": "CLO de Lolol rouge",
+          "appellation": "Chili",
+          "couleur": "Rouge",
+          "mecanique": "11+1",
+          "bio": true
+        },
+        {
+          "nom": "Bodega Piedra Negra Malbec Reserve",
+          "appellation": "Argentine",
+          "couleur": "Rouge",
+          "mecanique": "11+1",
+          "bio": true
+        },
+        {
+          "nom": "Campo Eliseo 'Contracorriente'",
+          "appellation": "Espagne",
+          "couleur": "Rouge",
+          "mecanique": "11+1",
+          "bio": true
+        },
+        {
+          "nom": "Fantini 'Canio' Aglianico",
+          "appellation": "Italie",
+          "couleur": "Rouge",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Lavradores de Feitoria 'Lavra' Branco",
+          "appellation": "Douro (Portugal)",
+          "couleur": "Blanc",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Oenops 'Apla' Blanc",
+          "appellation": "Grèce",
+          "couleur": "Blanc",
+          "mecanique": "11+1"
+        }
+      ],
+      "mecanique": {
+        "condition": "9+3 / 5+1 / 11+1",
+        "description": "Mécaniques variables selon la référence, sur la base du Tarif professionnel.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Dans la limite des stocks. Sur le Tarif professionnel."
+      },
+      "validite": {
+        "debut": "2026-08-15",
+        "fin": "2026-09-15",
+        "note": "Catalogue rentrée, distinct du Catalogue Été Pardela Wines."
+      },
+      "target": "tarif_professionnel",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Sur le tarif professionnel Pardela Wines."
+      },
+      "notes_commerciales": "12 références dont nombreuses cuvées Bio (France, Italie, Chili, Argentine, Espagne, Portugal, Grèce).",
+      "alertes": [
+        "Mécaniques différentes selon la cuvée (9+3 / 5+1 / 11+1)",
+        "Valable 15/08 → 15/09/2026 sur le Tarif professionnel"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/Catalogue_Les_incontournables_de_la_rentree_-_Pardela_Wines_-_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T10:00:00Z",
         "status": "auto-parsed"
       }
     }
