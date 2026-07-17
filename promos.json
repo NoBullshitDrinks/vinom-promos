@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.5",
-    "generated_at": "2026-07-17T10:00:00Z",
-    "promos_count": 23,
+    "version": "1.6",
+    "generated_at": "2026-07-17T14:00:00Z",
+    "promos_count": 27,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v1.5 (17/07/2026) : +Château Léoube (Préparez l'été + Love by Léoube Rosé), +Pardela Wines Incontournables de la rentrée (15/08-15/09), +Cheval Quancard Cabane du Pyla Rosé ; MAJ franco Cheval Quancard (60 cols / 300 € HT). Déstockage inchangé = version du 02/07/2026 (270 lignes). Correctif affichage mobile (scroll horizontal). Fiches Forever Love 0,0% (Léoube) reçues, sans offre chiffrée."
+    "maj_note": "v1.6 (17/07/2026) : correction date bandeau (Dernière mise à jour 23/06 -> 17/07) ; ajout région Champagne aux filtres ; +Remoissenet Père & Fils (Offre Spéciale Bourgogne) ; +Delas Frères TR23 (Grands Chemins 12=6), TR57 (Opération Signature 11+1/120), TR58 (Opération Partenaire 204=36) — offres initiales au 30/06 proposées jusqu'au 31/12/2026. Déstockage inchangé (270 lignes, données du 02/07)."
   },
   "promos": [
     {
@@ -2317,6 +2317,257 @@
         "fichier": "Promotions/2026-07/Catalogue_Les_incontournables_de_la_rentree_-_Pardela_Wines_-_2026.pdf",
         "parsing_method": "manual",
         "parsing_date": "2026-07-17T10:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "remoissenet-offre-speciale-2026",
+      "type": "promotion",
+      "titre": "Remoissenet Père & Fils — Offre Spéciale (Bourgogne)",
+      "tagline": "Prix fixes HT · expédition avant le 31/12/2026 · jusqu'à épuisement",
+      "fournisseur": {
+        "nom": "Remoissenet Père & Fils",
+        "code_vinistoria": "378 · 401R17",
+        "region": "Bourgogne",
+        "meta": "Beaune · Producteur de grands vins de Bourgogne"
+      },
+      "cuvees": [
+        {
+          "nom": "Mâcon Villages blanc",
+          "appellation": "Mâcon Villages",
+          "millesime": "2020",
+          "format": "75cl",
+          "couleur": "Blanc",
+          "prix_ht": 8.5
+        },
+        {
+          "nom": "Bourgogne Gamay 'Seigneurie de Posanges'",
+          "appellation": "Bourgogne",
+          "millesime": "2020",
+          "format": "75cl",
+          "couleur": "Rouge",
+          "prix_ht": 8.5
+        },
+        {
+          "nom": "Savigny-Lès-Beaune 1er Cru 'Les Lavières'",
+          "appellation": "Savigny-Lès-Beaune 1er Cru",
+          "millesime": "2017",
+          "format": "75cl",
+          "couleur": "Rouge",
+          "prix_ht": 24.0,
+          "vin_du_domaine": true
+        },
+        {
+          "nom": "Volnay",
+          "appellation": "Volnay",
+          "millesime": "2017",
+          "format": "75cl",
+          "couleur": "Rouge",
+          "prix_ht": 28.5
+        }
+      ],
+      "mecanique": {
+        "condition": "Tarif spécial",
+        "description": "Prix HT fixes par bouteille 75cl.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Tarif applicable pour toute expédition avant le 31/12/2026, jusqu'à épuisement des stocks."
+      },
+      "validite": {
+        "debut": "2026-06-01",
+        "fin": "2026-12-31",
+        "note": "Offre spéciale juin 2026, expédition avant le 31/12/2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Prix € HT / btl 75cl."
+      },
+      "notes_commerciales": "Les vins en gras (Savigny 1er Cru 'Les Lavières') sont les vins du domaine Remoissenet.",
+      "alertes": [
+        "Tarif applicable pour toute expédition avant le 31/12/2026",
+        "Jusqu'à épuisement des stocks"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/2_Offre_speciale_HGR_juin_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T14:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "delas-tr23-grands-chemins-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — TR23 · Domaine des Grands Chemins",
+      "tagline": "12 Crozes-Hermitage achetées = 6 CDR Saint-Esprit offertes",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Rhône",
+        "meta": "Vallée du Rhône"
+      },
+      "cuvees": [
+        {
+          "nom": "Crozes-Hermitage 'Domaine des Grands Chemins'",
+          "appellation": "Crozes-Hermitage",
+          "millesime": "2022",
+          "format": "75cl",
+          "couleur": "Rouge"
+        },
+        {
+          "nom": "Côtes-du-Rhône Saint-Esprit (offert)",
+          "appellation": "Côtes-du-Rhône",
+          "millesime": "NM",
+          "format": "75cl",
+          "couleur": "Blanc/Rouge"
+        }
+      ],
+      "mecanique": {
+        "condition": "12 = 6 offertes",
+        "description": "12 Crozes-Hermitage Grands Chemins 2022 = 6 CDR Saint-Esprit blanc ou rouge offertes.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Non compatible TR30. Respect des conditionnements/calibres. Codes CBHR/VAE/TR23."
+      },
+      "validite": {
+        "debut": "2026-06-01",
+        "fin": "2026-12-31",
+        "note": "Offre initiale au 30/06/2026, proposée jusqu'au 31/12/2026 (instruction VINOM)."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Via Deutz Delas Diffusion. Respect des conditionnements et calibres."
+      },
+      "notes_commerciales": "Opération Delas (janvier 2026) prolongée à la vente jusqu'au 31/12/2026 sur instruction VINOM.",
+      "alertes": [
+        "Non compatible TR30",
+        "Respect des conditionnements d'origine et des calibres proposés",
+        "Offre initiale au 30/06/2026, proposée jusqu'au 31/12/2026 (instruction VINOM)"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/TR23.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T14:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "delas-tr57-operation-signature-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — TR57 · Opération Signature",
+      "tagline": "120 bouteilles = 11+1 panaché sur qualités sélectionnées",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Rhône",
+        "meta": "Vallée du Rhône"
+      },
+      "cuvees": [
+        {
+          "nom": "Crozes-Hermitage 'Les Launes' (blanc et/ou rouge)",
+          "appellation": "Crozes-Hermitage",
+          "millesime": "2024",
+          "format": "75cl",
+          "couleur": "Blanc/Rouge"
+        },
+        {
+          "nom": "Côtes-du-Rhône Saint-Esprit (blanc et/ou rouge)",
+          "appellation": "Côtes-du-Rhône",
+          "millesime": "2023/2024",
+          "format": "75cl",
+          "couleur": "Blanc/Rouge"
+        },
+        {
+          "nom": "Viognier",
+          "appellation": "IGP / Vin de France",
+          "millesime": "2024",
+          "format": "75cl",
+          "couleur": "Blanc"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 (120 btl)",
+        "description": "Pour 120 btl : 11+1 à votre guise sur les qualités sélectionnées.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Panachable par 12 btl minimum. Non compatible TR30. Codes CBHR/VAE/TR57."
+      },
+      "validite": {
+        "debut": "2026-06-01",
+        "fin": "2026-12-31",
+        "note": "Offre initiale au 30/06/2026, proposée jusqu'au 31/12/2026 (instruction VINOM)."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Via Deutz Delas Diffusion. Panachable par 12 btl min."
+      },
+      "notes_commerciales": "Opération Signature Delas (janvier 2026) prolongée à la vente jusqu'au 31/12/2026 sur instruction VINOM.",
+      "alertes": [
+        "Panachable par 12 bouteilles minimum",
+        "Non compatible TR30",
+        "Respect des conditionnements d'origine et des calibres proposés",
+        "Offre initiale au 30/06/2026, proposée jusqu'au 31/12/2026 (instruction VINOM)"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/TR57.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T14:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "delas-tr58-operation-partenaire-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — TR58 · Opération Partenaire",
+      "tagline": "204 bouteilles CDR Saint-Esprit 2023 = 36 offertes",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Rhône",
+        "meta": "Vallée du Rhône"
+      },
+      "cuvees": [
+        {
+          "nom": "Côtes-du-Rhône Saint-Esprit",
+          "appellation": "Côtes-du-Rhône",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "Rouge"
+        }
+      ],
+      "mecanique": {
+        "condition": "204 = 36 offertes",
+        "description": "Pour l'achat de 204 bouteilles = 36 bouteilles offertes.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Non compatible TR30. Respect des conditionnements/calibres. Codes CBHR/VAE/TR58."
+      },
+      "validite": {
+        "debut": "2026-06-01",
+        "fin": "2026-12-31",
+        "note": "Offre initiale au 30/06/2026, proposée jusqu'au 31/12/2026 (instruction VINOM)."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Via Deutz Delas Diffusion. Respect des conditionnements et calibres."
+      },
+      "notes_commerciales": "Opération Partenaire Delas (janvier 2026) sur le CDR Saint-Esprit 2023, prolongée jusqu'au 31/12/2026 sur instruction VINOM.",
+      "alertes": [
+        "Non compatible TR30",
+        "Respect des conditionnements d'origine et des calibres proposés",
+        "Offre initiale au 30/06/2026, proposée jusqu'au 31/12/2026 (instruction VINOM)"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/TR58.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T14:00:00Z",
         "status": "auto-parsed"
       }
     }
