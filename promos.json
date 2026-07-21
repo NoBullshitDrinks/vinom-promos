@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.6",
-    "generated_at": "2026-07-17T14:00:00Z",
-    "promos_count": 27,
+    "version": "1.7",
+    "generated_at": "2026-07-17T16:00:00Z",
+    "promos_count": 29,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v1.6 (17/07/2026) : correction date bandeau (Dernière mise à jour 23/06 -> 17/07) ; ajout région Champagne aux filtres ; +Remoissenet Père & Fils (Offre Spéciale Bourgogne) ; +Delas Frères TR23 (Grands Chemins 12=6), TR57 (Opération Signature 11+1/120), TR58 (Opération Partenaire 204=36) — offres initiales au 30/06 proposées jusqu'au 31/12/2026. Déstockage inchangé (270 lignes, données du 02/07)."
+    "maj_note": "v1.7 (17/07/2026) : +Pardela Wines Offre Flash Prosecco Cal del Console Rosé (5+1, 20/07-31/08) ; +Domaine Faiveley Offre Vins au Verre (22+2, CHR, jusqu'au 31/12). Date bandeau au 17/07/2026. Déstockage inchangé (270 lignes, 02/07)."
   },
   "promos": [
     {
@@ -2568,6 +2568,153 @@
         "fichier": "Promotions/2026-07/TR58.pdf",
         "parsing_method": "manual",
         "parsing_date": "2026-07-17T14:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "pardela-prosecco-caldelconsole-2026",
+      "type": "promotion",
+      "titre": "Pardela Wines — Offre Flash Prosecco Cal del Console Rosé (5+1)",
+      "tagline": "5+1 · tarif professionnel · 20/07 → 31/08/2026",
+      "fournisseur": {
+        "nom": "Pardela Wines",
+        "code_vinistoria": "240 · 401P12",
+        "region": "Italie",
+        "meta": "Importateur · Vins du monde"
+      },
+      "cuvees": [
+        {
+          "nom": "Prosecco Cal del Console Rosé",
+          "appellation": "Prosecco",
+          "millesime": "NM",
+          "format": "75cl",
+          "couleur": "Effervescent",
+          "mecanique": "5+1"
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1",
+        "description": "5 bouteilles achetées = 1 offerte.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Sur le tarif professionnel. Dans la limite des stocks."
+      },
+      "validite": {
+        "debut": "2026-07-20",
+        "fin": "2026-08-31",
+        "note": "Offre flash."
+      },
+      "target": "tarif_professionnel",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Sur le tarif professionnel Pardela Wines."
+      },
+      "notes_commerciales": "Offre flash estivale sur un Prosecco rosé pétillant. Complément du Catalogue Été / Rentrée Pardela Wines.",
+      "alertes": [
+        "Valable 20/07 → 31/08/2026 sur le tarif professionnel"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/OFFRE-FLASH-5_1-Prosecco-Cal-de-Console.png",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T16:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "faiveley-vins-au-verre-2026",
+      "type": "promotion",
+      "titre": "Domaine Faiveley — Offre Vins au Verre (22+2)",
+      "tagline": "22+2 par référence · CHR uniquement · jusqu'au 31/12/2026",
+      "fournisseur": {
+        "nom": "Domaine Faiveley",
+        "code_vinistoria": "359 · 401F19",
+        "region": "Bourgogne",
+        "meta": "Nuits-Saint-Georges · Domaine depuis 1825"
+      },
+      "cuvees": [
+        {
+          "nom": "Marsannay 'Es Chezots' (Domaine)",
+          "appellation": "Marsannay",
+          "millesime": "2022",
+          "format": "75cl",
+          "couleur": "Rouge",
+          "prix_pro_ht": 25.5,
+          "vin_du_domaine": true
+        },
+        {
+          "nom": "Marsannay (Domaine)",
+          "appellation": "Marsannay",
+          "millesime": "2022",
+          "format": "75cl",
+          "couleur": "Rouge",
+          "prix_pro_ht": 21.0,
+          "vin_du_domaine": true
+        },
+        {
+          "nom": "Bourgogne Pinot Noir",
+          "appellation": "Bourgogne",
+          "millesime": "2022",
+          "format": "75cl/Magnum",
+          "couleur": "Rouge",
+          "prix_pro_ht": 14.5,
+          "magnum_mecanique": "12+1"
+        },
+        {
+          "nom": "Rully 'Les Villeranges' (Domaine)",
+          "appellation": "Rully",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "Blanc",
+          "prix_pro_ht": 17.0,
+          "vin_du_domaine": true
+        },
+        {
+          "nom": "Bourgogne Chardonnay",
+          "appellation": "Bourgogne",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "Blanc",
+          "prix_pro_ht": 13.0
+        },
+        {
+          "nom": "Montagny 'Les Cent Pièces' (Domaine)",
+          "appellation": "Montagny",
+          "millesime": "2024",
+          "format": "75cl",
+          "couleur": "Blanc",
+          "prix_pro_ht": 14.5,
+          "vin_du_domaine": true
+        }
+      ],
+      "mecanique": {
+        "condition": "22+2",
+        "description": "22+2 par référence (min 24 btl = 22 facturées + 2 offertes). Bourgogne Pinot Noir aussi en magnum (12+1).",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Sans panachage entre vins. Tarif Pro. Préciser « offre 22+2 » à la commande (contact Isabelle)."
+      },
+      "validite": {
+        "debut": "2026-07-17",
+        "fin": "2026-12-31",
+        "note": "À compter de ce jour, jusqu'au 31/12/2026, dans la limite des stocks."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Prix Pro HT / btl 75cl. Min 24 btl/réf, sans panachage entre vins."
+      },
+      "notes_commerciales": "Offre 'vins au verre' pour les CHR : cuvées Domaine Faiveley + régionales Bourgogne.",
+      "alertes": [
+        "CHR uniquement, tarif Pro",
+        "Minimum 24 btl par référence, sans panachage entre vins",
+        "Préciser « offre 22+2 » sur la commande"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/Offre_vins_au_verre_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-17T16:00:00Z",
         "status": "auto-parsed"
       }
     }
