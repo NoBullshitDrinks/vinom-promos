@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.7",
-    "generated_at": "2026-07-17T16:00:00Z",
-    "promos_count": 29,
+    "version": "1.8",
+    "generated_at": "2026-07-22T16:00:00Z",
+    "promos_count": 33,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v1.7 (17/07/2026) : +Pardela Wines Offre Flash Prosecco Cal del Console Rosé (5+1, 20/07-31/08) ; +Domaine Faiveley Offre Vins au Verre (22+2, CHR, jusqu'au 31/12). Date bandeau au 17/07/2026. Déstockage inchangé (270 lignes, 02/07)."
+    "maj_note": "v1.8 (22/07/2026) : date bandeau 22/07 ; +filtre Canal (Tous/Cavistes/Grossistes) au niveau carte ; bouton PDF du tiroir câblé (champ 'pdf'). +Domaine des Aspras (grossistes, Trois Frères) ; +M. Chapoutier OP Rentrée Pro & Cavistes (tarifs volumineux hébergés en PDF, non inlinés) ; +La Chablisienne FAV Rentrée. Chablisienne : été (juil) -> FAV rentrée (août/sept). PDF Chapoutier à déposer dans /pdf du repo."
   },
   "promos": [
     {
@@ -2715,6 +2715,234 @@
         "fichier": "Promotions/2026-07/Offre_vins_au_verre_2026.pdf",
         "parsing_method": "manual",
         "parsing_date": "2026-07-17T16:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "aspras-trois-freres-grossistes-2026",
+      "type": "promotion",
+      "titre": "Domaine des Aspras — Offre spéciale Grossistes (Les Trois Frères)",
+      "tagline": "300 btl → 11+1 · 600 btl → 5+1 rosé · jusqu'au 10 août",
+      "audience": "grossistes",
+      "fournisseur": {
+        "nom": "Domaine des Aspras",
+        "code_vinistoria": "613",
+        "region": "Provence-Corse",
+        "meta": "Correns (83) · 1er village Bio de France"
+      },
+      "cuvees": [
+        {
+          "nom": "Les Trois Frères",
+          "appellation": "Provence",
+          "couleur": "Multi",
+          "mecanique": "11+1 (dès 300 btl panachées)",
+          "bio": true
+        },
+        {
+          "nom": "Les Trois Frères Rosé",
+          "appellation": "Provence",
+          "couleur": "Rosé",
+          "mecanique": "5+1 (dès 600 btl panachées)",
+          "bio": true
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 / 5+1",
+        "description": "Deux paliers panachés : 300 btl → 11+1 · 600 btl → 5+1 rosé.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Réservée aux grossistes."
+      },
+      "validite": {
+        "debut": "2026-07-22",
+        "fin": "2026-08-10"
+      },
+      "target": "grossistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Contact Enguerrand Viaud (Directeur Commercial)."
+      },
+      "notes_commerciales": "Offre de constitution de stock saison, domaine Bio (Correns).",
+      "alertes": [
+        "Réservée aux grossistes",
+        "Paliers élevés : 300 btl (11+1) / 600 btl (5+1 rosé), panachés"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/TR_Offre_speciale_Grossistes_Gamme_Les_Trois_Freres.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-22T16:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "chapoutier-rentree-pro-2026",
+      "type": "promotion",
+      "titre": "M. Chapoutier — Offre de la Rentrée 2026 (Professionnels)",
+      "tagline": "Jusqu'à 5+1 sur une large sélection · −10% dès 78 btl (2 régions) · 5+1 dès 156 btl (3 régions) · 24/08 → 31/10",
+      "audience": "pro",
+      "fournisseur": {
+        "nom": "M. Chapoutier",
+        "code_vinistoria": "439 · 401C112",
+        "region": "Rhône",
+        "meta": "Tain-l'Hermitage · Vallée du Rhône (+ Trenel)"
+      },
+      "cuvees": [
+        {
+          "nom": "Large sélection multi-régions (voir PDF)",
+          "appellation": "Rhône · Provence · Languedoc-Roussillon · Alsace · Espagne · Portugal · Australie · Bourgogne/Beaujolais",
+          "couleur": "Multi"
+        }
+      ],
+      "mecanique": {
+        "condition": "jusqu'à 5+1",
+        "description": "−10% dès 78 btl (2 régions) · 5+1 dès 156 btl (3 régions)",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Paliers par nombre de régions différentes. Franco de port."
+      },
+      "validite": {
+        "debut": "2026-08-24",
+        "fin": "2026-10-31"
+      },
+      "target": "Professionnels",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Franco de port. Tarif complet dans le PDF fournisseur."
+      },
+      "notes_commerciales": "Salons M. Chapoutier : 7 sept. 2026 (Lyon, Matmut Stadium Gerland) et 14 sept. 2026 (Paris, Pavillon Ledoyen). Tarif volumineux → hébergé en PDF, non inliné.",
+      "alertes": [
+        "Paliers calculés par nombre de régions",
+        "Tarif complet dans le PDF fournisseur"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/pdf/chapoutier-trenel-rentree-pro-2026.pdf",
+      "source": {
+        "fichier": "Promotions/2026-07/M_CHAPOUTIER_TRENEL_OP_RENTREE_PRO_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-22T16:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "chapoutier-rentree-cavistes-2026",
+      "type": "promotion",
+      "titre": "M. Chapoutier — Offre de la Rentrée 2026 (Cavistes (réservée))",
+      "tagline": "Jusqu'à 5+1 sur une large sélection · −10% dès 120 btl (2 régions) · 5+1 dès 240 btl (3 régions) · 24/08 → 31/10",
+      "audience": "cavistes",
+      "fournisseur": {
+        "nom": "M. Chapoutier",
+        "code_vinistoria": "439 · 401C112",
+        "region": "Rhône",
+        "meta": "Tain-l'Hermitage · Vallée du Rhône (+ Trenel)"
+      },
+      "cuvees": [
+        {
+          "nom": "Large sélection multi-régions (voir PDF)",
+          "appellation": "Rhône · Provence · Languedoc-Roussillon · Alsace · Espagne · Portugal · Australie · Bourgogne/Beaujolais",
+          "couleur": "Multi"
+        }
+      ],
+      "mecanique": {
+        "condition": "jusqu'à 5+1",
+        "description": "−10% dès 120 btl (2 régions) · 5+1 dès 240 btl (3 régions)",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Paliers par nombre de régions différentes. Franco de port."
+      },
+      "validite": {
+        "debut": "2026-08-24",
+        "fin": "2026-10-31"
+      },
+      "target": "Cavistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Franco de port. Tarif complet dans le PDF fournisseur."
+      },
+      "notes_commerciales": "Salons M. Chapoutier : 7 sept. 2026 (Lyon, Matmut Stadium Gerland) et 14 sept. 2026 (Paris, Pavillon Ledoyen). Tarif volumineux → hébergé en PDF, non inliné.",
+      "alertes": [
+        "Paliers calculés par nombre de régions",
+        "Tarif complet dans le PDF fournisseur"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/pdf/chapoutier-trenel-rentree-cavistes-2026.pdf",
+      "source": {
+        "fichier": "Promotions/2026-07/M_CHAPOUTIER_TRENEL_OP_RENTREE_CAVISTES_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-22T16:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "chablisienne-fav-rentree-2026",
+      "type": "promotion",
+      "titre": "La Chablisienne — FAV Rentrée 2026 (AOC Chablis & régionales)",
+      "tagline": "11+1 sur l'offre · 6ème offerte dès 240 btl · 24/08 → 31/10",
+      "fournisseur": {
+        "nom": "La Chablisienne",
+        "code_vinistoria": "",
+        "region": "Bourgogne",
+        "meta": "Chablis · Coopérative"
+      },
+      "cuvees": [
+        {
+          "nom": "Chablis La Sereine",
+          "appellation": "Chablis",
+          "format": "75cl",
+          "couleur": "Blanc"
+        },
+        {
+          "nom": "Chablis Dame Nature",
+          "appellation": "Chablis",
+          "format": "75cl",
+          "couleur": "Blanc"
+        },
+        {
+          "nom": "Saint-Bris",
+          "appellation": "Saint-Bris",
+          "format": "75cl",
+          "couleur": "Blanc"
+        },
+        {
+          "nom": "Bourgogne Chardonnay",
+          "appellation": "Bourgogne",
+          "format": "75cl",
+          "couleur": "Blanc"
+        },
+        {
+          "nom": "Bourgogne Pinot Noir",
+          "appellation": "Bourgogne",
+          "format": "75cl",
+          "couleur": "Rouge"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 / 240→6 offerte",
+        "description": "11+1 sur l'ensemble des références ; à partir de 240 btl, la 6ème est offerte.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Promotion appliquée seulement si indiquée sur la commande. Réservée aux clients sans conditions spéciales."
+      },
+      "validite": {
+        "debut": "2026-08-24",
+        "fin": "2026-10-31",
+        "note": "MAJ fournisseur 20/07/2026."
+      },
+      "target": "chr_caviste_grossiste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Panachage possible sur l'ensemble de l'offre."
+      },
+      "notes_commerciales": "Recouper avec l'Offre Commerciale Simonnet-Febvre et le Brocard (au tarif VINOM) sur Bourgogne génériques et Saint-Bris.",
+      "alertes": [
+        "Promotion appliquée seulement si indiquée sur la commande",
+        "Réservée aux clients sans conditions spéciales"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-07/CHABLISIENNE_FAV_sept_oct_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-07-22T16:00:00Z",
         "status": "auto-parsed"
       }
     }
