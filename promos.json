@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "1.8",
+    "version": "1.9",
     "generated_at": "2026-07-22T16:00:00Z",
     "promos_count": 33,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v1.8 (22/07/2026) : date bandeau 22/07 ; +filtre Canal (Tous/Cavistes/Grossistes) au niveau carte ; bouton PDF du tiroir câblé (champ 'pdf'). +Domaine des Aspras (grossistes, Trois Frères) ; +M. Chapoutier OP Rentrée Pro & Cavistes (tarifs volumineux hébergés en PDF, non inlinés) ; +La Chablisienne FAV Rentrée. Chablisienne : été (juil) -> FAV rentrée (août/sept). PDF Chapoutier à déposer dans /pdf du repo."
+    "maj_note": "v1.9 (22/07/2026) : correction des liens PDF Chapoutier -> racine du site (au lieu de /pdf/). Déposer les 2 PDF (renommés) à la racine de la branche main."
   },
   "promos": [
     {
@@ -2816,7 +2816,7 @@
         "Paliers calculés par nombre de régions",
         "Tarif complet dans le PDF fournisseur"
       ],
-      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/pdf/chapoutier-trenel-rentree-pro-2026.pdf",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/chapoutier-trenel-rentree-pro-2026.pdf",
       "source": {
         "fichier": "Promotions/2026-07/M_CHAPOUTIER_TRENEL_OP_RENTREE_PRO_2026.pdf",
         "parsing_method": "manual",
@@ -2865,7 +2865,7 @@
         "Paliers calculés par nombre de régions",
         "Tarif complet dans le PDF fournisseur"
       ],
-      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/pdf/chapoutier-trenel-rentree-cavistes-2026.pdf",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/chapoutier-trenel-rentree-cavistes-2026.pdf",
       "source": {
         "fichier": "Promotions/2026-07/M_CHAPOUTIER_TRENEL_OP_RENTREE_CAVISTES_2026.pdf",
         "parsing_method": "manual",
