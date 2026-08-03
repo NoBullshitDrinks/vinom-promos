@@ -3309,5 +3309,30 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(
   apply();
 })();
 </script>
+
+<!-- __PATCH_ANCRES__ v1 (03/08/2026) — lien direct vers un onglet depuis le portail VINOM.
+     Ajout uniquement : aucune ligne existante n'est modifiée. -->
+<script>
+(function(){
+  var onglets = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  if (!onglets.length) return;
+  var noms = onglets.map(function(t){ return t.dataset.tab; });
+
+  function ouvrirDepuisHash(){
+    var h = (location.hash || '').replace('#','');
+    var i = noms.indexOf(h);
+    if (i !== -1 && !onglets[i].classList.contains('active')) onglets[i].click();
+  }
+
+  onglets.forEach(function(t){
+    t.addEventListener('click', function(){
+      if (history.replaceState) history.replaceState(null, '', '#' + t.dataset.tab);
+    });
+  });
+
+  window.addEventListener('hashchange', ouvrirDepuisHash);
+  ouvrirDepuisHash();
+})();
+</script>
 </body>
 </html>
