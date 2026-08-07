@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "2.0",
-    "generated_at": "2026-07-31T12:00:00Z",
-    "promos_count": 29,
+    "version": "2.1",
+    "generated_at": "2026-08-07T12:00:00Z",
+    "promos_count": 33,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v2.0 (31/07/2026) : purge des 9 promos échues au 31/07 (Lacoste-Borie, Chablisienne été, Tariquet, Boisseaux, Aghione Tendance, Cheval Quancard blancs + rosé, Léoube Préparez l'été + Love Rosé) ; décalage de la grille Juillet/Août/Septembre -> Août/Septembre/Octobre ; + Louis Latour Offre d'Automne, + MDCV Offre Rentrée 11+1, + MDCV Coffrets, + Marie Stuart La Sommelière (nouveauté) et offre fin d'année MSMIX, + Coravin Model Six+ Hermitage ; + Vinovalie septembre et octobre (issus du planning annuel) ; nouvelle région de filtre « Accessoire » ; ERRATUM Chapoutier du 30/07 signalé sur les 2 cartes. Non publiée : Louis Latour Target List 2e semestre (document interne et confidentiel, repo public). En attente : Raffinvini Giardino (sans offre chiffrée), Forever Love 0,0 % Léoube (sans prix), catalogue Coffrets Cheval Quancard (PDF non fourni)."
+    "maj_note": "v2.1 (07/08/2026) : + Cheval Quancard (Cabane du Pyla magnum offert, août ; Les Vendanges commencent 5+1/11+1 août-septembre avec les deux grilles départ et franco) ; + Domaine Lafage (Muscat de Noël Blanc comme Neige 2026 en 11+1 jusqu'au 16/10 ; Offre de Rentrée 10+2 du 17/08 au 16/10). Deux nouvelles lignes fournisseur dans l'agenda : Cheval Quancard (Bordeaux) et Domaine Lafage (Occitanie). Ajout de l'encart Espace partenaire Louis Latour (bandeau 1200x120 + page A4 + filtre agenda), contrat octobre-décembre 2026, mis en ligne par anticipation pour validation. Aucune promo échue au 07/08 : pas de purge. Grille inchangée : Août / Septembre / Octobre 2026. En attente : Raffinvini Giardino (sans offre chiffrée), Forever Love 0,0 % Léoube (sans prix), catalogue Coffrets Cheval Quancard (PDF non fourni), date de début de l'offre Muscat de Noël Lafage."
   },
   "promos": [
     {
@@ -2551,6 +2551,428 @@
         "parsing_date": "2026-07-31T12:00:00Z",
         "status": "manual"
       }
+    },
+    {
+      "id": "cheval-quancard-cabane-pyla-aout-2026",
+      "type": "promotion",
+      "titre": "Cheval Quancard — Cabane du Pyla, 1 magnum offert",
+      "tagline": "Offre promotionnelle estivale",
+      "fournisseur": {
+        "nom": "Cheval Quancard",
+        "code_vinistoria": "401C01",
+        "numero_fournisseur": 132,
+        "region": "Bordeaux",
+        "meta": "Carbon Blanc (33) · Négociant depuis 1844"
+      },
+      "cuvees": [
+        {
+          "nom": "Cabane du Pyla Rosé (magnum offert)",
+          "appellation": "IGP Atlantique",
+          "millesime": "2024",
+          "format": "150cl",
+          "couleur": "ROS",
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "10 cartons → 1 magnum",
+        "description": "Par tranche de 10 cartons de 6 bouteilles Cabane du Pyla achetés, 1 magnum Cabane du Pyla Rosé 2024 offert.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Carton de 6 bouteilles 75cl. Tranche de 10 cartons = 60 bouteilles."
+      },
+      "validite": {
+        "debut": "2026-08-01",
+        "fin": "2026-08-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false
+      },
+      "notes_commerciales": "Le magnum offert est un outil de mise en avant plus qu'une remise. Palier élevé (60 btl) : réservé aux clients qui tournent déjà sur la gamme.",
+      "alertes": [
+        "Fenêtre courte : août uniquement",
+        "Le magnum offert est un Rosé 2024 quelle que soit la couleur commandée",
+        "Cabane du Pyla non au tarif VINOM"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/Offre_speciale_CABANE_ROSE.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-08-07T12:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "cheval-quancard-vendanges-2026",
+      "type": "promotion",
+      "titre": "Cheval Quancard — Les Vendanges commencent",
+      "tagline": "Offre promotionnelle de rentrée · 5+1 / 11+1",
+      "fournisseur": {
+        "nom": "Cheval Quancard",
+        "code_vinistoria": "401C01",
+        "numero_fournisseur": 132,
+        "region": "Bordeaux",
+        "meta": "Carbon Blanc (33) · Négociant depuis 1844"
+      },
+      "cuvees": [
+        {
+          "nom": "Oriolus Merlot",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "RGE",
+          "format": "75cl",
+          "mecanique": "11+1",
+          "prix_depart_remise_ht": 2.66,
+          "prix_depart_avant_ht": 2.9,
+          "franco_200_cols_ht": 3.35,
+          "franco_120_cols_ht": 3.53,
+          "franco_60_cols_ht": 3.94,
+          "franco_200_avant_ht": 3.65,
+          "franco_120_avant_ht": 3.85,
+          "franco_60_avant_ht": 4.3,
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Oriolus Pinot Noir",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "RGE",
+          "format": "75cl",
+          "mecanique": "11+1",
+          "prix_depart_remise_ht": 2.66,
+          "prix_depart_avant_ht": 2.9,
+          "franco_200_cols_ht": 3.35,
+          "franco_120_cols_ht": 3.53,
+          "franco_60_cols_ht": 3.94,
+          "franco_200_avant_ht": 3.65,
+          "franco_120_avant_ht": 3.85,
+          "franco_60_avant_ht": 4.3,
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Château La Prade",
+          "appellation": "Pessac-Léognan AOC",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "format": "75cl",
+          "mecanique": "11+1",
+          "prix_depart_remise_ht": 10.54,
+          "prix_depart_avant_ht": 11.5,
+          "franco_200_cols_ht": 12.7,
+          "franco_120_cols_ht": 13.38,
+          "franco_60_cols_ht": 14.85,
+          "franco_200_avant_ht": 13.85,
+          "franco_120_avant_ht": 14.6,
+          "franco_60_avant_ht": 16.2,
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Château Fontaneau",
+          "appellation": "Médoc AOP",
+          "millesime": "2021",
+          "couleur": "RGE",
+          "format": "75cl",
+          "mecanique": "11+1",
+          "prix_depart_remise_ht": 4.68,
+          "prix_depart_avant_ht": 5.1,
+          "franco_200_cols_ht": 5.73,
+          "franco_120_cols_ht": 6.05,
+          "franco_60_cols_ht": 6.74,
+          "franco_200_avant_ht": 6.25,
+          "franco_120_avant_ht": 6.6,
+          "franco_60_avant_ht": 7.35,
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Château Le Virou « Le Carillon »",
+          "appellation": "Blaye Côtes de Bordeaux AOP",
+          "couleur": "RGE",
+          "format": "75cl",
+          "mecanique": "5+1",
+          "prix_depart_remise_ht": 4.92,
+          "prix_depart_avant_ht": 5.9,
+          "franco_200_cols_ht": 6.0,
+          "franco_120_cols_ht": 6.33,
+          "franco_60_cols_ht": 7.04,
+          "franco_200_avant_ht": 7.2,
+          "franco_120_avant_ht": 7.6,
+          "franco_60_avant_ht": 8.45,
+          "au_tarif_vinom": true,
+          "note_tarif": "Référencé au tarif VINOM en millésime 2021 (art. 13201421)"
+        },
+        {
+          "nom": "Lamotte Robin",
+          "appellation": "Graves AOP",
+          "couleur": "RGE",
+          "format": "75cl",
+          "mecanique": "5+1",
+          "prix_depart_remise_ht": 4.5,
+          "prix_depart_avant_ht": 5.4,
+          "franco_200_cols_ht": 5.5,
+          "franco_120_cols_ht": 5.79,
+          "franco_60_cols_ht": 6.42,
+          "franco_200_avant_ht": 6.6,
+          "franco_120_avant_ht": 6.95,
+          "franco_60_avant_ht": 7.7,
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Cheval Quancard Réserve",
+          "appellation": "Bordeaux AOP",
+          "couleur": "RGE",
+          "format": "75cl",
+          "mecanique": "5+1",
+          "prix_depart_remise_ht": 3.75,
+          "prix_depart_avant_ht": 4.5,
+          "franco_200_cols_ht": 4.63,
+          "franco_120_cols_ht": 4.88,
+          "franco_60_cols_ht": 5.42,
+          "franco_200_avant_ht": 5.55,
+          "franco_120_avant_ht": 5.85,
+          "franco_60_avant_ht": 6.5,
+          "au_tarif_vinom": true,
+          "note_tarif": "Cuvée Réserve référencée au tarif VINOM en 2022 et 2023"
+        },
+        {
+          "nom": "Fortin Plaisance",
+          "appellation": "Saint-Émilion AOP",
+          "couleur": "RGE",
+          "format": "75cl",
+          "mecanique": "5+1",
+          "prix_depart_remise_ht": 7.08,
+          "prix_depart_avant_ht": 8.5,
+          "franco_200_cols_ht": 8.58,
+          "franco_120_cols_ht": 9.04,
+          "franco_60_cols_ht": 10.04,
+          "franco_200_avant_ht": 10.3,
+          "franco_120_avant_ht": 10.85,
+          "franco_60_avant_ht": 12.05,
+          "au_tarif_vinom": true,
+          "note_tarif": "Référencé au tarif VINOM en 2022 et 2023"
+        },
+        {
+          "nom": "Terre d'Epona",
+          "appellation": "IGP Côtes de Gascogne",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "format": "75cl",
+          "mecanique": "5+1",
+          "prix_depart_remise_ht": 2.92,
+          "prix_depart_avant_ht": 3.5,
+          "franco_200_cols_ht": 3.63,
+          "franco_120_cols_ht": 3.83,
+          "franco_60_cols_ht": 4.25,
+          "franco_200_avant_ht": 4.35,
+          "franco_120_avant_ht": 4.6,
+          "franco_60_avant_ht": 5.1,
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Fils de Marcel Sec",
+          "appellation": "IGP Atlantique",
+          "couleur": "BLC",
+          "format": "75cl",
+          "mecanique": "11+1",
+          "prix_depart_remise_ht": 2.66,
+          "prix_depart_avant_ht": 2.9,
+          "franco_200_cols_ht": 3.35,
+          "franco_120_cols_ht": 3.53,
+          "franco_60_cols_ht": 3.94,
+          "franco_200_avant_ht": 3.65,
+          "franco_120_avant_ht": 3.85,
+          "franco_60_avant_ht": 4.3,
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1 / 11+1",
+        "description": "Mécanique variable selon la cuvée. Panachable sur l'ensemble des gammes, par carton de 6.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Deux grilles tarifaires : DÉPART (transport facturé selon la quantité totale commandée) et FRANCO (dégressif par palier 60 / 120 / 200 cols)."
+      },
+      "validite": {
+        "debut": "2026-08-01",
+        "fin": "2026-09-30"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Tarif départ : transport facturé selon la quantité totale. Tarif franco : paliers 60 / 120 / 200 cols."
+      },
+      "notes_commerciales": "Toujours annoncer la base de facturation avant devis : l'écart départ/franco est important (Fortin Plaisance 7,08 € départ contre 8,58 € franco 200 cols).",
+      "alertes": [
+        "Deux grilles distinctes : DÉPART et FRANCO",
+        "Mécanique variable selon la cuvée (5+1 ou 11+1)",
+        "Millésimes de l'offre à recouper avec ceux au tarif VINOM (La Prade 2019 et Fontaneau 2021 non référencés)"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/Promo_Les_Vendanges_commencent_tarif_depart.pdf + _tarif_franco.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-08-07T12:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "lafage-muscat-de-noel-2026",
+      "type": "nouveaute",
+      "titre": "Domaine Lafage — Muscat « Blanc comme Neige » 2026",
+      "tagline": "Nouveau millésime · Promo 11+1",
+      "fournisseur": {
+        "nom": "Domaine Lafage",
+        "code_vinistoria": "401L16",
+        "numero_fournisseur": 277,
+        "region": "Occitanie",
+        "meta": "Perpignan (66) · Roussillon"
+      },
+      "cuvees": [
+        {
+          "nom": "Muscat Blanc comme Neige",
+          "appellation": "AOP Muscat de Noël",
+          "millesime": "2026",
+          "couleur": "BLC",
+          "format": "75cl",
+          "cepages": "Muscat à petits grains, Muscat d'Alexandrie",
+          "franco_42_cols_ht": 8.15,
+          "franco_90_cols_ht": 7.15,
+          "franco_120_cols_ht": 6.85,
+          "prix_depart_ht": 6.0,
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "Promotion 11+1 sur le millésime 2026.",
+        "panachable": false,
+        "cumulable": false
+      },
+      "validite": {
+        "debut": null,
+        "fin": "2026-10-16",
+        "note": "Date de début non précisée sur la fiche fournisseur — seule l'échéance du 16/10/2026 est indiquée."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Franco dégressif 42 / 90 / 120 cols, ou tarif départ à 6,00 € HT."
+      },
+      "notes_commerciales": "Commande d'anticipation : la vente au consommateur n'est autorisée qu'à compter du 19 novembre 2026, le stock dort donc environ un mois chez le client.",
+      "alertes": [
+        "Vente au consommateur autorisée à compter du 19 novembre 2026",
+        "Date de début de l'offre non précisée",
+        "Non au tarif VINOM"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/Fiche_promo_FR_grille_tarifaire_MDN_2026.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-08-07T12:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "lafage-offre-rentree-2026",
+      "type": "promotion",
+      "titre": "Domaine Lafage — Offre de Rentrée 10+2",
+      "tagline": "Narassa · Centenaire · Nicolas",
+      "fournisseur": {
+        "nom": "Domaine Lafage",
+        "code_vinistoria": "401L16",
+        "numero_fournisseur": 277,
+        "region": "Occitanie",
+        "meta": "Perpignan (66) · Roussillon"
+      },
+      "cuvees": [
+        {
+          "nom": "Narassa",
+          "appellation": "Côtes Catalanes IGP",
+          "couleur": "RGE",
+          "format": "75cl · magnum · 3L",
+          "au_tarif_vinom": true,
+          "note_tarif": "Référencée au tarif VINOM en 2023 (art. 27701323)"
+        },
+        {
+          "nom": "Centenaire",
+          "appellation": "Côtes du Roussillon AOP",
+          "couleur": "BLC",
+          "format": "75cl",
+          "au_tarif_vinom": false
+        },
+        {
+          "nom": "Nicolas",
+          "appellation": "Côtes Catalanes IGP",
+          "couleur": "RGE",
+          "format": "75cl · magnum · 3L",
+          "au_tarif_vinom": false
+        }
+      ],
+      "mecanique": {
+        "condition": "10+2",
+        "description": "10 bouteilles achetées = 2 offertes, formats 75cl, magnum et 3L inclus pour Narassa et Nicolas.",
+        "panachable": false,
+        "cumulable": false
+      },
+      "validite": {
+        "debut": "2026-08-17",
+        "fin": "2026-10-16"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null
+      },
+      "notes_commerciales": "Offre portée sur le haut de gamme Lafage. Les grands formats sont inclus dans la mécanique — argument fort pour les cartes gastro et les vitrines de fin d'année.",
+      "alertes": [
+        "Aucun prix communiqué sur la fiche — demander le tarif à Lafage avant devis",
+        "Centenaire et Nicolas non au tarif VINOM"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/OFFRE_RENTREE_LAFAGE.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-08-07T12:00:00Z",
+        "status": "manual"
+      }
+    }
+  ],
+  "sponsors": [
+    {
+      "id": "louis-latour-2026-q4",
+      "fournisseur": "Maison Louis Latour",
+      "numero_fournisseur": 250,
+      "code_vinistoria": "401L04",
+      "region": "Bourgogne",
+      "contrat": {
+        "mois": [
+          "2026-10",
+          "2026-11",
+          "2026-12"
+        ],
+        "statut": "validé",
+        "valide_par": "Nicolas Angelone (nangelone@louislatour.com)",
+        "date_validation": "2026-07-02",
+        "contact_visuels": "Anne Charpin (acharpin@louislatour.com)"
+      },
+      "creatifs": {
+        "bandeau": {
+          "fichier": "louis-latour-bandeau-1200x120.png",
+          "dimensions": "1200x120 px",
+          "url_destination": "https://www.louislatour.com"
+        },
+        "page_a4": {
+          "fichier": "louis-latour-page-sponsor-2026.pdf",
+          "source": "Vinom_210x297_Aloxe_accord.pdf",
+          "format": "A4 210x297 mm"
+        }
+      },
+      "affichage": {
+        "emplacement": "haut de page, au-dessus de l'agenda",
+        "actions": [
+          "lien bandeau",
+          "filtre agenda Louis Latour",
+          "ouverture page A4"
+        ]
+      },
+      "note": "Encart mis en ligne dès le 07/08/2026 pour validation par le fournisseur, avant la période contractuelle d'octobre à décembre."
     }
   ]
 }
