@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "2.1",
-    "generated_at": "2026-08-07T12:00:00Z",
-    "promos_count": 33,
+    "version": "2.2",
+    "generated_at": "2026-08-24T12:00:00Z",
+    "promos_count": 36,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v2.1 (07/08/2026) : + Cheval Quancard (Cabane du Pyla magnum offert, août ; Les Vendanges commencent 5+1/11+1 août-septembre avec les deux grilles départ et franco) ; + Domaine Lafage (Muscat de Noël Blanc comme Neige 2026 en 11+1 jusqu'au 16/10 ; Offre de Rentrée 10+2 du 17/08 au 16/10). Deux nouvelles lignes fournisseur dans l'agenda : Cheval Quancard (Bordeaux) et Domaine Lafage (Occitanie). Ajout de l'encart Espace partenaire Louis Latour (bandeau 1200x120 + page A4 + filtre agenda), contrat octobre-décembre 2026, mis en ligne par anticipation pour validation. Aucune promo échue au 07/08 : pas de purge. Grille inchangée : Août / Septembre / Octobre 2026. En attente : Raffinvini Giardino (sans offre chiffrée), Forever Love 0,0 % Léoube (sans prix), catalogue Coffrets Cheval Quancard (PDF non fourni), date de début de l'offre Muscat de Noël Lafage."
+    "maj_note": "v2.2 (24/08/2026) : grille décalée en Septembre/Octobre/Novembre ; purge de 4 promos échues au 31/08 ; +7 promos issues du lot de 32 PDF (Gosset 13 offres regroupées, Domaines Xavier Mourier, Léoube Love vendanges, Léoube Secret & Collector, Laurent Miquel Les Côtes 21+3, Laurent Miquel Solas & Cazal Viel 11+1, Les Caves du Roussillon). Agenda désormais régénéré automatiquement depuis promos.json (placement par chevauchement de validité)."
   },
   "promos": [
     {
@@ -1589,56 +1589,6 @@
       }
     },
     {
-      "id": "pardela-prosecco-caldelconsole-2026",
-      "type": "promotion",
-      "titre": "Pardela Wines — Offre Flash Prosecco Cal del Console Rosé (5+1)",
-      "tagline": "5+1 · tarif professionnel · 20/07 → 31/08/2026",
-      "fournisseur": {
-        "nom": "Pardela Wines",
-        "code_vinistoria": "240 · 401P12",
-        "region": "Italie",
-        "meta": "Importateur · Vins du monde"
-      },
-      "cuvees": [
-        {
-          "nom": "Prosecco Cal del Console Rosé",
-          "appellation": "Prosecco",
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "Effervescent",
-          "mecanique": "5+1"
-        }
-      ],
-      "mecanique": {
-        "condition": "5+1",
-        "description": "5 bouteilles achetées = 1 offerte.",
-        "panachable": false,
-        "cumulable": false,
-        "notes_conditions": "Sur le tarif professionnel. Dans la limite des stocks."
-      },
-      "validite": {
-        "debut": "2026-07-20",
-        "fin": "2026-08-31",
-        "note": "Offre flash."
-      },
-      "target": "tarif_professionnel",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": false,
-        "note": "Sur le tarif professionnel Pardela Wines."
-      },
-      "notes_commerciales": "Offre flash estivale sur un Prosecco rosé pétillant. Complément du Catalogue Été / Rentrée Pardela Wines.",
-      "alertes": [
-        "Valable 20/07 → 31/08/2026 sur le tarif professionnel"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-07/OFFRE-FLASH-5_1-Prosecco-Cal-de-Console.png",
-        "parsing_method": "manual",
-        "parsing_date": "2026-07-17T16:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
       "id": "faiveley-vins-au-verre-2026",
       "type": "promotion",
       "titre": "Domaine Faiveley — Offre Vins au Verre (22+2)",
@@ -1732,63 +1682,6 @@
         "fichier": "Promotions/2026-07/Offre_vins_au_verre_2026.pdf",
         "parsing_method": "manual",
         "parsing_date": "2026-07-17T16:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "aspras-trois-freres-grossistes-2026",
-      "type": "promotion",
-      "titre": "Domaine des Aspras — Offre spéciale Grossistes (Les Trois Frères)",
-      "tagline": "300 btl → 11+1 · 600 btl → 5+1 rosé · jusqu'au 10 août",
-      "audience": "grossistes",
-      "fournisseur": {
-        "nom": "Domaine des Aspras",
-        "code_vinistoria": "613",
-        "region": "Provence-Corse",
-        "meta": "Correns (83) · 1er village Bio de France"
-      },
-      "cuvees": [
-        {
-          "nom": "Les Trois Frères",
-          "appellation": "Provence",
-          "couleur": "Multi",
-          "mecanique": "11+1 (dès 300 btl panachées)",
-          "bio": true
-        },
-        {
-          "nom": "Les Trois Frères Rosé",
-          "appellation": "Provence",
-          "couleur": "Rosé",
-          "mecanique": "5+1 (dès 600 btl panachées)",
-          "bio": true
-        }
-      ],
-      "mecanique": {
-        "condition": "11+1 / 5+1",
-        "description": "Deux paliers panachés : 300 btl → 11+1 · 600 btl → 5+1 rosé.",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Réservée aux grossistes."
-      },
-      "validite": {
-        "debut": "2026-07-22",
-        "fin": "2026-08-10"
-      },
-      "target": "grossistes",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": null,
-        "note": "Contact Enguerrand Viaud (Directeur Commercial)."
-      },
-      "notes_commerciales": "Offre de constitution de stock saison, domaine Bio (Correns).",
-      "alertes": [
-        "Réservée aux grossistes",
-        "Paliers élevés : 300 btl (11+1) / 600 btl (5+1 rosé), panachés"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-07/TR_Offre_speciale_Grossistes_Gamme_Les_Trois_Freres.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-07-22T16:00:00Z",
         "status": "auto-parsed"
       }
     },
@@ -2517,93 +2410,6 @@
       }
     },
     {
-      "id": "vinovalie-trad-aout-2026",
-      "type": "promotion",
-      "titre": "Vinovalie — Tradition Août",
-      "tagline": "Planning Promo Tradition 2026",
-      "fournisseur": {
-        "nom": "Vinovalie",
-        "code_vinistoria": null,
-        "region": "Occitanie",
-        "meta": "Sud-Ouest · Cave coopérative (Gaillac, Fronton, Cahors)"
-      },
-      "cuvees": [],
-      "mecanique": {
-        "condition": "11+1",
-        "description": "11+1 : Le P'tit (rouge, rosé, blanc sec, moelleux) + Allegoria Blanc.",
-        "panachable": true,
-        "cumulable": false
-      },
-      "validite": {
-        "debut": "2026-08-01",
-        "fin": "2026-08-31"
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true
-      },
-      "notes_commerciales": "Volet août du planning annuel Vinovalie.",
-      "alertes": [],
-      "source": {
-        "fichier": "Planning_promo_trad_2026.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-07-31T12:00:00Z",
-        "status": "manual"
-      }
-    },
-    {
-      "id": "cheval-quancard-cabane-pyla-aout-2026",
-      "type": "promotion",
-      "titre": "Cheval Quancard — Cabane du Pyla, 1 magnum offert",
-      "tagline": "Offre promotionnelle estivale",
-      "fournisseur": {
-        "nom": "Cheval Quancard",
-        "code_vinistoria": "401C01",
-        "numero_fournisseur": 132,
-        "region": "Bordeaux",
-        "meta": "Carbon Blanc (33) · Négociant depuis 1844"
-      },
-      "cuvees": [
-        {
-          "nom": "Cabane du Pyla Rosé (magnum offert)",
-          "appellation": "IGP Atlantique",
-          "millesime": "2024",
-          "format": "150cl",
-          "couleur": "ROS",
-          "au_tarif_vinom": false
-        }
-      ],
-      "mecanique": {
-        "condition": "10 cartons → 1 magnum",
-        "description": "Par tranche de 10 cartons de 6 bouteilles Cabane du Pyla achetés, 1 magnum Cabane du Pyla Rosé 2024 offert.",
-        "panachable": false,
-        "cumulable": false,
-        "notes_conditions": "Carton de 6 bouteilles 75cl. Tranche de 10 cartons = 60 bouteilles."
-      },
-      "validite": {
-        "debut": "2026-08-01",
-        "fin": "2026-08-31"
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": false
-      },
-      "notes_commerciales": "Le magnum offert est un outil de mise en avant plus qu'une remise. Palier élevé (60 btl) : réservé aux clients qui tournent déjà sur la gamme.",
-      "alertes": [
-        "Fenêtre courte : août uniquement",
-        "Le magnum offert est un Rosé 2024 quelle que soit la couleur commandée",
-        "Cabane du Pyla non au tarif VINOM"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-08/Offre_speciale_CABANE_ROSE.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-08-07T12:00:00Z",
-        "status": "manual"
-      }
-    },
-    {
       "id": "cheval-quancard-vendanges-2026",
       "type": "promotion",
       "titre": "Cheval Quancard — Les Vendanges commencent",
@@ -2931,6 +2737,586 @@
         "parsing_method": "manual",
         "parsing_date": "2026-08-07T12:00:00Z",
         "status": "manual"
+      }
+    },
+    {
+      "id": "gosset-fin-annee-2026",
+      "type": "promotion",
+      "titre": "Champagne Gosset — Opérations promotionnelles 2026",
+      "tagline": "13 offres codées · valables jusqu'au 31/12/2026",
+      "fournisseur": {
+        "nom": "Champagne Gosset",
+        "code_vinistoria": "252 · 401G15",
+        "region": "Champagne",
+        "meta": "Aÿ 1584 · Épernay · Maison familiale et indépendante"
+      },
+      "cuvees": [
+        {
+          "nom": "Grande Réserve 75cl",
+          "couleur": "EFF",
+          "prix_ht": 28.95
+        },
+        {
+          "nom": "Grande Réserve 75cl étui",
+          "couleur": "EFF",
+          "prix_ht": 30.45
+        },
+        {
+          "nom": "Grand Rosé 75cl",
+          "couleur": "EFF",
+          "prix_ht": 39.98
+        },
+        {
+          "nom": "Grand Rosé 75cl étui",
+          "couleur": "EFF",
+          "prix_ht": 41.48
+        },
+        {
+          "nom": "Grand Blanc de Blancs 75cl étui",
+          "couleur": "EFF",
+          "prix_ht": 44.69
+        },
+        {
+          "nom": "Extra Brut 75cl étui",
+          "couleur": "EFF",
+          "prix_ht": 28.8
+        },
+        {
+          "nom": "Grande Réserve Coffret Luxe 1 bt",
+          "couleur": "EFF",
+          "prix_ht": 33.95
+        },
+        {
+          "nom": "Grande Réserve Coffret Luxe 1 bt + 2 verres + 1 bouchon",
+          "couleur": "EFF",
+          "prix_ht": 40.7
+        },
+        {
+          "nom": "Grande Réserve Coffret Luxe 3 bt",
+          "couleur": "EFF",
+          "prix_ht": 36.95
+        }
+      ],
+      "mecanique": {
+        "condition": "13 offres codées",
+        "description": "Offres à codes, prix unitaire/bouteille 75cl HT.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Cartons de 6. Facturation et livraison France hexagonale uniquement. Franco de port (sauf offres 2611/2612/2616 : mention absente du visuel)."
+      },
+      "validite": {
+        "debut": "2026-08-24",
+        "fin": "2026-12-31"
+      },
+      "target": "chr_caviste_societes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "France hexagonale uniquement. Cartons de 6."
+      },
+      "notes_commerciales": "Contacts : Romain Chambon / Nathan Mollo (Iconic Nectars), Sandrine Le Gac (Gosset).",
+      "alertes": [
+        "Coffrets Luxe : les coffrets achetés et offerts doivent être identiques",
+        "France hexagonale uniquement"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/promos/2026-12/tr-champagne-gosset-operations-promotionnelles-valables-jusqu-au-31-12.pdf",
+      "source": {
+        "fichier": "Promotions/2026-08/Gosset (14 fichiers)",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-24T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "mourier-saint-joseph-2026",
+      "type": "promotion",
+      "titre": "Domaines Xavier Mourier — Saint-Joseph 70 ans (5+1 / 11+1)",
+      "tagline": "5+1 dès 120 btl · 11+1 dès 36 btl · non panachable · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Domaines Xavier Mourier",
+        "code_vinistoria": "544",
+        "region": "Rhône",
+        "meta": "Chavanay (42) · Domaine de Pierre Blanche · HVE"
+      },
+      "cuvees": [
+        {
+          "nom": "Saint-Joseph blanc « Les 85 Rangs »",
+          "appellation": "Saint-Joseph",
+          "couleur": "BLC",
+          "cepages": "Marsanne, Roussanne"
+        },
+        {
+          "nom": "Saint-Joseph rouge « Les 85 Rangs »",
+          "appellation": "Saint-Joseph",
+          "couleur": "RGE",
+          "cepages": "Syrah"
+        },
+        {
+          "nom": "Saint-Joseph rouge « Les Caboles »",
+          "appellation": "Saint-Joseph",
+          "couleur": "RGE",
+          "cepages": "Syrah"
+        },
+        {
+          "nom": "Saint-Joseph rouge « Cep d'Or »",
+          "appellation": "Saint-Joseph",
+          "couleur": "RGE",
+          "cepages": "Syrah"
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1 / 11+1",
+        "description": "5+1 gratuite dès 120 btl par référence · 11+1 gratuite dès 36 btl par référence.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "NON panachable entre cuvées. Minimum d'expédition 36 btl (panachable sur l'ensemble de la gamme). Quantité limitée."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31",
+        "note": "Pour toute commande reçue entre le 1/09/26 et le 31/10/26."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Minimum expédition 36 btl panachable sur tous les vins."
+      },
+      "notes_commerciales": "Opération « 70 ans AOP Saint-Joseph ». 4 cuvées concernées.",
+      "alertes": [
+        "Offre NON panachable entre cuvées : les paliers s'apprécient par référence",
+        "Quantité limitée"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/Mourier (5 fichiers)",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-24T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "leoube-love-vendanges-2026",
+      "type": "promotion",
+      "titre": "Château Léoube — Préparez la rentrée (Love by Léoube)",
+      "tagline": "48→6 · 60→12 · 120→36 offertes · 15/08 → 15/09",
+      "fournisseur": {
+        "nom": "Château Léoube",
+        "code_vinistoria": "119 · 401L11",
+        "region": "Provence-Corse",
+        "meta": "Bormes-les-Mimosas · Côtes de Provence · Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Love by Léoube (toutes couleurs)",
+          "appellation": "Côtes de Provence",
+          "couleur": "Multi",
+          "bio": true
+        }
+      ],
+      "mecanique": {
+        "condition": "48→6 / 60→12 / 120→36",
+        "description": "Bouteilles offertes selon le volume de Love by Léoube commandé.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Commande toutes couleurs confondues ; gratuités servies en Love by Léoube Rosé."
+      },
+      "validite": {
+        "debut": "2026-08-15",
+        "fin": "2026-09-15"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Transport inclus dès 48 btl ou 350 € HT, sinon +30 € HT forfait. France métropolitaine."
+      },
+      "notes_commerciales": "Paliers nettement plus généreux que l'offre d'été (jusqu'à 36 offertes pour 120 cols).",
+      "alertes": [
+        "Gratuités servies en Love by Léoube Rosé uniquement",
+        "Transport : inclus dès 48 btl / 350 € HT"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/LOVE - OFFRE VENDANGES.jpg",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-24T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "leoube-secret-collector-vendanges-2026",
+      "type": "promotion",
+      "titre": "Château Léoube — Préparez la rentrée (Secret & Collector)",
+      "tagline": "Gratuités sur les gammes Secret et Collector · 15/08 → 15/09",
+      "fournisseur": {
+        "nom": "Château Léoube",
+        "code_vinistoria": "119 · 401L11",
+        "region": "Provence-Corse",
+        "meta": "Bormes-les-Mimosas · Côtes de Provence · Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Secret de Léoube (gamme)",
+          "appellation": "Côtes de Provence",
+          "couleur": "Multi",
+          "bio": true
+        },
+        {
+          "nom": "Collector de Léoube (gamme)",
+          "appellation": "Côtes de Provence",
+          "couleur": "Multi",
+          "bio": true
+        }
+      ],
+      "mecanique": {
+        "condition": "Gratuités par gamme",
+        "description": "Commande gamme Secret → gratuités en Secret de Léoube Blanc. Commande gamme Collector → gratuités en Collector de Léoube Blanc.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "⚠️ Paliers chiffrés non lisibles sur le visuel fourni — à confirmer auprès de Léoube."
+      },
+      "validite": {
+        "debut": "2026-08-15",
+        "fin": "2026-09-15"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Transport inclus dès 48 btl ou 350 € HT, sinon +30 € HT forfait."
+      },
+      "notes_commerciales": "Volet haut de gamme de l'opération vendanges Léoube.",
+      "alertes": [
+        "⚠️ Paliers chiffrés à confirmer auprès du fournisseur (illisibles sur le visuel)"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/SECRET - OFFRE VENDANGES.jpg",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-24T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "miquel-les-cotes-2026",
+      "type": "promotion",
+      "titre": "Laurent Miquel — Gamme « Les Côtes » (21+3)",
+      "tagline": "21+3 · max 600 btl panachées · commandes 31/08 → 30/10",
+      "fournisseur": {
+        "nom": "Laurent Miquel",
+        "code_vinistoria": "549",
+        "region": "Occitanie",
+        "meta": "Cessenon-sur-Orb (34) · Languedoc"
+      },
+      "cuvees": [
+        {
+          "nom": "Côte 128 Viognier 2024",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Côte 228 Chardonnay 2023",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Côte 238 Albarino 2024",
+          "appellation": "IGP Aude",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Côte 136 Syrah-Grenache 2023",
+          "appellation": "AOP Saint-Chinian",
+          "couleur": "RGE"
+        }
+      ],
+      "mecanique": {
+        "condition": "21+3",
+        "description": "21 achetées + 3 offertes, panachables sur la gamme Les Côtes.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Offre limitée à 600 bouteilles panachées. Livraison au plus tard le 06/11/2026."
+      },
+      "validite": {
+        "debut": "2026-08-31",
+        "fin": "2026-10-30",
+        "note": "Commandes du 31/08 au 30/10 ; livraison au plus tard le 06/11/2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Livraison au plus tard le 06/11/2026."
+      },
+      "notes_commerciales": "Gamme cépages : Viognier, Chardonnay, Albarino, Syrah-Grenache.",
+      "alertes": [
+        "Limitée à 600 bouteilles panachées",
+        "Livraison au plus tard le 06/11/2026"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/PROMOTIONS-BLANC-ROUGE-LES-COTES...pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-24T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "miquel-solas-cazalviel-2026",
+      "type": "promotion",
+      "titre": "Laurent Miquel — Solas & Cazal Viel (11+1)",
+      "tagline": "11+1 · max 1200 btl panachées · commandes 31/08 → 30/10",
+      "fournisseur": {
+        "nom": "Laurent Miquel",
+        "code_vinistoria": "549",
+        "region": "Occitanie",
+        "meta": "Cessenon-sur-Orb (34) · Languedoc"
+      },
+      "cuvees": [
+        {
+          "nom": "Solas Père et Fils Chardonnay 2025",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Solas Sauvignon 2025",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Nord Sud Viognier 2024/2025",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Grand Terroir La Gauphine",
+          "appellation": "AOP Languedoc",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Château Cazal Viel Vieilles Vignes Syrah-Grenache",
+          "appellation": "AOP Saint-Chinian",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Solas Père et Fils Rosé 2025",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "ROS"
+        },
+        {
+          "nom": "Saint-Blaise Rosé 2025 (Bio)",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "ROS",
+          "bio": true
+        },
+        {
+          "nom": "Château Cazal Viel Clos du Vent Rosé 2025",
+          "appellation": "AOP Saint-Chinian",
+          "couleur": "ROS"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11 achetées + 1 offerte, panachables sur la sélection.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Offre limitée à 1200 bouteilles panachées. Livraison au plus tard le 06/11/2026."
+      },
+      "validite": {
+        "debut": "2026-08-31",
+        "fin": "2026-10-30",
+        "note": "Commandes du 31/08 au 30/10 ; livraison au plus tard le 06/11/2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Livraison au plus tard le 06/11/2026."
+      },
+      "notes_commerciales": "Sélection large blanc / rouge / rosé, dont un rosé Bio (Saint-Blaise).",
+      "alertes": [
+        "Limitée à 1200 bouteilles panachées",
+        "Livraison au plus tard le 06/11/2026"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/PROMOTIONS-BLANC-ROUGE-ROSE...pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-24T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "caves-roussillon-essentiels-rentree-2026",
+      "type": "promotion",
+      "titre": "Les Caves du Roussillon — Les Essentiels de la rentrée",
+      "tagline": "Vider les cuves avant récolte · jusqu'au 18 septembre · mécaniques variées",
+      "fournisseur": {
+        "nom": "Les Caves du Roussillon",
+        "code_vinistoria": null,
+        "region": "Occitanie",
+        "meta": "Groupement de domaines partenaires · Roussillon"
+      },
+      "cuvees": [
+        {
+          "nom": "Laure de Nyls Marinade Blanc (macabeu)",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "BLC",
+          "prix_ht": 1.9
+        },
+        {
+          "nom": "Laure de Nyls Marinade Rouge (grenache noir)",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "RGE",
+          "prix_ht": 1.9
+        },
+        {
+          "nom": "Laure de Nyls Marinade Rosé (grenache noir)",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "ROS",
+          "prix_ht": 1.9
+        },
+        {
+          "nom": "Canet Valette Antonyme 2024",
+          "appellation": "AOP Saint-Chinian",
+          "couleur": "RGE",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "La Colla Malvoisie",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "BLC",
+          "mecanique": "6+6"
+        },
+        {
+          "nom": "La Colla Cinsault",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "RGE",
+          "mecanique": "6+6"
+        },
+        {
+          "nom": "Adalta Garnatxa Blanca 2019",
+          "appellation": "DO Terra Alta",
+          "couleur": "BLC",
+          "mecanique": "3+3"
+        },
+        {
+          "nom": "Coume del Mas Banyuls Tradition NM",
+          "appellation": "AOP Banyuls",
+          "couleur": "RGE",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Domaine Semper Famae 2025",
+          "appellation": "AOP Côtes du Roussillon Villages Lesquerde",
+          "couleur": "RGE",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Domaine Semper Regain 2024",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "BLC",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Domaine Vaquer Cuvée Bernard 2024",
+          "appellation": "AOP Côtes du Roussillon",
+          "couleur": "RGE",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Domaine Vaquer Cuvée 30 ans 2020",
+          "appellation": "AOP Côtes du Roussillon Villages Les Aspres",
+          "couleur": "RGE",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Domaine Vaquer Epsilon 2021",
+          "appellation": "AOP Côtes du Roussillon Villages Les Aspres",
+          "couleur": "RGE",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "La Rectorie Montagne 2024",
+          "appellation": "AOP Collioure",
+          "couleur": "RGE",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Domaine Laguerre Le Ciste 2023",
+          "appellation": "AOP Côtes du Roussillon",
+          "couleur": "RGE",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Domaine de Majas Col de Segas 2022",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "RGE",
+          "mecanique": "9+3"
+        },
+        {
+          "nom": "Tramontane Rosado 2025 (Magnum)",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "ROS",
+          "mecanique": "9+3"
+        },
+        {
+          "nom": "Domaine Augustin Blanc de Noirs 2024",
+          "appellation": "IGP Côtes Vermeille",
+          "couleur": "BLC",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Mas Mudigliza Carminé 2022",
+          "appellation": "AOP Côtes du Roussillon Villages",
+          "couleur": "RGE",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Mas Mudigliza Coume des Loups 2025",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "BLC",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Terra Remota Ales Roses 2025",
+          "appellation": "DO Catalunya",
+          "couleur": "ROS",
+          "mecanique": "4+2"
+        },
+        {
+          "nom": "Domaine Lheritier Rivesaltes Grenat 2011",
+          "appellation": "AOP Rivesaltes Grenat",
+          "couleur": "RGE",
+          "mecanique": "5+1"
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1 · 11+1 · 9+3 · 6+6 · 4+2 · 3+3",
+        "description": "Mécaniques variables selon la cuvée. Permet de compléter une commande pour atteindre un palier plus avantageux (ex. passer de 12 à 33+3).",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Quantités minimales de commande disponibles sur demande. Dans la limite des stocks."
+      },
+      "validite": {
+        "debut": "2026-08-24",
+        "fin": "2026-09-18",
+        "note": "Disponibles dès à présent et jusqu'au 18 septembre 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "groupement",
+        "franco": null,
+        "note": "Contact : Sarah Reynal, Les Caves du Roussillon."
+      },
+      "notes_commerciales": "Objectif : aider les domaines partenaires à vider leurs cuves avant la nouvelle récolte. Utile pour compléter des commandes, répondre à une demande en vins à la verse, ou préparer les foires aux vins.",
+      "alertes": [
+        "Mécanique différente pour chaque cuvée — vérifier ligne par ligne",
+        "Quantités minimales sur demande",
+        "Jusqu'au 18 septembre seulement"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/promos/2026-09/les-essentiels-de-la-rentree-les-caves-du-roussillon.pdf",
+      "source": {
+        "fichier": "Promotions/2026-08/LES_ESSENTIELS_DE_LA_RENTREE-Les-Caves-du-Roussillon.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-24T12:00:00Z",
+        "status": "auto-parsed"
       }
     }
   ],
