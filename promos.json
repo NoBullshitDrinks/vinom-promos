@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "2.2",
-    "generated_at": "2026-08-24T12:00:00Z",
-    "promos_count": 36,
+    "version": "2.3",
+    "generated_at": "2026-08-26T12:00:00Z",
+    "promos_count": 48,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v2.2 (24/08/2026) : grille décalée en Septembre/Octobre/Novembre ; purge de 4 promos échues au 31/08 ; +7 promos issues du lot de 32 PDF (Gosset 13 offres regroupées, Domaines Xavier Mourier, Léoube Love vendanges, Léoube Secret & Collector, Laurent Miquel Les Côtes 21+3, Laurent Miquel Solas & Cazal Viel 11+1, Les Caves du Roussillon). Agenda désormais régénéré automatiquement depuis promos.json (placement par chevauchement de validité)."
+    "maj_note": "v2.3 (26/08/2026) : +12 promos issues du lot de 18 PDF — Domaine du Château de Meursault (15+3), Lombard Distribution x4 (CDR Culture Libre, Syrah Contre Culture, Éclat, Monicault), Domaine Lafage Vignes Noires 2024 (précommandes), Vini Be Good x2 (Athlètes du Vin, Sélection vignerons), Delas Frères x4 offres ENTREPRISE (ER13, ER24, ER57, ER58, échéance 15/09). Nouvelle région Loire. Brochure institutionnelle Lombard et tarif caviste écartés du catalogue (tarif joint en PDF sur les cartes Lombard)."
   },
   "promos": [
     {
@@ -3316,6 +3316,768 @@
         "fichier": "Promotions/2026-08/LES_ESSENTIELS_DE_LA_RENTREE-Les-Caves-du-Roussillon.pdf",
         "parsing_method": "parseur-promos",
         "parsing_date": "2026-08-24T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "chateau-meursault-automne-2026",
+      "type": "promotion",
+      "titre": "Domaine du Château de Meursault — Offre d'automne (15+3)",
+      "tagline": "15 achetées + 3 offertes sur un même vin · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Domaine du Château de Meursault",
+        "code_vinistoria": "244 · 401M20",
+        "region": "Bourgogne",
+        "meta": "Meursault (21) · 9 Grands Crus · 24 Premiers Crus · Agriculture biologique"
+      },
+      "cuvees": [
+        {
+          "nom": "Marsannay « Grandes Vignes » 2023",
+          "appellation": "Marsannay",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Savigny-lès-Beaune 2022 Hospital de Dijon",
+          "appellation": "Savigny-lès-Beaune",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Ladoix « Les Chaillots » 2022",
+          "appellation": "Ladoix",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Aloxe-Corton 2022 Hospital de Dijon",
+          "appellation": "Aloxe-Corton",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Bourgogne Chardonnay 2023 Château de Meursault",
+          "appellation": "Bourgogne",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Marsannay blanc 2023",
+          "appellation": "Marsannay",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Savigny-lès-Beaune blanc 2023",
+          "appellation": "Savigny-lès-Beaune",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Puligny-Montrachet 2023 Hospital de Dijon",
+          "appellation": "Puligny-Montrachet",
+          "couleur": "BLC"
+        }
+      ],
+      "mecanique": {
+        "condition": "15+3",
+        "description": "15 bouteilles achetées + 3 offertes, sur un même vin de la sélection.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Sur la base du tarif professionnel 2026. Non cumulable avec une autre offre ou remise. Dans la limite des stocks."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Contact : vlagrange@chateau-meursault.com · 03 80 26 22 75"
+      },
+      "notes_commerciales": "Domaines en agriculture biologique. 8 cuvées de la Côte de Nuits à la Côte de Beaune, dont 3 cuvées Hospital de Dijon.",
+      "alertes": [
+        "NON panachable : les 15+3 s'apprécient sur un même vin",
+        "Non cumulable avec une autre offre ou remise"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/Chateau-Meursault-OFFRE AUTOMNE 2026.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "lombard-cdr-culture-libre-2026",
+      "type": "promotion",
+      "titre": "Lombard — Côtes-du-Rhône « Culture Libre » (rentrée)",
+      "tagline": "4,90 € HT franco · 120+12 / 300+36 / 540+72 · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Lombard Distribution",
+        "code_vinistoria": "468 · 401L24",
+        "region": "Rhône",
+        "meta": "Livron-sur-Drôme (26) · Brézème · Vallée du Rhône · Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Côtes-du-Rhône « Culture Libre » rouge 2024",
+          "appellation": "Côtes-du-Rhône",
+          "couleur": "RGE",
+          "prix_ht": 4.9,
+          "cepages": "Grenache noir, Carignan, Mourvèdre"
+        },
+        {
+          "nom": "Côtes-du-Rhône « Culture Libre » blanc 2024",
+          "appellation": "Côtes-du-Rhône",
+          "couleur": "BLC",
+          "prix_ht": 4.9,
+          "cepages": "Grenache blanc, Clairette, Bourboulenc, Roussanne, Marsanne, Viognier"
+        }
+      ],
+      "mecanique": {
+        "condition": "120+12 / 300+36 / 540+72",
+        "description": "Paliers de gratuités sur les deux références, panachage rouge/blanc possible.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Réservée aux professionnels cavistes. Commande minimale 120 btl sur ces deux références."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31"
+      },
+      "target": "cavistes",
+      "audience": "cavistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct · Tarif Cavistes 2026 · Franco 72 btl ou 450 € HT (France métropolitaine) · remise quantitative non cumulable : 120-299 cols −2 % · +300 cols −4 % · palette 612 cols −6 %"
+      },
+      "notes_commerciales": "Entrée de gamme « Culture Libre », prix franco attractif à 4,90 € HT.",
+      "alertes": [
+        "Réservée aux cavistes",
+        "Minimum 120 bouteilles sur ces deux références"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/tarif-caviste-lombard-2026.pdf",
+      "source": {
+        "fichier": "Promotions/2026-08/OFFRE CDR LOMBARD RENTREE 2026.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "lombard-syrah-contre-culture-2026",
+      "type": "promotion",
+      "titre": "Lombard — IGP Drôme Syrah « Contre Culture » (rentrée)",
+      "tagline": "6,00 € HT franco · 120+12 / 300+36 / 540+72 · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Lombard Distribution",
+        "code_vinistoria": "468 · 401L24",
+        "region": "Rhône",
+        "meta": "Livron-sur-Drôme (26) · Brézème · Vallée du Rhône · Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "IGP Drôme Syrah « Contre Culture » 2024",
+          "appellation": "IGP Drôme",
+          "couleur": "RGE",
+          "prix_ht": 6.0,
+          "cepages": "Syrah"
+        }
+      ],
+      "mecanique": {
+        "condition": "120+12 / 300+36 / 540+72",
+        "description": "Paliers de gratuités sur la Syrah Contre Culture.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Réservée aux professionnels cavistes. Commande minimale 120 bouteilles."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31"
+      },
+      "target": "cavistes",
+      "audience": "cavistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct · Tarif Cavistes 2026 · Franco 72 btl ou 450 € HT (France métropolitaine) · remise quantitative non cumulable : 120-299 cols −2 % · +300 cols −4 % · palette 612 cols −6 %"
+      },
+      "notes_commerciales": "Syrah du Nord de la vallée du Rhône, élevage 12 mois cuve béton.",
+      "alertes": [
+        "Réservée aux cavistes",
+        "Minimum 120 bouteilles"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/tarif-caviste-lombard-2026.pdf",
+      "source": {
+        "fichier": "Promotions/2026-08/OFFRE SYRAH RENTREE 2026 LOMBARD.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "lombard-eclat-2026",
+      "type": "promotion",
+      "titre": "Lombard — VDF « Éclat » 2025 (faible degré)",
+      "tagline": "5,50 € HT franco · 60+6 ou 120+12 + 1 magnum offert · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Lombard Distribution",
+        "code_vinistoria": "468 · 401L24",
+        "region": "Rhône",
+        "meta": "Livron-sur-Drôme (26) · Brézème · Vallée du Rhône · Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Vin de France « Éclat » 2025",
+          "appellation": "Vin de France",
+          "couleur": "BLC",
+          "prix_ht": 5.5,
+          "cepages": "Clairette et touche de muscat",
+          "degre": "10,5 % vol."
+        }
+      ],
+      "mecanique": {
+        "condition": "60+6 / 120+12 +1 MAG",
+        "description": "60 btl + 6 offertes, ou 120 btl + 12 offertes + 1 magnum offert.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Réservée aux professionnels cavistes."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31"
+      },
+      "target": "cavistes",
+      "audience": "cavistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct · Tarif Cavistes 2026 · Franco 72 btl ou 450 € HT (France métropolitaine) · remise quantitative non cumulable : 120-299 cols −2 % · +300 cols −4 % · palette 612 cols −6 %"
+      },
+      "notes_commerciales": "Cuvée à faible degré (10,5 %) obtenue naturellement — répond à la demande « moins d'alcool ».",
+      "alertes": [
+        "Réservée aux cavistes",
+        "Le magnum offert n'est acquis qu'au palier 120 btl"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/tarif-caviste-lombard-2026.pdf",
+      "source": {
+        "fichier": "Promotions/2026-08/OFFRE Éclat LOMBARD RENTRÉE 2026.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "lombard-monicault-2026",
+      "type": "promotion",
+      "titre": "Lombard — Brézème « Monicault » (Spécial Foire aux Vins)",
+      "tagline": "11+1 dès 120 btl · rouge 9,45 € / blanc 10,00 € HT · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Lombard Distribution",
+        "code_vinistoria": "468 · 401L24",
+        "region": "Rhône",
+        "meta": "Livron-sur-Drôme (26) · Brézème · Vallée du Rhône · Bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Côtes-du-Rhône Brézème « Monicault » rouge 2024",
+          "appellation": "Côtes-du-Rhône Brézème",
+          "couleur": "RGE",
+          "prix_ht": 9.45,
+          "cepages": "Syrah"
+        },
+        {
+          "nom": "Côtes-du-Rhône Brézème « Monicault » blanc 2024",
+          "appellation": "Côtes-du-Rhône Brézème",
+          "couleur": "BLC",
+          "prix_ht": 10.0,
+          "cepages": "Marsanne"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11+1 à partir de 120 bouteilles, panachage rouge/blanc possible.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Réservée aux professionnels cavistes. Commande minimale 120 btl sur ces deux références."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31"
+      },
+      "target": "cavistes",
+      "audience": "cavistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct · Tarif Cavistes 2026 · Franco 72 btl ou 450 € HT (France métropolitaine) · remise quantitative non cumulable : 120-299 cols −2 % · +300 cols −4 % · palette 612 cols −6 %"
+      },
+      "notes_commerciales": "Cuvée Signature du domaine, positionnée « Spécial Foire aux Vins ».",
+      "alertes": [
+        "Réservée aux cavistes",
+        "Minimum 120 bouteilles sur les deux références"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/tarif-caviste-lombard-2026.pdf",
+      "source": {
+        "fichier": "Promotions/2026-08/OFFRE MONICAULT RENTRÉE 2026 CAVISTES.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "lafage-vignes-noires-2024",
+      "type": "nouveaute",
+      "titre": "Domaine Lafage — Vignes Noires 2024 (cuvée éphémère)",
+      "tagline": "Précommandes jusqu'au 30/09 · caisse bois 3 btl · 36 € départ / 39 € franco",
+      "fournisseur": {
+        "nom": "Domaine Lafage",
+        "code_vinistoria": "277 · 401L16",
+        "region": "Occitanie",
+        "meta": "Perpignan (66) · Roussillon"
+      },
+      "cuvees": [
+        {
+          "nom": "Vignes Noires 2024",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "RGE",
+          "cepages": "Cabernet-Sauvignon & Syrah",
+          "degre": "15 % vol.",
+          "conditionnement": "Caisse bois de 3 bouteilles 75cl",
+          "prix_depart_ht": 36.0,
+          "prix_franco_ht": 39.0
+        }
+      ],
+      "mecanique": {
+        "condition": "36 € / 39 € HT",
+        "description": "Caisse bois de 3 bouteilles 75cl — 36 € HT départ, 39 € HT franco.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "EXCLUSIVEMENT sur précommandes jusqu'au 30/09/2026. Livraisons à partir du 26/10/2026. Bouteilles numérotées, quantités limitées."
+      },
+      "validite": {
+        "debut": "2026-08-26",
+        "fin": "2026-09-30",
+        "note": "Fenêtre de précommande ; livraisons à partir du 26/10/2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Tarif départ 36 € HT ou franco 39 € HT, la caisse de 3 bouteilles."
+      },
+      "notes_commerciales": "Cuvée éphémère née sur les schistes noirs de Maury. Élevage 12 mois en barriques 225-500 L, à déguster dans les 7 ans.",
+      "alertes": [
+        "⚠️ Précommandes closes le 30/09/2026 — pas de réassort ensuite",
+        "Livraisons seulement à partir du 26/10/2026",
+        "Bouteilles numérotées, quantités limitées"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/VIGNES NOIRES 2024 (3 fichiers)",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "vinibegood-athletes-rentree-2026",
+      "type": "promotion",
+      "titre": "Vini Be Good — Les Athlètes du Vin (Offre Rentrée)",
+      "tagline": "22+2 dès 24 btl · 54+6 (départ) ou 42+6 (franco) · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Vini Be Good",
+        "code_vinistoria": "148 · 401V02",
+        "region": "Loire",
+        "meta": "Beaumont-en-Véron (37) · Vignerons de Loire et d'ailleurs"
+      },
+      "cuvees": [
+        {
+          "nom": "VDP Chardonnay & Melon de Bourgogne 2024",
+          "couleur": "BLC",
+          "prix_depart_ht": 4.9,
+          "prix_franco_ht": 5.95
+        },
+        {
+          "nom": "AOP Coteaux du Layon 2024",
+          "couleur": "BLC",
+          "prix_depart_ht": 6.9,
+          "prix_franco_ht": 7.95
+        },
+        {
+          "nom": "AOP Touraine Sauvignon 2025",
+          "couleur": "BLC",
+          "prix_depart_ht": 4.9,
+          "prix_franco_ht": 5.95
+        },
+        {
+          "nom": "AOP Montlouis 2022",
+          "couleur": "BLC",
+          "prix_depart_ht": 6.8,
+          "prix_franco_ht": 7.85
+        },
+        {
+          "nom": "AOP Menetou-Salon 2025",
+          "couleur": "BLC",
+          "prix_depart_ht": 7.2,
+          "prix_franco_ht": 8.95
+        },
+        {
+          "nom": "VDF Chenin 2025",
+          "couleur": "BLC",
+          "prix_depart_ht": 4.9,
+          "prix_franco_ht": 5.95
+        },
+        {
+          "nom": "VDF Chardonnay 2025",
+          "couleur": "BLC",
+          "prix_depart_ht": 4.9,
+          "prix_franco_ht": 5.95
+        },
+        {
+          "nom": "AOP Saumur Blanc 2025",
+          "couleur": "BLC",
+          "prix_depart_ht": 6.3,
+          "prix_franco_ht": 7.32
+        },
+        {
+          "nom": "AOP Cheverny Blanc 2023 (nouveauté)",
+          "couleur": "BLC",
+          "prix_depart_ht": 5.8,
+          "prix_franco_ht": 6.75
+        },
+        {
+          "nom": "AOP Cour-Cheverny 2023 (nouveauté)",
+          "couleur": "BLC",
+          "prix_depart_ht": 6.3,
+          "prix_franco_ht": 7.15
+        },
+        {
+          "nom": "VSIG Chenin Orbois 2023 (nouveauté)",
+          "couleur": "BLC",
+          "prix_depart_ht": 4.9,
+          "prix_franco_ht": 5.95
+        },
+        {
+          "nom": "AOP Saint-Nicolas-de-Bourgueil 2025",
+          "couleur": "RGE",
+          "prix_depart_ht": 5.8,
+          "prix_franco_ht": 6.75
+        },
+        {
+          "nom": "AOP Chinon 2024",
+          "couleur": "RGE",
+          "prix_depart_ht": 5.8,
+          "prix_franco_ht": 6.75
+        },
+        {
+          "nom": "VDF Pinot Noir 2025",
+          "couleur": "RGE",
+          "prix_depart_ht": 5.3,
+          "prix_franco_ht": 6.25
+        },
+        {
+          "nom": "VSIG Pineau d'Aunis 2025",
+          "couleur": "RGE",
+          "prix_depart_ht": 5.3,
+          "prix_franco_ht": 6.25
+        },
+        {
+          "nom": "VDF Gamay 2023",
+          "couleur": "RGE",
+          "prix_depart_ht": 4.8,
+          "prix_franco_ht": 5.8
+        },
+        {
+          "nom": "AOP Saumur-Champigny 2023",
+          "couleur": "RGE",
+          "prix_depart_ht": 5.8,
+          "prix_franco_ht": 6.65
+        },
+        {
+          "nom": "VDF Grolleau 2023",
+          "couleur": "RGE",
+          "prix_depart_ht": 4.8,
+          "prix_franco_ht": 5.85
+        },
+        {
+          "nom": "AOP Cheverny Rouge 2023 (nouveauté)",
+          "couleur": "RGE",
+          "prix_depart_ht": 5.5,
+          "prix_franco_ht": 6.5
+        }
+      ],
+      "mecanique": {
+        "condition": "22+2 / 54+6 / 42+6",
+        "description": "Gratuités par référence : 24 btl = 22+2 · 60 btl = 54+6 (départ) · 48 btl = 42+6 (franco).",
+        "panachable": false,
+        "cumulable": true,
+        "notes_conditions": "Gratuités calculées PAR RÉFÉRENCE. Cumulables avec les paliers transport en base départ."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31",
+        "note": "Pour toute commande reçue entre le 1/09 et le 31/10/2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Deux bases : PRO DÉPART (avec paliers transport : >1 000 € HT −20 % · >1 500 € HT −30 % · >2 000 € HT −50 % · >3 000 € HT franco) et PRO FRANCO (livré)."
+      },
+      "notes_commerciales": "Gamme entrée/milieu de gamme (19 réf), Loire majoritaire. 4 nouveautés Cheverny / Cour-Cheverny / Chenin Orbois.",
+      "alertes": [
+        "Gratuités PAR RÉFÉRENCE, pas sur le total de la commande",
+        "Deux grilles distinctes : Pro Départ et Pro Franco — vérifier la base avant devis"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-speciale-les-athletes-du-vin-vinibegood-rentree-2026-pro-franco.pdf",
+      "source": {
+        "fichier": "Promotions/2026-08/Offre Spéciale Les Athlètes du vin (2 fichiers)",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "vinibegood-selection-rentree-2026",
+      "type": "promotion",
+      "titre": "Vini Be Good — Sélection vignerons (Offre Rentrée)",
+      "tagline": "22+2 dès 24 btl · ~60 réf de vignerons · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Vini Be Good",
+        "code_vinistoria": "148 · 401V02",
+        "region": "Loire",
+        "meta": "Beaumont-en-Véron (37) · Vignerons de Loire et d'ailleurs"
+      },
+      "cuvees": [
+        {
+          "nom": "Environ 60 références de vignerons (Loire, Bordeaux, Bergerac, Minervois, Beaujolais, Afrique du Sud)",
+          "couleur": "Multi",
+          "note": "Détail complet et prix dans le PDF fournisseur"
+        }
+      ],
+      "mecanique": {
+        "condition": "22+2 / 54+6 / 42+6",
+        "description": "Mêmes paliers que Les Athlètes du Vin, appliqués par référence.",
+        "panachable": false,
+        "cumulable": true,
+        "notes_conditions": "Gratuités PAR RÉFÉRENCE. Paliers transport en base départ."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Deux bases : PRO DÉPART (avec paliers transport : >1 000 € HT −20 % · >1 500 € HT −30 % · >2 000 € HT −50 % · >3 000 € HT franco) et PRO FRANCO (livré)."
+      },
+      "notes_commerciales": "Catalogue vignerons : Sancerre, Pouilly-Fumé, Vouvray, Montlouis, Chinon, Quincy, Reuilly, Jasnières, Brouilly, Blaye, Bergerac, Minervois, Swartland…",
+      "alertes": [
+        "Gratuités PAR RÉFÉRENCE",
+        "Tarif complet dans le PDF fournisseur (≈60 références)"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-speciale-vinibegood-rentree-2026-pro-franco.pdf",
+      "source": {
+        "fichier": "Promotions/2026-08/Offre Spéciale Vinibegood (2 fichiers, 3 p.)",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "delas-er13-entreprise-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — ER13 · Domaine des Grands Chemins (tarif Entreprise)",
+      "tagline": "12 = 6 off. · tarif Entreprise · jusqu'au 15/09/2026",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Rhône",
+        "meta": "Vallée du Rhône"
+      },
+      "cuvees": [
+        {
+          "nom": "Crozes-Hermitage · Côtes-du-Rhône Saint-Esprit",
+          "appellation": "Crozes-Hermitage · Côtes-du-Rhône Saint-Esprit",
+          "millesime": "2022",
+          "couleur": "Multi"
+        }
+      ],
+      "mecanique": {
+        "condition": "12 = 6 off.",
+        "description": "12 Crozes-Hermitage « Domaine des Grands Chemins » 2022 achetées",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Tarif Entreprise en vigueur. Dans la limite des stocks, sans préavis."
+      },
+      "validite": {
+        "debut": "2026-08-26",
+        "fin": "2026-09-15"
+      },
+      "target": "entreprise",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Via Deutz Delas Diffusion · tarif Entreprise."
+      },
+      "notes_commerciales": "Volet ENTREPRISE (code ER13) — mécanique voisine des offres TR, mais sur le tarif Entreprise et avec une échéance au 15/09/2026.",
+      "alertes": [
+        "Non compatible TR30",
+        "Tarif ENTREPRISE (distinct du tarif patenté des offres TR)",
+        "Respect des conditionnements d'origine et des calibres proposés",
+        "Échéance courte : 15/09/2026"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/ER13.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "delas-er24-entreprise-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — ER24 · Viognier (tarif Entreprise)",
+      "tagline": "55 = 5 off. · tarif Entreprise · jusqu'au 15/09/2026",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Rhône",
+        "meta": "Vallée du Rhône"
+      },
+      "cuvees": [
+        {
+          "nom": "Viognier",
+          "appellation": "Viognier",
+          "millesime": "—",
+          "couleur": "Multi"
+        }
+      ],
+      "mecanique": {
+        "condition": "55 = 5 off.",
+        "description": "55 bouteilles de Viognier achetées = 5 bouteilles de Viognier OFFERTES.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Tarif Entreprise en vigueur. Dans la limite des stocks, sans préavis."
+      },
+      "validite": {
+        "debut": "2026-08-26",
+        "fin": "2026-09-15"
+      },
+      "target": "entreprise",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Via Deutz Delas Diffusion · tarif Entreprise."
+      },
+      "notes_commerciales": "Volet ENTREPRISE (code ER24) — mécanique voisine des offres TR, mais sur le tarif Entreprise et avec une échéance au 15/09/2026.",
+      "alertes": [
+        "Respect des colisages et CGV",
+        "Tarif ENTREPRISE (distinct du tarif patenté des offres TR)",
+        "Respect des conditionnements d'origine et des calibres proposés",
+        "Échéance courte : 15/09/2026"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/ER24.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "delas-er57-entreprise-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — ER57 · Opération Signature (tarif Entreprise)",
+      "tagline": "11+1 (120) · tarif Entreprise · jusqu'au 15/09/2026",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Rhône",
+        "meta": "Vallée du Rhône"
+      },
+      "cuvees": [
+        {
+          "nom": "Crozes-Hermitage « Les Launes » · CDR Saint-Esprit · Viognier",
+          "appellation": "Crozes-Hermitage « Les Launes » · CDR Saint-Esprit · Viognier",
+          "millesime": "2023 · 2024",
+          "couleur": "Multi"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 (120)",
+        "description": "Pour l'achat de 120 bouteilles : 11+1 à votre guise sur les qualités sélectionnées —",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Tarif Entreprise en vigueur. Dans la limite des stocks, sans préavis."
+      },
+      "validite": {
+        "debut": "2026-08-26",
+        "fin": "2026-09-15"
+      },
+      "target": "entreprise",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Via Deutz Delas Diffusion · tarif Entreprise."
+      },
+      "notes_commerciales": "Volet ENTREPRISE (code ER57) — mécanique voisine des offres TR, mais sur le tarif Entreprise et avec une échéance au 15/09/2026.",
+      "alertes": [
+        "Panachable par 12 bouteilles minimum",
+        "Non compatible TR30",
+        "Tarif ENTREPRISE (distinct du tarif patenté des offres TR)",
+        "Respect des conditionnements d'origine et des calibres proposés",
+        "Échéance courte : 15/09/2026"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/ER57.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "delas-er58-entreprise-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — ER58 · Opération Partenaire (tarif Entreprise)",
+      "tagline": "204 = 36 off. · tarif Entreprise · jusqu'au 15/09/2026",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Rhône",
+        "meta": "Vallée du Rhône"
+      },
+      "cuvees": [
+        {
+          "nom": "Côtes-du-Rhône Saint-Esprit",
+          "appellation": "Côtes-du-Rhône Saint-Esprit",
+          "millesime": "2023",
+          "couleur": "Multi"
+        }
+      ],
+      "mecanique": {
+        "condition": "204 = 36 off.",
+        "description": "Côtes-du-Rhône Saint-Esprit 2023 : pour l'achat de 204 bouteilles = 36 bouteilles OFFERTES.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Tarif Entreprise en vigueur. Dans la limite des stocks, sans préavis."
+      },
+      "validite": {
+        "debut": "2026-08-26",
+        "fin": "2026-09-15"
+      },
+      "target": "entreprise",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Via Deutz Delas Diffusion · tarif Entreprise."
+      },
+      "notes_commerciales": "Volet ENTREPRISE (code ER58) — mécanique voisine des offres TR, mais sur le tarif Entreprise et avec une échéance au 15/09/2026.",
+      "alertes": [
+        "Non compatible TR30",
+        "Tarif ENTREPRISE (distinct du tarif patenté des offres TR)",
+        "Respect des conditionnements d'origine et des calibres proposés",
+        "Échéance courte : 15/09/2026"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-08/ER58.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-08-26T12:00:00Z",
         "status": "auto-parsed"
       }
     }
