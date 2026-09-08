@@ -4,9 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Caviar de Neuvic — Journée agents · Lundi 28 septembre</title>
-<meta name="description" content="Journée spéciale agents commerciaux au Comptoir Caviar de Neuvic, 16 rue de l'Odéon, Paris 6e. Lundi 28 septembre, 10h-18h. RSVP obligatoire.">
+<meta name="description" content="Journée agents commerciaux au Comptoir Caviar de Neuvic, 16 rue de l'Odéon, Paris 6e. Lundi 28 septembre, 10h-18h. RSVP obligatoire.">
+<meta name="robots" content="noindex, nofollow">
 <meta property="og:title" content="Caviar de Neuvic — Lundi 28 septembre, Paris 6e">
-<meta property="og:description" content="Journée agents commerciaux : caviar, confit d'esturgeon fumé, jambon Cinco Jotas. 10h-18h, tu passes quand tu veux. RSVP obligatoire.">
+<meta property="og:description" content="Journée agents commerciaux : actualités caviar, confit d'esturgeon fumé, jambon Cinco Jotas. 10h-18h, tu passes quand tu veux. RSVP obligatoire.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&display=swap" rel="stylesheet">
@@ -17,7 +18,6 @@
     --perle:#c9c3b6;
     --gris:#6f6a61;
     --bronze:#8a6a3b;
-    --cobalt:#1c3f8f;
   }
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%}
@@ -92,66 +92,6 @@
   .prog em{font-style:normal;color:var(--gris);display:block;font-size:15px;margin-top:2px}
   .discret{color:var(--gris)}
 
-  /* ---- Vodkas ---- */
-  .vodkas{background:#fff}
-  .bloc{
-    border-top:2px solid var(--encre);
-    padding-top:20px;
-    margin-top:26px;
-  }
-  .bloc.bleu{border-top-color:var(--cobalt)}
-  .bloc.bronze{border-top-color:var(--bronze)}
-  .tete{display:flex;align-items:baseline;justify-content:space-between;gap:14px;flex-wrap:wrap}
-  .nom{
-    font-family:"Cormorant Garamond",Georgia,serif;
-    font-size:30px;
-    line-height:1.05;
-    margin:0;
-  }
-  .maisonvodka{font-size:14.5px;color:var(--gris);margin:2px 0 14px}
-  .pitch{font-size:16.5px;margin:0 0 16px}
-  .promo{
-    display:inline-block;
-    font-size:12.5px;
-    letter-spacing:.08em;
-    padding:4px 9px;
-    color:#fff;
-    white-space:nowrap;
-  }
-  .bleu .promo{background:var(--cobalt)}
-  .bronze .promo{background:var(--bronze)}
-  .tarif{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:0 0 12px}
-  .gros{
-    font-family:"Cormorant Garamond",Georgia,serif;
-    font-size:38px;
-    line-height:1;
-  }
-  .bleu .gros{color:var(--cobalt)}
-  .bronze .gros{color:var(--bronze)}
-  .barre{color:var(--gris);font-size:15px}
-  .barre s{text-decoration:line-through}
-  .lien{font-weight:600;font-size:15.5px}
-  .bleu .lien{color:var(--cobalt)}
-  .bronze .lien{color:var(--bronze)}
-  .panachage{
-    background:var(--nacre);
-    padding:14px 16px;
-    margin:0 0 14px;
-    font-size:15.5px;
-  }
-  .panachage p{margin:0}
-  .panachage p + p{margin-top:7px}
-  .panachage a{color:var(--cobalt)}
-
-  .note{
-    background:var(--nacre);
-    border-left:3px solid var(--bronze);
-    padding:16px 18px;
-    margin:30px 0 0;
-    font-size:15.5px;
-  }
-  .note p{margin:0}
-
   /* ---- RSVP ---- */
   .rsvp{background:var(--encre);color:var(--nacre);border-top:0}
   .rsvp h2{color:var(--nacre)}
@@ -167,6 +107,25 @@
 
   .infos a{color:var(--encre)}
   .infos .adr{font-size:18px;margin-bottom:4px}
+
+  /* ---- Encart promos, secondaire ---- */
+  .aparte{background:#fff;font-size:15.5px}
+  .aparte h2{font-size:20px;margin-bottom:6px}
+  .aparte .chapeau{color:var(--gris);font-size:15px;margin-bottom:18px}
+  .ligne{
+    display:flex;justify-content:space-between;align-items:baseline;
+    gap:12px;flex-wrap:wrap;
+    padding:13px 0;
+    border-top:1px solid rgba(13,13,13,.1);
+  }
+  .ligne:last-of-type{border-bottom:1px solid rgba(13,13,13,.1)}
+  .ligne .quoi b{font-weight:600}
+  .ligne .quoi span{display:block;color:var(--gris);font-size:14.5px;margin-top:1px}
+  .ligne .prix{white-space:nowrap;font-weight:600}
+  .ligne .prix s{font-weight:400;color:var(--gris);text-decoration:line-through;margin-left:6px}
+  .aparte a{color:var(--encre)}
+  .aparte .suite{margin:16px 0 0;font-size:15px}
+
   footer{
     padding:22px 26px 34px;
     font-size:13px;color:var(--gris);
@@ -198,50 +157,10 @@
   </section>
 
   <section>
-    <h2>Ce que tu vas en tirer</h2>
-    <p>Octobre à décembre, c'est là que se joue le panier moyen. Le caviar, personne ne le demande — il se propose. Et il ne se propose pas seul : caviar + champagne + vodka, c'est une seule vente, trois lignes de facture.</p>
-    <p>Une heure sur place et tu sais en parler : les espèces, les prix, ce qui se sert avec quoi. De quoi le placer dès la première tournée d'octobre.</p>
-  </section>
-
-  <section class="vodkas">
-    <h2>Tes meilleurs leviers : nos deux vodkas</h2>
-    <p class="discret">Les deux sont en offre 5+1.</p>
-
-    <div class="bloc bleu">
-      <div class="tete">
-        <p class="nom">COBALTE</p>
-        <span class="promo">OFFRE PROMO 5+1</span>
-      </div>
-      <p class="maisonvodka">Gosset · Iconic Nectar</p>
-      <p class="pitch">Une vodka faite avec du raisin de Champagne : Chardonnay, Pinot Noir et Meunier vendangés à la main dans le Parc Naturel de la Montagne de Reims, pressés en grappes entières, vinifiés, puis distillés lentement. Le retour aux origines de la vodka, celle du début du XVIII<sup>e</sup> siècle, faite à partir de raisin et non de céréales — une finesse et une pureté qui n'ont rien à voir avec le reste du rayon.</p>
-      <div class="tarif">
-        <span class="gros">20,51 € HT</span>
-        <span class="barre">au lieu de <s>24,61 € HT</s></span>
-      </div>
-      <div class="panachage">
-        <p><b>Panachable avec les offres Gosset</b> — même maison — dont la Grande Réserve à la verse à <b>20,90 € HT</b>.</p>
-        <p><a href="https://sfrbt1009862.sharepoint.com/:b:/g/vinom/IQA-ilONUqzBSL7ty-nIAacwAQ3dUcWwrwKQPCFemixc-ik?e=fHPbbX" target="_blank" rel="noopener">Tarif Gosset tous produits CHR au 01.04.2026 (PDF)</a></p>
-      </div>
-      <a class="lien" href="https://cobalte.vodka/" target="_blank" rel="noopener">En savoir plus</a>
-    </div>
-
-    <div class="bloc bronze">
-      <div class="tete">
-        <p class="nom">BISTRO VODKA</p>
-        <span class="promo">OFFRE PROMO 5+1</span>
-      </div>
-      <p class="maisonvodka">Pardela</p>
-      <p class="pitch">Distillée en France à partir de grains français de haute qualité, elle joue la finesse et la légèreté. C'est la simplicité et l'authenticité du bistro parisien, avec une vraie valeur ajoutée : sa finesse.</p>
-      <div class="tarif">
-        <span class="gros">19,21 € HT</span>
-        <span class="barre">au lieu de <s>23,05 € HT</s></span>
-      </div>
-      <a class="lien" href="https://www.bistrovodka.com/" target="_blank" rel="noopener">En savoir plus</a>
-    </div>
-
-    <div class="note">
-      <p><b>J'essaie d'avoir une bouteille de chaque</b> pour la journée. Ce n'est pas encore acquis, mais j'y travaille.</p>
-    </div>
+    <h2>À quoi ça sert</h2>
+    <p>Le caviar se propose, il ne se demande pas. Une heure sur place suffit pour savoir en parler : les espèces, les prix, ce qui se sert avec quoi, ce qui a changé cette année.</p>
+    <p>C'est aussi l'occasion d'échanger avec les équipes de Neuvic et de partager ce que tu vois sur le terrain, avant la saison.</p>
+    <p class="discret">Format libre : tu viens si tu le sens et quand ça t'arrange dans la journée.</p>
   </section>
 
   <section class="rsvp">
@@ -259,8 +178,31 @@
     <p class="discret" style="font-size:15px">En groupe ou chacun quand il peut — dis-le moi dans ta réponse si tu veux qu'on se cale ensemble.</p>
   </section>
 
+  <section class="aparte">
+    <h2>Pour information</h2>
+    <p class="chapeau">Sans rapport avec la journée : deux promos en cours sur nos vodkas, en 5+1.</p>
+
+    <div class="ligne">
+      <div class="quoi">
+        <b>COBALTE</b>
+        <span>Gosset · vodka de raisin de Champagne</span>
+      </div>
+      <div class="prix">20,51 € HT <s>24,61 €</s></div>
+    </div>
+
+    <div class="ligne">
+      <div class="quoi">
+        <b>BISTRO VODKA</b>
+        <span>Pardela · distillée en France, grain français</span>
+      </div>
+      <div class="prix">19,21 € HT <s>23,05 €</s></div>
+    </div>
+
+    <p class="suite">COBALTE est panachable avec les offres Gosset, dont la Grande Réserve à la verse à 20,90 € HT — <a href="https://sfrbt1009862.sharepoint.com/:b:/g/vinom/IQA-ilONUqzBSL7ty-nIAacwAQ3dUcWwrwKQPCFemixc-ik?e=fHPbbX" target="_blank" rel="noopener">tarif CHR au 01.04.2026 (PDF)</a>.</p>
+  </section>
+
   <footer>
-    Pipeline AAA / VINOM · v4 · 7 septembre 2026
+    Pipeline AAA / VINOM · v6 · 7 septembre 2026
   </footer>
 
 </div>
