@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "2.4",
-    "generated_at": "2026-09-02T12:00:00Z",
-    "promos_count": 54,
+    "version": "2.5",
+    "generated_at": "2026-09-08T12:00:00Z",
+    "promos_count": 62,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v2.4 (02/09/2026) : +8 promos issues du lot de 11 PDF — AdVini (9 offres CHR), Pardela Fins de lots, Château Sainte Roseline x2 (CHR&Cavistes / GD), Domaine Filliatreau, Gérard Bertrand x2 (La Forge magnums, Foire aux Vins), Domaine Maldant GVDVM Fin de loges (tarif restaurant/CHR). Offre Sainte Roseline GD (grande distribution) volontairement exclue du catalogue. Pardela fins de lots = jusqu a epuisement, affichee sur 3 mois. Enrichissement de Cheval Quancard Vendanges (10 cuvées, grilles départ et franco). Correction des paliers Léoube Secret & Collector (48>6 / 60>12 / 120>36) désormais confirmés par les visuels."
+    "maj_note": "v2.5 (08/09/2026) : +8 promos issues du lot de 11 PDF — Champagne Thienot x4 (nouveau fournisseur 726, carte Chateau Cadeaux : Collection Origine, coupe Brut, coupe BdB & Rose, kit nouveau client), Joseph Perrier x2 (offre Q3, personnalisation Prestige & B2B en nouveaute), Aikan Whisky (11+1 rentree et fin d annee), Domaine Lafage (jeroboam Miraflors, destockage jusqu a epuisement). Incentive agents Joseph Perrier volontairement exclu (destine aux agents, pas aux clients). Prix Thienot Brut a la coupe : 20,80 EUR retenu (PDF officiel)."
   },
   "promos": [
     {
@@ -4521,6 +4521,555 @@
         "fichier": "Promotions/2026-09/2026 - Fin de loges Restaurants.pdf",
         "parsing_method": "parseur-promos",
         "parsing_date": "2026-09-02T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "thienot-collection-origine-2026",
+      "type": "promotion",
+      "titre": "Champagne Thiénot — Offre Collection Origine",
+      "tagline": "11+1 Brut & Vintage · 10+2 BdB & Rosé · +1 magnum dès 48 btl",
+      "fournisseur": {
+        "nom": "Champagne Thiénot",
+        "code_vinistoria": "726",
+        "region": "Champagne",
+        "meta": "Taissy (51) · via C&C France · carte Château Cadeaux (CCX)"
+      },
+      "cuvees": [
+        {
+          "nom": "Thiénot Brut",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "mecanique": "11+1",
+          "tarif_distri_ht": 22.46,
+          "net_avec_offre_ht": 20.59
+        },
+        {
+          "nom": "Thiénot Vintage 2015",
+          "appellation": "Champagne",
+          "millesime": "2015",
+          "couleur": "EFF",
+          "mecanique": "11+1",
+          "tarif_distri_ht": 30.34,
+          "net_avec_offre_ht": 27.81
+        },
+        {
+          "nom": "Thiénot Blanc de Blancs",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "mecanique": "10+2",
+          "tarif_distri_ht": 28.69,
+          "net_avec_offre_ht": 23.91
+        },
+        {
+          "nom": "Thiénot Rosé",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "mecanique": "10+2",
+          "tarif_distri_ht": 28.69,
+          "net_avec_offre_ht": 23.91
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 / 10+2",
+        "description": "À partir de 36 bouteilles, panachage possible. 11+1 sur Brut et Vintage, 10+2 sur Blanc de Blancs et Rosé. À partir de 48 btl achetées : 1 magnum de Thiénot Brut offert (cumulable : 2×48 btl = 2 magnums).",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Code FT111. Tarif PRO et DISTRIBUTEURS, franco 300 € HT."
+      },
+      "validite": {
+        "debut": "2026-07-01",
+        "fin": "2026-12-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct C&C France · franco 300 € HT au départ de Taissy · tarif PRO et DISTRIBUTEURS"
+      },
+      "notes_commerciales": "Nouvelle carte VINOM (fournisseur 726), portée par l'agence Château Cadeaux (Amaury Schmidt).",
+      "alertes": [
+        "Le magnum offert est cumulable par tranche de 48 bouteilles",
+        "Non cumulable avec les prix palettes et les autres promotions pour une même référence",
+        "Dans la limite des stocks disponibles"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/s2-01-07-au-31-12-2026-thienot-collection-origine.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/S2_01.07 au 31.12.2026_Thiénot Collection Origine.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-08T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "thienot-coupe-brut-2026",
+      "type": "promotion",
+      "titre": "Champagne Thiénot — Offre à la coupe (Brut)",
+      "tagline": "20,80 € HT dès 36 cols · 19,90 € HT dès 60 cols",
+      "fournisseur": {
+        "nom": "Champagne Thiénot",
+        "code_vinistoria": "726",
+        "region": "Champagne",
+        "meta": "Taissy (51) · via C&C France · carte Château Cadeaux (CCX)"
+      },
+      "cuvees": [
+        {
+          "nom": "Thiénot Brut",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "prix_36_cols_ht": 20.8,
+          "prix_60_cols_ht": 19.9
+        }
+      ],
+      "mecanique": {
+        "condition": "20,80 € / 19,90 €",
+        "description": "Prix à la coupe : 20,80 € HT par 36 cols commandés, 19,90 € HT par 60 cols.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Codes THCOUPE36 et THCOUPE60. Non figeable dans les fiches marché. Franco 300 € HT."
+      },
+      "validite": {
+        "debut": "2026-01-01",
+        "fin": "2026-12-31",
+        "note": "Valable sur toute l'année 2026."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct C&C France · franco 300 € HT au départ de Taissy · tarif PRO et DISTRIBUTEURS"
+      },
+      "notes_commerciales": "Offre destinée à la vente au verre en CHR.",
+      "alertes": [
+        "Non figeable dans les fiches marché",
+        "Non cumulable avec les prix palettes et les autres promotions pour une même référence",
+        "Dans la limite des stocks disponibles"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/2026_Thiénot_OP Coupe brut.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-08T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "thienot-coupe-bdb-rose-2026",
+      "type": "promotion",
+      "titre": "Champagne Thiénot — Offre à la coupe (Blanc de Blancs & Rosé)",
+      "tagline": "25,70 € HT dès 36 cols · mars → septembre 2026",
+      "fournisseur": {
+        "nom": "Champagne Thiénot",
+        "code_vinistoria": "726",
+        "region": "Champagne",
+        "meta": "Taissy (51) · via C&C France · carte Château Cadeaux (CCX)"
+      },
+      "cuvees": [
+        {
+          "nom": "Thiénot Blanc de Blancs",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "prix_36_cols_ht": 25.7
+        },
+        {
+          "nom": "Thiénot Rosé",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "prix_36_cols_ht": 25.7
+        }
+      ],
+      "mecanique": {
+        "condition": "25,70 € HT",
+        "description": "Prix à la coupe : 25,70 € HT par 36 cols commandés, sur le Blanc de Blancs et le Rosé.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Codes THCOUPE36 et THCOUPE60. Non figeable dans les fiches marché. Franco 300 € HT."
+      },
+      "validite": {
+        "debut": "2026-03-01",
+        "fin": "2026-09-30",
+        "note": "Valable de mars à septembre 2026 — échéance proche."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct C&C France · franco 300 € HT au départ de Taissy · tarif PRO et DISTRIBUTEURS"
+      },
+      "notes_commerciales": "Pendant saisonnier de l'offre à la coupe Brut, sur les cuvées Blanc de Blancs et Rosé.",
+      "alertes": [
+        "⚠️ Échéance fin septembre 2026",
+        "Non figeable dans les fiches marché",
+        "Non cumulable avec les prix palettes et les autres promotions pour une même référence",
+        "Dans la limite des stocks disponibles"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/2026_Thiénot_OP Coupe Rosé_BdB_mars-sept.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-08T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "thienot-kit-nouveau-client-2026",
+      "type": "promotion",
+      "titre": "Champagne Thiénot — Kit de service nouveau client",
+      "tagline": "1 kit offert pour toute ouverture ou réouverture de compte",
+      "fournisseur": {
+        "nom": "Champagne Thiénot",
+        "code_vinistoria": "726",
+        "region": "Champagne",
+        "meta": "Taissy (51) · via C&C France · carte Château Cadeaux (CCX)"
+      },
+      "cuvees": [
+        {
+          "nom": "Kit de service (vasque, 24 flûtes 17cl, 3 bouchons stoppeurs)",
+          "couleur": "—",
+          "references": "AP001121 · AP001119 · AP001232"
+        }
+      ],
+      "mecanique": {
+        "condition": "1 kit offert",
+        "description": "Pour toute commande d'un nouveau client (ou réouverture saisonnière) : 1 kit de service offert — 1 vasque, 24 flûtes 17cl, 3 bouchons stoppeurs.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Maximum 1 fois par an et par client. Code FTREF. Applicable sur les Collections Origine et Famille."
+      },
+      "validite": {
+        "debut": "2026-01-01",
+        "fin": "2026-12-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct C&C France · franco 300 € HT au départ de Taissy · tarif PRO et DISTRIBUTEURS"
+      },
+      "notes_commerciales": "Outil d'ouverture de compte : la vasque et les flûtes marquées installent la marque sur le point de vente.",
+      "alertes": [
+        "Maximum 1 fois par an par client (nouveau compte ou réouverture saisonnière)",
+        "Non cumulable avec les prix palettes et les autres promotions pour une même référence",
+        "Dans la limite des stocks disponibles"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/2026_Thiénot_Kit nouveau client.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-08T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "joseph-perrier-q3-2026",
+      "type": "promotion",
+      "titre": "Joseph Perrier — Offre Q3 Automne-Hiver",
+      "tagline": "11+1 sur les BSA, ou 10 % BSA + 5+1 millésimés · 1/09 → 31/12",
+      "fournisseur": {
+        "nom": "Joseph Perrier",
+        "code_vinistoria": "550 · 401K04",
+        "region": "Champagne",
+        "meta": "Châlons-en-Champagne · Maison familiale depuis 1825 · HVE 3 et VDC"
+      },
+      "cuvees": [
+        {
+          "nom": "BSA : Brut, Rosé, Blanc de Blancs, Brut Nature, Bio Organic, Demi-sec",
+          "couleur": "EFF",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Millésimés : Vintage, La Côte à Bras, Le Ciergelot, Les Chalmonts, Joséphine",
+          "couleur": "EFF",
+          "mecanique": "5+1"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 / 5+1",
+        "description": "Par 36 cols minimum ET 3 références minimum. Commande de 3 BSA panachés et plus : 11+1 sur les BSA. Commande panachée de 3 cuvées dont 1 millésimé minimum : 10 % sur les BSA et 5+1 sur les millésimés.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Codes JP111 et JP51. Valable sur tous formats et conditionnements (nu / étui). Uniquement clients Direct CHR/Distri, hors dépôt d'agences commerciales, hors RNF et hors marché."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Direct client CHR / caviste. Contact : vin-champagne@josephperrierkressmann.fr"
+      },
+      "notes_commerciales": "Dernier quadrimestre 2026. Les offres à la coupe et le kit nouveau client Joseph Perrier restent actifs en parallèle.",
+      "alertes": [
+        "Non cumulable avec l'offre vitrine et les offres à la coupe",
+        "Minimum 36 cols ET 3 références différentes",
+        "Réservée aux clients Direct CHR/Distri, hors dépôt d'agences"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/Joseph Perrier_Q3.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-08T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "joseph-perrier-personnalisation-2026",
+      "type": "nouveaute",
+      "titre": "Joseph Perrier — Personnalisation Prestige & B2B",
+      "tagline": "Tampographie et sur-mesure pour cadeaux d'affaires et partenariats CHR",
+      "fournisseur": {
+        "nom": "Joseph Perrier",
+        "code_vinistoria": "550 · 401K04",
+        "region": "Champagne",
+        "meta": "Châlons-en-Champagne · Maison familiale depuis 1825 · HVE 3 et VDC"
+      },
+      "cuvees": [
+        {
+          "nom": "Tampographie — demi-bouteille",
+          "surcout_ht": 1.5,
+          "minimum": "480 demi-bouteilles"
+        },
+        {
+          "nom": "Tampographie — bouteille 75cl",
+          "surcout_ht": 2.5,
+          "minimum": "480 bouteilles"
+        },
+        {
+          "nom": "Tampographie — magnum 150cl",
+          "surcout_ht": 5.0,
+          "minimum": "120 magnums"
+        },
+        {
+          "nom": "Tampographie — jéroboam 300cl",
+          "surcout_ht": 10.0,
+          "minimum": "24 jéroboams"
+        },
+        {
+          "nom": "Sur-mesure (refonte totale) — bouteille",
+          "surcout_ht": 15.0,
+          "minimum": "10 000 bouteilles"
+        },
+        {
+          "nom": "Sur-mesure — magnum",
+          "surcout_ht": 30.0
+        },
+        {
+          "nom": "Sur-mesure — jéroboam",
+          "surcout_ht": 45.0
+        }
+      ],
+      "mecanique": {
+        "condition": "Personnalisation",
+        "description": "Marquage par tampographie (fondu dans le verre, sans relief), monochrome argent/or/blanc ou bicolore. Option sur-mesure avec refonte totale au profit de la marque du client, en accord avec l'ADN de la Maison.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Délai 4 à 6 semaines. Minimums par format. Pas de marque blanche : branding Joseph Perrier recto-verso conservé. Tout projet soumis à validation en amont."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31"
+      },
+      "target": "chr_b2b",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Tout projet soumis à validation préalable."
+      },
+      "notes_commerciales": "Levier pour les cadeaux d'affaires, événements d'entreprise et partenariats CHR à potentiel — utile en approche fin d'année.",
+      "alertes": [
+        "Minimums de commande élevés (480 btl en tampographie, 10 000 btl en sur-mesure)",
+        "Délai de 4 à 6 semaines",
+        "Tout projet soumis à validation préalable"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/joseph-perrier-personnalisation-prestige-et-b2b-2026.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/JOSEPH PERRIER PERSONNALISATION PRESTIGE & B2B 2026.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-08T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "aikan-rentree-fin-annee-2026",
+      "type": "promotion",
+      "titre": "Aikan Whisky — Tarifs rentrée & fin d'année",
+      "tagline": "11+1 sur toutes les gammes · panachage whiskies 6+6 · 5+1 nouveauté",
+      "fournisseur": {
+        "nom": "Aikan Whisky",
+        "code_vinistoria": "532",
+        "region": "Spiritueux",
+        "meta": "Le Lamentin, Martinique (Antilles françaises) · double vieillissement Écosse + tropical"
+      },
+      "cuvees": [
+        {
+          "nom": "INTENSE 70cl 40 %",
+          "prix_6": 29.9,
+          "prix_36": 24.9,
+          "prix_84": 23.8,
+          "pvc_ttc": 47
+        },
+        {
+          "nom": "INTENSE Single Barrel 70cl 45 %",
+          "prix_6": 35.5,
+          "prix_36": 29.7,
+          "prix_84": 28.6,
+          "pvc_ttc": 56
+        },
+        {
+          "nom": "FINE 50cl (étui) 43 %",
+          "prix_6": 25.4,
+          "prix_36": 20.75,
+          "prix_84": 19.8,
+          "pvc_ttc": 39
+        },
+        {
+          "nom": "FINE 70cl 43 %",
+          "prix_6": 31.2,
+          "prix_36": 26.1,
+          "prix_84": 24.9,
+          "pvc_ttc": 49
+        },
+        {
+          "nom": "EXTRA 50cl (étui) 43 %",
+          "prix_6": 32.4,
+          "prix_36": 26.3,
+          "prix_84": 25.5,
+          "pvc_ttc": 49
+        },
+        {
+          "nom": "EXTRA 70cl 43 %",
+          "prix_6": 42.7,
+          "prix_36": 29.9,
+          "prix_84": 28.7,
+          "pvc_ttc": 56
+        },
+        {
+          "nom": "FRENCH Malt 50cl (étui) 46 %",
+          "prix_6": 35.9,
+          "prix_36": 30.4,
+          "prix_84": 29.1,
+          "pvc_ttc": 58
+        },
+        {
+          "nom": "FRENCH Single Cask Agricole 70cl 46 %",
+          "prix_6": 41.5,
+          "prix_36": 36.9,
+          "prix_84": 35.6,
+          "pvc_ttc": 68
+        },
+        {
+          "nom": "FRENCH Single Cask Grand Arôme 70cl 46 %",
+          "prix_6": 41.5,
+          "prix_36": 36.9,
+          "prix_84": 35.6,
+          "pvc_ttc": 68
+        },
+        {
+          "nom": "PASSION Whisky Sour 70cl 24,5 %",
+          "prix_6": 20.4,
+          "prix_36": 16.4,
+          "prix_84": 15.0,
+          "pvc_ttc": 29
+        },
+        {
+          "nom": "ANANAS Whisky Sour 70cl 24,5 %",
+          "prix_6": 20.4,
+          "prix_36": 16.4,
+          "prix_84": 15.0,
+          "pvc_ttc": 29
+        },
+        {
+          "nom": "GRENADE Whisky Sour 70cl 24,5 %",
+          "prix_6": 20.4,
+          "prix_36": 16.4,
+          "prix_84": 15.0,
+          "pvc_ttc": 29
+        },
+        {
+          "nom": "MOCKTAIL Grenade Sour 75cl 0 % (nouveauté)",
+          "prix_6": 9.6,
+          "prix_36": 7.8,
+          "prix_84": 7.2,
+          "pvc_ttc": 13
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 / 6+6 / 5+1",
+        "description": "11 bouteilles achetées + 1 offerte sur l'ensemble des gammes. Panachage possible sur les whiskies (6+6), la gratuité s'appliquant alors sur la référence la moins chère. 5+1 pour toute nouvelle référence commandée (hors cocktails et mocktail).",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Condition : la commande doit intégrer au moins 2 références de whiskies distinctes. Prix franco de port dès la 1re colonne, droits inclus. Colonnes = nombre total de bouteilles commandées/panachées. Exception mocktail : 1 carton de 6 = 3 bouteilles équivalent colonne. Picking offert si carton complet d'une même catégorie."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31",
+        "note": "Tarifs rentrée et fin d'année 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Franco de port dès la 1re colonne, droits inclus. Livraison 3 à 6 jours ouvrés. Commande : aikan@aikanwhisky.com"
+      },
+      "notes_commerciales": "Whisky français produit en Martinique, double vieillissement (3 ans Écosse + 1 à 2 ans tropical en fûts de rhum). Nouveauté : Mocktail Grenade Sour, sans alcool, enrichi en vitamines et électrolytes.",
+      "alertes": [
+        "Le 11+1 exige au moins 2 références de whiskies distinctes",
+        "En panachage 6+6, la gratuité porte sur la référence la moins chère",
+        "Mocktail : 1 carton de 6 = 3 bouteilles équivalent colonne (TVA 5,5 %)"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/promo-tarifs-rentree-et-fin-d-annee-2026-aikan-whiskies-cocktails-et-m.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/PROMO Tarifs rentrée et fin d'année 2026 - AIKAN.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-08T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "lafage-jeroboam-miraflors-2026",
+      "type": "destockage",
+      "titre": "Domaine Lafage — Jéroboam Miraflors Rosé (déstockage)",
+      "tagline": "90 bouteilles achetées = 1 jéroboam 300cl offert · 66 unités restantes",
+      "fournisseur": {
+        "nom": "Domaine Lafage",
+        "code_vinistoria": "277 · 401L16",
+        "region": "Occitanie",
+        "meta": "Perpignan (66) · Roussillon"
+      },
+      "cuvees": [
+        {
+          "nom": "Miraflors Rosé — Jéroboam 300cl (offert)",
+          "appellation": "IGP Côtes Catalanes",
+          "couleur": "ROS",
+          "format": "Jéroboam 300cl",
+          "stock": 66
+        }
+      ],
+      "mecanique": {
+        "condition": "90 = 1 jéroboam",
+        "description": "90 bouteilles de Miraflors achetées = 1 jéroboam 300cl de Miraflors Rosé offert.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Opération de déstockage : 66 jéroboams disponibles seulement, jusqu'à épuisement."
+      },
+      "validite": {
+        "debut": "2026-09-02",
+        "fin": "2026-11-30",
+        "note": "Jusqu'à épuisement du stock (66 jéroboams au 02/09/2026) : affichée sur les 3 mois glissants."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Contact : Adrien Bonafé, Responsable Grands Comptes — abonafe@domaine-lafage.com"
+      },
+      "notes_commerciales": "Le jéroboam de Miraflors Rosé est un très bon outil de visibilité en salle ou en vitrine.",
+      "alertes": [
+        "⚠️ Seulement 66 jéroboams disponibles — premier arrivé, premier servi",
+        "Jusqu'à épuisement du stock"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/TR_ OPE Jéroboam Miraflors 300cl.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-08T12:00:00Z",
         "status": "auto-parsed"
       }
     }
