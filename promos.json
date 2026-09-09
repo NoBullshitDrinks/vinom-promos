@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "2.5",
-    "generated_at": "2026-09-08T12:00:00Z",
-    "promos_count": 62,
+    "version": "2.6",
+    "generated_at": "2026-09-09T12:00:00Z",
+    "promos_count": 65,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v2.5 (08/09/2026) : +8 promos issues du lot de 11 PDF — Champagne Thienot x4 (nouveau fournisseur 726, carte Chateau Cadeaux : Collection Origine, coupe Brut, coupe BdB & Rose, kit nouveau client), Joseph Perrier x2 (offre Q3, personnalisation Prestige & B2B en nouveaute), Aikan Whisky (11+1 rentree et fin d annee), Domaine Lafage (jeroboam Miraflors, destockage jusqu a epuisement). Incentive agents Joseph Perrier volontairement exclu (destine aux agents, pas aux clients). Prix Thienot Brut a la coupe : 20,80 EUR retenu (PDF officiel)."
+    "maj_note": "v2.6 (09/09/2026) : +3 promos Beaujolais Nouveau 2026 — Aujoux gamme complete en franco restauration (avec tarif Depart en complement), Aujoux tarif gros franco (grossistes), Vini Be Good / Domaine Joubert. Codes Vinistoria ajoutes (Aujoux 109 401A01, Vini Be Good 148 401V02). Affichage prolonge jusqu au 30/11 (la date limite de commande du 20/10 et la mise en vente du 19/11 figurent dans les tiroirs). Operation Pate Cochon Chic et les 4 kits PLV integres aux deux fiches Aujoux. Millesime 2026 retenu sans reserve."
   },
   "promos": [
     {
@@ -5071,6 +5071,395 @@
         "parsing_method": "parseur-promos",
         "parsing_date": "2026-09-08T12:00:00Z",
         "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "aujoux-beaujolais-nouveau-2026-chr",
+      "type": "promotion",
+      "titre": "Aujoux — Beaujolais Nouveau 2026",
+      "tagline": "Gamme complète · tarif franco restauration dégressif",
+      "fournisseur": {
+        "nom": "Les Vins J.M. Aujoux",
+        "code_vinistoria": "109 · 401A01",
+        "region": "Bourgogne",
+        "meta": "Négociant — Fleurie (69) · Depuis 1938"
+      },
+      "cuvees": [
+        {
+          "nom": "Le Bistrot d'Aujoux",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "6,00 € → 5,20 € HT selon palier"
+        },
+        {
+          "nom": "Cochon Chic — Tradition Française (HVE)",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "5,85 € → 5,10 € HT · 6,70 € → 5,65 € avec op. Cochon Chic"
+        },
+        {
+          "nom": "Le Bouquet de Maggy — Cuvée Robert Sarrau (HVE, sans sulfites ajoutés)",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "6,30 € → 5,55 € HT"
+        },
+        {
+          "nom": "Le P'tit Baptiste Glou glou — Domaine Perraud (HVE)",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "6,10 € → 5,30 € HT"
+        },
+        {
+          "nom": "« Faites un vœu » — Beaujolais BIO (FR-BIO-01)",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "7,00 € → 6,00 € HT"
+        },
+        {
+          "nom": "La Tête à l'Envers — NOUVEAUTÉ",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "5,80 € → 5,00 € HT"
+        },
+        {
+          "nom": "Les Guinguettes — Rosé",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": "ROS",
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "6,10 € → 5,30 € HT"
+        },
+        {
+          "nom": "Les Guinguettes — Pot lyonnais 50 cl",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "50cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "5,60 € → 4,88 € HT"
+        },
+        {
+          "nom": "Le Coq — Sélection Fabrice Sommier MOF",
+          "appellation": "Beaujolais-Villages Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "6,10 € → 5,30 € HT"
+        },
+        {
+          "nom": "Les Hauts de Lacarelle (HVE)",
+          "appellation": "Beaujolais-Villages Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "6,40 € → 5,65 € HT"
+        },
+        {
+          "nom": "Domaine des Teissonnières (HVE)",
+          "appellation": "Beaujolais-Villages Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "6,40 € → 5,65 € HT"
+        },
+        {
+          "nom": "Fontaine à vin BIB 3 L",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "BIB3L",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "19,90 € → 16,90 € HT"
+        },
+        {
+          "nom": "Fontaine à vin BIB 5 L",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "BIB5L",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "30,90 € → 27,00 € HT"
+        },
+        {
+          "nom": "Fontaine à vin BIB 10 L",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "BIB10L",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "59,50 € → 51,50 € HT"
+        }
+      ],
+      "mecanique": {
+        "condition": "Tarif franco restauration dégressif · 5 paliers",
+        "description": "Paliers de 66 à 96 b., 102 à 240 b., 246 à 420 b., 426 à 594 b. et 600 b. et plus. Opération Cochon Chic : 24 bouteilles achetées = 1 carton de 6 pâtés de campagne au cognac 180 g, origine France (5,85 € sans pâté, 6,70 € avec, au premier palier). Kits PLV offerts sur les volumes Cochon Chic et Bouquet de Maggy (affiches, tabliers, chapeaux, tire-bouchons, ballons) et kit JM Aujoux.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Sans engagement sauf vente, sous réserve de l'évolution des cours. Date limite de passage de commande : mardi 20 octobre 2026. Mise en vente le jeudi 19 novembre 2026."
+      },
+      "validite": {
+        "debut": "2026-09-09",
+        "fin": "2026-11-30",
+        "note": "Date limite de passage de commande : mardi 20 octobre 2026. Mise en vente le jeudi 19 novembre 2026."
+      },
+      "target": "chr",
+      "audience": "pro",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "condition_franco": "Franco restauration à partir de 66 bouteilles"
+      },
+      "notes_commerciales": "Tarif départ également disponible (3,90 € à 4,55 € HT la btl, 4,30 € en Beaujolais-Villages) : https://nobullshitdrinks.github.io/vinom-promos/aujoux-beaujolais-nouveau-2026-tarif-depart.pdf — Présentation complète de la gamme : https://nobullshitdrinks.github.io/vinom-promos/aujoux-beaujolais-nouveau-2026-presentation.pdf",
+      "alertes": [],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/aujoux-beaujolais-nouveau-2026-franco-restauration.pdf",
+      "source": {
+        "fichier": "AUJOUX - BEAUJOLAIS NOUVEAU 2026 FRANCO RESTAURATION.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-09-09T14:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "aujoux-beaujolais-nouveau-2026-grossistes",
+      "type": "promotion",
+      "titre": "Aujoux — Beaujolais Nouveau 2026 (grossistes)",
+      "tagline": "Gamme complète · tarif gros franco, prix unique",
+      "fournisseur": {
+        "nom": "Les Vins J.M. Aujoux",
+        "code_vinistoria": "109 · 401A01",
+        "region": "Bourgogne",
+        "meta": "Négociant — Fleurie (69) · Depuis 1938"
+      },
+      "cuvees": [
+        {
+          "nom": "Le Bistrot d'Aujoux",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Cochon Chic — Tradition Française (HVE)",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Le Bouquet de Maggy — Cuvée Robert Sarrau (HVE, sans sulfites ajoutés)",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Le P'tit Baptiste Glou glou — Domaine Perraud (HVE)",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "« Faites un vœu » — Beaujolais BIO (FR-BIO-01)",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "La Tête à l'Envers — NOUVEAUTÉ",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Les Guinguettes — Rosé",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": "ROS",
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Les Guinguettes — Pot lyonnais 50 cl",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "50cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Le Coq — Sélection Fabrice Sommier MOF",
+          "appellation": "Beaujolais-Villages Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Les Hauts de Lacarelle (HVE)",
+          "appellation": "Beaujolais-Villages Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Domaine des Teissonnières (HVE)",
+          "appellation": "Beaujolais-Villages Nouveau",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Fontaine à vin BIB 3 L",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "BIB3L",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Fontaine à vin BIB 5 L",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "BIB5L",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        },
+        {
+          "nom": "Fontaine à vin BIB 10 L",
+          "appellation": "Beaujolais Nouveau",
+          "millesime": "2026",
+          "format": "BIB10L",
+          "couleur": null,
+          "au_tarif_vinom": false,
+          "mecanique_ligne": null
+        }
+      ],
+      "mecanique": {
+        "condition": "Tarif gros franco · prix unique",
+        "description": "Bistrot 4,90 € · Tête à l'Envers 4,90 € · Le Coq 4,96 € · P'tit Baptiste 4,99 € · Cochon Chic 4,97 € sans pâté / 5,80 € avec op. · Bouquet de Maggy 5,10 € · Faites un vœu 5,55 € · Guinguettes 5,01 € rosé et 4,77 € pot 50 cl · Lacarelle et Teissonnières 5,25 €. BIB 15,50 € (3 L), 25,50 € (5 L), 47,90 € (10 L).",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Sans engagement sauf vente, sous réserve de l'évolution des cours. Date limite de passage de commande : mardi 20 octobre 2026. Mise en vente le jeudi 19 novembre 2026."
+      },
+      "validite": {
+        "debut": "2026-09-09",
+        "fin": "2026-11-30",
+        "note": "Date limite de passage de commande : mardi 20 octobre 2026. Mise en vente le jeudi 19 novembre 2026."
+      },
+      "target": "chr_grossiste",
+      "audience": "grossistes",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "condition_franco": "Franco restauration à partir de 66 bouteilles"
+      },
+      "notes_commerciales": "Kit Grossiste PLV : 100 affiches interpro, 15 affiches Coq, 15 Maggy, 30 Cochon Chic, 6 banderoles, 125 chevalets, 4 tabliers, 8 couteaux sommeliers, 7 chapeaux, 25 ballons.",
+      "alertes": [],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/aujoux-beaujolais-nouveau-2026-tarif-gros-franco.pdf",
+      "source": {
+        "fichier": "AUJOUX - BEAUJOLAIS NOUVEAU 2026 TARIF GROS FRANCO.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-09-09T14:00:00Z",
+        "status": "manual"
+      }
+    },
+    {
+      "id": "vinibegood-joubert-beaujolais-nouveau-2026",
+      "type": "promotion",
+      "titre": "Vini Be Good — Domaine Joubert, Beaujolais Nouveau 2026",
+      "tagline": "Cuvée à l'ancienne · vin de domaine, mis en bouteille à la propriété",
+      "fournisseur": {
+        "nom": "Vini Be Good",
+        "code_vinistoria": "148 · 401V02",
+        "region": "Bourgogne",
+        "meta": "Domaine Joubert — Quincié-en-Beaujolais (69) · offre Beaujolais Nouveau"
+      },
+      "cuvees": [
+        {
+          "nom": "Domaine Joubert — Cuvée à l'ancienne",
+          "appellation": "Beaujolais Nouveau AOP",
+          "millesime": "2026",
+          "format": "75cl",
+          "couleur": "ROU",
+          "au_tarif_vinom": false,
+          "mecanique_ligne": "5,90 € HT départ / 6,90 € HT franco"
+        }
+      ],
+      "mecanique": {
+        "condition": "5,90 € HT départ · 6,90 € HT franco",
+        "description": "Offre spéciale de précommande. Vin de domaine, 12,5 % vol., mis en bouteille à la propriété par l'EARL Joubert Marc à Quincié-en-Beaujolais.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Dans la limite des stocks. Réservation à passer avant la clôture des commandes Beaujolais Nouveau."
+      },
+      "validite": {
+        "debut": "2026-09-09",
+        "fin": "2026-11-30",
+        "note": "Date limite de passage de commande : mardi 20 octobre 2026. Mise en vente le jeudi 19 novembre 2026."
+      },
+      "target": "chr_caviste",
+      "audience": "pro",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "condition_franco": "Tarif pro franco 6,90 € HT/btl"
+      },
+      "notes_commerciales": "Tarif pro départ : https://nobullshitdrinks.github.io/vinom-promos/vinibegood-joubert-beaujolais-nouveau-2026-pro-depart.pdf — Mise en vente le jeudi 19 novembre 2026.",
+      "alertes": [
+        "Dans la limite des stocks — premier arrivé, premier servi"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/vinibegood-joubert-beaujolais-nouveau-2026-pro-franco.pdf",
+      "source": {
+        "fichier": "offre beaujolais nouveau 2026 pro franco.pdf",
+        "parsing_method": "manual",
+        "parsing_date": "2026-09-09T14:00:00Z",
+        "status": "manual"
       }
     }
   ],
