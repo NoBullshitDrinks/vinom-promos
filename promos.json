@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "2.6",
-    "generated_at": "2026-09-09T12:00:00Z",
-    "promos_count": 65,
+    "version": "2.7",
+    "generated_at": "2026-09-22T12:00:00Z",
+    "promos_count": 67,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v2.6 (09/09/2026) : +3 promos Beaujolais Nouveau 2026 — Aujoux gamme complete en franco restauration (avec tarif Depart en complement), Aujoux tarif gros franco (grossistes), Vini Be Good / Domaine Joubert. Codes Vinistoria ajoutes (Aujoux 109 401A01, Vini Be Good 148 401V02). Affichage prolonge jusqu au 30/11 (la date limite de commande du 20/10 et la mise en vente du 19/11 figurent dans les tiroirs). Operation Pate Cochon Chic et les 4 kits PLV integres aux deux fiches Aujoux. Millesime 2026 retenu sans reserve."
+    "maj_note": "v2.7 (22/09/2026) : +11 promos — Champagne Chassenay d'Arce x3 (coupe CHR Essentielles, coupe CHR Confidences, fin d'annee cavistes/grossistes avec kit 70 ans), Champagne Deutz x3 (CC109 Top Duo, CC130 Trio Couleur, VC125 Verticale Amour en canal cavistes), Champagne Henri Giraud x3 (caviste, restaurant, service au verre), Champagne de Venoge (offres CHR a la coupe), Aujoux Operation Crus du Maconnais. Exclus : incentive vendeurs Aujoux, Saint-Martin Ete Indien (echeance 25/09), livret Chassenay. Purgees (echues) : pardela-wines-rentree-2026, coravin-model-six-hermitage-2026, leoube-love-vendanges-2026, leoube-secret-collector-vendanges-2026, caves-roussillon-essentiels-rentree-2026, delas-er13-entreprise-2026, delas-er24-entreprise-2026, delas-er57-entreprise-2026, delas-er58-entreprise-2026."
   },
   "promos": [
     {
@@ -1144,127 +1144,6 @@
       }
     },
     {
-      "id": "pardela-wines-rentree-2026",
-      "type": "promotion",
-      "titre": "Pardela Wines — Les Incontournables de la rentrée 2026",
-      "tagline": "Tarif professionnel · 15/08 → 15/09 · 9+3 / 5+1 / 11+1",
-      "fournisseur": {
-        "nom": "Pardela Wines",
-        "code_vinistoria": "240 · 401P12",
-        "region": "Italie",
-        "meta": "Importateur · Multi-régions"
-      },
-      "cuvees": [
-        {
-          "nom": "Lupo Meraviglia 'Tre di Tre' — Magnum",
-          "appellation": "Italie",
-          "couleur": "Rouge",
-          "mecanique": "9+3"
-        },
-        {
-          "nom": "Corvezzo 'Vezzo' Prosecco DOC",
-          "appellation": "Prosecco DOC",
-          "couleur": "Effervescent",
-          "mecanique": "5+1"
-        },
-        {
-          "nom": "Domaine Les Salices Viognier",
-          "appellation": "Pays d'Oc",
-          "couleur": "Blanc",
-          "mecanique": "5+1"
-        },
-        {
-          "nom": "Mas Janeil 'C2'",
-          "appellation": "Côtes Catalanes",
-          "couleur": "Rouge",
-          "mecanique": "5+1",
-          "bio": true
-        },
-        {
-          "nom": "Domaine de Targuerie Sélection Tardive",
-          "appellation": "Languedoc",
-          "couleur": "Blanc",
-          "mecanique": "11+1",
-          "bio": true
-        },
-        {
-          "nom": "Domaine de Nizas 'Le Clos' rouge",
-          "appellation": "Languedoc",
-          "couleur": "Rouge",
-          "mecanique": "11+1",
-          "bio": true
-        },
-        {
-          "nom": "CLO de Lolol rouge",
-          "appellation": "Chili",
-          "couleur": "Rouge",
-          "mecanique": "11+1",
-          "bio": true
-        },
-        {
-          "nom": "Bodega Piedra Negra Malbec Reserve",
-          "appellation": "Argentine",
-          "couleur": "Rouge",
-          "mecanique": "11+1",
-          "bio": true
-        },
-        {
-          "nom": "Campo Eliseo 'Contracorriente'",
-          "appellation": "Espagne",
-          "couleur": "Rouge",
-          "mecanique": "11+1",
-          "bio": true
-        },
-        {
-          "nom": "Fantini 'Canio' Aglianico",
-          "appellation": "Italie",
-          "couleur": "Rouge",
-          "mecanique": "11+1"
-        },
-        {
-          "nom": "Lavradores de Feitoria 'Lavra' Branco",
-          "appellation": "Douro (Portugal)",
-          "couleur": "Blanc",
-          "mecanique": "11+1"
-        },
-        {
-          "nom": "Oenops 'Apla' Blanc",
-          "appellation": "Grèce",
-          "couleur": "Blanc",
-          "mecanique": "11+1"
-        }
-      ],
-      "mecanique": {
-        "condition": "9+3 / 5+1 / 11+1",
-        "description": "Mécaniques variables selon la référence, sur la base du Tarif professionnel.",
-        "panachable": null,
-        "cumulable": false,
-        "notes_conditions": "Dans la limite des stocks. Sur le Tarif professionnel."
-      },
-      "validite": {
-        "debut": "2026-08-15",
-        "fin": "2026-09-15",
-        "note": "Catalogue rentrée, distinct du Catalogue Été Pardela Wines."
-      },
-      "target": "tarif_professionnel",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": false,
-        "note": "Sur le tarif professionnel Pardela Wines."
-      },
-      "notes_commerciales": "12 références dont nombreuses cuvées Bio (France, Italie, Chili, Argentine, Espagne, Portugal, Grèce).",
-      "alertes": [
-        "Mécaniques différentes selon la cuvée (9+3 / 5+1 / 11+1)",
-        "Valable 15/08 → 15/09/2026 sur le Tarif professionnel"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-07/Catalogue_Les_incontournables_de_la_rentree_-_Pardela_Wines_-_2026.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-07-17T10:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
       "id": "remoissenet-offre-speciale-2026",
       "type": "promotion",
       "titre": "Remoissenet Père & Fils — Offre Spéciale (Bourgogne)",
@@ -2206,61 +2085,6 @@
       }
     },
     {
-      "id": "coravin-model-six-hermitage-2026",
-      "type": "promotion",
-      "titre": "Coravin Model Six+ Hermitage Rouge — Édition Limitée",
-      "tagline": "Reconduction −25 % · opération B2C",
-      "fournisseur": {
-        "nom": "Coravin Europe B.V.",
-        "code_vinistoria": "401C33",
-        "numero_fournisseur": 603,
-        "region": "Accessoire",
-        "meta": "Amsterdam · Système de service du vin au verre"
-      },
-      "cuvees": [
-        {
-          "nom": "Coravin Model Six+ Hermitage Rouge",
-          "sku": "112460B",
-          "appellation": "Accessoire de cave",
-          "format": "Unité",
-          "ppc_ttc_avant": 399.99,
-          "ppc_ttc_promo": 299.99,
-          "prix_achat_revendeur_ht": 174.99,
-          "au_tarif_vinom": false
-        }
-      ],
-      "mecanique": {
-        "condition": "−25 % PPC",
-        "description": "PPC 399,99 € → 299,99 € TTC. Prix d'achat revendeur 174,99 € HT.",
-        "panachable": false,
-        "cumulable": false,
-        "notes_conditions": "Quantités limitées, premier arrivé premier servi. Une seule commande par partenaire. Commandes ouvertes dès le 17/08/2026."
-      },
-      "validite": {
-        "debut": "2026-09-07",
-        "fin": "2026-09-13",
-        "note": "Commandes revendeur ouvertes à partir du 17/08/2026."
-      },
-      "target": "caviste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": false,
-        "note": "Commande sur https://www.coravin.fr/pages/trade-coravin — contact Louis de Demandolx."
-      },
-      "notes_commerciales": "Marge revendeur d'environ 125 € HT par appareil au prix promo. La commande se joue le 17 août, pas en septembre.",
-      "alertes": [
-        "Canal B2C uniquement",
-        "Une seule commande par partenaire",
-        "Commander dès le 17/08 pour sécuriser l'allocation"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-07/Coravin_Reconduction_Edition_Limitee_Model_Six_Hermitage_Septembre_2026.eml",
-        "parsing_method": "manual",
-        "parsing_date": "2026-07-31T12:00:00Z",
-        "status": "manual"
-      }
-    },
-    {
       "id": "vinovalie-trad-septembre-2026",
       "type": "promotion",
       "titre": "Vinovalie — Tradition Septembre",
@@ -2746,108 +2570,6 @@
       }
     },
     {
-      "id": "leoube-love-vendanges-2026",
-      "type": "promotion",
-      "titre": "Château Léoube — Préparez la rentrée (Love by Léoube)",
-      "tagline": "48→6 · 60→12 · 120→36 offertes · 15/08 → 15/09",
-      "fournisseur": {
-        "nom": "Château Léoube",
-        "code_vinistoria": "119 · 401L11",
-        "region": "Provence-Corse",
-        "meta": "Bormes-les-Mimosas · Côtes de Provence · Bio"
-      },
-      "cuvees": [
-        {
-          "nom": "Love by Léoube (toutes couleurs)",
-          "appellation": "Côtes de Provence",
-          "couleur": "Multi",
-          "bio": true
-        }
-      ],
-      "mecanique": {
-        "condition": "48→6 / 60→12 / 120→36",
-        "description": "Bouteilles offertes selon le volume de Love by Léoube commandé.",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Commande toutes couleurs confondues ; gratuités servies en Love by Léoube Rosé."
-      },
-      "validite": {
-        "debut": "2026-08-15",
-        "fin": "2026-09-15"
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true,
-        "note": "Transport inclus dès 48 btl ou 350 € HT, sinon +30 € HT forfait. France métropolitaine."
-      },
-      "notes_commerciales": "Paliers nettement plus généreux que l'offre d'été (jusqu'à 36 offertes pour 120 cols).",
-      "alertes": [
-        "Gratuités servies en Love by Léoube Rosé uniquement",
-        "Transport : inclus dès 48 btl / 350 € HT"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-08/LOVE - OFFRE VENDANGES.jpg",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-08-24T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "leoube-secret-collector-vendanges-2026",
-      "type": "promotion",
-      "titre": "Château Léoube — Préparez la rentrée (Secret & Collector)",
-      "tagline": "48→6 · 60→12 · 120→36 offertes · 15/08 → 15/09",
-      "fournisseur": {
-        "nom": "Château Léoube",
-        "code_vinistoria": "119 · 401L11",
-        "region": "Provence-Corse",
-        "meta": "Bormes-les-Mimosas · Côtes de Provence · Bio"
-      },
-      "cuvees": [
-        {
-          "nom": "Secret de Léoube (gamme)",
-          "appellation": "Côtes de Provence",
-          "couleur": "Multi",
-          "bio": true
-        },
-        {
-          "nom": "Collector de Léoube (gamme)",
-          "appellation": "Côtes de Provence",
-          "couleur": "Multi",
-          "bio": true
-        }
-      ],
-      "mecanique": {
-        "condition": "48→6 / 60→12 / 120→36",
-        "description": "Bouteilles offertes selon le volume ET la cuvée commandés. Commande gamme Secret → gratuités en Secret de Léoube Blanc. Commande gamme Collector → gratuités en Collector de Léoube Blanc.",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Panachage possible. Réservé CHR et cavistes France métropolitaine."
-      },
-      "validite": {
-        "debut": "2026-08-15",
-        "fin": "2026-09-15"
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true,
-        "note": "Transport inclus dès 48 btl ou 350 € HT, sinon +30 € HT forfait."
-      },
-      "notes_commerciales": "Volet haut de gamme de l'opération vendanges Léoube.",
-      "alertes": [
-        "Gratuités servies en blanc de la gamme commandée (Secret Blanc ou Collector Blanc)",
-        "Transport : inclus dès 48 btl / 350 € HT, sinon +30 € HT"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-08/SECRET - OFFRE VENDANGES.jpg",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-08-24T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
       "id": "miquel-les-cotes-2026",
       "type": "promotion",
       "titre": "Laurent Miquel — Gamme « Les Côtes » (21+3)",
@@ -2989,183 +2711,6 @@
       ],
       "source": {
         "fichier": "Promotions/2026-08/PROMOTIONS-BLANC-ROUGE-ROSE...pdf",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-08-24T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "caves-roussillon-essentiels-rentree-2026",
-      "type": "promotion",
-      "titre": "Les Caves du Roussillon — Les Essentiels de la rentrée",
-      "tagline": "Vider les cuves avant récolte · jusqu'au 18 septembre · mécaniques variées",
-      "fournisseur": {
-        "nom": "Les Caves du Roussillon",
-        "code_vinistoria": null,
-        "region": "Occitanie",
-        "meta": "Groupement de domaines partenaires · Roussillon"
-      },
-      "cuvees": [
-        {
-          "nom": "Laure de Nyls Marinade Blanc (macabeu)",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "BLC",
-          "prix_ht": 1.9
-        },
-        {
-          "nom": "Laure de Nyls Marinade Rouge (grenache noir)",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "RGE",
-          "prix_ht": 1.9
-        },
-        {
-          "nom": "Laure de Nyls Marinade Rosé (grenache noir)",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "ROS",
-          "prix_ht": 1.9
-        },
-        {
-          "nom": "Canet Valette Antonyme 2024",
-          "appellation": "AOP Saint-Chinian",
-          "couleur": "RGE",
-          "mecanique": "5+1"
-        },
-        {
-          "nom": "La Colla Malvoisie",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "BLC",
-          "mecanique": "6+6"
-        },
-        {
-          "nom": "La Colla Cinsault",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "RGE",
-          "mecanique": "6+6"
-        },
-        {
-          "nom": "Adalta Garnatxa Blanca 2019",
-          "appellation": "DO Terra Alta",
-          "couleur": "BLC",
-          "mecanique": "3+3"
-        },
-        {
-          "nom": "Coume del Mas Banyuls Tradition NM",
-          "appellation": "AOP Banyuls",
-          "couleur": "RGE",
-          "mecanique": "11+1"
-        },
-        {
-          "nom": "Domaine Semper Famae 2025",
-          "appellation": "AOP Côtes du Roussillon Villages Lesquerde",
-          "couleur": "RGE",
-          "mecanique": "5+1"
-        },
-        {
-          "nom": "Domaine Semper Regain 2024",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "BLC",
-          "mecanique": "11+1"
-        },
-        {
-          "nom": "Domaine Vaquer Cuvée Bernard 2024",
-          "appellation": "AOP Côtes du Roussillon",
-          "couleur": "RGE",
-          "mecanique": "11+1"
-        },
-        {
-          "nom": "Domaine Vaquer Cuvée 30 ans 2020",
-          "appellation": "AOP Côtes du Roussillon Villages Les Aspres",
-          "couleur": "RGE",
-          "mecanique": "5+1"
-        },
-        {
-          "nom": "Domaine Vaquer Epsilon 2021",
-          "appellation": "AOP Côtes du Roussillon Villages Les Aspres",
-          "couleur": "RGE",
-          "mecanique": "5+1"
-        },
-        {
-          "nom": "La Rectorie Montagne 2024",
-          "appellation": "AOP Collioure",
-          "couleur": "RGE",
-          "mecanique": "11+1"
-        },
-        {
-          "nom": "Domaine Laguerre Le Ciste 2023",
-          "appellation": "AOP Côtes du Roussillon",
-          "couleur": "RGE",
-          "mecanique": "11+1"
-        },
-        {
-          "nom": "Domaine de Majas Col de Segas 2022",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "RGE",
-          "mecanique": "9+3"
-        },
-        {
-          "nom": "Tramontane Rosado 2025 (Magnum)",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "ROS",
-          "mecanique": "9+3"
-        },
-        {
-          "nom": "Domaine Augustin Blanc de Noirs 2024",
-          "appellation": "IGP Côtes Vermeille",
-          "couleur": "BLC",
-          "mecanique": "11+1"
-        },
-        {
-          "nom": "Mas Mudigliza Carminé 2022",
-          "appellation": "AOP Côtes du Roussillon Villages",
-          "couleur": "RGE",
-          "mecanique": "11+1"
-        },
-        {
-          "nom": "Mas Mudigliza Coume des Loups 2025",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "BLC",
-          "mecanique": "5+1"
-        },
-        {
-          "nom": "Terra Remota Ales Roses 2025",
-          "appellation": "DO Catalunya",
-          "couleur": "ROS",
-          "mecanique": "4+2"
-        },
-        {
-          "nom": "Domaine Lheritier Rivesaltes Grenat 2011",
-          "appellation": "AOP Rivesaltes Grenat",
-          "couleur": "RGE",
-          "mecanique": "5+1"
-        }
-      ],
-      "mecanique": {
-        "condition": "5+1 · 11+1 · 9+3 · 6+6 · 4+2 · 3+3",
-        "description": "Mécaniques variables selon la cuvée. Permet de compléter une commande pour atteindre un palier plus avantageux (ex. passer de 12 à 33+3).",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Quantités minimales de commande disponibles sur demande. Dans la limite des stocks."
-      },
-      "validite": {
-        "debut": "2026-08-24",
-        "fin": "2026-09-18",
-        "note": "Disponibles dès à présent et jusqu'au 18 septembre 2026."
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "groupement",
-        "franco": null,
-        "note": "Contact : Sarah Reynal, Les Caves du Roussillon."
-      },
-      "notes_commerciales": "Objectif : aider les domaines partenaires à vider leurs cuves avant la nouvelle récolte. Utile pour compléter des commandes, répondre à une demande en vins à la verse, ou préparer les foires aux vins.",
-      "alertes": [
-        "Mécanique différente pour chaque cuvée — vérifier ligne par ligne",
-        "Quantités minimales sur demande",
-        "Jusqu'au 18 septembre seulement"
-      ],
-      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/les-essentiels-de-la-rentree-les-caves-du-roussillon.pdf",
-      "source": {
-        "fichier": "Promotions/2026-08/LES_ESSENTIELS_DE_LA_RENTREE-Les-Caves-du-Roussillon.pdf",
         "parsing_method": "parseur-promos",
         "parsing_date": "2026-08-24T12:00:00Z",
         "status": "auto-parsed"
@@ -3727,207 +3272,6 @@
       "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-speciale-vinibegood-rentree-2026-pro-franco.pdf",
       "source": {
         "fichier": "Promotions/2026-08/Offre Spéciale Vinibegood (2 fichiers, 3 p.)",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-08-26T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "delas-er13-entreprise-2026",
-      "type": "promotion",
-      "titre": "Delas Frères — ER13 · Domaine des Grands Chemins (tarif Entreprise)",
-      "tagline": "12 = 6 off. · tarif Entreprise · jusqu'au 15/09/2026",
-      "fournisseur": {
-        "nom": "Delas Frères",
-        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
-        "region": "Rhône",
-        "meta": "Vallée du Rhône"
-      },
-      "cuvees": [
-        {
-          "nom": "Crozes-Hermitage · Côtes-du-Rhône Saint-Esprit",
-          "appellation": "Crozes-Hermitage · Côtes-du-Rhône Saint-Esprit",
-          "millesime": "2022",
-          "couleur": "Multi"
-        }
-      ],
-      "mecanique": {
-        "condition": "12 = 6 off.",
-        "description": "12 Crozes-Hermitage « Domaine des Grands Chemins » 2022 achetées",
-        "panachable": false,
-        "cumulable": false,
-        "notes_conditions": "Tarif Entreprise en vigueur. Dans la limite des stocks, sans préavis."
-      },
-      "validite": {
-        "debut": "2026-08-26",
-        "fin": "2026-09-15"
-      },
-      "target": "entreprise",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": null,
-        "note": "Via Deutz Delas Diffusion · tarif Entreprise."
-      },
-      "notes_commerciales": "Volet ENTREPRISE (code ER13) — mécanique voisine des offres TR, mais sur le tarif Entreprise et avec une échéance au 15/09/2026.",
-      "alertes": [
-        "Non compatible TR30",
-        "Tarif ENTREPRISE (distinct du tarif patenté des offres TR)",
-        "Respect des conditionnements d'origine et des calibres proposés",
-        "Échéance courte : 15/09/2026"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-08/ER13.pdf",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-08-26T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "delas-er24-entreprise-2026",
-      "type": "promotion",
-      "titre": "Delas Frères — ER24 · Viognier (tarif Entreprise)",
-      "tagline": "55 = 5 off. · tarif Entreprise · jusqu'au 15/09/2026",
-      "fournisseur": {
-        "nom": "Delas Frères",
-        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
-        "region": "Rhône",
-        "meta": "Vallée du Rhône"
-      },
-      "cuvees": [
-        {
-          "nom": "Viognier",
-          "appellation": "Viognier",
-          "millesime": "—",
-          "couleur": "Multi"
-        }
-      ],
-      "mecanique": {
-        "condition": "55 = 5 off.",
-        "description": "55 bouteilles de Viognier achetées = 5 bouteilles de Viognier OFFERTES.",
-        "panachable": false,
-        "cumulable": false,
-        "notes_conditions": "Tarif Entreprise en vigueur. Dans la limite des stocks, sans préavis."
-      },
-      "validite": {
-        "debut": "2026-08-26",
-        "fin": "2026-09-15"
-      },
-      "target": "entreprise",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": null,
-        "note": "Via Deutz Delas Diffusion · tarif Entreprise."
-      },
-      "notes_commerciales": "Volet ENTREPRISE (code ER24) — mécanique voisine des offres TR, mais sur le tarif Entreprise et avec une échéance au 15/09/2026.",
-      "alertes": [
-        "Respect des colisages et CGV",
-        "Tarif ENTREPRISE (distinct du tarif patenté des offres TR)",
-        "Respect des conditionnements d'origine et des calibres proposés",
-        "Échéance courte : 15/09/2026"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-08/ER24.pdf",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-08-26T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "delas-er57-entreprise-2026",
-      "type": "promotion",
-      "titre": "Delas Frères — ER57 · Opération Signature (tarif Entreprise)",
-      "tagline": "11+1 (120) · tarif Entreprise · jusqu'au 15/09/2026",
-      "fournisseur": {
-        "nom": "Delas Frères",
-        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
-        "region": "Rhône",
-        "meta": "Vallée du Rhône"
-      },
-      "cuvees": [
-        {
-          "nom": "Crozes-Hermitage « Les Launes » · CDR Saint-Esprit · Viognier",
-          "appellation": "Crozes-Hermitage « Les Launes » · CDR Saint-Esprit · Viognier",
-          "millesime": "2023 · 2024",
-          "couleur": "Multi"
-        }
-      ],
-      "mecanique": {
-        "condition": "11+1 (120)",
-        "description": "Pour l'achat de 120 bouteilles : 11+1 à votre guise sur les qualités sélectionnées —",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Tarif Entreprise en vigueur. Dans la limite des stocks, sans préavis."
-      },
-      "validite": {
-        "debut": "2026-08-26",
-        "fin": "2026-09-15"
-      },
-      "target": "entreprise",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": null,
-        "note": "Via Deutz Delas Diffusion · tarif Entreprise."
-      },
-      "notes_commerciales": "Volet ENTREPRISE (code ER57) — mécanique voisine des offres TR, mais sur le tarif Entreprise et avec une échéance au 15/09/2026.",
-      "alertes": [
-        "Panachable par 12 bouteilles minimum",
-        "Non compatible TR30",
-        "Tarif ENTREPRISE (distinct du tarif patenté des offres TR)",
-        "Respect des conditionnements d'origine et des calibres proposés",
-        "Échéance courte : 15/09/2026"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-08/ER57.pdf",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-08-26T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "delas-er58-entreprise-2026",
-      "type": "promotion",
-      "titre": "Delas Frères — ER58 · Opération Partenaire (tarif Entreprise)",
-      "tagline": "204 = 36 off. · tarif Entreprise · jusqu'au 15/09/2026",
-      "fournisseur": {
-        "nom": "Delas Frères",
-        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
-        "region": "Rhône",
-        "meta": "Vallée du Rhône"
-      },
-      "cuvees": [
-        {
-          "nom": "Côtes-du-Rhône Saint-Esprit",
-          "appellation": "Côtes-du-Rhône Saint-Esprit",
-          "millesime": "2023",
-          "couleur": "Multi"
-        }
-      ],
-      "mecanique": {
-        "condition": "204 = 36 off.",
-        "description": "Côtes-du-Rhône Saint-Esprit 2023 : pour l'achat de 204 bouteilles = 36 bouteilles OFFERTES.",
-        "panachable": false,
-        "cumulable": false,
-        "notes_conditions": "Tarif Entreprise en vigueur. Dans la limite des stocks, sans préavis."
-      },
-      "validite": {
-        "debut": "2026-08-26",
-        "fin": "2026-09-15"
-      },
-      "target": "entreprise",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": null,
-        "note": "Via Deutz Delas Diffusion · tarif Entreprise."
-      },
-      "notes_commerciales": "Volet ENTREPRISE (code ER58) — mécanique voisine des offres TR, mais sur le tarif Entreprise et avec une échéance au 15/09/2026.",
-      "alertes": [
-        "Non compatible TR30",
-        "Tarif ENTREPRISE (distinct du tarif patenté des offres TR)",
-        "Respect des conditionnements d'origine et des calibres proposés",
-        "Échéance courte : 15/09/2026"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-08/ER58.pdf",
         "parsing_method": "parseur-promos",
         "parsing_date": "2026-08-26T12:00:00Z",
         "status": "auto-parsed"
@@ -5460,6 +4804,690 @@
         "parsing_method": "manual",
         "parsing_date": "2026-09-09T14:00:00Z",
         "status": "manual"
+      }
+    },
+    {
+      "id": "chassenay-coupe-essentielles-chr-2026",
+      "type": "promotion",
+      "titre": "Champagne Chassenay d'Arce — Offre champagne à la coupe (CHR)",
+      "tagline": "36 = 33+3 · 72 = 64+8 + 5 stoppers + 1 vasque",
+      "fournisseur": {
+        "nom": "Champagne Chassenay d'Arce",
+        "code_vinistoria": "696",
+        "region": "Champagne",
+        "meta": "Ville-sur-Arce (10) · Côte des Bar · Maison de vignerons"
+      },
+      "cuvees": [
+        {
+          "nom": "Cuvée Première",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "dosage": "brut",
+          "tarif_pro_ht": 15.75
+        },
+        {
+          "nom": "Sélection Blanche",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "dosage": "brut — blanc de blancs",
+          "tarif_pro_ht": 17.6
+        },
+        {
+          "nom": "Cuvée Expression",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "dosage": "brut — rosé",
+          "tarif_pro_ht": 16.8
+        },
+        {
+          "nom": "Cuvée Origine",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "dosage": "extra-brut"
+        }
+      ],
+      "mecanique": {
+        "condition": "33+3 / 64+8",
+        "description": "36 bouteilles achetées = 33 + 3 offertes. 72 bouteilles achetées = 64 + 8 offertes + 5 bouchons stoppers + 1 vasque offerts.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Panachables avec un minimum de 12 bouteilles par référence. Sur le tarif professionnel."
+      },
+      "validite": {
+        "debut": "2026-10-12",
+        "fin": "2026-12-11"
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct maison · franco de port dès 36 bouteilles (sinon port forfaitaire 40 € HT)"
+      },
+      "notes_commerciales": "Offre de fin d'année pour la vente au verre sur les cuvées « Essentielles » de la maison.",
+      "alertes": [
+        "Minimum 12 bouteilles par référence",
+        "Stoppers et vasque offerts au palier 72 bouteilles uniquement"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/tarifs-2026-professionnels-champagne-chassenay-d-arce.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/Champagne Chassenay - Offre champagne à la coupe - Fin d'année 2026 - CHR.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "chassenay-coupe-confidences-chr-2026",
+      "type": "promotion",
+      "titre": "Champagne Chassenay d'Arce — Confidences à la coupe (CHR)",
+      "tagline": "18,90 € HT dès 36 btl · 17,50 € HT dès 60 btl + stoppers et vasque",
+      "fournisseur": {
+        "nom": "Champagne Chassenay d'Arce",
+        "code_vinistoria": "696",
+        "region": "Champagne",
+        "meta": "Ville-sur-Arce (10) · Côte des Bar · Maison de vignerons"
+      },
+      "cuvees": [
+        {
+          "nom": "Confidences 2014",
+          "appellation": "Champagne",
+          "millesime": "2014",
+          "couleur": "EFF",
+          "dosage": "brut"
+        },
+        {
+          "nom": "Confidences Rosé 2015",
+          "appellation": "Champagne",
+          "millesime": "2015",
+          "couleur": "EFF",
+          "dosage": "brut — rosé"
+        }
+      ],
+      "mecanique": {
+        "condition": "18,90 € / 17,50 € HT",
+        "description": "36 bouteilles achetées = 18,90 € HT au lieu de 27,50 € HT. 60 bouteilles achetées = 17,50 € HT au lieu de 27,50 € HT + 5 bouchons stoppers + 1 vasque offerts.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Panachables avec un minimum de 6 bouteilles par référence. Confidences en coffret par 3 ou sans coffret par 6 : à partir de 6 bouteilles le client choisit, au tarif correspondant."
+      },
+      "validite": {
+        "debut": "2026-10-12",
+        "fin": "2026-12-11"
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct maison · franco de port dès 36 bouteilles (sinon port forfaitaire 40 € HT)"
+      },
+      "notes_commerciales": "Cuvées d'exception de la maison, proposées à la coupe à prix très réduit.",
+      "alertes": [
+        "Minimum 6 bouteilles par référence",
+        "Stoppers et vasque offerts au palier 60 bouteilles uniquement"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/tarifs-2026-professionnels-champagne-chassenay-d-arce.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/Champagne Chassenay - Offre champagne à la coupe - Fin d'année 2026 - CHR.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "chassenay-fin-annee-cavistes-grossistes-2026",
+      "type": "promotion",
+      "audience": "cavistes grossistes",
+      "titre": "Champagne Chassenay d'Arce — Offres de fin d'année (cavistes et grossistes)",
+      "tagline": "Blanc de Noirs · Pinot Blanc · Origine · Confidences · kit caviste 70 ans",
+      "fournisseur": {
+        "nom": "Champagne Chassenay d'Arce",
+        "code_vinistoria": "696",
+        "region": "Champagne",
+        "meta": "Ville-sur-Arce (10) · Côte des Bar · Maison de vignerons"
+      },
+      "cuvees": [
+        {
+          "nom": "Sélection Blanc de Noirs brut",
+          "couleur": "EFF",
+          "mecanique": "120 = 117+3 · 240 = 232+8 · 480 = 462+18"
+        },
+        {
+          "nom": "Pinot Blanc 2016 extra-brut",
+          "couleur": "EFF",
+          "mecanique": "24 = 22+2"
+        },
+        {
+          "nom": "Cuvée Origine extra-brut",
+          "couleur": "EFF",
+          "mecanique": "36 = 30+6"
+        },
+        {
+          "nom": "Confidences 2014 / Confidences Rosé 2015",
+          "couleur": "EFF",
+          "mecanique": "6 = 1 magnum Expression offert · 12 = 6 Origine offertes · 36 = 36 Origine offertes"
+        },
+        {
+          "nom": "Kit caviste 70 ans",
+          "couleur": "—",
+          "mecanique": "30 Première + 30 Sélection Blanche + 12 Expression = 3 magnums Sélection Blanche + 1 kit (100 € HT)"
+        }
+      ],
+      "mecanique": {
+        "condition": "Offres par cuvée",
+        "description": "Mécanique propre à chaque cuvée, sur les tarifs cavistes et grossistes.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Pinot Blanc / Origine : panachables avec un minimum de 12 bouteilles par référence. Confidences : panachables sur la gamme avec un minimum de 6 bouteilles par référence. Kit caviste : 70 kits, 1 seul par client."
+      },
+      "validite": {
+        "debut": "2026-10-12",
+        "fin": "2026-12-11"
+      },
+      "target": "cavistes_grossistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Direct maison · franco de port dès 36 bouteilles (sinon port forfaitaire 40 € HT)"
+      },
+      "notes_commerciales": "Opération anniversaire des 70 ans de la maison : 70 kits cavistes pour 70 caves.",
+      "alertes": [
+        "Mécanique différente pour chaque cuvée",
+        "Kit caviste : 70 exemplaires, 1 seul par client"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/tarifs-2026-cavistes-champagne-chassenay-d-arce.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/Champagne Chassenay - Offres de fin d'année 2026 Cavistes Grossistes.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "deutz-cc109-top-duo-2026",
+      "type": "promotion",
+      "titre": "Champagne Deutz — CC109 « Top Duo »",
+      "tagline": "54 Brut Classic + 6 Brut Rosé = 3 magnums Brut Classic offerts",
+      "fournisseur": {
+        "nom": "Champagne Deutz",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Champagne",
+        "meta": "Aÿ · via Deutz Delas Diffusion"
+      },
+      "cuvees": [
+        {
+          "nom": "Deutz Brut Classic",
+          "couleur": "EFF"
+        },
+        {
+          "nom": "Deutz Brut Rosé Non Millésimé",
+          "couleur": "EFF"
+        }
+      ],
+      "mecanique": {
+        "condition": "3 magnums offerts",
+        "description": "54 bouteilles Deutz Brut Classic + 6 bouteilles Deutz Brut Rosé Non Millésimé = 3 magnums Deutz Brut Classic offerts.",
+        "panachable": true,
+        "cumulable": true,
+        "notes_conditions": "3 opérations maximum par client. Panachage possible avec minimum 6 bouteilles de Brut Rosé Non Millésimé. Compatible avec la remise de gamme (5 % max). Code CC109."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31"
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Via Deutz Delas Diffusion · tarif en vigueur"
+      },
+      "notes_commerciales": "Offre CBHR (cafés, bars, hôtels, restaurants).",
+      "alertes": [
+        "3 opérations maximum par client",
+        "Compatible avec la remise de gamme, 5 % maximum"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/DEUTZ - Offres Commerciales CBHR septembre 2026.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "deutz-cc130-trio-couleur-2026",
+      "type": "promotion",
+      "titre": "Champagne Deutz — CC130 « Trio Couleur »",
+      "tagline": "6 Brut Rosé + 6 Blanc de Blancs 2020 = 6 Brut Classic offertes",
+      "fournisseur": {
+        "nom": "Champagne Deutz",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Champagne",
+        "meta": "Aÿ · via Deutz Delas Diffusion"
+      },
+      "cuvees": [
+        {
+          "nom": "Deutz Brut Rosé Non Millésimé",
+          "couleur": "EFF"
+        },
+        {
+          "nom": "Deutz Blanc de Blancs 2020",
+          "millesime": "2020",
+          "couleur": "EFF"
+        },
+        {
+          "nom": "Deutz Brut Classic (offert)",
+          "couleur": "EFF"
+        }
+      ],
+      "mecanique": {
+        "condition": "6 Brut Classic offertes",
+        "description": "6 bouteilles Deutz Brut Rosé Non Millésimé + 6 bouteilles Deutz Blanc de Blancs 2020 = 6 bouteilles Deutz Brut Classic offertes.",
+        "panachable": false,
+        "cumulable": true,
+        "notes_conditions": "Pas plus de trois packs par client. Compatible avec la remise de gamme (5 % max). Respect des conditionnements d'origine et des calibres proposés, sans étui ni coffret. Code CC130."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31"
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Via Deutz Delas Diffusion · tarif en vigueur"
+      },
+      "notes_commerciales": "Offre CBHR pour composer une carte trois couleurs.",
+      "alertes": [
+        "Pas plus de trois packs par client",
+        "Sans étui ni coffret",
+        "Compatible avec la remise de gamme, 5 % maximum"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/DEUTZ - Offres Commerciales CBHR septembre 2026.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "deutz-vc125-verticale-amour-2026",
+      "type": "promotion",
+      "audience": "cavistes",
+      "titre": "Champagne Deutz — VC125 « Verticale Amour »",
+      "tagline": "Magnum Amour de Deutz 2013 + 2014 = magnum 2015 offert",
+      "fournisseur": {
+        "nom": "Champagne Deutz",
+        "code_vinistoria": "110 · 401D01 (Deutz Delas Diffusion)",
+        "region": "Champagne",
+        "meta": "Aÿ · via Deutz Delas Diffusion"
+      },
+      "cuvees": [
+        {
+          "nom": "Amour de Deutz 2013 — magnum",
+          "millesime": "2013",
+          "format": "Magnum",
+          "couleur": "EFF"
+        },
+        {
+          "nom": "Amour de Deutz 2014 — magnum",
+          "millesime": "2014",
+          "format": "Magnum",
+          "couleur": "EFF"
+        },
+        {
+          "nom": "Amour de Deutz 2015 — magnum (offert)",
+          "millesime": "2015",
+          "format": "Magnum",
+          "couleur": "EFF"
+        }
+      ],
+      "mecanique": {
+        "condition": "1 magnum 2015 offert",
+        "description": "1 magnum Amour de Deutz 2013 + 1 magnum Amour de Deutz 2014 = 1 magnum Amour de Deutz 2015 offert.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Pas plus de trois packs par client. Non compatible avec la remise de gamme. En caisse bois de 3 magnums. Code VC125."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31"
+      },
+      "target": "cavistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Via Deutz Delas Diffusion · tarif en vigueur"
+      },
+      "notes_commerciales": "Offre VAE (vente à emporter) : verticale de trois millésimes de la cuvée de prestige, en caisse bois.",
+      "alertes": [
+        "Non compatible avec la remise de gamme",
+        "Pas plus de trois packs par client",
+        "En caisse bois de 3 magnums"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/VC125 - verticale Amour Cavistes.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "giraud-offre-caviste-2026",
+      "type": "promotion",
+      "audience": "cavistes",
+      "titre": "Champagne Henri Giraud — Offre Caviste",
+      "tagline": "Pack 42 bouteilles + 6 magnums : 1 940 € HT au lieu de 2 427 € HT",
+      "fournisseur": {
+        "nom": "Champagne Henri Giraud",
+        "code_vinistoria": "475 · 401C113",
+        "region": "Champagne",
+        "meta": "Aÿ (51)"
+      },
+      "cuvees": [
+        {
+          "nom": "Esprit Nature (étui)",
+          "quantite": 18
+        },
+        {
+          "nom": "Blanc de Craie (étui)",
+          "quantite": 6
+        },
+        {
+          "nom": "Hommage au Pinot Noir (étui)",
+          "quantite": 6
+        },
+        {
+          "nom": "PR 90-21 (étui)",
+          "quantite": 6
+        },
+        {
+          "nom": "Ratafia Solera — caisse bois autovendeuse avec filets",
+          "quantite": 6
+        },
+        {
+          "nom": "Blanc de Craie — magnum (étui)",
+          "quantite": 3
+        },
+        {
+          "nom": "Hommage au Pinot Noir — magnum (étui)",
+          "quantite": 3
+        }
+      ],
+      "mecanique": {
+        "condition": "1 940 € HT",
+        "description": "Pack caviste à prix forfaitaire : 1 940 € HT au lieu de 2 427 € HT.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Composition fixe du pack."
+      },
+      "validite": {
+        "debut": "2026-09-22",
+        "fin": "2026-12-18"
+      },
+      "target": "cavistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Direct maison · contact spertois@champagne-giraud.com · 03 26 55 18 55"
+      },
+      "notes_commerciales": "Pack de fin d'année avec étuis et magnums, présentoir Ratafia autovendeur.",
+      "alertes": [
+        "Composition du pack fixe"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/Offre Caviste 2026-GIRAUD.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "giraud-offre-restaurant-2026",
+      "type": "promotion",
+      "titre": "Champagne Henri Giraud — Offre Restaurant",
+      "tagline": "Pack 48 bouteilles : 1 725 € HT au lieu de 2 154 € HT",
+      "fournisseur": {
+        "nom": "Champagne Henri Giraud",
+        "code_vinistoria": "475 · 401C113",
+        "region": "Champagne",
+        "meta": "Aÿ (51)"
+      },
+      "cuvees": [
+        {
+          "nom": "Esprit Nature",
+          "quantite": 18
+        },
+        {
+          "nom": "Blanc de Craie",
+          "quantite": 12
+        },
+        {
+          "nom": "Hommage au Pinot Noir",
+          "quantite": 12
+        },
+        {
+          "nom": "PR 90-21",
+          "quantite": 6
+        }
+      ],
+      "mecanique": {
+        "condition": "1 725 € HT",
+        "description": "Pack restaurant à prix forfaitaire : 1 725 € HT au lieu de 2 154 € HT.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Composition fixe du pack."
+      },
+      "validite": {
+        "debut": "2026-09-22",
+        "fin": "2026-12-18"
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Direct maison · contact spertois@champagne-giraud.com · 03 26 55 18 55"
+      },
+      "notes_commerciales": "Pack carte des vins restaurant, quatre cuvées.",
+      "alertes": [
+        "Composition du pack fixe"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/Offre Restaurant - 2026-GIRAUD.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "giraud-service-au-verre-2026",
+      "type": "promotion",
+      "titre": "Champagne Henri Giraud — Offre Restaurant Service au verre",
+      "tagline": "Esprit Nature : 60+6 à 28 € · 120+12 à 27 € · 180+18 à 26 € HT",
+      "fournisseur": {
+        "nom": "Champagne Henri Giraud",
+        "code_vinistoria": "475 · 401C113",
+        "region": "Champagne",
+        "meta": "Aÿ (51)"
+      },
+      "cuvees": [
+        {
+          "nom": "Esprit Nature",
+          "couleur": "EFF",
+          "prix_60_ht": 28.0,
+          "prix_120_ht": 27.0,
+          "prix_180_ht": 26.0
+        }
+      ],
+      "mecanique": {
+        "condition": "60+6 / 120+12 / 180+18",
+        "description": "Esprit Nature : 60 bouteilles à 28 € HT + 6 offertes · 120 bouteilles à 27 € HT + 12 offertes · 180 bouteilles à 26 € HT + 18 offertes.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "S'entend en équivalent bouteilles."
+      },
+      "validite": {
+        "debut": "2026-09-22",
+        "fin": "2026-12-18"
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Direct maison · contact spertois@champagne-giraud.com · 03 26 55 18 55"
+      },
+      "notes_commerciales": "Offre dédiée au service au verre.",
+      "alertes": [
+        "Quantités exprimées en équivalent bouteilles"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/Offre Restaurant Service au Verre - 2026-GIRAUD.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "de-venoge-coupe-chr-s2-2026",
+      "type": "promotion",
+      "titre": "Champagne de Venoge — Offres spéciales CHR (service à la coupe)",
+      "tagline": "Cordon Bleu, Princes, Millésime 2018, Louis XV · contre une mise à la coupe",
+      "fournisseur": {
+        "nom": "Champagne de Venoge",
+        "code_vinistoria": "111 · 401V04",
+        "region": "Champagne",
+        "meta": "Épernay (51)"
+      },
+      "cuvees": [
+        {
+          "nom": "Cordon Bleu Brut / Extra Brut / Blanc de Noirs",
+          "couleur": "EFF",
+          "mecanique": "au prix du Brut et 21+3 ou 50+10"
+        },
+        {
+          "nom": "Cordon Bleu Rosé",
+          "couleur": "EFF",
+          "mecanique": "20+4"
+        },
+        {
+          "nom": "Princes Brut",
+          "couleur": "EFF",
+          "mecanique": "24+12"
+        },
+        {
+          "nom": "Princes Rosé / Blanc de Blancs / Blanc de Noirs / Extra Brut",
+          "couleur": "EFF",
+          "mecanique": "46,10 € HT · 18+18"
+        },
+        {
+          "nom": "Cordon Bleu Millésime 2018",
+          "millesime": "2018",
+          "couleur": "EFF",
+          "mecanique": "40,80 € HT · 30+30"
+        },
+        {
+          "nom": "Louis XV 2015 / 2014 / 1996 / 1995",
+          "couleur": "EFF",
+          "mecanique": "2+1"
+        }
+      ],
+      "mecanique": {
+        "condition": "Offres à la coupe",
+        "description": "Offres de gratuités en contrepartie d'une mise à la coupe, mécanique propre à chaque cuvée.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Offres non divisibles, multipliables uniquement dans le respect des proportions initiales. Valables uniquement pour des bouteilles nues, sans étui ni coffret (hors conditionnements unitaires)."
+      },
+      "validite": {
+        "debut": "2026-07-01",
+        "fin": "2026-12-31"
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Réservées aux CHR"
+      },
+      "notes_commerciales": "Gamme complète de la maison au verre, de Cordon Bleu à Louis XV.",
+      "alertes": [
+        "En contrepartie d'une mise à la coupe",
+        "Bouteilles nues uniquement, sans étui ni coffret",
+        "Offres non divisibles, multipliables dans le respect des proportions"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offres-chr-s2-2026-de-venoge.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/Offres CHR - S2 2026-DE VENOGE.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "aujoux-crus-maconnais-2026",
+      "type": "promotion",
+      "titre": "Aujoux — Opération Crus du Mâconnais",
+      "tagline": "11+1 dès 36 btl · 10 % dès 72 · 5+1 dès 126 · Pouilly-Loché Art Minéral 4+2",
+      "fournisseur": {
+        "nom": "Les Vins J.M. Aujoux",
+        "code_vinistoria": "109 · 401A01",
+        "region": "Bourgogne",
+        "meta": "Négociant — Fleurie (69) · Depuis 1938"
+      },
+      "cuvees": [
+        {
+          "nom": "Mâcon Solutré-Pouilly",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Viré-Clessé",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Mâcon-Villages (Jacques Dépagneux)",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Saint-Véran (Jacques Dépagneux)",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Pouilly-Fuissé (Jacques Dépagneux)",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Pouilly-Fuissé Premier Cru (Art Minéral)",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Pouilly-Loché (Art Minéral)",
+          "couleur": "BLC"
+        }
+      ],
+      "mecanique": {
+        "condition": "4 opérations",
+        "description": "Mise en place : 36 btl min de vins du Mâconnais = 11+1 ou 8,33 %. Mise en avant : 72 btl min = 10 %. Partenaire : 126 btl min = 5+1 ou 16,66 %. Pouilly-Loché Art Minéral : 72 btl min de Pouilly-Loché Art Minéral = 4+2 ou 33,33 %.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Choix entre gratuité ou remise équivalente selon l'opération."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Aujoux, spécialiste du Beaujolais et du Mâconnais"
+      },
+      "notes_commerciales": "Opération de développement des crus du Mâconnais chez Aujoux.",
+      "alertes": [
+        "Opération Pouilly-Loché : 72 bouteilles de Pouilly-Loché Art Minéral uniquement"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/op-crus-du-maconnais-aujoux-specialiste-crus-du-maconnais.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/OP CRUS DU MACONNAIS - AUJOUX.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
       }
     }
   ],
