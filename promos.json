@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "2.7",
-    "generated_at": "2026-09-22T12:00:00Z",
-    "promos_count": 67,
+    "version": "2.8",
+    "generated_at": "2026-09-25T12:00:00Z",
+    "promos_count": 73,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v2.7 (22/09/2026) : +11 promos — Champagne Chassenay d'Arce x3 (coupe CHR Essentielles, coupe CHR Confidences, fin d'annee cavistes/grossistes avec kit 70 ans), Champagne Deutz x3 (CC109 Top Duo, CC130 Trio Couleur, VC125 Verticale Amour en canal cavistes), Champagne Henri Giraud x3 (caviste, restaurant, service au verre), Champagne de Venoge (offres CHR a la coupe), Aujoux Operation Crus du Maconnais. Exclus : incentive vendeurs Aujoux, Saint-Martin Ete Indien (echeance 25/09), livret Chassenay. Purgees (echues) : pardela-wines-rentree-2026, coravin-model-six-hermitage-2026, leoube-love-vendanges-2026, leoube-secret-collector-vendanges-2026, caves-roussillon-essentiels-rentree-2026, delas-er13-entreprise-2026, delas-er24-entreprise-2026, delas-er57-entreprise-2026, delas-er58-entreprise-2026."
+    "maj_note": "v2.8 (25/09/2026) : +6 promos — Kundrat & Fils (11+1 Macon Benoit Lenoir et Givry Domaine Masse, prix verifies sur le PDF d origine), Famille Audibert x4 (Clarescur CHR et distributeurs, Jas des Papes CHR et grossistes, en cartes separees), Fournier Pere & Fils (carte vins au verre, 11+1 sur 5 gammes). Fournier : date de fin corrigee au 30/11/2026 (le document indiquait 31 novembre). En attente : Ulysse Cazabonne L Odyssee Pomerol (PDF de l offre non fourni). Purgees : aucune."
   },
   "promos": [
     {
@@ -5487,6 +5487,409 @@
         "fichier": "Promotions/2026-09/OP CRUS DU MACONNAIS - AUJOUX.pdf",
         "parsing_method": "parseur-promos",
         "parsing_date": "2026-09-22T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "kundrat-lenoir-masse-11plus1-2026",
+      "type": "promotion",
+      "titre": "Kundrat & Fils — Offre 11+1 Lenoir & Masse",
+      "tagline": "Mâcon (Benoit Lenoir) et Givry (Domaine Masse) · jusqu'au 30/11 ou épuisement",
+      "fournisseur": {
+        "nom": "Kundrat & Fils",
+        "code_vinistoria": "272 · 401K02",
+        "region": "Bourgogne",
+        "meta": "Beaune (21) · Domaine Benoit Lenoir (Mâcon) · Domaine Masse (Givry)"
+      },
+      "cuvees": [
+        {
+          "nom": "Mâcon Rouge — Domaine Benoit Lenoir",
+          "appellation": "Mâcon",
+          "millesime": "2025",
+          "couleur": "RGE",
+          "vigneron": "Benoit Lenoir",
+          "prix_depart_300": 6.8,
+          "prix_franco_36": 9.4,
+          "prix_franco_60": 9.1,
+          "prix_franco_126": 8.75
+        },
+        {
+          "nom": "Mâcon Blanc — Domaine Benoit Lenoir",
+          "appellation": "Mâcon",
+          "millesime": "2025",
+          "couleur": "BLC",
+          "vigneron": "Benoit Lenoir",
+          "prix_depart_300": 5.9,
+          "prix_franco_36": 8.4,
+          "prix_franco_60": 8.1,
+          "prix_franco_126": 7.75
+        },
+        {
+          "nom": "Givry Rouge — Domaine Masse",
+          "appellation": "Givry",
+          "millesime": "2024",
+          "couleur": "RGE",
+          "vigneron": "Domaine Masse",
+          "prix_depart_300": 12.7,
+          "prix_franco_36": 16.0,
+          "prix_franco_60": 15.7,
+          "prix_franco_126": 15.35
+        },
+        {
+          "nom": "Givry Blanc — Domaine Masse",
+          "appellation": "Givry",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "vigneron": "Domaine Masse",
+          "prix_depart_300": 12.8,
+          "prix_franco_36": 16.1,
+          "prix_franco_60": 15.8,
+          "prix_franco_126": 15.45
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11 bouteilles achetées + 1 offerte, sur les quatre cuvées.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Quatre colonnes tarifaires : départ dès 300 bouteilles, puis franco 36 / 60 / 126 bouteilles."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-11-30",
+        "note": "Jusqu'au 30/11/2026 ou épuisement des stocks."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Tarif départ dès 300 btl, ou franco selon le volume (36 / 60 / 126 btl)."
+      },
+      "notes_commerciales": "Kundrat & Fils (Beaune) porte les vins de Benoit Lenoir (Mâcon) et du Domaine Masse (Givry).",
+      "alertes": [
+        "Jusqu'au 30/11/2026 ou épuisement des stocks",
+        "Le tarif départ ne s'applique qu'à partir de 300 bouteilles"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/09-26-offre-11-1-lenoir-masse-kundrat.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/09-26 OFFRE 11+1 LENOIR - MASSE_KUNDRAT.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-25T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "audibert-clarescur-chr-2026",
+      "type": "promotion",
+      "titre": "Famille Audibert — Clarescur 2025 (CHR & Caviste)",
+      "tagline": "36+6 ou 60+12 offertes · tarif pro franco · 1/07 → 31/10",
+      "fournisseur": {
+        "nom": "Le Jas des Papes (Famille Audibert)",
+        "code_vinistoria": "262 · 401C28",
+        "region": "Rhône",
+        "meta": "Courthézon (84) · Famille Audibert"
+      },
+      "cuvees": [
+        {
+          "nom": "Clarescur 2025",
+          "appellation": "non précisée sur le document",
+          "millesime": "2025",
+          "format": "75cl"
+        }
+      ],
+      "mecanique": {
+        "condition": "36+6 / 60+12",
+        "description": "36 bouteilles achetées + 6 offertes, ou 60 bouteilles achetées + 12 offertes.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "La mécanique s'applique strictement sur le produit cité. La commande peut toutefois être panachée avec d'autres produits Famille Audibert. Tarif Pro Franco HT en vigueur."
+      },
+      "validite": {
+        "debut": "2026-07-01",
+        "fin": "2026-10-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Tarif Pro Franco HT en vigueur."
+      },
+      "notes_commerciales": "Appellation non indiquée sur le document fournisseur.",
+      "alertes": [
+        "Mécanique strictement limitée au Clarescur 2025",
+        "Appellation non précisée sur le document — à confirmer auprès du fournisseur"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/Offre Clarescur CHR & Caviste.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-25T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "audibert-clarescur-grossistes-2026",
+      "type": "promotion",
+      "audience": "grossistes",
+      "titre": "Famille Audibert — Clarescur 2025 (distributeurs)",
+      "tagline": "60+12 offertes · tarif grossiste HT départ · 1/07 → 31/10",
+      "fournisseur": {
+        "nom": "Le Jas des Papes (Famille Audibert)",
+        "code_vinistoria": "262 · 401C28",
+        "region": "Rhône",
+        "meta": "Courthézon (84) · Famille Audibert"
+      },
+      "cuvees": [
+        {
+          "nom": "Clarescur 2025",
+          "appellation": "non précisée sur le document",
+          "millesime": "2025",
+          "format": "75cl"
+        }
+      ],
+      "mecanique": {
+        "condition": "60+12",
+        "description": "60 bouteilles achetées + 12 offertes.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "La mécanique s'applique strictement sur le produit cité. La commande peut toutefois être panachée avec d'autres produits Famille Audibert. Tarif Grossiste HT départ."
+      },
+      "validite": {
+        "debut": "2026-07-01",
+        "fin": "2026-10-31"
+      },
+      "target": "grossistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Tarif Grossiste HT départ."
+      },
+      "notes_commerciales": "Version distributeurs : un seul palier, sur une base tarifaire départ.",
+      "alertes": [
+        "Un seul palier (60+12), contrairement à la grille CHR & Caviste",
+        "Base tarifaire DÉPART, transport en sus"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/Offre Clarescur Distributeur.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-25T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "audibert-jas-des-papes-chr-2026",
+      "type": "promotion",
+      "titre": "Famille Audibert — Jas des Papes rouge 2023 (CHR & Caviste)",
+      "tagline": "11+1 dès 36 bouteilles · tarif pro franco · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Le Jas des Papes (Famille Audibert)",
+        "code_vinistoria": "262 · 401C28",
+        "region": "Rhône",
+        "meta": "Courthézon (84) · Famille Audibert"
+      },
+      "cuvees": [
+        {
+          "nom": "Jas des Papes rouge 2023",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "RGE"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "À partir de 36 bouteilles : 11 achetées + 1 offerte.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "La mécanique s'applique strictement sur le produit cité. La commande peut toutefois être panachée avec d'autres produits Famille Audibert. Tarif pro franco HT en vigueur. La colonne tarifaire correspondant au volume commandé s'applique de plein droit."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31"
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Tarif pro franco HT en vigueur."
+      },
+      "notes_commerciales": "Cuvée phare de la maison (Courthézon, secteur Châteauneuf-du-Pape).",
+      "alertes": [
+        "Minimum 36 bouteilles pour déclencher l'offre",
+        "La colonne tarifaire correspondant au volume s'applique de plein droit"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/Offre Jas des Papes CHR & Caviste.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-25T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "audibert-jas-des-papes-grossistes-2026",
+      "type": "promotion",
+      "audience": "grossistes",
+      "titre": "Famille Audibert — Jas des Papes rouge 2023 (grossistes)",
+      "tagline": "90 achetées + 6 offertes · tarif grossiste HT départ · 1/09 → 31/10",
+      "fournisseur": {
+        "nom": "Le Jas des Papes (Famille Audibert)",
+        "code_vinistoria": "262 · 401C28",
+        "region": "Rhône",
+        "meta": "Courthézon (84) · Famille Audibert"
+      },
+      "cuvees": [
+        {
+          "nom": "Jas des Papes rouge 2023",
+          "millesime": "2023",
+          "format": "75cl",
+          "couleur": "RGE"
+        }
+      ],
+      "mecanique": {
+        "condition": "90+6",
+        "description": "90 bouteilles achetées + 6 bouteilles offertes.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "La mécanique s'applique strictement sur le produit cité. La commande peut toutefois être panachée avec d'autres produits Famille Audibert. Tarif Grossiste HT départ."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-10-31"
+      },
+      "target": "grossistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": false,
+        "note": "Tarif Grossiste HT départ."
+      },
+      "notes_commerciales": "Version grossistes : palier de volume nettement plus élevé, gratuité proportionnellement plus faible.",
+      "alertes": [
+        "Palier à 90 bouteilles (contre 36 en CHR)",
+        "Gratuité de 6,7 % contre 8,3 % en 11+1 — arbitrer selon le tarif de base"
+      ],
+      "source": {
+        "fichier": "Promotions/2026-09/Offre Jas des Papes Grossiste.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-25T12:00:00Z",
+        "status": "auto-parsed"
+      }
+    },
+    {
+      "id": "fournier-vins-au-verre-2026",
+      "type": "promotion",
+      "titre": "Fournier Père & Fils — Offre saisonnière carte vins au verre",
+      "tagline": "11+1 sur 5 gammes · paliers 24, 36 ou 66 bouteilles · 1/10 → 30/11",
+      "fournisseur": {
+        "nom": "Domaine Fournier Père & Fils",
+        "code_vinistoria": "183 · 401F07",
+        "region": "Loire",
+        "meta": "Verdigny (18) · Sancerre · Pouilly-Fumé · Menetou-Salon"
+      },
+      "cuvees": [
+        {
+          "nom": "Les Bouffants — Sancerre Blanc, Terroir de Caillottes 2022",
+          "appellation": "Sancerre",
+          "millesime": "2022",
+          "couleur": "BLC",
+          "gamme": "Parcellaires"
+        },
+        {
+          "nom": "Terres Blanches — Sancerre Blanc 2023",
+          "appellation": "Sancerre",
+          "millesime": "2023",
+          "couleur": "BLC",
+          "gamme": "Terroirs"
+        },
+        {
+          "nom": "Terres Blanches — Sancerre Rouge 2022",
+          "appellation": "Sancerre",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "gamme": "Terroirs"
+        },
+        {
+          "nom": "Village de Verdigny — Sancerre Blanc 2025",
+          "appellation": "Sancerre",
+          "millesime": "2025",
+          "couleur": "BLC",
+          "gamme": "Villages"
+        },
+        {
+          "nom": "Village de Saint-Andelain — Pouilly-Fumé 2025",
+          "appellation": "Pouilly-Fumé",
+          "millesime": "2025",
+          "couleur": "BLC",
+          "gamme": "Villages"
+        },
+        {
+          "nom": "Village de Sancerre — Sancerre Rouge 2025",
+          "appellation": "Sancerre",
+          "millesime": "2025",
+          "couleur": "RGE",
+          "gamme": "Villages"
+        },
+        {
+          "nom": "Côtes de Morogues — Menetou-Salon Blanc 2025",
+          "appellation": "Menetou-Salon",
+          "millesime": "2025",
+          "couleur": "BLC",
+          "gamme": "Appellations"
+        },
+        {
+          "nom": "Côtes de Morogues — Menetou-Salon Rouge 2023/2024",
+          "appellation": "Menetou-Salon",
+          "millesime": "2023/2024",
+          "couleur": "RGE",
+          "gamme": "Appellations"
+        },
+        {
+          "nom": "Sauvignon Blanc, Loire 2024/2025",
+          "appellation": "Loire",
+          "millesime": "2024/2025",
+          "couleur": "BLC",
+          "gamme": "MMM"
+        },
+        {
+          "nom": "Chenin Blanc, Loire 2024/2025",
+          "appellation": "Loire",
+          "millesime": "2024/2025",
+          "couleur": "BLC",
+          "gamme": "MMM"
+        },
+        {
+          "nom": "Pinot Noir, France 2025",
+          "appellation": "France",
+          "millesime": "2025",
+          "couleur": "RGE",
+          "gamme": "MMM"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11+1 bouteille gratuite, avec un palier de déclenchement différent selon la gamme : 24 btl (Parcellaires, Terroirs), 36 btl (Villages, Appellations), 66 btl par vin (MMM).",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Panachables par gamme, avec un minimum de 12 bouteilles par cuvée (sauf MMM : 66 bouteilles par vin). Non cumulable avec toute autre remise. Applicable uniquement sur les millésimes concernés."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-11-30"
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Offre réservée aux professionnels — CHR."
+      },
+      "notes_commerciales": "Offre conçue pour construire une carte de vins au verre en Sancerre, Pouilly-Fumé et Menetou-Salon.",
+      "alertes": [
+        "Le palier de déclenchement change selon la gamme (24, 36 ou 66 bouteilles)",
+        "Minimum 12 bouteilles par cuvée pour le panachage",
+        "Non cumulable avec toute autre remise"
+      ],
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-promotionnelle-fpf-vins-au-verre-fournier.pdf",
+      "source": {
+        "fichier": "Promotions/2026-09/Offre promotionnelle FPF - vins au verre_FOURNIER.pdf",
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-09-25T12:00:00Z",
         "status": "auto-parsed"
       }
     }
