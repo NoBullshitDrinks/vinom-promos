@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "2.8",
+    "version": "2.8.1",
     "generated_at": "2026-09-25T12:00:00Z",
     "promos_count": 73,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v2.8 (25/09/2026) : +6 promos — Kundrat & Fils (11+1 Macon Benoit Lenoir et Givry Domaine Masse, prix verifies sur le PDF d origine), Famille Audibert x4 (Clarescur CHR et distributeurs, Jas des Papes CHR et grossistes, en cartes separees), Fournier Pere & Fils (carte vins au verre, 11+1 sur 5 gammes). Fournier : date de fin corrigee au 30/11/2026 (le document indiquait 31 novembre). En attente : Ulysse Cazabonne L Odyssee Pomerol (PDF de l offre non fourni). Purgees : aucune."
+    "maj_note": "v2.8 (25/09/2026) : +6 promos — Kundrat & Fils (11+1 Macon Benoit Lenoir et Givry Domaine Masse, prix verifies sur le PDF d origine), Famille Audibert x4 (Clarescur CHR et distributeurs, Jas des Papes CHR et grossistes, en cartes separees), Fournier Pere & Fils (carte vins au verre, 11+1 sur 5 gammes). Fournier : date de fin corrigee au 30/11/2026 (le document indiquait 31 novembre). En attente : Ulysse Cazabonne L Odyssee Pomerol (PDF de l offre non fourni). Correction du double echappement HTML accumule sur les titres et conditions des cartes (&amp;amp; et &#x27; en clair). Purgees : aucune."
   },
   "promos": [
     {
