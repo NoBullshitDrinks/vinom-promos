@@ -1,408 +1,12 @@
 {
   "meta": {
-    "version": "2.8.1",
-    "generated_at": "2026-09-25T12:00:00Z",
-    "promos_count": 73,
+    "version": "2.9",
+    "generated_at": "2026-10-15T12:00:00Z",
+    "promos_count": 88,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v2.8 (25/09/2026) : +6 promos — Kundrat & Fils (11+1 Macon Benoit Lenoir et Givry Domaine Masse, prix verifies sur le PDF d origine), Famille Audibert x4 (Clarescur CHR et distributeurs, Jas des Papes CHR et grossistes, en cartes separees), Fournier Pere & Fils (carte vins au verre, 11+1 sur 5 gammes). Fournier : date de fin corrigee au 30/11/2026 (le document indiquait 31 novembre). En attente : Ulysse Cazabonne L Odyssee Pomerol (PDF de l offre non fourni). Correction du double echappement HTML accumule sur les titres et conditions des cartes (&amp;amp; et &#x27; en clair). Purgees : aucune."
+    "maj_note": "v2.9 (15/10/2026) : +25 promos, toutes verifiees sur les PDF d origine. Gerard Bertrand Les Grands Vins (11+1 / 10+2, 6 references lues sur le PDF). Compagnie Medocaine des Grands Crus, grille RR (CHR) - carte synthese + lien PDF. Famille Audibert Foire aux Vins cavistes (grille 120/300 cols complete ; Clarescur identifie : IGP Mediterranee blanc 2025). Un Voyage en Champagne, nouveau fournisseur a creer dans Vinistoria : Temps Forts, Offres fin d annee, Famille Collet Pierre Noire cavistes et CHR. Laurent Miquel coffrets 2 bouteilles et magnum. Louis Latour coffrets Automne. Ulysse Cazabonne x4 dont L Odyssee Pomerol (en attente depuis le 25/09) et Univers Larrivet Haut-Brion. Clos Regain Mescladis. Joseph-Perrier Kressmann (JPK) Bordeaux et Bourgogne. Figuiere automne. Spiribam Effet de Gamme CHR et caves. Aegerter Les Enfants Terribles. SBA Vins catalogue du 02/10. Delas TR48, TR60 et TR61. Mises a jour : Louis Latour Offre d Automne passee en V3 (Aloxe-Corton 27,00 -> 29,50 EUR, Rully millesime 2024) ; La Chablisienne et AdVini enrichis des prix du catalogue SBA Vins. Regions ajoutees : Sud-Ouest et Multi-regions. Incentives agents (Hospitalet, Famille Collet, La Cendrillon, JPK) ecartes du catalogue : ils relevent de la page challenges. Non reprises car echues le 15 ou 16/10 : Gerard Bertrand Terrasses du Larzac et gamme Heritage, SBA Vins Ferraton, Cave de Lugny et Adouzes. Purgees : pardela-spirits-ete-2026, pardela-wines-ete-2026, capucins-focus-blancs-t3-2026, veyret-fin-de-loge-t3-2026, mdcv-rentree-11plus1-2026, vinovalie-trad-septembre-2026, cheval-quancard-vendanges-2026, lafage-vignes-noires-2024, gerard-bertrand-la-forge-magnums-2026, thienot-coupe-bdb-rose-2026."
   },
   "promos": [
-    {
-      "id": "pardela-spirits-ete-2026",
-      "type": "promotion",
-      "titre": "Pardela Spirits — Catalogue Été 2026",
-      "tagline": "Gins, vermouths, rhums & cocktails — multi-offres",
-      "fournisseur": {
-        "nom": "Pardela Spirits",
-        "code_vinistoria": null,
-        "region": "Spiritueux",
-        "meta": "Importateur · Depuis 1999"
-      },
-      "cuvees": [
-        {
-          "nom": "S de Sorgin",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Wild Rose Gin (Glendalough)",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Sorgin BIB 3L",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "BIB3L",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "3+1"
-        },
-        {
-          "nom": "Yu Gin",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Léonce White",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Léonce Criolla Rosé",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "ROS",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Récapet Blanche Armagnac (BIO)",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Bistro Vodka",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "ACTO 1903",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Black Tears Spiced Rum (bouteille)",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "10+2"
-        },
-        {
-          "nom": "Black Tears Spiced Rum BIB 5L",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "BIB5L",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "9+1"
-        },
-        {
-          "nom": "Black Tears Aguardiente",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Belle Gnôle Framboise-Poivre + Melon 70/150cl",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1 panachable"
-        },
-        {
-          "nom": "Léonce Verjus (BIO)",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Los Tres Tonos Tequila Blanco/Anejo/Reposado",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1 panachable"
-        },
-        {
-          "nom": "Silvio Carta Limonello + Limonello Zéro",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1 panachable"
-        },
-        {
-          "nom": "Silvio Carta Aspide Spritz + Analcolico",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1 panachable"
-        },
-        {
-          "nom": "Glendalough Pot Still",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "-3 €/btl"
-        },
-        {
-          "nom": "L'Arack de Musar",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "-2 €/btl"
-        }
-      ],
-      "mecanique": {
-        "condition": "5+1 / 11+1 / -3 €",
-        "description": "Multi-offres été : gins 5+1 (Sorgin BIB 3+1), Léonce 5+1, cocktails 5+1 à 11+1 (Black Tears 10+2 btl / 9+1 BIB), panachables 11+1 sur Tequila/Silvio Carta/Belle Gnôle, digestifs -3/-2 € par btl. + Offres PLV (kit offert) sur Sorgin / Black Tears / Glendalough en 1re commande de mise en place (12 btls ou 4 BIB).",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Dans la limite des stocks disponibles. Sur la base du Tarif CHR/Caviste."
-      },
-      "validite": {
-        "debut": "2026-07-01",
-        "fin": "2026-09-30"
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "direct_importateur",
-        "franco": true,
-        "condition_franco": "Tarif CHR/Caviste Pardela Spirits"
-      },
-      "notes_commerciales": "Catalogue T3 complet (19 réf). Offres PLV : pied de page bandeaux indique 01/04→30/06 mais corps 01/06 ou 01/07→30/09 (dates retenues = corps).",
-      "alertes": [
-        "Offres PLV : 1re commande de mise en place uniquement",
-        "Vérifier doublon avec l'ancienne promo Pardela Spirits 'Noces Royales' (expirée 15/06)"
-      ],
-      "source": {
-        "fichier": "Catalogue_Promo_T3_Pardela_Spirits_CHR_-_2026.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-06-23T10:00:00Z",
-        "status": "manual"
-      }
-    },
-    {
-      "id": "pardela-wines-ete-2026",
-      "type": "promotion",
-      "titre": "Pardela Wines — Catalogue Été 2026",
-      "tagline": "Fraîcheurs estivales, spritz & rosés — 11+1 / 5+1",
-      "fournisseur": {
-        "nom": "Pardela Wines",
-        "code_vinistoria": null,
-        "region": "Vins du Monde",
-        "meta": "Importateur · Depuis 1999"
-      },
-      "cuvees": [
-        {
-          "nom": "Domaine de Targuerie Blanc (BIO)",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "BLC",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Mas Janeil — Le Petit Pas Blanc (BIO)",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "BLC",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Humo Blanco Sauvignon (BIO)",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "BLC",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Les Hauts de Janeil Syrah-Grenache",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "RGE",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Oenops Wines — Apla Red",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "RGE",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Casa Rojo — The Orange Republic",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": null,
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Lupo Meraviglia — Uno Di Uno Vermentino",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "BLC",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Domäne Wachau — Grüner Veltliner Federspiel",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "BLC",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Yalumba Y Serie Viognier",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "BLC",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Yalumba Y Serie Chardonnay",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "BLC",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "5+1"
-        },
-        {
-          "nom": "Vezzo Prosecco DOC",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "PET",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Vezzo Blanc de Blancs",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "PET",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Domaine de Nizas — Le Clos Rosé (BIO)",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "ROS",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Les Fumées Blanches — Rosé Gris de Sauvignon",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "ROS",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Bodega Piedra Negra — Alta Coleccion Rosado",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "ROS",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        },
-        {
-          "nom": "Canio Rosato",
-          "appellation": null,
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "ROS",
-          "au_tarif_vinom": false,
-          "mecanique_ligne": "11+1"
-        }
-      ],
-      "mecanique": {
-        "condition": "11+1 / 5+1",
-        "description": "Fraîcheurs estivales 11+1 (Yalumba 5+1), Spritz 11+1 (Vezzo), rosés 11+1.",
-        "panachable": false,
-        "cumulable": false,
-        "notes_conditions": "Dans la limite des stocks disponibles. Sur la base du Tarif Professionnel."
-      },
-      "validite": {
-        "debut": "2026-07-01",
-        "fin": "2026-09-30"
-      },
-      "target": "pro_general",
-      "logistique": {
-        "origine": "direct_importateur",
-        "franco": true,
-        "condition_franco": "Tarif Professionnel Pardela Wines"
-      },
-      "notes_commerciales": "Catalogue T3 (16 réf). Gamme Silvio Carta (Aspide, Spinello, Limonello, Paper Elderflower) en argumentaire, sans mécanique chiffrée côté Wines.",
-      "alertes": [],
-      "source": {
-        "fichier": "Catalogue_Promo_T3_Pardela_Wines_-_2026.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-06-23T10:00:00Z",
-        "status": "manual"
-      }
-    },
     {
       "id": "jaboulet-automne-2026",
       "type": "promotion",
@@ -920,230 +524,6 @@
       }
     },
     {
-      "id": "capucins-focus-blancs-t3-2026",
-      "type": "promotion",
-      "titre": "Les Capucins — Focus Grands Vins Blancs Secs (17+1)",
-      "tagline": "17+1 panachable · 2 tarifs : Franco 66 btl (CHR) / Départ (grossiste)",
-      "fournisseur": {
-        "nom": "Les Capucins",
-        "code_vinistoria": "245 · 401C101",
-        "region": "Bordeaux",
-        "meta": "Négociant — Bordeaux"
-      },
-      "cuvees": [
-        {
-          "nom": "Château La Fleur des Graves",
-          "appellation": "Graves de Vayres",
-          "millesime": "2025",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco66_ht": 11.0,
-          "prix_depart_ht": 9.4
-        },
-        {
-          "nom": "G de Guiraud",
-          "appellation": "Bordeaux (sec)",
-          "millesime": "2023",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco66_ht": 10.7,
-          "prix_depart_ht": 9.7,
-          "bio": true
-        },
-        {
-          "nom": "Tertre Blanc",
-          "appellation": "Vin de France (Ch. du Tertre, Margaux)",
-          "millesime": "2020",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco66_ht": 20.4,
-          "prix_depart_ht": 19.4
-        },
-        {
-          "nom": "R de Rieussec",
-          "appellation": "Bordeaux (sec)",
-          "millesime": "2023",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco66_ht": 21.0,
-          "prix_depart_ht": 20.0
-        },
-        {
-          "nom": "Château Brown",
-          "appellation": "Pessac-Léognan",
-          "millesime": "2020",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco66_ht": 25.2,
-          "prix_depart_ht": 23.3
-        },
-        {
-          "nom": "Château Carbonnieux",
-          "appellation": "Pessac-Léognan",
-          "millesime": "2023",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco66_ht": 28.5,
-          "prix_depart_ht": 27.5
-        }
-      ],
-      "mecanique": {
-        "condition": "17+1",
-        "description": "17+1 panachable sur les 6 cuvées.",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Deux grilles : CHR France (Franco 66 btl) / Grossiste (Départ cave)."
-      },
-      "validite": {
-        "debut": "2026-07-01",
-        "fin": "2026-09-30",
-        "note": "T3 2026 (juillet — septembre)."
-      },
-      "target": "chr_grossiste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true,
-        "note": "Franco 66 btl (CHR France) ou Départ cave (Grossiste)."
-      },
-      "notes_commerciales": "Grands blancs secs bordelais : seconds vins secs de Crus Classés Sauternes/Barsac (G de Guiraud, R de Rieussec) et Pessac-Léognan (Brown, Carbonnieux).",
-      "alertes": [
-        "Deux tarifs distincts : CHR France (Franco 66) / Grossiste (Départ)",
-        "17+1 panachable"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-07/2026_07_Offre_Blancs_T3_CHR_France.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-07-03T11:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "veyret-fin-de-loge-t3-2026",
-      "type": "destockage",
-      "titre": "Veyret Latour — Offres Fin de Loge CHR (Tarif Franco)",
-      "tagline": "Fin de loge · tarif franco · carton de 6 · juillet 2026",
-      "fournisseur": {
-        "nom": "Veyret Latour",
-        "code_vinistoria": "507 · 401V30",
-        "region": "Bordeaux",
-        "meta": "Négociant — Le Bouscat (33)"
-      },
-      "cuvees": [
-        {
-          "nom": "Château Nicot",
-          "appellation": "Entre-Deux-Mers",
-          "millesime": "2024",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco_ht": 4.25,
-          "stock_vol": 12
-        },
-        {
-          "nom": "Clos de la Molénie",
-          "appellation": "Bordeaux blanc",
-          "millesime": "2024",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco_ht": 8.0,
-          "biodynamie": true,
-          "stock_vol": 18
-        },
-        {
-          "nom": "Rozelie de Beauval",
-          "appellation": "Bordeaux rosé",
-          "millesime": "2024",
-          "format": "75cl",
-          "couleur": "Rosé",
-          "prix_franco_ht": 5.55,
-          "stock_vol": 18
-        },
-        {
-          "nom": "Château Marjosse",
-          "appellation": "Bordeaux rouge",
-          "millesime": "2022",
-          "format": "75cl",
-          "couleur": "Rouge",
-          "prix_franco_ht": 7.8,
-          "stock_vol": 12
-        },
-        {
-          "nom": "Château Claire Abbaye (Coup de Cœur)",
-          "appellation": "Bordeaux Supérieur",
-          "millesime": "2017",
-          "format": "Magnum",
-          "couleur": "Rouge",
-          "prix_franco_ht": 8.0,
-          "stock_vol": 30
-        },
-        {
-          "nom": "Château Picoron 'Mon Nom'",
-          "appellation": "Castillon Côtes de Bordeaux",
-          "millesime": "2020",
-          "format": "75cl",
-          "couleur": "Rouge",
-          "prix_franco_ht": 9.0,
-          "bio": true,
-          "stock_vol": 12
-        },
-        {
-          "nom": "Château Simon",
-          "appellation": "Graves blanc",
-          "millesime": "2023",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco_ht": 6.0,
-          "stock_vol": 12
-        },
-        {
-          "nom": "Château La Prade 'Les Arômes'",
-          "appellation": "Pessac-Léognan",
-          "millesime": "2020",
-          "format": "Magnum",
-          "couleur": "Rouge",
-          "prix_franco_ht": 10.5,
-          "stock_vol": 30
-        },
-        {
-          "nom": "Emilia",
-          "appellation": "Lambrusco blanc",
-          "millesime": "NM",
-          "format": "75cl",
-          "couleur": "Blanc",
-          "prix_franco_ht": 2.55,
-          "stock_vol": 24
-        }
-      ],
-      "mecanique": {
-        "condition": "Fin de loge",
-        "description": "Tarif Franco, par carton de 6 (fin d'allocation à écouler).",
-        "panachable": null,
-        "cumulable": false,
-        "notes_conditions": "Dans la limite des stocks disponibles."
-      },
-      "validite": {
-        "debut": "2026-07-01",
-        "fin": "2026-09-30",
-        "note": "Feuille datée « Juillet 2026 ». Fin de loge = dans la limite des stocks."
-      },
-      "target": "chr",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true,
-        "note": "Tarif Franco · carton de 6 · fin de loge (stock limité)."
-      },
-      "notes_commerciales": "Assortiment Bordeaux polyvalent (Entre-Deux-Mers → Pessac-Léognan) + un Lambrusco d'entrée de gamme.",
-      "alertes": [
-        "Fin de loge : dans la limite des stocks",
-        "Confirmer la disponibilité avant push"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-07/OFFRES_FIN_DE_LOGE_CHR_3EME_TRIM_2026_VEYRET_LATOUR.xlsx",
-        "parsing_method": "manual",
-        "parsing_date": "2026-07-03T11:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
       "id": "remoissenet-offre-speciale-2026",
       "type": "promotion",
       "titre": "Remoissenet Père & Fils — Offre Spéciale (Bourgogne)",
@@ -1607,31 +987,51 @@
           "nom": "Chablis La Sereine",
           "appellation": "Chablis",
           "format": "75cl",
-          "couleur": "Blanc"
+          "couleur": "Blanc",
+          "millesime": "2023",
+          "prix_ht": 11.6,
+          "prix_par_36": 10.63,
+          "prix_par_240": 9.67
         },
         {
           "nom": "Chablis Dame Nature",
           "appellation": "Chablis",
           "format": "75cl",
-          "couleur": "Blanc"
+          "couleur": "Blanc",
+          "millesime": "2021",
+          "prix_ht": 13.4,
+          "prix_par_36": 12.28,
+          "prix_par_240": 11.17
         },
         {
           "nom": "Saint-Bris",
           "appellation": "Saint-Bris",
           "format": "75cl",
-          "couleur": "Blanc"
+          "couleur": "Blanc",
+          "millesime": "2024",
+          "prix_ht": 6.85,
+          "prix_par_36": 6.28,
+          "prix_par_240": 5.71
         },
         {
           "nom": "Bourgogne Chardonnay",
           "appellation": "Bourgogne",
           "format": "75cl",
-          "couleur": "Blanc"
+          "couleur": "Blanc",
+          "millesime": "2025",
+          "prix_ht": 6.85,
+          "prix_par_36": 6.28,
+          "prix_par_240": 5.71
         },
         {
           "nom": "Bourgogne Pinot Noir",
           "appellation": "Bourgogne",
           "format": "75cl",
-          "couleur": "Rouge"
+          "couleur": "Rouge",
+          "millesime": "2022",
+          "prix_ht": 9.1,
+          "prix_par_36": 8.34,
+          "prix_par_240": 7.58
         }
       ],
       "mecanique": {
@@ -1652,7 +1052,7 @@
         "franco": null,
         "note": "Panachage possible sur l'ensemble de l'offre."
       },
-      "notes_commerciales": "Recouper avec l'Offre Commerciale Simonnet-Febvre et le Brocard (au tarif VINOM) sur Bourgogne génériques et Saint-Bris.",
+      "notes_commerciales": "Recouper avec l'Offre Commerciale Simonnet-Febvre et le Brocard (au tarif VINOM) sur Bourgogne génériques et Saint-Bris. Prix par 36 et par 240 relevés sur le catalogue SBA Vins du 02/10/2026.",
       "alertes": [
         "Promotion appliquée seulement si indiquée sur la commande",
         "Réservée aux clients sans conditions spéciales"
@@ -1678,105 +1078,117 @@
       },
       "cuvees": [
         {
-          "nom": "Mâcon-Lugny",
+          "nom": "Mâcon-Lugny « Les Genièvres »",
           "appellation": "Mâcon-Lugny AOC",
           "couleur": "BLC",
+          "millesime": "2025",
           "format": "75cl",
-          "prix_promo_ht": 8.5,
-          "au_tarif_vinom": null
+          "prix_ht": 9.7,
+          "prix_promo_ht": 8.5
         },
         {
           "nom": "Rully",
           "appellation": "Rully AOC",
           "couleur": "BLC",
+          "millesime": "2024",
           "format": "75cl",
-          "prix_promo_ht": 17.2,
-          "au_tarif_vinom": null
+          "prix_ht": 19.8,
+          "prix_promo_ht": 17.2
         },
         {
           "nom": "Santenay",
           "appellation": "Santenay AOC",
           "couleur": "BLC",
+          "millesime": "2023",
           "format": "75cl",
-          "prix_promo_ht": 20.0,
-          "au_tarif_vinom": null
+          "prix_ht": 23.0,
+          "prix_promo_ht": 20.0
         },
         {
-          "nom": "Chassagne-Montrachet 1er Cru",
+          "nom": "Chassagne-Montrachet 1er Cru « Grande Montagne »",
           "appellation": "Chassagne-Montrachet 1er Cru AOC",
           "couleur": "BLC",
+          "millesime": "2024",
           "format": "75cl",
-          "prix_promo_ht": 62.0,
-          "au_tarif_vinom": null
+          "prix_ht": 70.0,
+          "prix_promo_ht": 62.0
         },
         {
-          "nom": "Meursault 1er Cru",
+          "nom": "Meursault 1er Cru « Goutte d'Or »",
           "appellation": "Meursault 1er Cru AOC",
           "couleur": "BLC",
+          "millesime": "2022",
           "format": "75cl",
-          "prix_promo_ht": 86.0,
-          "au_tarif_vinom": null
+          "prix_ht": 99.0,
+          "prix_promo_ht": 86.0
         },
         {
           "nom": "Corton-Charlemagne Grand Cru",
           "appellation": "Corton-Charlemagne GC AOC",
           "couleur": "BLC",
+          "millesime": "2020",
           "format": "75cl",
-          "prix_promo_ht": 125.0,
-          "au_tarif_vinom": null
+          "prix_ht": 147.0,
+          "prix_promo_ht": 125.0
         },
         {
           "nom": "Morgon",
           "appellation": "Morgon AOC",
           "couleur": "RGE",
+          "millesime": "2024",
           "format": "75cl",
-          "prix_promo_ht": 8.2,
-          "au_tarif_vinom": null
+          "prix_ht": 9.4,
+          "prix_promo_ht": 8.2
         },
         {
           "nom": "Givry",
           "appellation": "Givry AOC",
           "couleur": "RGE",
+          "millesime": "2024",
           "format": "75cl",
-          "prix_promo_ht": 15.0,
-          "au_tarif_vinom": null
+          "prix_ht": 17.5,
+          "prix_promo_ht": 15.0
         },
         {
-          "nom": "Aloxe-Corton",
+          "nom": "Aloxe-Corton Domaine Latour",
           "appellation": "Aloxe-Corton AOC",
           "couleur": "RGE",
+          "millesime": "2024",
           "format": "75cl",
-          "prix_promo_ht": 27.0,
-          "au_tarif_vinom": null
+          "prix_ht": 35.0,
+          "prix_promo_ht": 29.5
         },
         {
           "nom": "Gevrey-Chambertin",
           "appellation": "Gevrey-Chambertin AOC",
           "couleur": "RGE",
+          "millesime": "2023",
           "format": "75cl",
-          "prix_promo_ht": 39.0,
-          "au_tarif_vinom": null
+          "prix_ht": 45.0,
+          "prix_promo_ht": 39.0
         },
         {
-          "nom": "Pommard 1er Cru",
+          "nom": "Pommard 1er Cru « Les Arvelets »",
           "appellation": "Pommard 1er Cru AOC",
           "couleur": "RGE",
+          "millesime": "2019",
           "format": "75cl",
-          "prix_promo_ht": 47.5,
-          "au_tarif_vinom": null
+          "prix_ht": 54.5,
+          "prix_promo_ht": 47.5
         },
         {
-          "nom": "Corton Grancey Grand Cru",
+          "nom": "Château Corton Grancey Grand Cru",
           "appellation": "Corton Grand Cru AOC",
           "couleur": "RGE",
+          "millesime": "2018",
           "format": "75cl",
-          "prix_promo_ht": 62.5,
-          "au_tarif_vinom": null
+          "prix_ht": 71.0,
+          "prix_promo_ht": 62.5
         }
       ],
       "mecanique": {
         "condition": "Prix nets",
-        "description": "12 cuvées à prix barrés. Franco 60 bouteilles ou 500 € HT. Commande minimum 12 bouteilles.",
+        "description": "12 cuvées à prix barrés (version V3 du 1er septembre). Franco 60 bouteilles ou 500 € HT. Commande minimum 12 bouteilles.",
         "panachable": true,
         "cumulable": false
       },
@@ -1790,101 +1202,19 @@
         "franco": true,
         "note": "Franco 60 btl ou 500 € HT · minimum 12 btl"
       },
-      "notes_commerciales": "Amplitude de gamme rare : de 8,20 € (Morgon) à 125 € (Corton-Charlemagne GC). Permet de construire une carte Bourgogne complète en une commande.",
+      "notes_commerciales": "Amplitude de gamme rare : de 8,20 € (Morgon) à 125 € (Corton-Charlemagne GC). Permet de construire une carte Bourgogne complète en une commande. Grille V3 vérifiée sur le PDF fournisseur le 15/10/2026.",
       "alertes": [
-        "Prix nets promotionnels — recouper avec le tarif VINOM avant devis client"
+        "Prix nets promotionnels — recouper avec le tarif VINOM avant devis client",
+        "Version V3 : Aloxe-Corton réévalué de 27,00 € à 29,50 €",
+        "Rully en millésime 2024"
       ],
       "source": {
         "fichier": "Promotions/2026-07/LOUIS_LATOUR_Offre_Automne_2026.pdf",
         "parsing_method": "manual",
         "parsing_date": "2026-07-31T12:00:00Z",
         "status": "manual"
-      }
-    },
-    {
-      "id": "mdcv-rentree-11plus1-2026",
-      "type": "promotion",
-      "titre": "MDCV — Offre Rentrée 11+1",
-      "tagline": "Plan d'activation T3 2026",
-      "fournisseur": {
-        "nom": "MDCV Châteaux & Vignobles en Provence",
-        "code_vinistoria": "401B32",
-        "numero_fournisseur": 278,
-        "region": "Provence-Corse",
-        "meta": "Le Cannet des Maures (83) · Berne · Ultimate Provence · Saint-Roux · Bertrands"
       },
-      "cuvees": [
-        {
-          "nom": "Ultimate Provence Blanc",
-          "appellation": "AOP Côtes de Provence",
-          "couleur": "BLC",
-          "format": "75cl"
-        },
-        {
-          "nom": "Ultimate Provence Blanc",
-          "appellation": "AOP Côtes de Provence",
-          "couleur": "BLC",
-          "format": "150cl"
-        },
-        {
-          "nom": "Ultimate Provence Rouge",
-          "appellation": "AOP Côtes de Provence",
-          "couleur": "RGE",
-          "format": "75cl"
-        },
-        {
-          "nom": "Château de Berne Blanc",
-          "appellation": "AOP Côtes de Provence",
-          "couleur": "BLC",
-          "format": "75cl"
-        },
-        {
-          "nom": "Château de Berne Rouge",
-          "appellation": "AOP Côtes de Provence",
-          "couleur": "RGE",
-          "format": "75cl"
-        },
-        {
-          "nom": "Berne Esprit Méditerranée Rosé",
-          "appellation": "IGP Méditerranée",
-          "couleur": "ROS",
-          "format": "75cl"
-        },
-        {
-          "nom": "Berne Esprit Méditerranée Blanc",
-          "appellation": "IGP Méditerranée",
-          "couleur": "BLC",
-          "format": "75cl"
-        }
-      ],
-      "mecanique": {
-        "condition": "11+1",
-        "description": "Offre bouteille 11+1 sur une sélection stratégique de références.",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Panachable par couleur au sein de chaque format/marque. Carton non panachable. Non cumulable avec une tarification dérogatoire au tarif CHR 2026. Dans la limite des stocks disponibles."
-      },
-      "validite": {
-        "debut": "2026-08-31",
-        "fin": "2026-09-25"
-      },
-      "target": "chr",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true,
-        "note": "Franco 350 € HT (en dessous, forfait de livraison 35 € HT). Règlement 30 jours nets après acceptation du dossier."
-      },
-      "notes_commerciales": "Fenêtre courte (26 jours) calée sur la rentrée CHR. Porte sur blancs et rouges + Esprit Méditerranée rosé/blanc — angle « sortir du rosé » pour installer la marque à l'année.",
-      "alertes": [
-        "Non cumulable avec une tarification dérogatoire au tarif CHR 2026",
-        "Carton non panachable"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-07/MDCV_PLAN_PROMOTIONNEL_T3_2026.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-07-31T12:00:00Z",
-        "status": "manual"
-      }
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-pro-france-automne-2026-v3.pdf"
     },
     {
       "id": "mdcv-coffrets-2026",
@@ -2085,44 +1415,6 @@
       }
     },
     {
-      "id": "vinovalie-trad-septembre-2026",
-      "type": "promotion",
-      "titre": "Vinovalie — Tradition Septembre",
-      "tagline": "Planning Promo Tradition 2026",
-      "fournisseur": {
-        "nom": "Vinovalie",
-        "code_vinistoria": null,
-        "region": "Occitanie",
-        "meta": "Sud-Ouest · Cave coopérative (Gaillac, Fronton, Cahors)"
-      },
-      "cuvees": [],
-      "mecanique": {
-        "condition": "11+1 / 5+1",
-        "description": "11+1 : Terre des Sages, Sang Mêlé — 5+1 : Château Bournet (rouge, blanc).",
-        "panachable": true,
-        "cumulable": false
-      },
-      "validite": {
-        "debut": "2026-09-01",
-        "fin": "2026-09-30"
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true
-      },
-      "notes_commerciales": "Volet septembre du planning annuel Vinovalie.",
-      "alertes": [
-        "Mécanique issue du planning annuel — confirmer auprès de Vinovalie"
-      ],
-      "source": {
-        "fichier": "Planning_promo_trad_2026.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-07-31T12:00:00Z",
-        "status": "manual"
-      }
-    },
-    {
       "id": "vinovalie-trad-octobre-2026",
       "type": "promotion",
       "titre": "Vinovalie — Tradition Octobre",
@@ -2157,140 +1449,6 @@
         "fichier": "Planning_promo_trad_2026.pdf",
         "parsing_method": "manual",
         "parsing_date": "2026-07-31T12:00:00Z",
-        "status": "manual"
-      }
-    },
-    {
-      "id": "cheval-quancard-vendanges-2026",
-      "type": "promotion",
-      "titre": "Cheval Quancard — Les Vendanges commencent",
-      "tagline": "Offre promotionnelle de rentrée · 5+1 / 11+1",
-      "fournisseur": {
-        "nom": "Cheval Quancard",
-        "code_vinistoria": "401C01",
-        "numero_fournisseur": 132,
-        "region": "Bordeaux",
-        "meta": "Carbon Blanc (33) · Négociant depuis 1844"
-      },
-      "cuvees": [
-        {
-          "nom": "Oriolus IGP Pays d'Oc Pinot Noir",
-          "couleur": "RGE",
-          "mecanique": "11+1",
-          "prix_depart_ht": 2.66,
-          "prix_franco_200": 3.35,
-          "prix_franco_120": 3.53,
-          "prix_franco_60": 3.94
-        },
-        {
-          "nom": "Oriolus IGP Pays d'Oc Merlot",
-          "couleur": "RGE",
-          "mecanique": "11+1",
-          "prix_depart_ht": 2.66,
-          "prix_franco_200": 3.35,
-          "prix_franco_120": 3.53,
-          "prix_franco_60": 3.94
-        },
-        {
-          "nom": "Château La Prade AOC Pessac-Léognan 2019",
-          "couleur": "RGE",
-          "mecanique": "11+1",
-          "prix_depart_ht": 10.54,
-          "prix_franco_200": 12.7,
-          "prix_franco_120": 13.38,
-          "prix_franco_60": 14.85
-        },
-        {
-          "nom": "Château Fontaneau AOP Médoc 2021",
-          "couleur": "RGE",
-          "mecanique": "11+1",
-          "prix_depart_ht": 4.68,
-          "prix_franco_200": 5.73,
-          "prix_franco_120": 6.05,
-          "prix_franco_60": 6.74
-        },
-        {
-          "nom": "Lamotte Robin AOP Graves",
-          "couleur": "RGE",
-          "mecanique": "5+1",
-          "prix_depart_ht": 4.5,
-          "prix_franco_200": 5.5,
-          "prix_franco_120": 5.79,
-          "prix_franco_60": 6.42
-        },
-        {
-          "nom": "Cheval Quancard Réserve « Le Carillon » AOP Bordeaux",
-          "couleur": "RGE",
-          "mecanique": "5+1",
-          "prix_depart_ht": 3.75,
-          "prix_franco_200": 4.63,
-          "prix_franco_120": 4.88,
-          "prix_franco_60": 5.42
-        },
-        {
-          "nom": "Fortin Plaisance AOP Saint-Émilion",
-          "couleur": "RGE",
-          "mecanique": "5+1",
-          "prix_depart_ht": 7.08,
-          "prix_franco_200": 8.58,
-          "prix_franco_120": 9.04,
-          "prix_franco_60": 10.04
-        },
-        {
-          "nom": "Château Le Virou AOP Blaye Côtes de Bordeaux",
-          "couleur": "RGE",
-          "mecanique": "5+1",
-          "prix_depart_ht": 4.92,
-          "prix_franco_200": 6.0,
-          "prix_franco_120": 6.33,
-          "prix_franco_60": 7.04
-        },
-        {
-          "nom": "Terre d'Épona IGP Côtes de Gascogne 2024",
-          "couleur": "BLC",
-          "mecanique": "5+1",
-          "prix_depart_ht": 2.92,
-          "prix_franco_200": 3.63,
-          "prix_franco_120": 3.83,
-          "prix_franco_60": 4.25
-        },
-        {
-          "nom": "Les Fils de Marcel Sec IGP Atlantique",
-          "couleur": "BLC",
-          "mecanique": "11+1",
-          "prix_depart_ht": 2.66,
-          "prix_franco_200": 3.35,
-          "prix_franco_120": 3.53,
-          "prix_franco_60": 3.94
-        }
-      ],
-      "mecanique": {
-        "condition": "5+1 / 11+1",
-        "description": "Mécanique variable selon la cuvée. Panachable sur l'ensemble des gammes, par carton de 6.",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Deux grilles tarifaires : DÉPART (transport facturé selon la quantité totale commandée) et FRANCO (dégressif par palier 60 / 120 / 200 cols)."
-      },
-      "validite": {
-        "debut": "2026-08-01",
-        "fin": "2026-09-30"
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true,
-        "note": "Tarif départ : transport facturé selon la quantité totale. Tarif franco : paliers 60 / 120 / 200 cols."
-      },
-      "notes_commerciales": "Toujours annoncer la base de facturation avant devis : l'écart départ/franco est important (Fortin Plaisance 7,08 € départ contre 8,58 € franco 200 cols).",
-      "alertes": [
-        "Deux grilles distinctes : DÉPART et FRANCO",
-        "Mécanique variable selon la cuvée (5+1 ou 11+1)",
-        "Millésimes de l'offre à recouper avec ceux au tarif VINOM (La Prade 2019 et Fontaneau 2021 non référencés)"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-08/Promo_Les_Vendanges_commencent_tarif_depart.pdf + _tarif_franco.pdf",
-        "parsing_method": "manual",
-        "parsing_date": "2026-08-07T12:00:00Z",
         "status": "manual"
       }
     },
@@ -3018,60 +2176,6 @@
       }
     },
     {
-      "id": "lafage-vignes-noires-2024",
-      "type": "nouveaute",
-      "titre": "Domaine Lafage — Vignes Noires 2024 (cuvée éphémère)",
-      "tagline": "Précommandes jusqu'au 30/09 · caisse bois 3 btl · 36 € départ / 39 € franco",
-      "fournisseur": {
-        "nom": "Domaine Lafage",
-        "code_vinistoria": "277 · 401L16",
-        "region": "Occitanie",
-        "meta": "Perpignan (66) · Roussillon"
-      },
-      "cuvees": [
-        {
-          "nom": "Vignes Noires 2024",
-          "appellation": "IGP Côtes Catalanes",
-          "couleur": "RGE",
-          "cepages": "Cabernet-Sauvignon & Syrah",
-          "degre": "15 % vol.",
-          "conditionnement": "Caisse bois de 3 bouteilles 75cl",
-          "prix_depart_ht": 36.0,
-          "prix_franco_ht": 39.0
-        }
-      ],
-      "mecanique": {
-        "condition": "36 € / 39 € HT",
-        "description": "Caisse bois de 3 bouteilles 75cl — 36 € HT départ, 39 € HT franco.",
-        "panachable": false,
-        "cumulable": false,
-        "notes_conditions": "EXCLUSIVEMENT sur précommandes jusqu'au 30/09/2026. Livraisons à partir du 26/10/2026. Bouteilles numérotées, quantités limitées."
-      },
-      "validite": {
-        "debut": "2026-08-26",
-        "fin": "2026-09-30",
-        "note": "Fenêtre de précommande ; livraisons à partir du 26/10/2026."
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true,
-        "note": "Tarif départ 36 € HT ou franco 39 € HT, la caisse de 3 bouteilles."
-      },
-      "notes_commerciales": "Cuvée éphémère née sur les schistes noirs de Maury. Élevage 12 mois en barriques 225-500 L, à déguster dans les 7 ans.",
-      "alertes": [
-        "⚠️ Précommandes closes le 30/09/2026 — pas de réassort ensuite",
-        "Livraisons seulement à partir du 26/10/2026",
-        "Bouteilles numérotées, quantités limitées"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-08/VIGNES NOIRES 2024 (3 fichiers)",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-08-26T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
       "id": "vinibegood-athletes-rentree-2026",
       "type": "promotion",
       "titre": "Vini Be Good — Les Athlètes du Vin (Offre Rentrée)",
@@ -3360,6 +2464,22 @@
           "prix_36": 8.35,
           "prix_60": 8.0,
           "prix_120": 7.7
+        },
+        {
+          "nom": "Pic Saint-Loup Domaine des Rocs rouge 2024",
+          "couleur": "RGE",
+          "mecanique": "11+1",
+          "prix_ht": 8.2,
+          "prix_promo_ht": 7.52,
+          "note": "relevé sur le catalogue SBA Vins du 02/10/2026"
+        },
+        {
+          "nom": "L'Oratoire des Papes Châteauneuf-du-Pape rouge 2024 et 2025",
+          "couleur": "RGE",
+          "mecanique": "48+6",
+          "prix_ht": 25.7,
+          "prix_promo_ht": 22.84,
+          "note": "millésimes 2024/2025 — relevé sur le catalogue SBA Vins du 02/10/2026"
         }
       ],
       "mecanique": {
@@ -3617,63 +2737,6 @@
       ],
       "source": {
         "fichier": "Promotions/2026-09/Offre de Rentrée-Domaine Filliatreau.pdf",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-09-02T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "gerard-bertrand-la-forge-magnums-2026",
-      "type": "destockage",
-      "titre": "Gérard Bertrand — La Forge, derniers magnums",
-      "tagline": "2021 : 88 → 76 € · 2023 : 84 → 69 € · 300 magnums par millésime",
-      "fournisseur": {
-        "nom": "Gérard Bertrand",
-        "code_vinistoria": "271 · 401G55",
-        "region": "Occitanie",
-        "meta": "Château l'Hospitalet · Narbonne (11)"
-      },
-      "cuvees": [
-        {
-          "nom": "La Forge 150cl 2021",
-          "format": "Magnum",
-          "prix_avant_ht": 88.0,
-          "prix_ht": 76.0,
-          "stock": 300
-        },
-        {
-          "nom": "La Forge 150cl 2023",
-          "format": "Magnum",
-          "prix_avant_ht": 84.0,
-          "prix_ht": 69.0,
-          "stock": 300
-        }
-      ],
-      "mecanique": {
-        "condition": "76 € / 69 € HT",
-        "description": "Prix remisés sur les deux millésimes décalés, en magnum.",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "300 derniers magnums par millésime. Jusqu'à épuisement définitif des stocks — aucun réassort ensuite."
-      },
-      "validite": {
-        "debut": "2026-08-15",
-        "fin": "2026-09-30",
-        "note": "Offre en cours, échéance au 30/09/2026."
-      },
-      "target": "chr_caviste",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": null,
-        "note": "Contact : chr@gerard-bertrand.com"
-      },
-      "notes_commerciales": "Allocation finale : une fois épuisée, aucun autre magnum de ces millésimes ne sera disponible.",
-      "alertes": [
-        "300 magnums par millésime seulement, sans réassort possible",
-        "Jusqu'à épuisement définitif des stocks"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-09/LA FORGE MAGNUM Gerard Bertrand.pdf",
         "parsing_method": "parseur-promos",
         "parsing_date": "2026-09-02T12:00:00Z",
         "status": "auto-parsed"
@@ -3991,63 +3054,6 @@
       ],
       "source": {
         "fichier": "Promotions/2026-09/2026_Thiénot_OP Coupe brut.pdf",
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-09-08T12:00:00Z",
-        "status": "auto-parsed"
-      }
-    },
-    {
-      "id": "thienot-coupe-bdb-rose-2026",
-      "type": "promotion",
-      "titre": "Champagne Thiénot — Offre à la coupe (Blanc de Blancs & Rosé)",
-      "tagline": "25,70 € HT dès 36 cols · mars → septembre 2026",
-      "fournisseur": {
-        "nom": "Champagne Thiénot",
-        "code_vinistoria": "726",
-        "region": "Champagne",
-        "meta": "Taissy (51) · via C&C France · carte Château Cadeaux (CCX)"
-      },
-      "cuvees": [
-        {
-          "nom": "Thiénot Blanc de Blancs",
-          "appellation": "Champagne",
-          "couleur": "EFF",
-          "prix_36_cols_ht": 25.7
-        },
-        {
-          "nom": "Thiénot Rosé",
-          "appellation": "Champagne",
-          "couleur": "EFF",
-          "prix_36_cols_ht": 25.7
-        }
-      ],
-      "mecanique": {
-        "condition": "25,70 € HT",
-        "description": "Prix à la coupe : 25,70 € HT par 36 cols commandés, sur le Blanc de Blancs et le Rosé.",
-        "panachable": false,
-        "cumulable": false,
-        "notes_conditions": "Codes THCOUPE36 et THCOUPE60. Non figeable dans les fiches marché. Franco 300 € HT."
-      },
-      "validite": {
-        "debut": "2026-03-01",
-        "fin": "2026-09-30",
-        "note": "Valable de mars à septembre 2026 — échéance proche."
-      },
-      "target": "chr",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": true,
-        "note": "Direct C&C France · franco 300 € HT au départ de Taissy · tarif PRO et DISTRIBUTEURS"
-      },
-      "notes_commerciales": "Pendant saisonnier de l'offre à la coupe Brut, sur les cuvées Blanc de Blancs et Rosé.",
-      "alertes": [
-        "⚠️ Échéance fin septembre 2026",
-        "Non figeable dans les fiches marché",
-        "Non cumulable avec les prix palettes et les autres promotions pour une même référence",
-        "Dans la limite des stocks disponibles"
-      ],
-      "source": {
-        "fichier": "Promotions/2026-09/2026_Thiénot_OP Coupe Rosé_BdB_mars-sept.pdf",
         "parsing_method": "parseur-promos",
         "parsing_date": "2026-09-08T12:00:00Z",
         "status": "auto-parsed"
@@ -5892,6 +4898,2114 @@
         "parsing_date": "2026-09-25T12:00:00Z",
         "status": "auto-parsed"
       }
+    },
+    {
+      "id": "gerard-bertrand-grands-vins-oct-nov-2026",
+      "type": "promotion",
+      "titre": "Gérard Bertrand — Les Grands Vins (octobre-novembre)",
+      "tagline": "11+1 sous 60 cols · 10+2 au-delà · 15/10 → 15/11",
+      "fournisseur": {
+        "nom": "Gérard Bertrand",
+        "code_vinistoria": "271 · 401G55",
+        "region": "Occitanie",
+        "meta": "Château l'Hospitalet · Narbonne (11)"
+      },
+      "cuvees": [
+        {
+          "nom": "Castellum rouge",
+          "appellation": "IGP Cité de Carcassonne",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Castellum Sauvignon Blanc 2025",
+          "appellation": "IGP Cité de Carcassonne",
+          "millesime": "2025",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Château de la Soujeole — Grand Vin",
+          "appellation": "AOP Malepère",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Kosmos rouge 2022",
+          "appellation": "Gérard Bertrand",
+          "millesime": "2022",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Kosmos blanc 2024",
+          "appellation": "Gérard Bertrand",
+          "millesime": "2024",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Château Laville Bertrou — Grand Vin 2022",
+          "appellation": "AOP Minervois-la-Livinière",
+          "millesime": "2022",
+          "couleur": "RGE"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 / 10+2",
+        "description": "11+1 jusqu'à 59 cols ; 10+2 à partir de 60 cols.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Minimum 30 cols. Uniquement en gratuité, pas de prix barré. Volumes comptés hors gratuité pour le challenge. Commissions pleines."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-11-15",
+        "note": "Valable du 15/10 au 15/11/2026 uniquement."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Réservé aux professionnels. Contact : chr@gerard-bertrand.com"
+      },
+      "notes_commerciales": "Six références de la gamme Grands Vins, panachables. Le passage à 60 cols fait basculer de 11+1 (8,3 %) à 10+2 (16,7 %) : c'est le seul levier à travailler.",
+      "alertes": [
+        "Minimum 30 cols",
+        "Non cumulable avec une autre offre en cours",
+        "Interdit aux particuliers",
+        "Gratuité uniquement — pas de prix barré"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/OFFRE LES GRANDS VINS - 15 OCTOBRE - 15 NOVEMBRE 2026.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-les-grands-vins-15-octobre-15-novembre-2026.pdf"
+    },
+    {
+      "id": "medocaine-fin-annee-2026",
+      "type": "promotion",
+      "titre": "Compagnie Médocaine — Promotion fin d'année 2026",
+      "tagline": "11+1 · 5+1 · prix remisés sur 8 crus · jusqu'au 31/12",
+      "fournisseur": {
+        "nom": "Compagnie Médocaine des Grands Crus",
+        "code_vinistoria": "178 · 401C08",
+        "region": "Bordeaux",
+        "meta": "Bordeaux (33) · négociant · grille RR (CHR)"
+      },
+      "cuvees": [
+        {
+          "nom": "9 références en 11+1",
+          "couleur": "Multi",
+          "note": "Ch. Harmonie 2019 · Disznókő Furmint Late Harvest 2022 · Éclat de Branaire-Ducru 2022 · Le Petit Petit-Village 2022 · Marquis de Terme Cuvée 1762 2020 · Ch. Castéra 2016 · Ch. Les Clauzots Graves blanc 2024 · Ch. Les Clauzots Graves rouge 2020 · La Croix Bonis 2022"
+        },
+        {
+          "nom": "7 références en 5+1",
+          "couleur": "Multi",
+          "note": "Les Tourelles de Longueville 2020 & 2022 · Ch. Gloria 2021 · Disznókő Aszu 5 Puttonyos 2014/2017/2019 · Quinta do Noval Fine White · Tawny · 10 Years Old · Late Bottled Vintage 2019"
+        },
+        {
+          "nom": "8 crus à prix remisé",
+          "couleur": "RGE",
+          "note": "Brio de Cantenac Brown 2020 · Ch. Larrivet Haut-Brion 2016 · Haut-Batailley Verso 2019 · Ch. La Gaffelière 2015 · Ch. Beau-Séjour Bécot 2014 · Ch. Poujeaux 2020 · Ch. Branaire-Ducru 2014 · Ch. Croizet-Bages 2018 — prix dans le PDF"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 · 5+1 · prix remisés",
+        "description": "Trois mécaniques selon la référence : 11+1, 5+1, ou prix remisé.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Grille RR (CHR). Offre sans engagement et sauf vente. Le détail des prix figure sur le PDF fournisseur."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Jusqu'au 31 décembre 2026, dans la limite des stocks disponibles."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": false,
+        "note": "Frais de port : 36-60 cols 1,35 € HT/col · 60-120 cols 1,15 € HT/col · 120 cols et plus 0,65 € HT/col."
+      },
+      "notes_commerciales": "Grille RR (CHR). Le portefeuille mêle crus classés bordelais, Tokaj (Disznókő) et Porto (Quinta do Noval) — ces deux dernières maisons appartiennent au même groupe. Le tarif Quinta do Noval (Tarif R 2026) est disponible séparément auprès de l'ADV.",
+      "alertes": [
+        "Prix détaillés uniquement sur le PDF fournisseur",
+        "Offre sans engagement et sauf vente",
+        "Frais de port dégressifs — le franco n'est jamais acquis"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/Offre fin d'année 2026 RR.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-fin-d-annee-2026-rr.pdf"
+    },
+    {
+      "id": "audibert-foire-aux-vins-cavistes-2026",
+      "type": "promotion",
+      "titre": "Famille Audibert — Foire aux Vins Cavistes",
+      "tagline": "Prix barrés dès 120 cols · tarif Pro Franco 2026 · jusqu'au 31/10",
+      "fournisseur": {
+        "nom": "Le Jas des Papes (Famille Audibert)",
+        "code_vinistoria": "262 · 401C28",
+        "region": "Rhône",
+        "meta": "Courthézon (84) · Château de Calavon · Jas des Papes · Domaine du Pavillon"
+      },
+      "cuvees": [
+        {
+          "nom": "Roquerousse Rosé 2025",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "ROS",
+          "prix_base_120": 5.25,
+          "prix_120": 4.73,
+          "prix_base_300": 5.1,
+          "prix_300": 4.39
+        },
+        {
+          "nom": "Roquerousse Rosé 150 cl 2025",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "ROS",
+          "prix_base_120": 11.0,
+          "prix_120": 9.17,
+          "prix_base_300": 11.0,
+          "prix_300": 9.17
+        },
+        {
+          "nom": "Roquerousse Blanc 2025",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "BLC",
+          "prix_base_120": 5.25,
+          "prix_120": 4.73,
+          "prix_base_300": 5.1,
+          "prix_300": 4.39
+        },
+        {
+          "nom": "Roquerousse Rouge 2024",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "RGE",
+          "prix_base_120": 5.25,
+          "prix_120": 4.73,
+          "prix_base_300": 5.1,
+          "prix_300": 4.39
+        },
+        {
+          "nom": "Château de Calavon Rosé 2025",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "ROS",
+          "prix_base_120": 7.5,
+          "prix_120": 6.75,
+          "prix_base_300": 7.25,
+          "prix_300": 6.24
+        },
+        {
+          "nom": "Château de Calavon Rosé 150 cl 2025",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "ROS",
+          "prix_base_120": 15.5,
+          "prix_120": 12.92,
+          "prix_base_300": 15.5,
+          "prix_300": 12.92
+        },
+        {
+          "nom": "Château de Calavon Rosé 300 cl 2025",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "ROS",
+          "prix_base_120": 37.3,
+          "prix_120": 31.09,
+          "prix_base_300": 37.3,
+          "prix_300": 31.09
+        },
+        {
+          "nom": "Château de Calavon Blanc 2023",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "BLC",
+          "prix_base_120": 8.0,
+          "prix_120": 7.04,
+          "prix_base_300": 7.75,
+          "prix_300": 6.51
+        },
+        {
+          "nom": "Château de Calavon Rouge 2019",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "RGE",
+          "prix_base_120": 8.0,
+          "prix_120": 7.2,
+          "prix_base_300": 7.75,
+          "prix_300": 6.2
+        },
+        {
+          "nom": "Château de Calavon Rouge 2020",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "RGE",
+          "prix_base_120": 8.0,
+          "prix_120": 7.2,
+          "prix_base_300": 7.75,
+          "prix_300": 6.67
+        },
+        {
+          "nom": "Château de Calavon Rouge 2021",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "RGE",
+          "prix_base_120": 8.0,
+          "prix_120": 7.2,
+          "prix_base_300": 7.75,
+          "prix_300": 6.67
+        },
+        {
+          "nom": "La Réserve Rouge 2018",
+          "appellation": "AOP Coteaux d'Aix-en-Provence",
+          "couleur": "RGE",
+          "prix_base_120": 12.5,
+          "prix_120": 11.25,
+          "prix_base_300": 12.5,
+          "prix_300": 10.0
+        },
+        {
+          "nom": "Aposta ! Pet'Nat Rosé 2025",
+          "appellation": "Vin de France",
+          "couleur": "ROS",
+          "prix_base_120": 6.25,
+          "prix_120": 5.94,
+          "prix_base_300": 6.05,
+          "prix_300": 5.57
+        },
+        {
+          "nom": "Clarescur Blanc 2025",
+          "appellation": "IGP Méditerranée",
+          "couleur": "BLC",
+          "prix_base_120": 6.0,
+          "prix_120": 5.4,
+          "prix_base_300": 5.8,
+          "prix_300": 5.1
+        },
+        {
+          "nom": "Le Carignan Rouge 2021",
+          "appellation": "Vin de France",
+          "couleur": "RGE",
+          "prix_base_120": 6.0,
+          "prix_120": 5.4,
+          "prix_base_300": 5.8,
+          "prix_300": 5.1
+        },
+        {
+          "nom": "Le Grenache Rouge 2024",
+          "appellation": "Vin de France",
+          "couleur": "RGE",
+          "prix_base_120": 7.0,
+          "prix_120": 6.3,
+          "prix_base_300": 6.8,
+          "prix_300": 5.98
+        },
+        {
+          "nom": "Huile d'olive « Fruité Vert » 2024 (carton de 12)",
+          "appellation": "AOP Aix-en-Provence",
+          "couleur": "Huile",
+          "prix_base_120": 9.7,
+          "prix_120": 8.73
+        },
+        {
+          "nom": "Huile d'olive « Maturé Noir » 2024 (carton de 12)",
+          "appellation": "AOP Aix-en-Provence",
+          "couleur": "Huile",
+          "prix_base_120": 11.7,
+          "prix_120": 8.19
+        },
+        {
+          "nom": "Domaine du Pavillon « Pavillon » Rouge 2025 *",
+          "appellation": "AOP Crozes-Hermitage",
+          "couleur": "RGE",
+          "prix_120": 8.9,
+          "prix_300": 8.6
+        },
+        {
+          "nom": "Domaine du Pavillon « Pavillon » Rouge 150 cl 2025",
+          "appellation": "AOP Crozes-Hermitage",
+          "couleur": "RGE",
+          "prix_120": 18.8
+        },
+        {
+          "nom": "Domaine du Pavillon « Confluence » Rouge 2025 *",
+          "appellation": "AOP Crozes-Hermitage",
+          "couleur": "RGE",
+          "prix_120": 12.5
+        },
+        {
+          "nom": "Jas des Papes Rouge 2023",
+          "appellation": "AOP Châteauneuf-du-Pape",
+          "couleur": "RGE",
+          "prix_base_120": 17.25,
+          "prix_120": 15.81
+        },
+        {
+          "nom": "Les Saumades Rouge 2023 *",
+          "appellation": "AOP Châteauneuf-du-Pape",
+          "couleur": "RGE",
+          "prix_120": 27.9
+        }
+      ],
+      "mecanique": {
+        "condition": "Prix barrés 120 / 300 cols",
+        "description": "Prix nets dégressifs à partir de 120 cols, puis 300 cols.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Offre valable à partir de 120 cols. Panachage possible au carton parmi tous les domaines sur la même commande. (*) vin sous allocation — nous consulter."
+      },
+      "validite": {
+        "debut": "2026-08-31",
+        "fin": "2026-10-31",
+        "note": "La couverture indique 31/10/26, les tableaux tarifaires 30/10/2026."
+      },
+      "target": "cavistes",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Tarif Pro FRANCO HT 2026, France métropolitaine hors zones difficiles et montagne. Vin 75 cl : carton de 6 · 150 cl : carton de 3 magnums · huile d'olive : carton de 12."
+      },
+      "notes_commerciales": "Tout le portefeuille Famille Audibert en une commande : les bio de Provence (Calavon), les Crozes du Domaine du Pavillon et les Châteauneuf du Jas des Papes, panachables au carton.",
+      "alertes": [
+        "Minimum 120 cols pour déclencher l'offre",
+        "Réservée aux cavistes",
+        "Dates divergentes sur le document : 31/10 en couverture, 30/10 sur les tableaux",
+        "Pavillon, Confluence et Les Saumades sont sous allocation — consulter avant de vendre"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/AUDIBERT-OFFRE DE RENTREE FOIRE AUX VINS CAVISTE 2026.pdf"
+      },
+      "audience": "cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/audibert-offre-de-rentree-foire-aux-vins-caviste-2026.pdf"
+    },
+    {
+      "id": "uvc-temps-forts-oct-dec-2026",
+      "type": "promotion",
+      "titre": "Un Voyage en Champagne — Les Temps Forts",
+      "tagline": "Apogée 5+1 · Éminence 11+1 · 19/10 → 18/12",
+      "fournisseur": {
+        "nom": "Un Voyage en Champagne",
+        "code_vinistoria": "à créer dans Vinistoria",
+        "region": "Champagne",
+        "meta": "GIE de vignerons champenois · fournisseur à créer"
+      },
+      "cuvees": [
+        {
+          "nom": "Gamme APOGÉE — toutes maisons du GIE",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Gamme ÉMINENCE — toutes maisons du GIE",
+          "couleur": "Multi",
+          "mecanique": "11+1"
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1 / 11+1",
+        "description": "5+1 sur la gamme Apogée, 11+1 sur la gamme Éminence.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Gratuité indissociable : 12 bouteilles de la même référence. Après le 18/12, saisie impossible."
+      },
+      "validite": {
+        "debut": "2026-10-19",
+        "fin": "2026-12-18",
+        "note": "Du 19 octobre au 18 décembre 2026 — après cette date, impossible d'intégrer l'offre."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Applicable sur toutes les gammes Éminence et Apogée de chaque domaine du GIE."
+      },
+      "notes_commerciales": "Opération transverse au GIE : elle s'applique à toutes les maisons, sur les deux gammes Apogée et Éminence.",
+      "alertes": [
+        "Date de saisie limite : 18/12/2026",
+        "Gratuité indissociable — 12 bouteilles de la même référence",
+        "Fournisseur à créer dans Vinistoria"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/LES TEMPS FORT Oct-Dec 2026.pdf"
+      },
+      "audience": "pro cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/les-temps-fort-oct-dec-2026.pdf"
+    },
+    {
+      "id": "uvc-offres-fin-annee-2026",
+      "type": "promotion",
+      "titre": "Un Voyage en Champagne — Offres fin d'année",
+      "tagline": "4 cuvées · 11+1 et 5+1 · 15/09 → 18/12",
+      "fournisseur": {
+        "nom": "Un Voyage en Champagne",
+        "code_vinistoria": "à créer dans Vinistoria",
+        "region": "Champagne",
+        "meta": "GIE de vignerons champenois · fournisseur à créer"
+      },
+      "cuvees": [
+        {
+          "nom": "Les Reflets de la Haute Vallée",
+          "couleur": "Champagne",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "L'enfant d'Ambonnay",
+          "couleur": "Champagne",
+          "mecanique": "11+1",
+          "note": "offre de lancement"
+        },
+        {
+          "nom": "Mémoire de Foudre",
+          "couleur": "Champagne",
+          "mecanique": "5+1",
+          "note": "offre de lancement"
+        },
+        {
+          "nom": "Empreinte des Blancs",
+          "couleur": "Champagne",
+          "mecanique": "5+1",
+          "note": "offre de lancement"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 / 5+1",
+        "description": "11+1 sur Les Reflets de la Haute Vallée et L'enfant d'Ambonnay ; 5+1 sur Mémoire de Foudre et Empreinte des Blancs.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "12 bouteilles obligatoires de la même référence en 11+1, 6 en 5+1. Pas de prix net sur un carton de 6."
+      },
+      "validite": {
+        "debut": "2026-09-15",
+        "fin": "2026-12-18",
+        "note": "Du 15/09/2026 au 18/12/2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Canal cavistes et CHR."
+      },
+      "notes_commerciales": "Trois des quatre cuvées sont en offre de lancement — c'est le bon moment pour les référencer avant les fêtes.",
+      "alertes": [
+        "12 bouteilles obligatoires de la même référence en 11+1",
+        "Pas de prix net possible sur un carton de 6",
+        "Fournisseur à créer dans Vinistoria"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/Offres fin d'année 2026.pdf"
+      },
+      "audience": "pro cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offres-fin-d-annee-2026.pdf"
+    },
+    {
+      "id": "uvc-collet-pierre-noire-cavistes-2026",
+      "type": "promotion",
+      "titre": "Un Voyage en Champagne — Famille Collet, Pierre Noire (cavistes)",
+      "tagline": "11+1 mono-référence · 1/10 → 18/12",
+      "fournisseur": {
+        "nom": "Un Voyage en Champagne",
+        "code_vinistoria": "à créer dans Vinistoria",
+        "region": "Champagne",
+        "meta": "GIE de vignerons champenois · fournisseur à créer"
+      },
+      "cuvees": [
+        {
+          "nom": "Pierre Noire Extra-Brut",
+          "couleur": "Champagne",
+          "note": "80 % Chardonnay — 20 % Pinot Noir"
+        },
+        {
+          "nom": "Pierre Noire Rosé Extra-Brut",
+          "couleur": "Champagne",
+          "note": "75 % Pinot Noir — 25 % Chardonnay"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11 bouteilles achetées = 1 offerte.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Non panachable entre Pierre Noire et Pierre Noire Rosé. Offre mono-référence."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-12-18",
+        "note": "Du 1er octobre au 18 décembre 2026."
+      },
+      "target": "cavistes",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Canal cavistes."
+      },
+      "notes_commerciales": "Cuvée de partage positionnée sur l'apéritif dînatoire : charcuteries fines, fromages, tapas, produits de la mer.",
+      "alertes": [
+        "Non panachable entre Pierre Noire et Pierre Noire Rosé",
+        "Offre mono-référence",
+        "Fournisseur à créer dans Vinistoria"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/Famille Collet Offre Co Cavistes Pierre Noire.pdf"
+      },
+      "audience": "cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/famille-collet-offre-co-cavistes-pierre-noire.pdf"
+    },
+    {
+      "id": "uvc-collet-pierre-noire-chr-2026",
+      "type": "promotion",
+      "titre": "Un Voyage en Champagne — Famille Collet, Pierre Noire (CHR)",
+      "tagline": "5+1 mono-référence · service à la coupe · 1/10 → 18/12",
+      "fournisseur": {
+        "nom": "Un Voyage en Champagne",
+        "code_vinistoria": "à créer dans Vinistoria",
+        "region": "Champagne",
+        "meta": "GIE de vignerons champenois · fournisseur à créer"
+      },
+      "cuvees": [
+        {
+          "nom": "Pierre Noire Extra-Brut",
+          "couleur": "Champagne",
+          "note": "80 % Chardonnay — 20 % Pinot Noir"
+        },
+        {
+          "nom": "Pierre Noire Rosé Extra-Brut",
+          "couleur": "Champagne",
+          "note": "75 % Pinot Noir — 25 % Chardonnay"
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1",
+        "description": "5 bouteilles achetées = 1 offerte.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Pas de panachage : l'offre s'applique sur Pierre Noire OU Pierre Noire Rosé."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-12-18",
+        "note": "Du 1er octobre au 18 décembre 2026."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Canal CHR."
+      },
+      "notes_commerciales": "Argumentaire service au verre / à la coupe : amuse-bouche, planches apéritives, charcuteries fines, fromages, poissons fumés, fruits de mer.",
+      "alertes": [
+        "Pas de panachage entre Pierre Noire et Pierre Noire Rosé",
+        "Fournisseur à créer dans Vinistoria"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/Famille Collet Offre Co CHR Pierre Noire.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/famille-collet-offre-co-chr-pierre-noire.pdf"
+    },
+    {
+      "id": "miquel-coffret-2-bouteilles-2026",
+      "type": "promotion",
+      "titre": "Laurent Miquel — Coffret bois 2 bouteilles",
+      "tagline": "4 € HT la caisse bois · panachage toutes gammes",
+      "fournisseur": {
+        "nom": "Laurent Miquel",
+        "code_vinistoria": "549",
+        "region": "Occitanie",
+        "meta": "Cessenon-sur-Orb (34) · Languedoc"
+      },
+      "cuvees": [
+        {
+          "nom": "Caisse bois individuelle 2 bouteilles 75 cl",
+          "couleur": "Coffret",
+          "prix_ht": 4.0,
+          "note": "Panachage possible : Solas · Domaine St Blaise · Albarino Lagrasse · Château Cazal Viel · Les Côtes · Les Lieux-Dits · Larmes des Fées · Nord Sud · Grands Terroirs"
+        }
+      ],
+      "mecanique": {
+        "condition": "4 € HT / unité",
+        "description": "Caisse bois individuelle 2 bouteilles 75 cl, à 4 € HT l'unité.",
+        "panachable": true,
+        "cumulable": true,
+        "notes_conditions": "Possibilité de panacher les gammes à l'intérieur du coffret."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Jusqu'à épuisement des stocks — affiché sur trois mois."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Possibilité de livraison en caisse bois individuelle."
+      },
+      "notes_commerciales": "Habillage cadeau pour les fêtes : 4 € HT seulement, sur n'importe quelle combinaison de deux bouteilles du portefeuille.",
+      "alertes": [
+        "Jusqu'à épuisement des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/MAISON-LAURENT-MIQUEL-OFFRE-COFFRET-2-BOUTEILLES.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/maison-laurent-miquel-offre-coffret-2-bouteilles.pdf"
+    },
+    {
+      "id": "miquel-coffret-magnum-2026",
+      "type": "promotion",
+      "titre": "Laurent Miquel — Coffret bois magnum",
+      "tagline": "5 € HT la caisse bois · 6 magnums au choix",
+      "fournisseur": {
+        "nom": "Laurent Miquel",
+        "code_vinistoria": "549",
+        "region": "Occitanie",
+        "meta": "Cessenon-sur-Orb (34) · Languedoc"
+      },
+      "cuvees": [
+        {
+          "nom": "Solas Rosé 150 cl 2025",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "ROS"
+        },
+        {
+          "nom": "Albarino Lagrasse 150 cl 2024/2025",
+          "appellation": "IGP Aude",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Château Cazal Vieil Vieilles Vignes 150 cl 2023",
+          "appellation": "AOP Saint-Chinian",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Lieu-Dit La Vérité 150 cl 2018-2023",
+          "appellation": "AOP Saint-Chinian",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Lieu-Dit Bardou 150 cl 2018-2023",
+          "appellation": "IGP Pays d'Oc",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Larmes des Fées 150 cl 2023",
+          "appellation": "AOP Saint-Chinian",
+          "couleur": "RGE"
+        }
+      ],
+      "mecanique": {
+        "condition": "5 € HT / unité",
+        "description": "Caisse bois individuelle magnum, à 5 € HT l'unité.",
+        "panachable": false,
+        "cumulable": true,
+        "notes_conditions": "Six magnums éligibles."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Jusqu'à épuisement des stocks — affiché sur trois mois."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Possibilité de livraison en caisse bois magnum."
+      },
+      "notes_commerciales": "Le magnum en caisse bois est l'achat de table des fêtes : forte valeur perçue, coût d'habillage marginal.",
+      "alertes": [
+        "Jusqu'à épuisement des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/MAISON-LAURENT-MIQUEL-OFFRE-COFFRET-MAGNUMS.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/maison-laurent-miquel-offre-coffret-magnums.pdf"
+    },
+    {
+      "id": "louis-latour-coffrets-automne-2026",
+      "type": "promotion",
+      "titre": "Louis Latour — Coffrets Automne 2026",
+      "tagline": "7 coffrets · de 179 à 1 909 € HT · franco dès 500 € HT",
+      "fournisseur": {
+        "nom": "Louis Latour",
+        "code_vinistoria": "250 · 401L04",
+        "region": "Bourgogne",
+        "meta": "Beaune (21) · Maison de négoce depuis 1797"
+      },
+      "cuvees": [
+        {
+          "nom": "Joyau de la Côte de Nuits",
+          "prix_ht": 324.0,
+          "couleur": "Coffret",
+          "note": "Chambertin Grand Cru « Cuvée Héritiers Latour » 2018"
+        },
+        {
+          "nom": "Trilogie Rouge de la Côte de Beaune",
+          "prix_ht": 179.0,
+          "couleur": "Coffret",
+          "note": "Beaune 1er Cru « Vignes Franches » 2018 · Volnay 1er Cru « En Chevret » 2018 · Pommard 1er Cru « Les Arvelets » 2018"
+        },
+        {
+          "nom": "Excellence du Domaine Louis Latour",
+          "prix_ht": 260.0,
+          "couleur": "Coffret",
+          "note": "Corton-Charlemagne Grand Cru 2020 · Château Corton Grancey Grand Cru 2018"
+        },
+        {
+          "nom": "Incontournables de la Colline de Corton",
+          "prix_ht": 329.5,
+          "couleur": "Coffret",
+          "note": "Corton-Charlemagne Grand Cru 2020 · Château Corton Grancey Grand Cru 2018 · Corton Grand Cru « Clos de la Vigne au Saint » 2022"
+        },
+        {
+          "nom": "Coffret Découverte Aloxe-Corton",
+          "prix_ht": 256.7,
+          "couleur": "Coffret",
+          "note": "2 Aloxe-Corton « Domaine Latour » 2023 · 2 Aloxe-Corton 1er Cru « Les Chaillots » 2023 · 2 Corton Grand Cru « Domaine Latour » 2023"
+        },
+        {
+          "nom": "Coffret Grand Cru « Climats de Corton »",
+          "prix_ht": 578.2,
+          "couleur": "Coffret",
+          "note": "2 Corton-Charlemagne GC 2022 · Corton GC « Clos de la Vigne au Saint » 2015 · Château Corton Grancey GC 2022 · Corton GC « Perrières » 2010 · Corton GC « Clos du Roi » 2016"
+        },
+        {
+          "nom": "Caisse Ultime Six — Millésime 2022",
+          "prix_ht": 1909.0,
+          "couleur": "Coffret",
+          "note": "Chevalier-Montrachet GC « Les Demoiselles » · Montrachet GC · Corton-Charlemagne GC · Château Corton Grancey GC · Chambertin GC « Cuvée Héritiers Latour » · Romanée-Saint-Vivant GC « Les Quatre Journaux » — édition limitée"
+        }
+      ],
+      "mecanique": {
+        "condition": "Prix nets par coffret",
+        "description": "Sept coffrets, prix HT nets sur la base du tarif professionnel 2026.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Les coffrets ne sont pas vendus sans vin. Non cumulable avec toute autre remise."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Offre Automne 2026 — jusqu'à épuisement des stocks."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": true,
+        "note": "Tarif FRANCO de port à partir de 500 € HT."
+      },
+      "notes_commerciales": "La gamme cadeau de la Maison, du coffret à 179 € jusqu'à la Caisse Ultime Six en édition limitée. Le franco à 500 € HT est atteint dès deux coffrets.",
+      "alertes": [
+        "Les coffrets ne sont pas vendus sans vin",
+        "Caisse Ultime Six en édition limitée",
+        "Non cumulable avec toute autre remise",
+        "Dans la limite des stocks disponibles"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/Coffrets Prestige + Offres Coffrets + Tarifs 2026 AUTOMNE (3 fichiers).pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/tarifs-coffrets-offres-2026-automne-professionnels.pdf"
+    },
+    {
+      "id": "uc-estournel-pagodes-2026",
+      "type": "promotion",
+      "titre": "Ulysse Cazabonne — G d'Estournel 2016 & Pagodes de Cos 2011",
+      "tagline": "Offre ex-château · 10+2 et prix remisé",
+      "fournisseur": {
+        "nom": "Ulysse Cazabonne",
+        "code_vinistoria": "668 · 401B62",
+        "region": "Bordeaux",
+        "meta": "Bordeaux · négociant (Buvons — Ulysse Cazabonne)"
+      },
+      "cuvees": [
+        {
+          "nom": "G d'Estournel 2016",
+          "appellation": "Saint-Estèphe (nord Médoc)",
+          "millesime": "2016",
+          "couleur": "RGE",
+          "prix_ht": 19.8,
+          "prix_promo_ht": 16.5,
+          "note": "Offre 10+2 · étiquette exclusive Ulysse Cazabonne, ex-château · 77 % Merlot, 18 % Cabernet-Sauvignon, 5 % Cabernet Franc"
+        },
+        {
+          "nom": "Pagodes de Cos 2011",
+          "appellation": "Saint-Estèphe",
+          "millesime": "2011",
+          "couleur": "RGE",
+          "prix_ht": 34.5,
+          "prix_promo_ht": 31.9,
+          "note": "Second vin de Cos d'Estournel, ex-château · 65 % Cabernet-Sauvignon, 33 % Merlot, 2 % Petit Verdot"
+        }
+      ],
+      "mecanique": {
+        "condition": "10+2 / prix remisé",
+        "description": "G d'Estournel 2016 en 10+2 (soit 16,50 €/btl) ; Pagodes de Cos 2011 à prix remisé 31,90 €.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Offre ex-château, sauf vente et sans engagement."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Jusqu'à épuisement des stocks — affiché sur trois mois."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "note": "Franco de port dès 48 bouteilles ou 2 500 € HT de commande. Offre sauf vente et sans engagement."
+      },
+      "notes_commerciales": "Deux offres ex-château sur la galaxie Cos d'Estournel. Le G d'Estournel 2016 porte une étiquette exclusive Ulysse Cazabonne.",
+      "alertes": [
+        "Offre ex-château, sauf vente et sans engagement",
+        "Jusqu'à épuisement des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/BF OFFRE G Estournel 16 + Pagodes de Cos 2011 - 250926.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/bf-offre-g-estournel-16-pagodes-de-cos-2011-250926.pdf"
+    },
+    {
+      "id": "uc-lagrange-2014",
+      "type": "promotion",
+      "titre": "Ulysse Cazabonne — Château Lagrange 2014",
+      "tagline": "Millésime décalé · 45,00 → 35,00 € HT",
+      "fournisseur": {
+        "nom": "Ulysse Cazabonne",
+        "code_vinistoria": "668 · 401B62",
+        "region": "Bordeaux",
+        "meta": "Bordeaux · négociant (Buvons — Ulysse Cazabonne)"
+      },
+      "cuvees": [
+        {
+          "nom": "Château Lagrange 2014",
+          "appellation": "Saint-Julien · Grand Cru Classé 1855",
+          "millesime": "2014",
+          "couleur": "RGE",
+          "prix_ht": 45.0,
+          "prix_promo_ht": 35.0,
+          "note": "76 % Cabernet Sauvignon, 18 % Merlot, 6 % Petit Verdot"
+        }
+      ],
+      "mecanique": {
+        "condition": "Prix remisé",
+        "description": "45,00 € HT → 35,00 € HT la bouteille, soit −22 %.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Offre millésime décalé, sauf vente et sans engagement."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Jusqu'à épuisement des stocks — affiché sur trois mois."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "note": "Franco de port dès 48 bouteilles ou 2 500 € HT de commande. Offre sauf vente et sans engagement."
+      },
+      "notes_commerciales": "Un Grand Cru Classé de Saint-Julien sous les 35 € HT : l'argument carte le plus simple du portefeuille Ulysse Cazabonne.",
+      "alertes": [
+        "Offre millésime décalé, sauf vente et sans engagement",
+        "Jusqu'à épuisement des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/BF OFFRE Lagrange 2014.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/bf-offre-lagrange-2014.pdf"
+    },
+    {
+      "id": "uc-odyssee-pomerol-2026",
+      "type": "promotion",
+      "titre": "Ulysse Cazabonne — L'Odyssée Pomerol",
+      "tagline": "11+1 sur 10 propriétés · Clinet 2019 remisé · jusqu'au 31/10",
+      "fournisseur": {
+        "nom": "Ulysse Cazabonne",
+        "code_vinistoria": "668 · 401B62",
+        "region": "Bordeaux",
+        "meta": "Bordeaux · négociant (Buvons — Ulysse Cazabonne)"
+      },
+      "cuvees": [
+        {
+          "nom": "Château La Croix Saint Vincent 2019",
+          "appellation": "Pomerol",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "prix_ht": 17.6,
+          "prix_promo_ht": 16.2,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Croix de Beauregard 2020",
+          "appellation": "Pomerol",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "prix_ht": 18.6,
+          "prix_promo_ht": 17.0,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Château Lécuyer 2022",
+          "appellation": "Pomerol",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "prix_ht": 32.4,
+          "prix_promo_ht": 29.8,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Ballade de La Pointe 2020",
+          "appellation": "Pomerol",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "prix_ht": 16.5,
+          "prix_promo_ht": 15.2,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Château La Pointe 2019",
+          "appellation": "Pomerol",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "prix_ht": 32.4,
+          "prix_promo_ht": 29.8,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Château La Pointe 2019 — magnum 150 cl",
+          "appellation": "Pomerol",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "prix_ht": 64.0,
+          "prix_promo_ht": 58.7,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Fugue de Nenin 2012",
+          "appellation": "Pomerol",
+          "millesime": "2012",
+          "couleur": "RGE",
+          "prix_ht": 24.5,
+          "prix_promo_ht": 22.5,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Château Nenin 2019",
+          "appellation": "Pomerol",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "prix_ht": 53.5,
+          "prix_promo_ht": 49.0,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Château Saint-Pierre 2019",
+          "appellation": "Pomerol",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "prix_ht": 38.3,
+          "prix_promo_ht": 35.1,
+          "mecanique": "11+1",
+          "note": "coup de cœur de la sélection"
+        },
+        {
+          "nom": "Château Gazin 2019",
+          "appellation": "Pomerol",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "prix_ht": 58.7,
+          "prix_promo_ht": 53.8,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Château La Conseillante 2017",
+          "appellation": "Pomerol",
+          "millesime": "2017",
+          "couleur": "RGE",
+          "prix_ht": 153.5,
+          "prix_promo_ht": 140.8,
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Château Clinet 2019",
+          "appellation": "Pomerol",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "prix_ht": 85.1,
+          "prix_promo_ht": 69.3,
+          "mecanique": "prix remisé",
+          "note": "plus que 9 bouteilles en stock"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11+1 (soit −8,3 %) sur onze références ; Château Clinet 2019 à prix remisé.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Quatre univers : Exclusivités, Binômes (1er/2nd vin), Émotions, et La Signature (Clinet 2019 à prix remisé)."
+      },
+      "validite": {
+        "debut": "2026-09-21",
+        "fin": "2026-10-31",
+        "note": "Offre valable jusqu'au 31/10/2026, dans la limite des stocks disponibles."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "note": "Franco de port dès 48 bouteilles ou 2 500 € HT de commande. Offre sauf vente et sans engagement."
+      },
+      "notes_commerciales": "Sélection Pomerol structurée en quatre univers : pépites exclusives Ulysse Cazabonne, binômes premier/second vin d'une même propriété, grands noms de l'appellation, et Clinet 2019 en signature.",
+      "alertes": [
+        "Château Clinet 2019 : plus que 9 bouteilles en stock",
+        "Offre valable jusqu'au 31/10/2026",
+        "Offre sauf vente et sans engagement"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/L'ODYSSÉE POMEROL_BF.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/l-odyssee-pomerol-bf.pdf"
+    },
+    {
+      "id": "uc-larrivet-haut-brion-2026",
+      "type": "promotion",
+      "titre": "Ulysse Cazabonne — Univers Larrivet Haut-Brion",
+      "tagline": "Les Demoiselles 5+1 · nouveauté PULSE 2024",
+      "fournisseur": {
+        "nom": "Ulysse Cazabonne",
+        "code_vinistoria": "668 · 401B62",
+        "region": "Bordeaux",
+        "meta": "Bordeaux · négociant (Buvons — Ulysse Cazabonne)"
+      },
+      "cuvees": [
+        {
+          "nom": "Les Demoiselles de Larrivet Haut-Brion 2020",
+          "appellation": "Pessac-Léognan",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "prix_ht": 17.3,
+          "prix_promo_ht": 14.4,
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Les Demoiselles de Larrivet Haut-Brion Blanc 2022",
+          "appellation": "Pessac-Léognan",
+          "millesime": "2022",
+          "couleur": "BLC",
+          "prix_ht": 18.5,
+          "prix_promo_ht": 15.4,
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "PULSE 2024 — nouveauté",
+          "appellation": "Bordeaux",
+          "millesime": "2024",
+          "couleur": "RGE",
+          "prix_ht": 10.3,
+          "note": "série limitée de 8 000 bouteilles · 90 % Merlot, 10 % Cabernet-Sauvignon · 12,5 %"
+        },
+        {
+          "nom": "Château Larrivet Haut-Brion rouge 2019 / 2021 / 2022",
+          "appellation": "Pessac-Léognan",
+          "couleur": "RGE",
+          "prix_ht": 28.6
+        },
+        {
+          "nom": "Château Larrivet Haut-Brion rouge 2023",
+          "appellation": "Pessac-Léognan",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "prix_ht": 25.9
+        },
+        {
+          "nom": "Château Larrivet Haut-Brion blanc 2023",
+          "appellation": "Pessac-Léognan",
+          "millesime": "2023",
+          "couleur": "BLC",
+          "prix_ht": 35.1
+        },
+        {
+          "nom": "Château Larrivet Haut-Brion blanc 2024",
+          "appellation": "Pessac-Léognan",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "prix_ht": 32.4
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1",
+        "description": "5+1 (soit −16,7 %) sur les deux cuvées Les Demoiselles ; PULSE 2024 et le Grand Vin à prix tarif.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Le 5+1 ne porte que sur la gamme Les Demoiselles."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Jusqu'à épuisement des stocks — affiché sur trois mois."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "note": "Franco de port dès 48 bouteilles ou 2 500 € HT de commande. Offre sauf vente et sans engagement."
+      },
+      "notes_commerciales": "Trois niveaux sur une même propriété : PULSE 2024 pour l'initiation à 10,30 €, Les Demoiselles en 5+1 pour la carte, et le Grand Vin sur quatre millésimes.",
+      "alertes": [
+        "PULSE 2024 : série limitée de 8 000 bouteilles",
+        "Le 5+1 ne porte que sur Les Demoiselles",
+        "Jusqu'à épuisement des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/UNIVERS LARRIVET HAUT BRION BF.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/univers-larrivet-haut-brion-bf.pdf"
+    },
+    {
+      "id": "clos-regain-mescladis-2026",
+      "type": "promotion",
+      "titre": "Clos Regain — Mescladis, offre de lancement",
+      "tagline": "36+6 · 72+12 · 600+60 · fin d'année",
+      "fournisseur": {
+        "nom": "Clos Regain",
+        "code_vinistoria": "687",
+        "region": "Sud-Ouest",
+        "meta": "Gan (64) · Jurançon · SCEA Michel Boutin"
+      },
+      "cuvees": [
+        {
+          "nom": "Mescladis",
+          "couleur": "Multi",
+          "note": "Trois paliers : 36+6, 72+12, 600+60"
+        }
+      ],
+      "mecanique": {
+        "condition": "36+6 · 72+12 · 600+60",
+        "description": "Trois paliers de gratuité : 36 achetées + 6 offertes, 72 + 12, 600 + 60.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Offre spéciale de lancement des ventes pour la fin d'année."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Offre de fin d'année — jusqu'à épuisement des stocks."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Tarif CHR 2026 Clos Regain."
+      },
+      "notes_commerciales": "Offre de lancement mise en place après la visite du 2 octobre. Les paliers 36+6 et 72+12 valent 16,7 % ; le 600+60 retombe à 10 % — le meilleur rapport est donc sur les petits volumes.",
+      "alertes": [
+        "Offre de lancement — fin d'année",
+        "Jusqu'à épuisement des stocks",
+        "Le palier 600+60 est moins avantageux (10 %) que 36+6 et 72+12 (16,7 %)"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/PROMO _ MESCLADIS __ CLOS REGAIN.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/promo-mescladis-clos-regain.pdf"
+    },
+    {
+      "id": "jpk-fin-annee-bordeaux-2026",
+      "type": "promotion",
+      "titre": "Joseph-Perrier Kressmann — Offre de fin d'année (Bordeaux)",
+      "tagline": "24 crus · 11+1, 5+1 et 4+2 · prix barrés",
+      "fournisseur": {
+        "nom": "Joseph-Perrier Kressmann",
+        "code_vinistoria": "550",
+        "region": "Bordeaux",
+        "meta": "JPK Grands Crus · négociant bordelais"
+      },
+      "cuvees": [
+        {
+          "nom": "Fide et Fortitudine (Famille Barton) 2018",
+          "appellation": "Moulis",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "prix_ht": 7.5,
+          "prix_promo_ht": 6.87,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "Les Valentines 2022",
+          "appellation": "Saint-Émilion Grand Cru — 2nd vin du Ch. Rol Valentin",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "prix_ht": 10.9,
+          "prix_promo_ht": 9.99,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "Angélique de Monbousquet 2018",
+          "appellation": "Saint-Émilion Grand Cru — 2nd vin du Ch. Monbousquet",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "prix_ht": 12.5,
+          "prix_promo_ht": 11.45,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "Demoiselle de Sociando Mallet 2018",
+          "appellation": "Haut-Médoc",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "prix_ht": 13.58,
+          "prix_promo_ht": 11.31,
+          "mecanique": "5+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "240"
+        },
+        {
+          "nom": "Château Maucaillou 2014",
+          "appellation": "Moulis-en-Médoc",
+          "millesime": "2014",
+          "couleur": "RGE",
+          "prix_ht": 15.0,
+          "prix_promo_ht": 13.75,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "Le Commandeur 2023",
+          "appellation": "Pomerol",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "prix_ht": 15.5,
+          "prix_promo_ht": 14.2,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "Demoiselle de Larrivet Haut-Brion rouge 2020",
+          "appellation": "Pessac-Léognan — 2nd vin du Ch. Larrivet Haut-Brion",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "prix_ht": 16.6,
+          "prix_promo_ht": 13.83,
+          "mecanique": "5+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "348"
+        },
+        {
+          "nom": "Duluc de Branaire Ducru 2017",
+          "appellation": "Saint-Julien — 2nd vin du Ch. Branaire Ducru",
+          "millesime": "2017",
+          "couleur": "RGE",
+          "prix_ht": 18.0,
+          "prix_promo_ht": 16.5,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "300"
+        },
+        {
+          "nom": "Demoiselle de Larrivet Haut-Brion blanc 2022",
+          "appellation": "Pessac-Léognan",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "prix_ht": 18.2,
+          "prix_promo_ht": 15.16,
+          "mecanique": "5+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "120"
+        },
+        {
+          "nom": "Poujeaux 2017",
+          "appellation": "Moulis",
+          "millesime": "2017",
+          "couleur": "RGE",
+          "prix_ht": 18.5,
+          "prix_promo_ht": 16.95,
+          "mecanique": "11+1",
+          "conditionnement": "CB6",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "R de Rieussec 2023",
+          "appellation": "Bordeaux",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "prix_ht": 18.8,
+          "prix_promo_ht": 15.0,
+          "mecanique": "5+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "300"
+        },
+        {
+          "nom": "Les Fiefs de Lagrange 2016",
+          "appellation": "Saint-Julien — 2nd vin du Ch. Lagrange",
+          "millesime": "2016",
+          "couleur": "RGE",
+          "prix_ht": 20.0,
+          "prix_promo_ht": 18.33,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "600"
+        },
+        {
+          "nom": "Chevalier de Lascombes 2018",
+          "appellation": "Margaux — 2nd vin du Ch. Lascombes",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "prix_ht": 21.5,
+          "prix_promo_ht": 19.7,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "Grand Mayne 2023",
+          "appellation": "Saint-Émilion Grand Cru Classé",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "prix_ht": 28.0,
+          "prix_promo_ht": 25.66,
+          "mecanique": "11+1",
+          "conditionnement": "CB6",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "Pedesclaux 2015",
+          "appellation": "Pauillac — 5e Cru Classé",
+          "millesime": "2015",
+          "couleur": "RGE",
+          "prix_ht": 29.5,
+          "prix_promo_ht": 27.04,
+          "mecanique": "11+1",
+          "conditionnement": "CB6",
+          "qte_dispo": "540"
+        },
+        {
+          "nom": "Saint-Pierre 2018",
+          "appellation": "Saint-Julien — 4e Cru Classé",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "prix_ht": 46.3,
+          "prix_promo_ht": 42.44,
+          "mecanique": "11+1",
+          "conditionnement": "CB6",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "Carmes de Rieussec 2018",
+          "appellation": "Sauternes",
+          "millesime": "2018",
+          "couleur": "BLC",
+          "prix_ht": 19.5,
+          "prix_promo_ht": 17.88,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": null
+        },
+        {
+          "nom": "Rieussec 2019",
+          "appellation": "Sauternes — 1er Grand Cru Classé 1855",
+          "millesime": "2019",
+          "couleur": "BLC",
+          "prix_ht": 77.0,
+          "prix_promo_ht": 51.33,
+          "mecanique": "4+2",
+          "conditionnement": "CC4",
+          "qte_dispo": "600+"
+        },
+        {
+          "nom": "Madame de Rayne 2016",
+          "appellation": "Sauternes",
+          "millesime": "2016",
+          "couleur": "BLC",
+          "prix_ht": 14.9,
+          "prix_promo_ht": 13.66,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": null
+        },
+        {
+          "nom": "Rayne Vigneau 2006",
+          "appellation": "Sauternes — 1er Cru Classé",
+          "millesime": "2006",
+          "couleur": "BLC",
+          "prix_ht": 31.0,
+          "prix_promo_ht": 28.42,
+          "mecanique": "11+1",
+          "conditionnement": "CB6",
+          "qte_dispo": null
+        },
+        {
+          "nom": "G de Guiraud 2024",
+          "appellation": "Bordeaux blanc",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "prix_ht": 10.2,
+          "prix_promo_ht": 9.35,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": "420"
+        },
+        {
+          "nom": "Petit Guiraud 2014",
+          "appellation": "Sauternes",
+          "millesime": "2014",
+          "couleur": "BLC",
+          "prix_ht": 19.5,
+          "prix_promo_ht": 17.87,
+          "mecanique": "11+1",
+          "conditionnement": "CC6",
+          "qte_dispo": null
+        },
+        {
+          "nom": "Château Guiraud 2008 / 2010 / 2016",
+          "appellation": "Sauternes — 1er Grand Cru Classé 1855",
+          "couleur": "BLC",
+          "note": "2008 : 45,50 € · 2010 : 48,00 € · 2016 : 40,00 € — en CB6, sans gratuité"
+        },
+        {
+          "nom": "Rayne Vigneau 2014",
+          "appellation": "Sauternes — 1er Grand Cru Classé 1855",
+          "millesime": "2014",
+          "couleur": "BLC",
+          "note": "75 cl : 35,10 € en CB6 · 150 cl : 73,10 € en CB1 — 12 bouteilles achetées = 1 magnum du même vin offert"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1 · 5+1 · 4+2",
+        "description": "Prix barrés sur 24 crus, avec une mécanique de gratuité propre à chaque référence.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Conditionnements CC4 / CC6 / CB1 / CB6 selon la référence. Quantités disponibles indiquées par cru."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Offre de fin d'année — jusqu'à épuisement des stocks."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Tarif JPK Grands Crus en vigueur."
+      },
+      "notes_commerciales": "Le plus large catalogue bordelais du moment : seconds vins, crus classés et Sauternes, avec prix barré ET gratuité sur presque toutes les lignes.",
+      "alertes": [
+        "Quantités limitées sur plusieurs crus (Larrivet blanc : 120 btl · Sociando Mallet : 240 btl)",
+        "Mécaniques différentes selon la référence — vérifier ligne à ligne",
+        "Rieussec 2019 : remise exceptionnelle de 33 % en 4+2",
+        "Jusqu'à épuisement des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/JPK_Offre Q3.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/jpk-offre-q3.pdf"
+    },
+    {
+      "id": "jpk-bourgogne-2026",
+      "type": "promotion",
+      "titre": "Joseph-Perrier Kressmann — Offre Bourgogne",
+      "tagline": "Domaine Glantenet 11+1 · coup de cœur Prunier-Bonheur",
+      "fournisseur": {
+        "nom": "Joseph-Perrier Kressmann",
+        "code_vinistoria": "550",
+        "region": "Bourgogne",
+        "meta": "JPK Grands Crus · gamme Bourgogne"
+      },
+      "cuvees": [
+        {
+          "nom": "Hautes Côtes de Beaune Blanc — Domaine Glantenet Père et Fils",
+          "appellation": "AOP Bourgogne Hautes-Côtes de Beaune",
+          "couleur": "BLC",
+          "mecanique": "11+1",
+          "note": "Chardonnay 100 %"
+        },
+        {
+          "nom": "Hautes Côtes de Beaune Rouge — Domaine Glantenet Père et Fils",
+          "appellation": "AOP Bourgogne Hautes-Côtes de Beaune",
+          "couleur": "RGE",
+          "mecanique": "11+1",
+          "note": "Pinot Noir 100 %"
+        },
+        {
+          "nom": "Beaune 1er Cru « Les Préfeuvres » 2023 — Domaine Prunier-Bonheur",
+          "appellation": "AOP Beaune 1er Cru",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "prix_ht": 23.66,
+          "note": "coup de cœur du quadrimestre · Pinot Noir 100 %"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11+1 sur les deux Hautes Côtes de Beaune du Domaine Glantenet.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Le Beaune 1er Cru « Les Préfeuvres » est proposé à prix tarif (23,66 € HT), hors gratuité."
+      },
+      "validite": {
+        "debut": "2026-10-15",
+        "fin": "2026-12-31",
+        "note": "Offre de fin d'année — jusqu'à épuisement des stocks."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Tarif JPK Grands Crus en vigueur."
+      },
+      "notes_commerciales": "Domaine Glantenet Père et Fils : 25 hectares sur cinq communes à Magny-lès-Villers, entre Hautes-Côtes de Nuits et de Beaune, en AOC depuis 1961.",
+      "alertes": [
+        "Le Beaune 1er Cru est à prix tarif, hors gratuité",
+        "Jusqu'à épuisement des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/JPK_OFFRE_BOURGOGNE.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/jpk-offre-bourgogne.pdf"
+    },
+    {
+      "id": "figuiere-automne-rouge-blanc-2026",
+      "type": "promotion",
+      "titre": "Figuière — Offres aux couleurs de l'automne (rouge & blanc)",
+      "tagline": "4 paliers jusqu'à 400+200 · jusqu'au 31/10",
+      "fournisseur": {
+        "nom": "Figuière",
+        "code_vinistoria": "478 · 401F26",
+        "region": "Provence-Corse",
+        "meta": "La Londe-les-Maures (83) · Saint-André de Figuière"
+      },
+      "cuvees": [
+        {
+          "nom": "Gamme Méditerranée — rouge & blanc",
+          "couleur": "Multi",
+          "note": "75 cl"
+        },
+        {
+          "nom": "Gamme Première — rouge & blanc",
+          "couleur": "Multi",
+          "note": "75 cl et 50 cl"
+        },
+        {
+          "nom": "Gamme Confidentielle — rouge & blanc",
+          "couleur": "Multi",
+          "note": "75 cl"
+        }
+      ],
+      "mecanique": {
+        "condition": "60+12 · 120+30 · 300+102 · 400+200",
+        "description": "Quatre paliers de gratuité : 60+12 (20 %), 120+30 (25 %), 300+102 (34 %), 400+200 (50 %).",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Minimum 60 bouteilles de 75 cl ou son équivalent. Toutes références, couleurs et contenants panachés, sur les millésimes disponibles."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-10-31",
+        "note": "Valables jusqu'au 31 octobre 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Applicables sur les tarifs Professionnels CHR & Cavistes, en fonction des stocks disponibles."
+      },
+      "notes_commerciales": "Offre exclusivement rouge et blanc — le rosé n'y est pas. Les paliers montent très vite : le 400+200 vaut 50 % de gratuité.",
+      "alertes": [
+        "Minimum 60 bouteilles 75 cl ou équivalent",
+        "Rouge et blanc uniquement",
+        "Non cumulable avec toute autre condition spéciale",
+        "Le 50 cl n'est éligible que sur la gamme Première"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/Figuiere offres cavistes CHR octobre.pdf"
+      },
+      "audience": "pro cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/figuiere-offres-cavistes-chr-octobre.pdf"
+    },
+    {
+      "id": "spiribam-effet-de-gamme-chr-2026",
+      "type": "promotion",
+      "titre": "Spiribam — Effet de Gamme, circuit CHR",
+      "tagline": "7 % dès 12 btl · 12 % dès 36 btl · 1/10 → 15/12",
+      "fournisseur": {
+        "nom": "Spiribam",
+        "code_vinistoria": "711",
+        "region": "Spiritueux",
+        "meta": "Rhums et spiritueux · Maison La Mauny, Rhum J.M, Rhum Clément"
+      },
+      "cuvees": [
+        {
+          "nom": "Ensemble du portefeuille Spiribam",
+          "couleur": "Spiritueux",
+          "note": "Hors produits sous allocation · équivalent bouteille 70 cl"
+        }
+      ],
+      "mecanique": {
+        "condition": "7 % / 12 %",
+        "description": "7 % de remise à partir de 12 bouteilles (EQB 70 cl), 12 % à partir de 36 bouteilles.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Valable sur l'ensemble du portefeuille hors produits sous allocation. Remise calculée sur l'ensemble de la commande, tarif HDHT. Non cumulable sur les offres en cours ni avec les remises 7 % et 12 %."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-12-15",
+        "note": "Du 1er octobre au 15 décembre 2026."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Tarif HDHT (hors droits, hors taxes). Document strictement à usage professionnel."
+      },
+      "notes_commerciales": "Remise transverse sur tout le portefeuille : pas de référence imposée, seul le volume compte. Le seuil CHR est très bas — 12 bouteilles suffisent.",
+      "alertes": [
+        "Hors produits sous allocation",
+        "Non cumulable avec les offres en cours ni avec les remises 7 % et 12 %",
+        "Tarif HDHT",
+        "Document strictement à usage professionnel"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/EFFET DE GAMME - CHR.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/effet-de-gamme-chr.pdf"
+    },
+    {
+      "id": "spiribam-effet-de-gamme-cavistes-2026",
+      "type": "promotion",
+      "titre": "Spiribam — Effet de Gamme, circuit caves",
+      "tagline": "7 % dès 42 btl ou 800 € HT · 12 % dès 54 btl ou 1 000 € HT",
+      "fournisseur": {
+        "nom": "Spiribam",
+        "code_vinistoria": "711",
+        "region": "Spiritueux",
+        "meta": "Rhums et spiritueux · Maison La Mauny, Rhum J.M, Rhum Clément"
+      },
+      "cuvees": [
+        {
+          "nom": "Ensemble du portefeuille Spiribam",
+          "couleur": "Spiritueux",
+          "note": "Hors produits sous allocation · équivalent bouteille 70 cl"
+        }
+      ],
+      "mecanique": {
+        "condition": "7 % / 12 %",
+        "description": "7 % dès 42 bouteilles (EQB 70 cl) ou 800 € HT ; 12 % dès 54 bouteilles ou 1 000 € HT.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Valable sur l'ensemble du portefeuille hors produits sous allocation. Remise calculée sur l'ensemble de la commande, tarif HDHT. Non cumulable sur les offres en cours ni avec les remises 7 % et 12 %."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-12-15",
+        "note": "Du 1er octobre au 15 décembre 2026."
+      },
+      "target": "cavistes",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Tarif HDHT (hors droits, hors taxes). Document strictement à usage professionnel."
+      },
+      "notes_commerciales": "Même logique qu'en CHR mais avec un double seuil : volume OU montant. Le palier en euros est souvent le plus facile à atteindre sur des références premium.",
+      "alertes": [
+        "Hors produits sous allocation",
+        "Non cumulable avec les offres en cours ni avec les remises 7 % et 12 %",
+        "Tarif HDHT",
+        "Document strictement à usage professionnel"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/EFFET DE GAMME - CAVES.pdf"
+      },
+      "audience": "cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/effet-de-gamme-caves.pdf"
+    },
+    {
+      "id": "aegerter-enfants-terribles-automne-2026",
+      "type": "promotion",
+      "titre": "Aegerter — La Rentrée des Enfants Terribles",
+      "tagline": "120+12 ou 240+30 · panachage · jusqu'au 31/10",
+      "fournisseur": {
+        "nom": "Aegerter",
+        "code_vinistoria": "à confirmer",
+        "region": "Bourgogne",
+        "meta": "Maison Aegerter · gamme Les Enfants Terribles"
+      },
+      "cuvees": [
+        {
+          "nom": "Les Enfants Terribles — Chardonnay",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Les Enfants Terribles — Syrah",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Les Enfants Terribles — Pinot Noir",
+          "couleur": "RGE"
+        }
+      ],
+      "mecanique": {
+        "condition": "120+12 / 240+30",
+        "description": "120 achetées + 12 offertes (132 cols livrés, 4,81 €/col) ; 240 achetées + 30 offertes (270 cols livrés, 4,71 €/col).",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Minimum de commande : 120 bouteilles. Panachage possible entre les trois cuvées."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-10-31",
+        "note": "Offre valable jusqu'au 31 octobre 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Prix exprimés par col livré, gratuités incluses."
+      },
+      "notes_commerciales": "Les trois cuvées sont désormais panachables : c'est la nouveauté de cette rentrée. Le prix affiché est un prix par col livré, gratuités comprises.",
+      "alertes": [
+        "Minimum de commande : 120 bouteilles",
+        "Offre valable jusqu'au 31 octobre 2026"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/LA RENTREE DES ENFANTS TERRIBLES - Automne 2026.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/la-rentree-des-enfants-terribles-automne-2026.pdf"
+    },
+    {
+      "id": "sba-vins-offres-en-cours-2026",
+      "type": "promotion",
+      "titre": "SBA Vins — Offres en cours (catalogue du 2 octobre)",
+      "tagline": "8 maisons · Rhône, Bourgogne, Bordeaux, Languedoc, Provence",
+      "fournisseur": {
+        "nom": "SBA Vins",
+        "code_vinistoria": "189",
+        "region": "Multi-régions",
+        "meta": "Catalogue « Offres en cours » mis à jour le 2 octobre 2026"
+      },
+      "cuvees": [
+        {
+          "nom": "COLOMBO — 5 cuvées à prix barré",
+          "couleur": "Multi",
+          "note": "jusqu'au 31/12 · franco 48 btl · Picpoul Les Girelles 2024 5,00→4,30 € · Pays d'Oc La Violette 2024 5,00→4,30 € · Cornas Terres Brûlées 2022 25,00→19,00 € · Côte Rôtie La Divine 2024 32,00→28,00 € · Cornas Les Ruchets 2019 43,00→30,00 €"
+        },
+        {
+          "nom": "LA CHABLISIENNE — 5 cuvées, prix par 36 et par 240",
+          "couleur": "BLC",
+          "note": "jusqu'au 31/10 · franco 36 btl · voir aussi la carte dédiée La Chablisienne"
+        },
+        {
+          "nom": "LA SAPINIÈRE — 3 cuvées en 5+1",
+          "couleur": "Multi",
+          "note": "jusqu'au 15/11 · franco 36 btl · Lovelie 2024 9,50→7,92 € · Ampo Cielo 2024 7,50→6,25 € · Archibald 2023 11,50→9,58 €"
+        },
+        {
+          "nom": "ADVINI — 2 cuvées",
+          "couleur": "RGE",
+          "note": "jusqu'au 31/10 · Pic Saint-Loup Domaine des Rocs 2024 8,20 € en 11+1 → 7,52 € · Châteauneuf-du-Pape Oratoires des Papes 2024/2025 25,70 € en 48+6 → 22,84 €"
+        },
+        {
+          "nom": "THE WINE MERCHANT — crus classés",
+          "couleur": "RGE",
+          "note": "jusqu'au 31/10 · franco 60 btl · Ch. de Camensac 2016 19,50 € (par 36 : 16,25 € · par 60 : 15,00 €) · Ch. Cantemerle 2018 21,60 € (par 36 : 18,00 € · par 60 : 17,00 €)"
+        },
+        {
+          "nom": "THE WINE MERCHANT — gamme sélection (11 cuvées)",
+          "couleur": "Multi",
+          "note": "jusqu'au 31/12 · panachable sur l'ensemble de l'offre, franco 60 crus classés compris dès 12 btl de la gamme sélection"
+        },
+        {
+          "nom": "CUVELIER — 5 lignes Saint-Estèphe et Saint-Julien",
+          "couleur": "RGE",
+          "note": "jusqu'au 31/12 · franco 36 btl · Ch. La Croix Saint-Estèphe 2019 16,60→14,94 € · M de Moulin Riche 2018/2019 17,50→15,75 € · Ch. Le Crock 2017 20,50 € en 11+1 → 18,79 € · Ch. Le Crock 2018 24,20→21,78 € · Ch. Moulin Riche 2018 29,20 € en 11+1 → 26,77 €"
+        },
+        {
+          "nom": "LURTON — 12 cuvées, paliers par 12 / 54 / 84 / 120",
+          "couleur": "Multi",
+          "note": "jusqu'au 15/11 · Pessac-Léognan, Margaux, Haut-Médoc, Lussac-Saint-Émilion, Bordeaux"
+        },
+        {
+          "nom": "PEYRASSOL — blancs, rosés et rouges en 30+6 ou 60+12",
+          "couleur": "Multi",
+          "note": "jusqu'au 15/11 · franco 450 € HT · Les Commandeurs 2025 10,45→8,71 € · XIIIè 2025 13,35→11,13 € · Ch. Peyrassol 2025 14,50→12,08 € · Ch. Malescasse 2021 15,35→12,79 €"
+        }
+      ],
+      "mecanique": {
+        "condition": "Variable par maison",
+        "description": "Catalogue multi-fournisseurs : chaque maison a sa propre mécanique, son franco et sa date de fin.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Dates de fin échelonnées : La Chablisienne, AdVini et The Wine Merchant (crus classés) au 31/10 · La Sapinière, Lurton et Peyrassol au 15/11 · Colombo, The Wine Merchant (sélection) et Cuvelier au 31/12."
+      },
+      "validite": {
+        "debut": "2026-10-02",
+        "fin": "2026-12-31",
+        "note": "Catalogue mis à jour le 2 octobre 2026. Dates de fin différentes selon la maison."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Franco propre à chaque maison : 36 btl (Chablisienne, Sapinière, Cuvelier), 48 btl (Colombo), 60 btl (The Wine Merchant), 78 btl (Ferraton), 450 € HT (Peyrassol)."
+      },
+      "notes_commerciales": "Catalogue récapitulatif SBA Vins : huit maisons encore actives au 15/10. Les offres Ferraton (16/10), Cave de Lugny (15/10) et Adouzes (15/10) sont arrivées à échéance et ne sont pas reprises ici. Le détail complet, cuvée par cuvée, est dans le PDF.",
+      "alertes": [
+        "Dates de fin différentes selon la maison — vérifier avant de promettre",
+        "Chaque maison a son propre franco",
+        "Les offres Ferraton, Cave de Lugny et Adouzes du catalogue sont échues",
+        "Le détail complet des prix est dans le PDF"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/Catalogue promos 0210.pdf"
+      },
+      "audience": "pro cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/catalogue-promos-0210.pdf"
+    },
+    {
+      "id": "delas-tr48-collection-hermitage-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — TR48 / ER48 Collection Hermitage",
+      "tagline": "2 Bessards + 2 Ligne de Crête = 2 Domaine des Tourettes offertes",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "401D03",
+        "region": "Rhône",
+        "meta": "Tain-l'Hermitage (26) · Maison du Rhône septentrional"
+      },
+      "cuvees": [
+        {
+          "nom": "Hermitage Les Bessards 2022",
+          "appellation": "AOP Hermitage",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "note": "97-98 James Suckling · 97 Jeb Dunnuck"
+        },
+        {
+          "nom": "Hermitage Ligne de Crête 2022",
+          "appellation": "AOP Hermitage",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "note": "99 Jeb Dunnuck"
+        },
+        {
+          "nom": "Hermitage Domaine des Tourettes 2022 — OFFERTES",
+          "appellation": "AOP Hermitage",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "note": "97 Jeb Dunnuck · 2 bouteilles offertes"
+        }
+      ],
+      "mecanique": {
+        "condition": "2+2 = 2 offertes",
+        "description": "2 Hermitage Les Bessards 2022 + 2 Hermitage Ligne de Crête 2022 achetées = 2 Hermitage Domaine des Tourettes 2022 offertes.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Codes TR48 (CHR / VAE) et ER48 (entreprise). Respect des conditionnements d'origine, des colisages et des CGV."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31",
+        "note": "Tarif entreprise en vigueur, valable jusqu'au 31/12/2026, dans la limite des stocks disponibles, sans préavis."
+      },
+      "target": "chr_b2b",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Respect des conditionnements d'origine et des calibres proposés. Tarif entreprise en vigueur."
+      },
+      "notes_commerciales": "La seule opération Delas sur les Hermitage de garde. Quatre bouteilles achetées en donnent deux de plus : 33 % de gratuité sur les vins les plus chers de la maison.",
+      "alertes": [
+        "Gratuité 33 % — la plus forte du portefeuille Delas",
+        "Respect des conditionnements d'origine et des colisages",
+        "Valable jusqu'au 31/12/2026 dans la limite des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/DELAS FRERES - Offres Commerciales ENT septembre 2026.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/delas-freres-offres-commerciales-ent-septembre-2026.pdf"
+    },
+    {
+      "id": "delas-tr60-signature-60-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — TR60 / ER60 Signature 60",
+      "tagline": "Pour 60 bouteilles : 55+5 · minimum 2 références",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "401D03",
+        "region": "Rhône",
+        "meta": "Tain-l'Hermitage (26) · Maison du Rhône septentrional"
+      },
+      "cuvees": [
+        {
+          "nom": "Crozes-Hermitage Les Launes blanc et/ou rouge",
+          "appellation": "AOP Crozes-Hermitage",
+          "couleur": "Multi"
+        },
+        {
+          "nom": "Côtes-du-Rhône Saint-Esprit blanc et/ou rouge",
+          "appellation": "AOP Côtes-du-Rhône",
+          "couleur": "Multi"
+        },
+        {
+          "nom": "Viognier",
+          "appellation": "IGP",
+          "couleur": "BLC"
+        },
+        {
+          "nom": "Saint-Joseph Les Challeys blanc et/ou rouge",
+          "appellation": "AOP Saint-Joseph",
+          "couleur": "Multi"
+        }
+      ],
+      "mecanique": {
+        "condition": "55+5",
+        "description": "Pour l'achat de 60 bouteilles : 55 achetées + 5 offertes, soit 11+1 panachées.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Commande de 2 références minimum, par 12 bouteilles minimum. Non compatible TR30. Codes TR60 (CHR / VAE) et ER60 (entreprise)."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31",
+        "note": "Tarif entreprise en vigueur, valable jusqu'au 31/12/2026, dans la limite des stocks disponibles, sans préavis."
+      },
+      "target": "chr_b2b",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Respect des conditionnements d'origine et des calibres proposés. Tarif entreprise en vigueur."
+      },
+      "notes_commerciales": "Le palier d'entrée de la gamme Signature : 60 bouteilles réparties sur au moins deux références, avec le Saint-Joseph Les Challeys inclus.",
+      "alertes": [
+        "Minimum 2 références, par 12 bouteilles",
+        "Non compatible TR30",
+        "Valable jusqu'au 31/12/2026 dans la limite des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/DELAS FRERES - Offres Commerciales ENT septembre 2026.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/delas-freres-offres-commerciales-ent-septembre-2026.pdf"
+    },
+    {
+      "id": "delas-tr61-chante-perdrix-2026",
+      "type": "promotion",
+      "titre": "Delas Frères — TR61 / ER61 Chante-Perdrix",
+      "tagline": "12 Cornas Chante-Perdrix = 3 Crozes Domaine des Grands Chemins",
+      "fournisseur": {
+        "nom": "Delas Frères",
+        "code_vinistoria": "401D03",
+        "region": "Rhône",
+        "meta": "Tain-l'Hermitage (26) · Maison du Rhône septentrional"
+      },
+      "cuvees": [
+        {
+          "nom": "Cornas Chante-Perdrix 2022",
+          "appellation": "AOP Cornas",
+          "millesime": "2022",
+          "couleur": "RGE"
+        },
+        {
+          "nom": "Crozes-Hermitage Domaine des Grands Chemins — OFFERTES",
+          "appellation": "AOP Crozes-Hermitage",
+          "couleur": "RGE",
+          "note": "3 bouteilles offertes"
+        }
+      ],
+      "mecanique": {
+        "condition": "12 = 3 offertes",
+        "description": "12 Cornas Chante-Perdrix 2022 achetées = 3 Crozes-Hermitage Domaine des Grands Chemins offertes.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Codes TR61 (CHR / VAE) et ER61 (entreprise). Le synoptique Delas mentionne une variante (6 btl Crozes Les Launes) : la fiche produit fait foi."
+      },
+      "validite": {
+        "debut": "2026-09-01",
+        "fin": "2026-12-31",
+        "note": "Tarif entreprise en vigueur, valable jusqu'au 31/12/2026, dans la limite des stocks disponibles, sans préavis."
+      },
+      "target": "chr_b2b",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Respect des conditionnements d'origine et des calibres proposés. Tarif entreprise en vigueur."
+      },
+      "notes_commerciales": "Opération Cornas : 12 bouteilles de Chante-Perdrix ouvrent droit à 3 Crozes-Hermitage Domaine des Grands Chemins offertes.",
+      "alertes": [
+        "Le synoptique indique une autre gratuité (6 Crozes Les Launes) — la fiche produit fait foi",
+        "Respect des conditionnements d'origine",
+        "Valable jusqu'au 31/12/2026 dans la limite des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-10-15T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-10/DELAS FRERES - Offres Commerciales ENT septembre 2026.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/delas-freres-offres-commerciales-ent-septembre-2026.pdf"
     }
   ],
   "sponsors": [
