@@ -1,10 +1,10 @@
 {
   "meta": {
-    "version": "3.2",
+    "version": "3.3",
     "generated_at": "2026-10-15T12:00:00Z",
-    "promos_count": 71,
+    "promos_count": 84,
     "schema_doc": "promos_schema.md",
-    "maj_note": "v3.2 (05/11/2026) : +8 promos, 26 purgees (la vague des 30 et 31 octobre), agenda bascule sur novembre 2026 - decembre 2026 - janvier 2027. Ulysse Cazabonne Patchwork Medoc (Potensac 2009, Lacoste Borie 2015, Connetable de Talbot 2010, Chasse-Spleen 2015, prix remises). Veyret Latour offre de fin d annee : 11+1 sur les 22 references de la selection, franco 48 panachable. San Ghjuva (Les Vignerons d Aghione) : trois cartes - cavistes palier 450 EUR, cavistes palier 850 EUR avec 18 bouteilles de degustation offertes, et CHR mise en place au verre avec 100 chevalets. Le volet Promocash n est pas publie, sur decision d Olivier. Marquestau, offres cavistes de fin d annee (8 mecaniques, Bas-Armagnac, vins et pruneaux). Domaine Guy et Yvan Dufouleur via C&C France : deux cartes, millesimes 2020 au tarif courant et 11+1. Mises a jour : Champagne Thienot Collection Origine recoit la ligne 5+1 des cuvees Famille, Grands Crus et millesimees (55,23 -> 46,03 EUR) ; la carte JPK recoit le Comte de Malartic rouge 2020 et deux alertes sur la distribution CVBG (Dourthe-Kressmann) via C&C et les millesimes divergents. Purgees : chapoutier-rentree-pro-2026, chapoutier-rentree-cavistes-2026, chablisienne-fav-rentree-2026, vinovalie-trad-octobre-2026, mourier-saint-joseph-2026, miquel-les-cotes-2026, miquel-solas-cazalviel-2026, chateau-meursault-automne-2026, lombard-cdr-culture-libre-2026, lombard-syrah-contre-culture-2026, lombard-eclat-2026, lombard-monicault-2026, vinibegood-athletes-rentree-2026, vinibegood-selection-rentree-2026, advini-promo-septembre-octobre-2026, filliatreau-rentree-2026, audibert-clarescur-chr-2026, audibert-clarescur-grossistes-2026, audibert-jas-des-papes-chr-2026, audibert-jas-des-papes-grossistes-2026, audibert-foire-aux-vins-cavistes-2026, uc-odyssee-pomerol-2026, figuiere-automne-rouge-blanc-2026, aegerter-enfants-terribles-automne-2026, boisset-plan-promo-automne-2026, audibert-ete-indien-calavon-rose-2026."
+    "maj_note": "v3.3 (19/11/2026) : +14 promos, 1 purgee, agenda sur novembre 2026 - decembre 2026 - janvier 2027. Veyret Latour Black Friday sur le Prosecco Fonte (4,40 EUR au lieu de 5,40). Leoube Distribution : offre Fetes CHR (Mix & Match 60+12) et offre Fetes cavistes (48+6 / 60+12 / 120+36). Vignobles Dubard : lancement Duo 11+1 (Bel-Air et la nouvelle cuvee Les Terrasses) et coffrets festifs Moments d Exception (magnums et doubles-magnums). Cheval Quancard Les Tresors de la Maison : deux cartes, tarif depart (22 references) et tarif franco (21 references, paliers 200 / 120 / 60 cols). Boisset Les Promos novembre-decembre (21 blocs, 5+1 et 11+1). Champagne Besserat de Bellefon : quatre cartes - Hiver CHR 18+6, Hiver Entreprises 18+6, offre BGT (10 paliers) et Cuvees de Prestige 2+1. Amaury et Aurore Devillard, offre septembre-decembre (paliers croises prix et gratuite). Joseph Drouhin, offre commerciale (27 references, paliers 36 et 72 bouteilles de la meme appellation). Mise a jour : Dufouleur 11+1 corrige sur le PDF fournisseur - cinq references au lieu de quatre (ajout du Nuits-Saint-Georges 1er Cru Les Poulettes 2021) et franco a 300 EUR HT au lieu de 450. Non reprise car deja en ligne et plus complete : Faiveley vins au verre. Purgee : gerard-bertrand-grands-vins-oct-nov-2026."
   },
   "promos": [
     {
@@ -3144,86 +3144,6 @@
       }
     },
     {
-      "id": "gerard-bertrand-grands-vins-oct-nov-2026",
-      "type": "promotion",
-      "titre": "Gérard Bertrand — Les Grands Vins (octobre-novembre)",
-      "tagline": "11+1 sous 60 cols · 10+2 au-delà · 15/10 → 15/11",
-      "fournisseur": {
-        "nom": "Gérard Bertrand",
-        "code_vinistoria": "271 · 401G55",
-        "region": "Occitanie",
-        "meta": "Château l'Hospitalet · Narbonne (11)"
-      },
-      "cuvees": [
-        {
-          "nom": "Castellum rouge",
-          "appellation": "IGP Cité de Carcassonne",
-          "couleur": "RGE"
-        },
-        {
-          "nom": "Castellum Sauvignon Blanc 2025",
-          "appellation": "IGP Cité de Carcassonne",
-          "millesime": "2025",
-          "couleur": "BLC"
-        },
-        {
-          "nom": "Château de la Soujeole — Grand Vin",
-          "appellation": "AOP Malepère",
-          "couleur": "RGE"
-        },
-        {
-          "nom": "Kosmos rouge 2022",
-          "appellation": "Gérard Bertrand",
-          "millesime": "2022",
-          "couleur": "RGE"
-        },
-        {
-          "nom": "Kosmos blanc 2024",
-          "appellation": "Gérard Bertrand",
-          "millesime": "2024",
-          "couleur": "BLC"
-        },
-        {
-          "nom": "Château Laville Bertrou — Grand Vin 2022",
-          "appellation": "AOP Minervois-la-Livinière",
-          "millesime": "2022",
-          "couleur": "RGE"
-        }
-      ],
-      "mecanique": {
-        "condition": "11+1 / 10+2",
-        "description": "11+1 jusqu'à 59 cols ; 10+2 à partir de 60 cols.",
-        "panachable": true,
-        "cumulable": false,
-        "notes_conditions": "Minimum 30 cols. Uniquement en gratuité, pas de prix barré. Volumes comptés hors gratuité pour le challenge. Commissions pleines."
-      },
-      "validite": {
-        "debut": "2026-10-15",
-        "fin": "2026-11-15",
-        "note": "Valable du 15/10 au 15/11/2026 uniquement."
-      },
-      "target": "chr",
-      "logistique": {
-        "origine": "direct_domaine",
-        "franco": null,
-        "note": "Réservé aux professionnels. Contact : chr@gerard-bertrand.com"
-      },
-      "notes_commerciales": "Six références de la gamme Grands Vins, panachables. Le passage à 60 cols fait basculer de 11+1 (8,3 %) à 10+2 (16,7 %) : c'est le seul levier à travailler.",
-      "alertes": [
-        "Minimum 30 cols",
-        "Non cumulable avec une autre offre en cours",
-        "Interdit aux particuliers",
-        "Gratuité uniquement — pas de prix barré"
-      ],
-      "source": {
-        "parsing_method": "parseur-promos",
-        "parsing_date": "2026-10-15T12:00:00Z",
-        "status": "verifie-pdf",
-        "fichier": "Promotions/2026-10/OFFRE LES GRANDS VINS - 15 OCTOBRE - 15 NOVEMBRE 2026.pdf"
-      },
-      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-les-grands-vins-15-octobre-15-novembre-2026.pdf"
-    },
-    {
       "id": "medocaine-fin-annee-2026",
       "type": "promotion",
       "titre": "Compagnie Médocaine — Promotion fin d'année 2026",
@@ -5896,7 +5816,7 @@
       "id": "dufouleur-11plus1-fin-annee-2026",
       "type": "promotion",
       "titre": "Domaine Dufouleur — Offre 11+1 de fin d'année",
-      "tagline": "4 références dont trois 1ers Crus · jusqu'au 31/12",
+      "tagline": "5 références dont quatre 1ers Crus · franco 300 € HT · jusqu'au 31/12",
       "fournisseur": {
         "nom": "Domaine Guy et Yvan Dufouleur",
         "code_vinistoria": "727",
@@ -5905,22 +5825,22 @@
       },
       "cuvees": [
         {
-          "nom": "Santenay rouge 2022",
+          "nom": "Santenay « Clos Genets » 2022",
           "appellation": "AOP Santenay",
           "millesime": "2022",
           "couleur": "RGE",
           "mecanique": "11+1"
         },
         {
-          "nom": "Fixin Vieilles Vignes 1er Cru « Clos du Chapitre » 2021",
-          "appellation": "AOP Fixin 1er Cru",
+          "nom": "Nuits-Saint-Georges 1er Cru « Les Poulettes » 2021",
+          "appellation": "AOP Nuits-Saint-Georges 1er Cru",
           "millesime": "2021",
           "couleur": "RGE",
           "mecanique": "11+1"
         },
         {
-          "nom": "Nuits-Saint-Georges 1er Cru « Clos des Perrières » rouge 2021",
-          "appellation": "AOP Nuits-Saint-Georges 1er Cru",
+          "nom": "Fixin 1er Cru « Clos du Chapitre » Vieilles Vignes 2021",
+          "appellation": "AOP Fixin 1er Cru",
           "millesime": "2021",
           "couleur": "RGE",
           "mecanique": "11+1"
@@ -5931,14 +5851,21 @@
           "millesime": "2021",
           "couleur": "RGE",
           "mecanique": "11+1"
+        },
+        {
+          "nom": "Nuits-Saint-Georges 1er Cru « Clos des Perrières » 2021",
+          "appellation": "AOP Nuits-Saint-Georges 1er Cru",
+          "millesime": "2021",
+          "couleur": "RGE",
+          "mecanique": "11+1"
         }
       ],
       "mecanique": {
         "condition": "11+1",
-        "description": "11 bouteilles achetées = 1 offerte, sur une sélection de quatre références.",
+        "description": "11 bouteilles achetées = 1 offerte, sur une sélection de cinq références.",
         "panachable": true,
         "cumulable": false,
-        "notes_conditions": "Franco 36 bouteilles ou 450 € HT. Tarifs et magnums détaillés dans les grilles fournisseur."
+        "notes_conditions": "Franco : 300 € HT."
       },
       "validite": {
         "debut": "2026-11-05",
@@ -5949,12 +5876,13 @@
       "logistique": {
         "origine": "direct_fournisseur",
         "franco": true,
-        "note": "Franco 36 bouteilles ou 450 € HT. Contact C&C France : Louna Teixeira, 06 79 34 73 65."
+        "note": "Franco 300 € HT. Contact C&C France : Louna Teixeira, 06 79 34 73 65."
       },
-      "notes_commerciales": "Trois 1ers Crus sur quatre références, dont deux Nuits-Saint-Georges et le Clos du Chapitre en vieilles vignes. Du 11+1 sur ce niveau d'appellation est rare.",
+      "notes_commerciales": "Quatre 1ers Crus sur cinq références, dont trois Nuits-Saint-Georges et le Clos du Chapitre en vieilles vignes. Du 11+1 sur ce niveau d appellation est rare.",
       "alertes": [
-        "Offre limitée aux quatre références listées",
-        "Les magnums figurent dans les grilles tarifaires fournisseur"
+        "Grille mise à jour le 19/11/2026 d après le PDF fournisseur",
+        "Le franco est de 300 € HT (et non 36 bouteilles ou 450 € HT, comme l indiquait l e-mail C&C du 26/10)",
+        "Le Nuits-Saint-Georges 1er Cru « Les Poulettes » 2021 est un ajout par rapport à cette première version"
       ],
       "source": {
         "parsing_method": "parseur-promos",
@@ -5962,7 +5890,2031 @@
         "status": "verifie",
         "fichier": "Promotions/2026-11/CandC Offres de fin d'année – Champagne Thiénot, Bourgogne & Bordeaux.pdf"
       },
-      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/candc-offres-de-fin-d-annee-champagne-thienot-bourgogne-et-bordeaux.pdf"
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/dufouleur-offre-bourgogne-fin-d-annee-2026.pdf"
+    },
+    {
+      "id": "veyret-black-friday-prosecco-2026",
+      "type": "promotion",
+      "titre": "Veyret Latour — Black Friday, Prosecco Fonte",
+      "tagline": "4,40 € HT au lieu de 5,40 € · franco 120 bouteilles",
+      "fournisseur": {
+        "nom": "Veyret Latour",
+        "code_vinistoria": "507 · 401V30",
+        "region": "Bordeaux",
+        "meta": "Le Bouscat (33) · Société Veyret Latour · négociant"
+      },
+      "cuvees": [
+        {
+          "nom": "Fonte Prosecco DOC Extra Dry",
+          "appellation": "Prosecco DOC",
+          "couleur": "EFF",
+          "cepage": "Glera",
+          "region_vin": "Vénétie",
+          "degre": "11 % vol.",
+          "prix_ht": 5.4,
+          "prix_promo_ht": 4.4,
+          "conditionnement": "Carton de 6",
+          "note": "Méthode Charmat · service 8-10 °C · palette 420 cols"
+        }
+      ],
+      "mecanique": {
+        "condition": "4,40 € HT",
+        "description": "Prix Black Friday à 4,40 € HT l'unité, contre 5,40 € HT au tarif de fin d'année.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Franco 120 bouteilles. Conditionnement carton de 6. Palette complète : 420 cols."
+      },
+      "validite": {
+        "debut": "2026-11-19",
+        "fin": "2026-12-15",
+        "note": "Opération Black Friday, prolongée jusqu'à la mi-décembre 2026."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "note": "Franco 120 bouteilles. Carton de 6, palette 420 cols."
+      },
+      "notes_commerciales": "Un euro de moins que le tarif de la sélection de fin d'année, sur la même référence : c'est la bulle d'appel la moins chère du catalogue pour les fêtes.",
+      "alertes": [
+        "Franco à 120 bouteilles — nettement plus haut que les 48 de la sélection fin d'année",
+        "Même référence que le Prosecco Fonte de la sélection Veyret Latour, à 5,40 €",
+        "Opération Black Friday, durée limitée"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/OFFRE BLACK FRIDAY 2026 CHR.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-black-friday-2026-chr.pdf"
+    },
+    {
+      "id": "leoube-fetes-chr-2026",
+      "type": "promotion",
+      "titre": "Léoube — Offre Fêtes CHR, Mix & Match",
+      "tagline": "60 bouteilles = 12 offertes au choix · 15/11 → 31/12",
+      "fournisseur": {
+        "nom": "Léoube Distribution",
+        "code_vinistoria": "294 · 401L14",
+        "region": "Provence-Corse",
+        "meta": "Bormes-les-Mimosas (83) · Château Léoube · bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Toutes références Léoube — Mix & Match",
+          "couleur": "Multi",
+          "mecanique": "60+12",
+          "note": "Les 12 bouteilles offertes sont au choix parmi les références commandées"
+        },
+        {
+          "nom": "Gin by Léoube",
+          "couleur": "Spiritueux",
+          "mecanique": "−20 %",
+          "note": "Remise acquise dès lors que le gin est référencé en complément des vins"
+        }
+      ],
+      "mecanique": {
+        "condition": "60+12",
+        "description": "Pour 60 bouteilles commandées, 12 offertes au choix parmi les références commandées. Et −20 % sur le Gin by Léoube s'il est référencé en complément des vins.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Réservée aux CHR en France métropolitaine. Sauf vente, sans engagement, dans la limite des stocks disponibles."
+      },
+      "validite": {
+        "debut": "2026-11-15",
+        "fin": "2026-12-31",
+        "note": "Du 15 novembre au 31 décembre 2026."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "note": "Transport inclus pour toute commande supérieure à 48 bouteilles ou 350 € HT. En dessous : supplément transport forfaitaire de 30 € HT."
+      },
+      "notes_commerciales": "Le Mix & Match laisse le client choisir ses 12 bouteilles offertes parmi ce qu'il a commandé — il n'y a pas de référence imposée. Léoube crée aussi un menu de fêtes à poser sur table pour les établissements qui en montent un.",
+      "alertes": [
+        "Réservée aux CHR en France métropolitaine",
+        "Transport inclus au-delà de 48 bouteilles ou 350 € HT, sinon +30 € HT",
+        "Le −20 % sur le gin n'est acquis que s'il est référencé en complément des vins",
+        "Sauf vente, sans engagement, dans la limite des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Offre Fêtes CHR.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-fetes-chr.pdf"
+    },
+    {
+      "id": "leoube-fetes-cavistes-2026",
+      "type": "promotion",
+      "titre": "Léoube — Offre Fêtes cavistes",
+      "tagline": "3 paliers jusqu'à 120+36 · 10 % sur les coffrets · 15/11 → 31/12",
+      "fournisseur": {
+        "nom": "Léoube Distribution",
+        "code_vinistoria": "294 · 401L14",
+        "region": "Provence-Corse",
+        "meta": "Bormes-les-Mimosas (83) · Château Léoube · bio"
+      },
+      "cuvees": [
+        {
+          "nom": "Toutes références Léoube — paliers de gratuité",
+          "couleur": "Multi",
+          "mecanique": "48+6 · 60+12 · 120+36",
+          "note": "Panachage possible"
+        },
+        {
+          "nom": "Coffrets « Idées Cadeaux »",
+          "couleur": "Coffret",
+          "mecanique": "−10 %",
+          "note": "10 % de remise sur l'ensemble des coffrets, plus une PLV signalétique"
+        },
+        {
+          "nom": "Sparkling de Léoube",
+          "couleur": "EFF",
+          "mecanique": "10+2"
+        }
+      ],
+      "mecanique": {
+        "condition": "48+6 · 60+12 · 120+36",
+        "description": "Trois paliers de gratuité, 10 % de remise sur l'ensemble des coffrets avec PLV, et 10+2 sur le Sparkling de Léoube.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Réservée aux cavistes en France métropolitaine. Panachage possible. Sauf vente, sans engagement, dans la limite des stocks disponibles."
+      },
+      "validite": {
+        "debut": "2026-11-15",
+        "fin": "2026-12-31",
+        "note": "Du 15 novembre au 31 décembre 2026."
+      },
+      "target": "cavistes",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "note": "Transport inclus pour toute commande supérieure à 48 bouteilles ou 350 € HT. En dessous : supplément transport forfaitaire de 30 € HT."
+      },
+      "notes_commerciales": "Trois paliers à gratuité croissante : 12,5 % à 48 cols, 20 % à 60, et 30 % à 120. Le saut de 48 à 60 cols fait doubler la gratuité — c'est le seul argument à travailler.",
+      "alertes": [
+        "Réservée aux cavistes en France métropolitaine",
+        "Transport inclus au-delà de 48 bouteilles ou 350 € HT, sinon +30 € HT",
+        "Passer de 48 à 60 cols fait passer la gratuité de 6 à 12 bouteilles",
+        "Sauf vente, sans engagement, dans la limite des stocks"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Offre Fêtes Cavistes.pdf"
+      },
+      "audience": "cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-fetes-cavistes.pdf"
+    },
+    {
+      "id": "dubard-duo-11plus1-2026",
+      "type": "promotion",
+      "titre": "Vignobles Dubard — Offre lancement Duo",
+      "tagline": "11+1 sur les 2 références · nouvelle cuvée Les Terrasses",
+      "fournisseur": {
+        "nom": "Vignobles Dubard",
+        "code_vinistoria": "266 · 401D12",
+        "region": "Bordeaux",
+        "meta": "Le Gouyat, Saint-Méard-de-Gurçon (24) · Famille Dubard, vignerons"
+      },
+      "cuvees": [
+        {
+          "nom": "Château Dubard Bel-Air",
+          "appellation": "AOP Puisseguin Saint-Émilion",
+          "couleur": "RGE",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Dubard Les Terrasses — nouvelle cuvée",
+          "appellation": "AOP Bordeaux Supérieur",
+          "couleur": "RGE",
+          "mecanique": "11+1",
+          "note": "Issue des terres de Dubard Bel-Air, à Puisseguin Saint-Émilion"
+        }
+      ],
+      "mecanique": {
+        "condition": "11+1",
+        "description": "11 bouteilles achetées = 1 offerte, sur chacune des deux références.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Préciser l'offre sur le bon de commande."
+      },
+      "validite": {
+        "debut": "2026-11-19",
+        "fin": "2026-12-31",
+        "note": "Offre valable jusqu'au 31 décembre 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Préciser l'offre sur le bon de commande."
+      },
+      "notes_commerciales": "Offre de lancement de Dubard Les Terrasses, une Bordeaux Supérieur née des mêmes terres que le Bel-Air. Deux appellations voisines, deux expressions du même terroir : l'argument de dégustation comparative se monte tout seul.",
+      "alertes": [
+        "Préciser l'offre sur le bon de commande",
+        "Les Terrasses est une nouveauté — pas encore de notoriété, à faire goûter"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Vignobles Dubard Offre Duo Château Bel Air + Dubard Les Terrasses.jpg"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/vignobles-dubard-offre-duo-chateau-bel-air-dubard-les-terrasses.pdf"
+    },
+    {
+      "id": "dubard-moments-exception-2026",
+      "type": "promotion",
+      "titre": "Vignobles Dubard — Moments d'Exception, coffrets festifs",
+      "tagline": "Magnums et doubles-magnums en coffret bois · jusqu'au 31/12",
+      "fournisseur": {
+        "nom": "Vignobles Dubard",
+        "code_vinistoria": "266 · 401D12",
+        "region": "Bordeaux",
+        "meta": "Le Gouyat, Saint-Méard-de-Gurçon (24) · Famille Dubard, vignerons"
+      },
+      "cuvees": [
+        {
+          "nom": "Château Laulerie Réserve — magnum 150 cl 2023",
+          "appellation": "AOP Bergerac",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "prix_ht": 12.7
+        },
+        {
+          "nom": "Château Laulerie Réserve — double-magnum 300 cl 2023",
+          "appellation": "AOP Bergerac",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "prix_ht": 40.0
+        },
+        {
+          "nom": "Château La Croix Romane — magnum 150 cl 2023",
+          "appellation": "AOP Lalande de Pomerol",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "prix_ht": 23.3
+        },
+        {
+          "nom": "Château La Croix Romane — double-magnum 300 cl 2022",
+          "appellation": "AOP Lalande de Pomerol",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "prix_ht": 70.0
+        },
+        {
+          "nom": "Château Dubard Bel-Air — magnum 150 cl 2022",
+          "appellation": "AOP Puisseguin Saint-Émilion",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "prix_ht": 18.6
+        },
+        {
+          "nom": "Château Dubard Bel-Air — double-magnum 300 cl 2023",
+          "appellation": "AOP Puisseguin Saint-Émilion",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "prix_ht": 55.0
+        },
+        {
+          "nom": "Le Pech de Neyrat — magnum 150 cl 2022",
+          "appellation": "AOP Pécharmant",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "prix_ht": 15.9
+        }
+      ],
+      "mecanique": {
+        "condition": "Prix nets coffret",
+        "description": "Magnums et doubles-magnums livrés en coffret, à prix nets.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Préciser l'offre sur le bon de commande. Selon stock disponible."
+      },
+      "validite": {
+        "debut": "2026-11-19",
+        "fin": "2026-12-31",
+        "note": "Offre valable jusqu'au 31 décembre 2026, selon stock disponible."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Préciser l'offre sur le bon de commande. Selon stock disponible."
+      },
+      "notes_commerciales": "Quatre propriétés en grands formats, du Bergerac à 12,70 € le magnum au double-magnum de Lalande de Pomerol à 70 €. Les coffrets bois des doubles-magnums font le cadeau d'entreprise ou la pièce de vitrine.",
+      "alertes": [
+        "Selon stock disponible — grands formats, séries courtes",
+        "Préciser l'offre sur le bon de commande",
+        "Le Pech de Neyrat n'existe qu'en magnum, pas en double-magnum"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Dubard Moments d'exception Coffrets Festifs 2026.jpg"
+      },
+      "audience": "pro cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/dubard-moments-d-exception-coffrets-festifs-2026.pdf"
+    },
+    {
+      "id": "cheval-quancard-tresors-depart-2026",
+      "type": "promotion",
+      "titre": "Cheval Quancard — Les Trésors de la Maison (tarif départ)",
+      "tagline": "22 références · 36+6, 11+1 et 5+1 · prix barrés",
+      "fournisseur": {
+        "nom": "Cheval Quancard",
+        "code_vinistoria": "132 · 401C01",
+        "region": "Bordeaux",
+        "meta": "Carbon-Blanc (33) · spécialiste des réseaux traditionnels depuis 1844"
+      },
+      "cuvees": [
+        {
+          "nom": "Baron Haussmann Grande Réserve",
+          "appellation": "Champagne",
+          "millesime": null,
+          "couleur": "EFF",
+          "mecanique": "36+6",
+          "prix_ht": 17.5,
+          "prix_promo_ht": 15.0
+        },
+        {
+          "nom": "Baron Haussmann Premier Cru",
+          "appellation": "Champagne",
+          "millesime": null,
+          "couleur": "EFF",
+          "mecanique": "36+6",
+          "prix_ht": 20.5,
+          "prix_promo_ht": 17.6
+        },
+        {
+          "nom": "Clémence",
+          "appellation": "Crémant de Bordeaux",
+          "millesime": null,
+          "couleur": "EFF",
+          "mecanique": "11+1",
+          "prix_ht": 5.3,
+          "prix_promo_ht": 4.86
+        },
+        {
+          "nom": "Sans Faute — 0,0 % d'alcool",
+          "appellation": "Sans alcool",
+          "millesime": null,
+          "couleur": "Multi",
+          "mecanique": "11+1",
+          "prix_ht": 4.8,
+          "prix_promo_ht": 4.4
+        },
+        {
+          "nom": "Château Barre Gentillot « Orangerie »",
+          "appellation": "Graves de Vayres",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 6.65,
+          "prix_promo_ht": 5.54
+        },
+        {
+          "nom": "Château Cossieu Coutelin",
+          "appellation": "Saint-Estèphe",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 13.0,
+          "prix_promo_ht": 10.83
+        },
+        {
+          "nom": "Château Larose Vircoulon",
+          "appellation": "Saint-Émilion Grand Cru",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 8.9,
+          "prix_promo_ht": 7.42
+        },
+        {
+          "nom": "Château Pillebart",
+          "appellation": "Bordeaux",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 3.0,
+          "prix_promo_ht": 2.5
+        },
+        {
+          "nom": "MAGNUM — Château Cossieu Coutelin",
+          "appellation": "Saint-Estèphe",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 25.5,
+          "prix_promo_ht": 21.25
+        },
+        {
+          "nom": "MAGNUM — Château Haut Logat",
+          "appellation": "Haut-Médoc",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 17.5,
+          "prix_promo_ht": 14.59
+        },
+        {
+          "nom": "MAGNUM — Fortin Plaisance",
+          "appellation": "Saint-Émilion",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 16.55,
+          "prix_promo_ht": 13.8
+        },
+        {
+          "nom": "MAGNUM — Apertus",
+          "appellation": "Lussac Saint-Émilion",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 14.8,
+          "prix_promo_ht": 12.33
+        },
+        {
+          "nom": "MAGNUM — Château Vieux Cardinal Lafaurie",
+          "appellation": "Lalande de Pomerol",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 21.95,
+          "prix_promo_ht": 18.29
+        },
+        {
+          "nom": "MAGNUM — Château Terrefort Quancard",
+          "appellation": "Bordeaux Supérieur",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 8.95,
+          "prix_promo_ht": 7.46
+        },
+        {
+          "nom": "MAGNUM — Château Paillet Quancard",
+          "appellation": "Cadillac Côtes de Bordeaux",
+          "millesime": "2015",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 9.55,
+          "prix_promo_ht": 7.96
+        },
+        {
+          "nom": "MAGNUM — Château Bonfort",
+          "appellation": "Montagne Saint-Émilion",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 15.25,
+          "prix_promo_ht": 12.71
+        },
+        {
+          "nom": "MAGNUM — Zédé de Labégorce",
+          "appellation": "Margaux",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_ht": 39.3,
+          "prix_promo_ht": 32.75
+        },
+        {
+          "nom": "Château Barre Gentillot « Orangerie »",
+          "appellation": "Graves de Vayres",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "mecanique": "5+1",
+          "prix_ht": 6.65,
+          "prix_promo_ht": 5.54
+        },
+        {
+          "nom": "Oriolus Chardonnay",
+          "appellation": "Pays d'Oc",
+          "millesime": "2025",
+          "couleur": "BLC",
+          "mecanique": "11+1",
+          "prix_ht": 2.9,
+          "prix_promo_ht": 2.66
+        },
+        {
+          "nom": "Cuvée Clémence",
+          "appellation": "Entre-Deux-Mers",
+          "millesime": "2025",
+          "couleur": "BLC",
+          "mecanique": "11+1",
+          "prix_ht": 4.5,
+          "prix_promo_ht": 4.13
+        },
+        {
+          "nom": "Lafleur Mallet",
+          "appellation": "Sauternes",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "mecanique": "5+1",
+          "prix_ht": 11.65,
+          "prix_promo_ht": 9.71
+        },
+        {
+          "nom": "Château les Arroucats",
+          "appellation": "Sainte-Croix-du-Mont",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "mecanique": "5+1",
+          "prix_ht": 5.85,
+          "prix_promo_ht": 4.88
+        }
+      ],
+      "mecanique": {
+        "condition": "36+6 · 11+1 · 5+1",
+        "description": "Vingt-deux références à prix remisé, avec une gratuité propre à chacune. Tarif départ.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Panachable sur l'ensemble des gammes. Transport facturé selon la quantité totale commandée. Conditionnement par carton de 6."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-12-31",
+        "note": "Édition 2026, du 1er octobre au 31 décembre."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": false,
+        "note": "Tarif DÉPART. Panachable sur l'ensemble des gammes. Transport facturé selon la quantité totale commandée. Conditionnement par carton de 6."
+      },
+      "notes_commerciales": "Le catalogue de fin d'année le plus complet de la maison : deux champagnes, un crémant, un sans-alcool, neuf magnums et une série de bordeaux de propriété. Le Château Pillebart à 2,50 € n'existe que sur cette grille départ.",
+      "alertes": [
+        "Tarif DÉPART — le transport est facturé en plus, selon la quantité totale commandée",
+        "Château Pillebart : présent uniquement sur la grille départ, absent du tarif franco",
+        "Panachable sur l'ensemble des gammes",
+        "Conditionnement par carton de 6"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Offre_Trésors de la maison Cheval Quancard 2026_Tarif départ ok 1.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-tresors-de-la-maison-cheval-quancard-2026-tarif-depart-ok-1.pdf"
+    },
+    {
+      "id": "cheval-quancard-tresors-franco-2026",
+      "type": "promotion",
+      "titre": "Cheval Quancard — Les Trésors de la Maison (tarif franco)",
+      "tagline": "21 références · 3 paliers 200 / 120 / 60 cols",
+      "fournisseur": {
+        "nom": "Cheval Quancard",
+        "code_vinistoria": "132 · 401C01",
+        "region": "Bordeaux",
+        "meta": "Carbon-Blanc (33) · spécialiste des réseaux traditionnels depuis 1844"
+      },
+      "cuvees": [
+        {
+          "nom": "Baron Haussmann Grande Réserve",
+          "appellation": "Champagne",
+          "millesime": null,
+          "couleur": "EFF",
+          "mecanique": "36+6",
+          "prix_200_avant": 18.95,
+          "prix_200": 16.24,
+          "prix_120_avant": 19.95,
+          "prix_120": 17.1,
+          "prix_60_avant": 22.15,
+          "prix_60": 18.99
+        },
+        {
+          "nom": "Baron Haussmann Premier Cru",
+          "appellation": "Champagne",
+          "millesime": null,
+          "couleur": "EFF",
+          "mecanique": "36+6",
+          "prix_200_avant": 22.2,
+          "prix_200": 19.0,
+          "prix_120_avant": 23.35,
+          "prix_120": 20.0,
+          "prix_60_avant": 25.95,
+          "prix_60": 22.24
+        },
+        {
+          "nom": "Clémence",
+          "appellation": "Crémant de Bordeaux",
+          "millesime": null,
+          "couleur": "EFF",
+          "mecanique": "11+1",
+          "prix_200_avant": 6.5,
+          "prix_200": 5.96,
+          "prix_120_avant": 6.85,
+          "prix_120": 6.28,
+          "prix_60_avant": 7.6,
+          "prix_60": 6.97
+        },
+        {
+          "nom": "Sans Faute — 0,0 % d'alcool",
+          "appellation": "Sans alcool",
+          "millesime": null,
+          "couleur": "Multi",
+          "mecanique": "11+1",
+          "prix_200_avant": 5.9,
+          "prix_200": 5.41,
+          "prix_120_avant": 6.2,
+          "prix_120": 5.68,
+          "prix_60_avant": 6.33,
+          "prix_60": 6.97
+        },
+        {
+          "nom": "Château Barre Gentillot « Orangerie »",
+          "appellation": "Graves de Vayres",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 8.1,
+          "prix_200": 6.75,
+          "prix_120_avant": 8.5,
+          "prix_120": 7.08,
+          "prix_60_avant": 9.45,
+          "prix_60": 7.88
+        },
+        {
+          "nom": "Château Cossieu Coutelin",
+          "appellation": "Saint-Estèphe",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 15.65,
+          "prix_200": 13.04,
+          "prix_120_avant": 16.45,
+          "prix_120": 13.71,
+          "prix_60_avant": 18.3,
+          "prix_60": 15.25
+        },
+        {
+          "nom": "Château Larose Vircoulon",
+          "appellation": "Saint-Émilion Grand Cru",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 10.8,
+          "prix_200": 9.0,
+          "prix_120_avant": 11.35,
+          "prix_120": 9.46,
+          "prix_60_avant": 12.6,
+          "prix_60": 10.5
+        },
+        {
+          "nom": "MAGNUM — Château Cossieu Coutelin",
+          "appellation": "Saint-Estèphe",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 30.5,
+          "prix_200": 25.42,
+          "prix_120_avant": 32.1,
+          "prix_120": 26.75,
+          "prix_60_avant": 35.65,
+          "prix_60": 29.71
+        },
+        {
+          "nom": "MAGNUM — Château Haut Logat",
+          "appellation": "Haut-Médoc",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 21.0,
+          "prix_200": 17.5,
+          "prix_120_avant": 22.1,
+          "prix_120": 18.42,
+          "prix_60_avant": 24.55,
+          "prix_60": 20.46
+        },
+        {
+          "nom": "MAGNUM — Fortin Plaisance",
+          "appellation": "Saint-Émilion",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 19.95,
+          "prix_200": 16.63,
+          "prix_120_avant": 20.9,
+          "prix_120": 17.42,
+          "prix_60_avant": 23.2,
+          "prix_60": 19.33
+        },
+        {
+          "nom": "MAGNUM — Apertus",
+          "appellation": "Lussac Saint-Émilion",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 17.75,
+          "prix_200": 14.79,
+          "prix_120_avant": 18.7,
+          "prix_120": 15.58,
+          "prix_60_avant": 20.8,
+          "prix_60": 17.33
+        },
+        {
+          "nom": "MAGNUM — Château Vieux Cardinal Lafaurie",
+          "appellation": "Lalande de Pomerol",
+          "millesime": "2018",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 27.0,
+          "prix_200": 22.5,
+          "prix_120_avant": 28.4,
+          "prix_120": 23.67,
+          "prix_60_avant": 31.55,
+          "prix_60": 26.29
+        },
+        {
+          "nom": "MAGNUM — Château Terrefort Quancard",
+          "appellation": "Bordeaux Supérieur",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 11.0,
+          "prix_200": 9.17,
+          "prix_120_avant": 11.6,
+          "prix_120": 9.67,
+          "prix_60_avant": 12.9,
+          "prix_60": 10.75
+        },
+        {
+          "nom": "MAGNUM — Château Paillet Quancard",
+          "appellation": "Cadillac Côtes de Bordeaux",
+          "millesime": "2015",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 11.9,
+          "prix_200": 9.92,
+          "prix_120_avant": 12.5,
+          "prix_120": 10.42,
+          "prix_60_avant": 13.9,
+          "prix_60": 11.58
+        },
+        {
+          "nom": "MAGNUM — Château Bonfort",
+          "appellation": "Montagne Saint-Émilion",
+          "millesime": "2019",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 18.8,
+          "prix_200": 15.67,
+          "prix_120_avant": 19.8,
+          "prix_120": 16.5,
+          "prix_60_avant": 22.0,
+          "prix_60": 18.33
+        },
+        {
+          "nom": "MAGNUM — Zédé de Labégorce",
+          "appellation": "Margaux",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "mecanique": "5+1",
+          "prix_200_avant": 46.9,
+          "prix_200": 39.08,
+          "prix_120_avant": 49.35,
+          "prix_120": 41.13,
+          "prix_60_avant": 54.85,
+          "prix_60": 45.71
+        },
+        {
+          "nom": "Château Barre Gentillot « Orangerie »",
+          "appellation": "Graves de Vayres",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "mecanique": "5+1",
+          "prix_200_avant": 8.1,
+          "prix_200": 6.75,
+          "prix_120_avant": 8.5,
+          "prix_120": 7.08,
+          "prix_60_avant": 9.45,
+          "prix_60": 7.88
+        },
+        {
+          "nom": "Oriolus Chardonnay",
+          "appellation": "Pays d'Oc",
+          "millesime": "2025",
+          "couleur": "BLC",
+          "mecanique": "11+1",
+          "prix_200_avant": 3.65,
+          "prix_200": 3.35,
+          "prix_120_avant": 3.85,
+          "prix_120": 3.53,
+          "prix_60_avant": 4.3,
+          "prix_60": 3.94
+        },
+        {
+          "nom": "Cuvée Clémence",
+          "appellation": "Entre-Deux-Mers",
+          "millesime": "2025",
+          "couleur": "BLC",
+          "mecanique": "11+1",
+          "prix_200_avant": 5.55,
+          "prix_200": 5.09,
+          "prix_120_avant": 5.85,
+          "prix_120": 5.36,
+          "prix_60_avant": 6.5,
+          "prix_60": 5.96
+        },
+        {
+          "nom": "Lafleur Mallet",
+          "appellation": "Sauternes",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "mecanique": "5+1",
+          "prix_200_avant": 14.0,
+          "prix_200": 11.67,
+          "prix_120_avant": 14.75,
+          "prix_120": 12.29,
+          "prix_60_avant": 16.4,
+          "prix_60": 13.67
+        },
+        {
+          "nom": "Château les Arroucats",
+          "appellation": "Sainte-Croix-du-Mont",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "mecanique": "5+1",
+          "prix_200_avant": 7.3,
+          "prix_200": 6.08,
+          "prix_120_avant": 7.7,
+          "prix_120": 6.42,
+          "prix_60_avant": 8.55,
+          "prix_60": 7.12
+        }
+      ],
+      "mecanique": {
+        "condition": "200 / 120 / 60 cols",
+        "description": "Même sélection qu'au tarif départ, mais en franco, avec trois paliers de prix selon la quantité totale commandée : 200, 120 ou 60 cols.",
+        "panachable": true,
+        "cumulable": false,
+        "notes_conditions": "Panachable sur l'ensemble des gammes. Transport facturé selon la quantité totale commandée. Conditionnement par carton de 6."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-12-31",
+        "note": "Édition 2026, du 1er octobre au 31 décembre."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "note": "Tarif FRANCO à trois paliers : 200, 120 ou 60 cols. Panachable sur l'ensemble des gammes. Transport facturé selon la quantité totale commandée. Conditionnement par carton de 6."
+      },
+      "notes_commerciales": "Même catalogue qu'au tarif départ, transport inclus. Les paliers se calculent sur la quantité totale commandée, tous produits confondus — le panachage sert donc directement à atteindre le palier supérieur.",
+      "alertes": [
+        "Tarif FRANCO — les paliers se calculent sur la quantité TOTALE commandée, pas par référence",
+        "Château Pillebart n'est pas repris sur cette grille (il est au tarif départ uniquement)",
+        "Panachable sur l'ensemble des gammes",
+        "Conditionnement par carton de 6"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Offre_Trésors de la maison Cheval Quancard 2026_Tarif Franco ok 2.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-tresors-de-la-maison-cheval-quancard-2026-tarif-franco-ok-2.pdf"
+    },
+    {
+      "id": "boisset-plan-promo-nov-dec-2026",
+      "type": "promotion",
+      "titre": "Boisset — Les Promos (novembre-décembre)",
+      "tagline": "21 blocs · 5+1 et 11+1 · 2/11 → 31/12",
+      "fournisseur": {
+        "nom": "Boisset",
+        "code_vinistoria": "469 · 401B42",
+        "region": "Multi-régions",
+        "meta": "Nuits-Saint-Georges (21) · La Famille des Grands Vins"
+      },
+      "cuvees": [
+        {
+          "nom": "Bouchard Ainé & Fils — Brut de Chardonnay",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Chevalier — Chardonnay brut Butterfly",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Ropiteau — Vin de France Pinot Noir et Chardonnay « Les Plants Nobles »",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "J. Moreau & Fils — Vin de France Chardonnay « Pur et Minéral »",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Mommessin — Vin de France Gamay « Terres de Gamay »",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Jean Claude Boisset — Saint-Véran « Les Pommards » · Bourgogne Aligoté BIO · Mâcon Igé « Château London » · Bourgogne Hautes Côtes de Nuits blanc BIO",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Ropiteau — Viré-Clessé",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Château de Pierreux — Brouilly Grande Réserve",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Domaine de Longue Toque — Gigondas et Vacqueyras rouge — et pour l'achat de 60 cols, 1 magnum de Gigondas offert",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Laurus — Châteauneuf-du-Pape rouge",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Gabriel Meffre — Côtes du Rhône « Saint Vincent » rouge, blanc et rosé",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Maison Fortant — Saint-Chinian « Réserve des Grands Monts » blanc et rouge",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Château Grand Escalion — Costières de Nîmes rosé « Amoureuse »",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Madame — Côtes de Provence rosé",
+          "couleur": "Multi",
+          "mecanique": "5+1"
+        },
+        {
+          "nom": "Louis Bouillot — Crémant de Bourgogne — Perle Rare 2022 blanc · Pur Origine 21/23 blanc",
+          "couleur": "Multi",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "J. Moreau & Fils — Chablis 1er Cru Vaillons · Chablis 1er Cru Fourchaume",
+          "couleur": "Multi",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Jean Claude Boisset — Beaune 1er Cru « Les Grèves » · Pommard 1er Cru « Les Arvelets » · Nuits-Saint-Georges « Charbonnières »",
+          "couleur": "Multi",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Mommessin — Gamme Grandes Mises : Côte de Brouilly, Fleurie, Juliénas, Morgon Côte de Py, Morgon Grand Cras, Saint-Amour, Moulin-à-Vent, Beaujolais blanc",
+          "couleur": "Multi",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Domaine Maire & Fils — Arbois Savagnin « Vignes de Sorbief » · Arbois Poulsard En Geillon · Arbois Pinot Noir « Vignes de Sorbief »",
+          "couleur": "Multi",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Domaine de Longue Toque — Gigondas blanc « Les Vignes Blanches »",
+          "couleur": "Multi",
+          "mecanique": "11+1"
+        },
+        {
+          "nom": "Laurus — Condrieu · Hermitage rouge et blanc",
+          "couleur": "Multi",
+          "mecanique": "11+1"
+        }
+      ],
+      "mecanique": {
+        "condition": "5+1 / 11+1",
+        "description": "Vingt et un blocs répartis sur une douzaine de maisons du groupe : 5+1 sur quatorze d'entre eux, 11+1 sur sept.",
+        "panachable": null,
+        "cumulable": false,
+        "notes_conditions": "Base tarif Départ et Franco, hors remises et conditions spécifiques."
+      },
+      "validite": {
+        "debut": "2026-11-02",
+        "fin": "2026-12-31",
+        "note": "Valable du 2 novembre au 31 décembre 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": true,
+        "note": "Base tarif Départ et Franco, hors remises et conditions spécifiques. Service commercial CHD, Quincié-en-Beaujolais."
+      },
+      "notes_commerciales": "Le plan de fin d'année, nettement plus large que celui de septembre : Bourgogne, Chablis, Beaujolais, Jura, Rhône nord et sud, Languedoc et Provence dans une seule opération, avec le crémant Louis Bouillot et les Grandes Mises de Mommessin en 11+1.",
+      "alertes": [
+        "Deux mécaniques selon le bloc — vérifier avant de chiffrer",
+        "Le 5+1 (16,7 %) est deux fois plus généreux que le 11+1 (8,3 %)",
+        "Hors remises et conditions spécifiques",
+        "L'offre magnum Longue Toque (60 cols = 1 magnum de Gigondas) fait l'objet d'une carte dédiée"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/PLAN PROMO NOVEMBRE-DECEMBRE 2026.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/plan-promo-novembre-decembre-2026.pdf"
+    },
+    {
+      "id": "besserat-hiver-chr-2026",
+      "type": "promotion",
+      "titre": "Besserat de Bellefon — Offre Hiver CHR (18+6)",
+      "tagline": "13 références · 25 % de gratuité · code HI26",
+      "fournisseur": {
+        "nom": "Champagne Besserat de Bellefon",
+        "code_vinistoria": "433 · 401B41",
+        "region": "Champagne",
+        "meta": "Épernay (51) · Maison fondée en 1843"
+      },
+      "cuvees": [
+        {
+          "nom": "Bleu Brut — demie × 12",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "37,5 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 17.73,
+          "prix_promo_ht": 13.3
+        },
+        {
+          "nom": "Bleu Brut — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 28.17,
+          "prix_promo_ht": 21.13
+        },
+        {
+          "nom": "Bleu Brut — magnum × 3",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "150 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 59.65,
+          "prix_promo_ht": 44.74
+        },
+        {
+          "nom": "Rosé Brut — demie × 12",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "37,5 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 18.8,
+          "prix_promo_ht": 14.1
+        },
+        {
+          "nom": "Rosé Brut — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 33.2,
+          "prix_promo_ht": 24.9
+        },
+        {
+          "nom": "Rosé Brut — magnum × 3",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "150 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 69.62,
+          "prix_promo_ht": 52.22
+        },
+        {
+          "nom": "Extra Brut — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 34.27,
+          "prix_promo_ht": 25.7
+        },
+        {
+          "nom": "Blanc de Blancs Grand Cru — demie × 12",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "37,5 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 21.42,
+          "prix_promo_ht": 16.07
+        },
+        {
+          "nom": "Blanc de Blancs Grand Cru — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 40.7,
+          "prix_promo_ht": 30.53
+        },
+        {
+          "nom": "Blanc de Blancs Grand Cru — magnum × 3",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "150 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 84.07,
+          "prix_promo_ht": 63.05
+        },
+        {
+          "nom": "Blanc de Noirs Grand Cru 2015 — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 43.0,
+          "prix_promo_ht": 32.25
+        },
+        {
+          "nom": "Millésime 2013 — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 44.06,
+          "prix_promo_ht": 33.05
+        },
+        {
+          "nom": "Triple B (bio) 2015 — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "5e ÉLÉMENT",
+          "prix_ht": 40.76,
+          "prix_promo_ht": 30.57
+        }
+      ],
+      "mecanique": {
+        "condition": "18+6",
+        "description": "Pour 18 bouteilles achetées au tarif général, 6 bouteilles offertes.",
+        "panachable": true,
+        "cumulable": true,
+        "notes_conditions": "Code promo HI26. Offre multipliable, renouvelable et panachable. Valable pour les demi-bouteilles et les magnums au tarif général. Possibilité de mixer bouteille et magnum d'une même qualité — les offerts seront des bouteilles. En cas de panachage, les bouteilles offertes seront de la qualité la plus commandée."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-12-31",
+        "note": "Du 1er octobre au 31 décembre 2026."
+      },
+      "target": "chr",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Tarif HD HT (hors droits, hors taxes). Code promo HI26."
+      },
+      "notes_commerciales": "Trois lignes complètes, des demies aux magnums, avec 25 % de gratuité. L'offre est multipliable et renouvelable : il n'y a pas de plafond.",
+      "alertes": [
+        "Code promo HI26 à préciser à la commande",
+        "Tarifs exprimés en HD HT (hors droits, hors taxes)",
+        "Les bouteilles offertes sont toujours des 75 cl, même sur une commande de magnums",
+        "En cas de panachage, les offertes sont de la qualité la plus commandée"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Offre CHR HIVER 2026.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-chr-hiver-2026.pdf"
+    },
+    {
+      "id": "besserat-hiver-b2b-2026",
+      "type": "promotion",
+      "titre": "Besserat de Bellefon — Offre Hiver Entreprises (18+6)",
+      "tagline": "13 références · 25 % de gratuité · code HI26",
+      "fournisseur": {
+        "nom": "Champagne Besserat de Bellefon",
+        "code_vinistoria": "433 · 401B41",
+        "region": "Champagne",
+        "meta": "Épernay (51) · Maison fondée en 1843"
+      },
+      "cuvees": [
+        {
+          "nom": "Bleu Brut — demie × 12",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "37,5 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 17.73,
+          "prix_promo_ht": 13.3
+        },
+        {
+          "nom": "Bleu Brut — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 28.17,
+          "prix_promo_ht": 21.13
+        },
+        {
+          "nom": "Bleu Brut — magnum × 3",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "150 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 59.65,
+          "prix_promo_ht": 44.74
+        },
+        {
+          "nom": "Rosé Brut — demie × 12",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "37,5 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 18.8,
+          "prix_promo_ht": 14.1
+        },
+        {
+          "nom": "Rosé Brut — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 33.2,
+          "prix_promo_ht": 24.9
+        },
+        {
+          "nom": "Rosé Brut — magnum × 3",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "150 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 69.62,
+          "prix_promo_ht": 52.22
+        },
+        {
+          "nom": "Extra Brut — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE SIMPLICITÉ",
+          "prix_ht": 34.27,
+          "prix_promo_ht": 25.7
+        },
+        {
+          "nom": "Blanc de Blancs Grand Cru — demie × 12",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "37,5 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 21.42,
+          "prix_promo_ht": 16.07
+        },
+        {
+          "nom": "Blanc de Blancs Grand Cru — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 40.7,
+          "prix_promo_ht": 30.53
+        },
+        {
+          "nom": "Blanc de Blancs Grand Cru — magnum × 3",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "150 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 84.07,
+          "prix_promo_ht": 63.05
+        },
+        {
+          "nom": "Blanc de Noirs Grand Cru 2015 — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 43.0,
+          "prix_promo_ht": 32.25
+        },
+        {
+          "nom": "Millésime 2013 — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "LIGNE ÉLÉGANCE",
+          "prix_ht": 44.06,
+          "prix_promo_ht": 33.05
+        },
+        {
+          "nom": "Triple B (bio) 2015 — bouteille × 6",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "format": "75 cl",
+          "gamme": "5e ÉLÉMENT",
+          "prix_ht": 40.76,
+          "prix_promo_ht": 30.57
+        }
+      ],
+      "mecanique": {
+        "condition": "18+6",
+        "description": "Pour 18 bouteilles achetées au tarif général, 6 bouteilles offertes.",
+        "panachable": true,
+        "cumulable": true,
+        "notes_conditions": "Code promo HI26. Offre multipliable, renouvelable et panachable. Valable pour les demi-bouteilles et les magnums au tarif général. Possibilité de mixer bouteille et magnum d'une même qualité — les offerts seront des bouteilles. En cas de panachage, les bouteilles offertes seront de la qualité la plus commandée."
+      },
+      "validite": {
+        "debut": "2026-10-01",
+        "fin": "2026-12-31",
+        "note": "Du 1er octobre au 31 décembre 2026."
+      },
+      "target": "b2b",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Tarif HD HT (hors droits, hors taxes). Code promo HI26."
+      },
+      "notes_commerciales": "Même grille et même mécanique que l'offre CHR, destinée au circuit entreprises : cadeaux d'affaires, comités d'entreprise, séminaires de fin d'année.",
+      "alertes": [
+        "Code promo HI26 à préciser à la commande",
+        "Tarifs exprimés en HD HT (hors droits, hors taxes)",
+        "Les bouteilles offertes sont toujours des 75 cl, même sur une commande de magnums",
+        "En cas de panachage, les offertes sont de la qualité la plus commandée"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Offre B2B HIVER 2026.pdf"
+      },
+      "audience": "pro",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-b2b-hiver-2026.pdf"
+    },
+    {
+      "id": "besserat-bgt-2026",
+      "type": "promotion",
+      "titre": "Besserat de Bellefon — Offre BGT",
+      "tagline": "10 paliers · de 23,03 € à 17,85 € HD HT · code FBGT",
+      "fournisseur": {
+        "nom": "Champagne Besserat de Bellefon",
+        "code_vinistoria": "433 · 401B41",
+        "region": "Champagne",
+        "meta": "Épernay (51) · Maison fondée en 1843"
+      },
+      "cuvees": [
+        {
+          "nom": "BGT — palier 24 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 24,
+          "offertes": 6,
+          "total": 30,
+          "cartons": 5,
+          "prix_net_ht": 18.42
+        },
+        {
+          "nom": "BGT — palier 48 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 48,
+          "offertes": 12,
+          "total": 60,
+          "cartons": 10,
+          "prix_net_ht": 18.42
+        },
+        {
+          "nom": "BGT — palier 72 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 72,
+          "offertes": 18,
+          "total": 90,
+          "cartons": 15,
+          "prix_net_ht": 18.42
+        },
+        {
+          "nom": "BGT — palier 90 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 90,
+          "offertes": 24,
+          "total": 114,
+          "cartons": 19,
+          "prix_net_ht": 18.18
+        },
+        {
+          "nom": "BGT — palier 108 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 108,
+          "offertes": 30,
+          "total": 138,
+          "cartons": 23,
+          "prix_net_ht": 18.02
+        },
+        {
+          "nom": "BGT — palier 126 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 126,
+          "offertes": 36,
+          "total": 162,
+          "cartons": 27,
+          "prix_net_ht": 17.91
+        },
+        {
+          "nom": "BGT — palier 168 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 168,
+          "offertes": 48,
+          "total": 216,
+          "cartons": 36,
+          "prix_net_ht": 17.91
+        },
+        {
+          "nom": "BGT — palier 186 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 186,
+          "offertes": 54,
+          "total": 240,
+          "cartons": 40,
+          "prix_net_ht": 17.85
+        },
+        {
+          "nom": "BGT — palier 279 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 279,
+          "offertes": 81,
+          "total": 360,
+          "cartons": 60,
+          "prix_net_ht": 17.85
+        },
+        {
+          "nom": "BGT — palier 372 bouteilles",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "achetees": 372,
+          "offertes": 108,
+          "total": 480,
+          "cartons": 80,
+          "prix_net_ht": 17.85
+        }
+      ],
+      "mecanique": {
+        "condition": "24+6 → 372+108",
+        "description": "Dix paliers de gratuité, du 24+6 au 372+108. Le prix net descend de 18,42 € à 17,85 € HD HT, pour un tarif de base de 23,03 €.",
+        "panachable": false,
+        "cumulable": true,
+        "notes_conditions": "Code promo FBGT. Offre multipliable et renouvelable. Non cumulable avec une opération en cours."
+      },
+      "validite": {
+        "debut": "2026-11-19",
+        "fin": "2026-12-31",
+        "note": "Valable jusqu'au 31 décembre 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Tarif HD HT. Code promo FBGT."
+      },
+      "notes_commerciales": "Offre à paliers sur une seule référence, accessible aux trois circuits. Le gros du gain se fait dès le premier palier : 23,03 € tombe à 18,42 € pour 24 bouteilles seulement, soit −20 %. Au-delà, on ne gagne plus que 57 centimes.",
+      "alertes": [
+        "Code promo FBGT à préciser à la commande",
+        "La cuvée « BGT » n'est pas nommée sur le document — à faire confirmer par l'ADV",
+        "Non cumulable avec une opération en cours",
+        "Tarifs en HD HT (hors droits, hors taxes)"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Offre BGT 2026.pdf"
+      },
+      "audience": "pro cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-bgt-2026.pdf"
+    },
+    {
+      "id": "besserat-cuvees-prestige-2026",
+      "type": "promotion",
+      "titre": "Besserat de Bellefon — Cuvées de Prestige (2+1)",
+      "tagline": "2 achetées = la 3e offerte · bouteilles ou magnums · code HDG1",
+      "fournisseur": {
+        "nom": "Champagne Besserat de Bellefon",
+        "code_vinistoria": "433 · 401B41",
+        "region": "Champagne",
+        "meta": "Épernay (51) · Maison fondée en 1843"
+      },
+      "cuvees": [
+        {
+          "nom": "Cuvée des Moines Extra Brut 2012",
+          "appellation": "Champagne",
+          "millesime": "2012",
+          "couleur": "EFF",
+          "prix_nue_ht": 80.0,
+          "prix_coffret_ht": 89.0,
+          "note": "Coffret bois offert sur les bouteilles"
+        },
+        {
+          "nom": "Cuvée des Moines Blanc de Blancs 2015",
+          "appellation": "Champagne",
+          "millesime": "2015",
+          "couleur": "EFF",
+          "prix_nue_ht": 90.0,
+          "prix_coffret_ht": 99.0,
+          "note": "Coffret bois offert sur les bouteilles"
+        },
+        {
+          "nom": "Cuvée 180 ans",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "prix_coffret_ht": 90.0,
+          "prix_magnum_coffret_ht": 210.0,
+          "note": "Vendue en coffret uniquement"
+        },
+        {
+          "nom": "BB 1843",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "prix_nue_ht": 125.5,
+          "prix_coffret_ht": 125.5,
+          "prix_magnum_nu_ht": 311.0,
+          "prix_magnum_coffret_ht": 341.0,
+          "note": "Coffret offert sur la bouteille"
+        },
+        {
+          "nom": "Brigitte Bardot",
+          "appellation": "Champagne",
+          "couleur": "EFF",
+          "prix_nue_ht": 125.5,
+          "prix_coffret_ht": 125.5,
+          "prix_magnum_nu_ht": 311.0,
+          "prix_magnum_coffret_ht": 341.0,
+          "note": "Coffret offert sur la bouteille"
+        }
+      ],
+      "mecanique": {
+        "condition": "2+1",
+        "description": "Pour 2 bouteilles achetées, la 3e est offerte. Pour 2 magnums achetés, le 3e est offert.",
+        "panachable": true,
+        "cumulable": true,
+        "notes_conditions": "Code promo HDG1. Offre multipliable et renouvelable, panachable sur les qualités — la bouteille offerte sera l'une des 2 qualités commandées. Non panachable entre bouteilles et magnums : 3 bouteilles ou 3 magnums uniquement."
+      },
+      "validite": {
+        "debut": "2026-11-19",
+        "fin": "2026-12-31",
+        "note": "Valable jusqu'au 31 décembre 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Tarif HD HT. Code promo HDG1."
+      },
+      "notes_commerciales": "33 % de gratuité sur le haut de gamme de la maison, coffret bois compris sur BB 1843 et Brigitte Bardot. C'est l'offre à sortir pour un cadeau d'affaires ou une carte de prestige.",
+      "alertes": [
+        "Code promo HDG1 à préciser à la commande",
+        "Non panachable entre bouteilles et magnums — 3 bouteilles OU 3 magnums",
+        "Panachable entre qualités : l'offerte sera l'une des 2 qualités commandées",
+        "Tarifs en HD HT (hors droits, hors taxes)"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/Offre CUVEES PRESTIGE CAVISTES CHR B2B 2026.pdf"
+      },
+      "audience": "pro cavistes",
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/offre-cuvees-prestige-cavistes-chr-b2b-2026.pdf"
+    },
+    {
+      "id": "devillard-sept-dec-2026",
+      "type": "promotion",
+      "titre": "Amaury et Aurore Devillard — Offre septembre-décembre",
+      "tagline": "Le Renard et Château de Chamirey · jusqu'au 23/12",
+      "fournisseur": {
+        "nom": "Amaury et Aurore Devillard",
+        "code_vinistoria": "684 · 401D31",
+        "region": "Bourgogne",
+        "meta": "Mercurey (71)"
+      },
+      "cuvees": [
+        {
+          "nom": "Le Renard — Coteaux Bourguignons 2023",
+          "appellation": "AOP Coteaux Bourguignons",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "mecanique": "30+6 ou 45+15",
+          "prix_36": 9.0,
+          "net_36": 7.5,
+          "prix_60": 8.4,
+          "net_60": 6.3
+        },
+        {
+          "nom": "Château de Chamirey — Mercurey 1er Cru « Clos l'Évêque » 2023",
+          "appellation": "AOP Mercurey 1er Cru",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "mecanique": "11+1, 32+4 ou 50+10",
+          "prix_12": 25.7,
+          "net_12": 23.56,
+          "prix_36": 24.3,
+          "net_36": 21.6,
+          "prix_60": 23.7,
+          "net_60": 19.75
+        }
+      ],
+      "mecanique": {
+        "condition": "30+6 · 45+15 · 11+1 · 32+4 · 50+10",
+        "description": "Paliers croisés prix et gratuité : plus la quantité monte, plus le tarif baisse ET plus la gratuité augmente.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Offre valable pour toute expédition faite avant le 23 décembre 2026, dans la limite des stocks disponibles."
+      },
+      "validite": {
+        "debut": "2026-09-14",
+        "fin": "2026-12-23",
+        "note": "Du 14/09/2026 au 23/12/2026 — expédition avant le 23 décembre."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_domaine",
+        "franco": null,
+        "note": "Offre valable pour toute expédition faite avant le 23 décembre 2026."
+      },
+      "notes_commerciales": "Mécanique inhabituelle et très efficace : le tarif baisse ET la gratuité monte à chaque palier. Sur Le Renard, passer de 36 à 60 bouteilles fait tomber le prix unitaire réel de 7,50 € à 6,30 €, soit −16 %.",
+      "alertes": [
+        "Date butoir ferme : expédition avant le 23 décembre 2026",
+        "Les paliers cumulent baisse de tarif et hausse de gratuité",
+        "Dans la limite des stocks disponibles"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/DEVILLARD_offre sept-dec 2026.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/devillard-offre-sept-dec-2026.pdf"
+    },
+    {
+      "id": "drouhin-offre-commerciale-2026",
+      "type": "promotion",
+      "titre": "Joseph Drouhin — Offre commerciale",
+      "tagline": "27 références · prix barrés + paliers 36 et 72 bouteilles",
+      "fournisseur": {
+        "nom": "Joseph Drouhin",
+        "code_vinistoria": "247 · 401D10",
+        "region": "Bourgogne",
+        "meta": "Beaune (21) · Maison fondée en 1880"
+      },
+      "cuvees": [
+        {
+          "nom": "Bourgogne Chardonnay — étiquette classique",
+          "appellation": "Bourgognes blancs",
+          "millesime": "2023",
+          "couleur": "BLC",
+          "code_article": "3131",
+          "prix_ht": 12.2,
+          "prix_promo_ht": 10.0,
+          "prix_par_36": 9.0,
+          "prix_par_72": 7.95
+        },
+        {
+          "nom": "Laforêt Bourgogne Chardonnay — étiquette Laforêt",
+          "appellation": "Bourgognes blancs",
+          "millesime": "2023",
+          "couleur": "BLC",
+          "code_article": "3133",
+          "prix_ht": 12.2,
+          "prix_promo_ht": 10.0,
+          "prix_par_36": 9.0,
+          "prix_par_72": 7.95
+        },
+        {
+          "nom": "Mâcon Villages",
+          "appellation": "Mâconnais",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "code_article": "3120",
+          "prix_ht": 10.2,
+          "prix_promo_ht": 8.5,
+          "prix_par_36": 7.5,
+          "prix_par_72": 7.0
+        },
+        {
+          "nom": "Mâcon Bussières « Les Clos »",
+          "appellation": "Mâconnais",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "code_article": "3125",
+          "prix_ht": 11.2,
+          "prix_promo_ht": 10.3,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Mâcon Lugny « Les Crays »",
+          "appellation": "Mâconnais",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "code_article": "3126",
+          "prix_ht": 10.7,
+          "prix_promo_ht": 8.9,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Saint-Véran",
+          "appellation": "Mâconnais",
+          "millesime": "2023",
+          "couleur": "BLC",
+          "code_article": "3139",
+          "prix_ht": 13.8,
+          "prix_promo_ht": 11.5,
+          "prix_par_36": 10.8,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Pouilly-Fuissé",
+          "appellation": "Mâconnais",
+          "millesime": "2023",
+          "couleur": "BLC",
+          "code_article": "3310",
+          "prix_ht": 22.7,
+          "prix_promo_ht": 19.9,
+          "prix_par_36": 17.0,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Pouilly-Vinzelles",
+          "appellation": "Mâconnais",
+          "millesime": "2022",
+          "couleur": "BLC",
+          "code_article": "3330",
+          "prix_ht": 16.0,
+          "prix_promo_ht": 14.4,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Rully blanc",
+          "appellation": "Côte Chalonnaise",
+          "millesime": "2023",
+          "couleur": "BLC",
+          "code_article": "3180",
+          "prix_ht": 18.8,
+          "prix_promo_ht": 15.7,
+          "prix_par_36": 14.0,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Montagny",
+          "appellation": "Côte Chalonnaise",
+          "millesime": "2024",
+          "couleur": "BLC",
+          "code_article": "3140",
+          "prix_ht": 15.3,
+          "prix_promo_ht": 13.9,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Saint-Romain",
+          "appellation": "Côte de Beaune",
+          "millesime": "2023",
+          "couleur": "BLC",
+          "code_article": "3152",
+          "prix_ht": 22.0,
+          "prix_promo_ht": 19.9,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Chablis",
+          "appellation": "Chablis",
+          "millesime": "2025",
+          "couleur": "BLC",
+          "code_article": "3222",
+          "prix_ht": 14.3,
+          "prix_promo_ht": 11.9,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Chablis 1er Cru Vaillons",
+          "appellation": "Chablis",
+          "millesime": "2023",
+          "couleur": "BLC",
+          "code_article": "3236",
+          "prix_ht": 23.8,
+          "prix_promo_ht": 21.4,
+          "prix_par_36": 20.0,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Bourgogne Pinot Noir — étiquette classique",
+          "appellation": "Bourgognes rouges",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "code_article": "5112",
+          "prix_ht": 12.5,
+          "prix_promo_ht": 10.4,
+          "prix_par_36": 8.9,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Laforêt Bourgogne Pinot Noir — étiquette Laforêt",
+          "appellation": "Bourgognes rouges",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "code_article": "5113",
+          "prix_ht": 12.5,
+          "prix_promo_ht": 10.4,
+          "prix_par_36": 8.9,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Beaujolais Villages",
+          "appellation": "Beaujolais",
+          "millesime": "2025",
+          "couleur": "RGE",
+          "code_article": "5070",
+          "prix_ht": 7.8,
+          "prix_promo_ht": 6.5,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Morgon",
+          "appellation": "Beaujolais",
+          "millesime": "2025",
+          "couleur": "RGE",
+          "code_article": "5085",
+          "prix_ht": 10.3,
+          "prix_promo_ht": 8.6,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Brouilly",
+          "appellation": "Beaujolais",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "code_article": "5086",
+          "prix_ht": 11.2,
+          "prix_promo_ht": 9.35,
+          "prix_par_36": 7.0,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Fleurie",
+          "appellation": "Beaujolais",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "code_article": "5088",
+          "prix_ht": 12.1,
+          "prix_promo_ht": 10.1,
+          "prix_par_36": 7.5,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Moulin-à-Vent",
+          "appellation": "Beaujolais",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "code_article": "5089",
+          "prix_ht": 12.3,
+          "prix_promo_ht": 10.25,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Givry",
+          "appellation": "Côte Chalonnaise",
+          "millesime": "2023",
+          "couleur": "RGE",
+          "code_article": "5121",
+          "prix_ht": 15.4,
+          "prix_promo_ht": 14.5,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Côte de Beaune Villages",
+          "appellation": "Côte de Beaune",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "code_article": "5150",
+          "prix_ht": 17.4,
+          "prix_promo_ht": 14.8,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Chorey-lès-Beaune",
+          "appellation": "Côte de Beaune",
+          "millesime": "2024",
+          "couleur": "RGE",
+          "code_article": "5156",
+          "prix_ht": 17.8,
+          "prix_promo_ht": 16.0,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Savigny-lès-Beaune",
+          "appellation": "Côte de Beaune",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "code_article": "5260",
+          "prix_ht": 22.0,
+          "prix_promo_ht": 18.0,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Côte de Beaune rouge",
+          "appellation": "Côte de Beaune",
+          "millesime": "2022",
+          "couleur": "RGE",
+          "code_article": "5255",
+          "prix_ht": 27.0,
+          "prix_promo_ht": 24.0,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Beaune 1er Cru Champimonts",
+          "appellation": "Côte de Beaune",
+          "millesime": "2017",
+          "couleur": "RGE",
+          "code_article": "5432",
+          "prix_ht": 40.5,
+          "prix_promo_ht": 29.0,
+          "prix_par_36": null,
+          "prix_par_72": null
+        },
+        {
+          "nom": "Volnay 1er Cru Brouillards",
+          "appellation": "Côte de Beaune",
+          "millesime": "2020",
+          "couleur": "RGE",
+          "code_article": "5315",
+          "prix_ht": 60.7,
+          "prix_promo_ht": 45.0,
+          "prix_par_36": null,
+          "prix_par_72": null
+        }
+      ],
+      "mecanique": {
+        "condition": "Prix barrés · 36 / 72",
+        "description": "Prix barrés sur 27 références, avec deux paliers supplémentaires : par 36 et par 72 bouteilles de la même appellation.",
+        "panachable": false,
+        "cumulable": false,
+        "notes_conditions": "Prix unitaire hors taxes, 75 cl, en cartons de 6 bouteilles, pour toute commande minimum de 36 bouteilles. Les paliers 36 et 72 s'entendent de la MÊME appellation. Cette offre annule et remplace les précédentes."
+      },
+      "validite": {
+        "debut": "2026-10-21",
+        "fin": "2026-12-31",
+        "note": "Mise à jour du 21/10/2026, valable jusqu'au 31 décembre 2026."
+      },
+      "target": "chr_caviste",
+      "logistique": {
+        "origine": "direct_fournisseur",
+        "franco": null,
+        "note": "Prix unitaire HT, 75 cl, cartons de 6. Commande minimum 36 bouteilles."
+      },
+      "notes_commerciales": "Toute la Bourgogne Drouhin en une grille, du Beaujolais Villages à 6,50 € au Volnay 1er Cru à 45 €. Attention, les paliers 36 et 72 s'entendent par appellation et non sur le total de la commande.",
+      "alertes": [
+        "Commande minimum : 36 bouteilles",
+        "Les paliers 36 et 72 s'entendent de la MÊME appellation, pas du total commandé",
+        "Cette offre annule et remplace les précédentes",
+        "Dans la limite des stocks disponibles"
+      ],
+      "source": {
+        "parsing_method": "parseur-promos",
+        "parsing_date": "2026-11-19T12:00:00Z",
+        "status": "verifie-pdf",
+        "fichier": "Promotions/2026-11/DROUHIN - 2026 Offre commerciale _21 10 26.pdf"
+      },
+      "pdf": "https://nobullshitdrinks.github.io/vinom-promos/drouhin-2026-offre-commerciale-21-10-26.pdf"
     }
   ],
   "sponsors": [
